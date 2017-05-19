@@ -1,88 +1,62 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import News from './news';
 export default class Home extends React.Component {
 
-  render(){
+  render() {
     return (
-			<div>
-     <div className="subheader">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-md-6 col-md-offset-3">
-    		      <h2 className="section-heading"> Veterans' Employment Program</h2>
+      <div>
+        <header className="newsfeed">
+  		<div className="container">
+  			<div className="row">
+  				<div className="col-sm-12">
+  					<h1 id="content">Prime Minister’s Veterans’ Employment Program</h1>
+              <span> <h4>Transfer between military and civilian life </h4></span>
+  				</div>
+  			</div>
+  			<div className="row cards">
+  				<a href="#">
+  					<div className="col-sm-4 text-center">
+  						<div className="cards--item cards--item--veterans">
+  							<h2><span>Information for</span><br/>
+  							Veterans</h2>
+  						</div>
+  					</div>
+  				</a>
+  				<a href="#">
+  					<div className="col-sm-4 text-center">
+  						<div className="cards--item cards--item--employers">
+  							<h2><span>Information for</span><br/>
+  							Employers</h2>
+  						</div>
+  					</div>
+  				</a>
+  				<a href="#">
+  					<div className="col-sm-4 text-center">
+  						<div className="cards--item cards--item--esos">
+  							<h2><span>Information for</span><br/>
+  							Ex-service organisations</h2>
+  						</div>
+  					</div>
+  				</a>
+  			</div>
+  		</div>
+  	</header>
+        <div className="jumbotron jumbotron-fluid">
+          <div className="container">
+            <div className="description">
+
+              <div className="row">
+                <div className="col-md-8">
+                  <p>The Prime Minister's Veterans' Employment Program demonstrates the importance the Government places on raising awareness with employers, both private and public sector, and of the value and unique experience of our veterans.
+                    <a href="#">Read more</a>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-    	</div>
-
-      <section className="bg-primary" id="about2">
-          <div className="container-fluid">
-              <div className="row">
-                  <div className="col-md-4 col-md-offset-3">
-                      <p>
-              					Members of the Australian Defence Force (ADF) gain an extensive range of skills, abilities,
-                        recognised behaviors and attributes that make them valuable employees in the civilian workforce.
-                        Skills such as problem-solving, leadership, team work and the ability to work in high-pressure environments
-                        are just to name a few. Many former members continue to live by core ADF values such as honesty, honour,
-                        initiative, integrity, respect and loyalty. These attributes are an asset to any employer.
-                      </p>
-            	        <p>
-                        The Prime Minister's Veterans' Employment Program will also work with industry to embed veteran's
-                        employment programs in their recruitment strategies and again raise the enormous potential of former
-                        ADF personnel to the civilian workforce.
-                      </p>
-
-					  <div className="row">
-								<div className="well well-sm">
-							  <div className="recent-news">
-								<h4>Recent News</h4>
-								<div className="news-item">
-								  <h5>From battlefield to the boardroom</h5>
-								  <p className="content">
-									TRY to imagine for a moment being Ben Roberts-Smith. You're the
-									embodiment of masculinity - bigger, stronger and taller... <a href="#">Read more</a>
-								  </p>
-								  <p className="timestamp">14th of December, 2016</p>
-								</div>
-								<div className="news-item">
-								  <h5>Veteran Employment Bill Passes Senate</h5>
-								  <p className="content">
-									The bill already passed the House of Representatives in February.
-									Cook had reintroduced this bipartisan bill earlier this year. ... <a href="#">Read more</a>
-								  </p>
-								  <p className="timestamp">28th of November, 2016</p>
-								</div>
-							  </div>
-							</div>
-					  </div>
-
-
-                  </div>
-                  <div className="col-md-2">
-
-                      <div className="row">
-									<div className="col-md-10">
-									  <Link to="/veterans" className="card-link" tabIndex="0">
-										<div className="card">
-										  <h4><i className="fa fa-user"></i>Veteran</h4>
-										  <h5>Information for Veterans</h5>
-										</div>
-									  </Link>
-									</div>
-									<div className="col-md-10">
-									  <Link to="/employers" className="card-link" tabIndex="0">
-										<div className="card">
-										  <h4><i className="fa fa-briefcase"></i>Employer</h4>
-										  <h5>Information for Employers</h5>
-										</div>
-									  </Link>
-									</div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-			</div>
+        <News/>
+      </div>
     );
   }
 }

@@ -1,0 +1,82 @@
+.newsfeed {
+  padding: 3.4em 0 3.2em;
+  width: 100%;
+  min-height: 300px;
+  background: #1658A5 url('../image/swirl.svg') no-repeat 50% 0;
+  color: white;
+}
+
+.news section {
+  border-top: 5px solid #2A9ED1;
+  padding: 0;
+}
+
+.news img {
+  width: 100%;
+}
+
+.news {
+  margin: 0 0 10vh -2vh;
+}
+
+a:hover {
+  background-color: #5bcbe3;
+  border-color: transparent;
+}
+
+a {
+  border-bottom: solid 1px #1658A5;
+}
+
+.jumbotron p {
+  font-size: 1.71rem;
+}
+
+.cards {
+  margin-top: 5vh;
+}
+
+.cards--item h2 span {
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+
+.cards--item--esos {
+  background: #fff url("../image/ico-people.svg") no-repeat 50% 1.25em;
+  background-size: 40px 40px;
+}
+
+.cards--item:focus,
+.cards--item:hover {
+  background-color: #F0F3F5;
+  border-bottom: 6px solid black;
+}
+
+.cards--item--veterans {
+  background: #fff url("../image/ico-user.svg") no-repeat 50% 1.25em;
+  background-size: 40px 40px;
+}
+
+.cards--item {
+  background-color: #fff;
+  color: #1658A5;
+  line-height: 1.2;
+  padding: 2.25em 1.2em 0.8em 0.6em;
+  border-bottom: 6px solid #2A9ED1;
+  border-radius: 3px;
+  box-shadow: 2px 0 6px rgba(49,49,49,0.7);
+  margin-bottom: 1em;
+}
+
+.cards--item--employers {
+  background: #fff url("../image/ico-case.svg") no-repeat 50% 1.25em;
+  background-size: 40px 40px;
+}
+
+::-moz-selection {
+  background: rgba(250,194,102,0.5);
+}
+
+::selection {
+  background: rgba(250,194,102,0.5);
+}

@@ -38,7 +38,6 @@ ReactDOM.render(
   <BrowserRouter>
     <div>
       <NavBar/>
-      <NewsFeed/>
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/employers" component={Employers}/>
@@ -49,7 +48,6 @@ ReactDOM.render(
          <Provider store={ store }>
           <Route path="/contact" component={Contact}/>
          </Provider>
-
         </Switch>
       <Footer/>
     </div>
