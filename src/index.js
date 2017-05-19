@@ -15,13 +15,13 @@ import { Provider } from 'react-redux';
   import Employers from './components/employers';
   import store from './store.js';
   //CSS
-    import './vendor/bootstrap/css/bootstrap.min.css';
+    import './sass/styles.scss';
     import './vendor/font-awesome/css/font-awesome.min.css';
     import './vendor/magnific-popup/magnific-popup.css';
     import './vendor/googleFonts/merriWeather.css';
     import './vendor/googleFonts/openSans.css';
     import './vendor/googleFonts/oswald.css';
-    import './index.css';
+
   //JavaScript
     import 'bootstrap/dist/js/bootstrap';
     import './js/navbar.js';
