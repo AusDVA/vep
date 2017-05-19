@@ -1,7 +1,7 @@
 {
-  "name": "vep",
+  "name": "@dva.gov.au/vep",
   "version": "1.0.0",
-  "description": "VETERANS' EMPLOYMENT PROGRAM",
+  "description": "Veterans' Employment Program",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^3.3.7",
