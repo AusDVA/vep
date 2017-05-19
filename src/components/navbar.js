@@ -16,7 +16,7 @@ export default class NavBar extends React.Component {
 <div>
   <div className="container">
     <div className="row">
-        <img className="dva-logo pull-right" src={DVALogo}/>
+        <img className="dva-logo pull-right" alt="DVA Logo" src={DVALogo}/>
     </div>
   </div>
 
@@ -61,7 +61,7 @@ export default class NavBar extends React.Component {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand" href="#"><img id="test" className="img-responsive" src="img/brandingbottomswirl2.svg" /></a>
+          <a className="navbar-brand" href="#"><img className="img-responsive" alt="Veterans' Employment Program" src="img/brandingbottomswirl2.svg" /></a>
         </div>
 
         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

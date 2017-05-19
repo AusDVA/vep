@@ -79,7 +79,7 @@ class Contact extends React.Component {
 
                     <div className="col-md-12"></div>
                     <div className="col-md-1">
-                      <button type="submit" className="btn btn-default" type="submit">Submit</button>
+                      <button className="btn btn-default" type="submit">Submit</button>
                     </div>
                   </form>
 
