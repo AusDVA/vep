@@ -13,7 +13,7 @@ export default class News extends React.Component {
     				<h2>Recent news</h2>
     			</div>
     			<div className="col-sm-12 col-md-6">
-            < section >
+            <section>
     					<div className="row">
     						<div className="col-sm-4"><img alt="Opera house" src={Opera}/></div>
     						<div className="col-sm-8">

@@ -10,7 +10,7 @@ export default class Home extends React.Component {
   			<div className="row">
   				<div className="col-sm-12">
   					<h1 id="content">Prime Minister’s Veterans’ Employment Program</h1>
-              <span> <h4>Transfer between military and civilian life </h4></span>
+              <span> <h3>Transfer between military and civilian life </h3></span>
   				</div>
   			</div>
   			<div className="row cards">
@@ -47,7 +47,8 @@ export default class Home extends React.Component {
 
               <div className="row">
                 <div className="col-md-8">
-                  <p>The Prime Minister's Veterans' Employment Program demonstrates the importance the Government places on raising awareness with employers, both private and public sector, and of the value and unique experience of our veterans.
+                  <p>The Prime Minister's Veterans' Employment Program demonstrates the importance the Government places on raising awareness with employers,
+                     both private and public sector, and of the value and unique experience of our veterans.&nbsp;
                     <a href="#">Read more</a>
                   </p>
                 </div>

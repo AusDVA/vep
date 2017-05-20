@@ -5,6 +5,13 @@ $bootstrap-sass-asset-helper: false !default;
 
 
 //== Colors
+$text-highlight:         rgba(250,194,102,0.5);
+$card-border:            #2A9ED1;
+$white:                  #fff;
+$light-blue:             #1658A5;
+$link-hover:             #5bcbe3;
+$shadow:                 rgba(49,49,49,0.7);
+$card-focus:             #F0F3F5;
 //
 //## Gray and brand colors for use across Bootstrap.
 
@@ -49,14 +56,15 @@ $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
+$font-family-uikit: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
 
 $font-size-base:          14px !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 
 $font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
-$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h2:            2.3rem !default; // ~30px bootstrap default value: floor(($font-size-base * 2.15))
+$font-size-h3:            ceil(($font-size-base * 1.4)) !default; // ~20px
 $font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
@@ -490,11 +498,11 @@ $pager-disabled-color:                 $pagination-disabled-color !default;
 //
 //##
 
-$jumbotron-padding:              30px !default;
-$jumbotron-color:                inherit !default;
+$jumbotron-padding:              25px !default;
+$jumbotron-color:                black !default;
 $jumbotron-bg:                   $gray-lighter !default;
 $jumbotron-heading-color:        inherit !default;
-$jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
+$jumbotron-font-size:            1.88rem !default;
 $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
 
 

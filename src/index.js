@@ -9,7 +9,6 @@ import Veterans from "./components/veterans";
 import Awards from "./components/awards";
 import Contact from "./components/contact";
 import NavBar from "./components/navbar";
-import NewsFeed from "./components/newsfeed";
 import Footer from "./components/footer";
 import IAC from "./components/iac";
 import Employers from "./components/employers";
