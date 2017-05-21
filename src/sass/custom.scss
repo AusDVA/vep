@@ -6,14 +6,50 @@
   color: $white;
 }
 
+.page-header {
+  padding: 2.8em 0 3.8em 0;
+  width: 100%;
+  margin-bottom: 2.2em;
+  background: $light-blue url('../image/swirl.svg') no-repeat 50% 0;
+  color: $white;
+}
+
 body {
-font-family: $font-family-uikit;
+  font-family: $font-family-uikit;
+}
+
+.body-content ul > li, .body-content ol > li {
+  margin-bottom: .4em;
+  font-size: $p-font-size;
 }
 
 @media only screen and (max-width: 768px) {
    h1 {
-     font-size: 20px;
+     font-size: $font-size-h3;
    }
+}
+
+.body-content a {
+  border-bottom: solid 1px $light-blue;
+  color: $link-color;
+
+}
+
+a:hover {
+  background-color: $link-hover;
+  border-color: transparent;
+}
+
+a:focus,
+a:active {
+  background-color: $link-hover;
+  border-bottom: transparent;
+  outline: 1px solid #313131;
+  outline-offset: 1px;
+}
+
+p {
+  font-size: $p-font-size;
 }
 
 h1 {
@@ -22,11 +58,16 @@ h1 {
 }
 
 h2  {
-  line-height: 1.2;
+  line-height: 1.4;
   font-weight: bold;
 }
 
-
+h4 {
+  font-weight: bold;
+  line-height: 1.6;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
 
 .news section {
   border-top: 5px solid $card-border;
@@ -43,20 +84,6 @@ h2  {
 }
 .news h2 {
   padding-bottom: 0.8em;
-}
-
-a:hover {
-  background-color: $link-hover;
-  border-color: transparent;
-}
-
-a {
-  border-bottom: solid 1px $light-blue;
-  color: $link-color;
-}
-
-p {
-  font-size: 1.6rem;
 }
 
 .cards {
@@ -98,6 +125,15 @@ p {
 .cards--item--employers {
   background: $white url("../image/ico-case.svg") no-repeat 50% 1.25em;
   background-size: 40px 40px;
+}
+
+.panel-footer {
+  border-top: $panel-footer-border-color;
+  margin-top: 1.4em;
+}
+
+.panel-footer small {
+  vertical-align: middle;
 }
 
 ::-moz-selection {
