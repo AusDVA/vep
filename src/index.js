@@ -11,7 +11,6 @@ import Contact from "./components/contact";
 import NavBar from "./components/navbar";
 import Footer from "./components/footer";
 import IAC from "./components/iac";
-import ESO from "./components/eso";
 import Employers from "./components/employers";
 import store from "./store.js";
 //CSS
@@ -23,6 +22,8 @@ import "./vendor/googleFonts/openSans.css";
 import "./vendor/googleFonts/oswald.css";
 //JavaScript
 import "bootstrap/dist/js/bootstrap";
+import "./js/navbar.js";
+import "./js/navbar2.js";
 
 ReactDOM.render(
 
@@ -36,7 +37,6 @@ ReactDOM.render(
           <Route path="/iac" component={IAC}/>
           <Route path="/veterans" component={Veterans}/>
           <Route path="/awards" component={Awards}/>
-          <Route path="/esos" component={ESO}/>
          <Provider store={ store }>
           <Route path="/contact" component={Contact}/>
          </Provider>
