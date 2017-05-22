@@ -29,8 +29,8 @@ export default class About extends React.Component {
                 <p>The Program will also work with industry to embed veterans' employment programs in their recruitment strategies.</p>
                 <h2>Initiatives</h2>
                 <h4>Industry Advisory Committee on Veterans' Employment</h4>
-                <p>The <a href="">Industry Advisory Committee</a>
-                  on Veterans' Employment will develop and provide advice on practical measures to embed veterans' employment strategies into the recruitment
+                <p>The <a href="">Industry Advisory Committee </a>
+                   on Veterans' Employment will develop and provide advice on practical measures to embed veterans' employment strategies into the recruitment
                   practices of Australian business. The Committee will play a role in the broader promotion of the skills and professional attributes that veterans
                   have to offer employers. Advisory Committee members will be known as 'Veteran Employment Ambassadors'. Interested firms are encouraged to apply to be members
                   of the Advisory Committee. The Government will assist to set up the Advisory Committee which will transition to become an industry led committee.

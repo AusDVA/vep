@@ -110,10 +110,7 @@ export default class IAC extends React.Component {
                 <h5>C/- Department of Veterans' Affairs</h5>
                 <h5>GPO Box 9998</h5>
                 <h5>Canberra ACT 2601</h5>
-                <h5>
-                  <i className="fa fa-envelope"></i>
-                  IAC.Secretariat@dva.gov.au</h5>
-
+                <h5><i className="fa fa-envelope"></i> IAC.Secretariat@dva.gov.au</h5>
                 <h4 id="Links">Useful links</h4>
                 <ul>
                   <li>
