@@ -22,8 +22,6 @@ import "./vendor/googleFonts/openSans.css";
 import "./vendor/googleFonts/oswald.css";
 //JavaScript
 import "bootstrap/dist/js/bootstrap";
-import "./js/navbar.js";
-import "./js/navbar2.js";
 
 ReactDOM.render(
 
