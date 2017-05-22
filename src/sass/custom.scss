@@ -56,6 +56,17 @@ body {
   outline-offset: 1px;
 }
 
+.list-unstyled{
+  padding-left: 2em;
+  border-left: .4em solid #888;
+}
+
+.list-unstyled-header{
+  color: #6f6f6f;
+  font-size:20px !important;
+
+}
+
  .list-inline li a {
   margin: .4em 1em .8em .4em;
   color: $light-blue;
@@ -69,6 +80,8 @@ body {
   outline: 1px solid #313131;
   outline-offset: 1px;
 }
+
+
 
 .active {
   color: $brand-primary!important;

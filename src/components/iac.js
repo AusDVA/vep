@@ -22,7 +22,7 @@ export default class IAC extends React.Component {
             <div className="row">
               <div className="col-md-8" id="mainCol">
                 <ul className="list-unstyled">
-                  <li class="list-unstyled-header">Contents</li>
+                  <li className="list-unstyled-header">Contents</li>
                   <li><a href="#Terms">Terms of reference</a></li>
                   <li><a href="#Membership">Membership</a></li>
                   <li><a href="#Biographies">Member Biographies</a></li>

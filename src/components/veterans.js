@@ -20,9 +20,26 @@ export default class Veterans extends React.Component {
           <div className="body-content container">
             <div className="row">
               <div className="col-md-7" id="mainCol">
+
+                <ul className="list-unstyled" id="sidebar">
+                <li className="list-unstyled-header"> In this section</li>
+                    <li>
+                      <a href="#sec0">Finding jobs</a>
+                    </li>
+                    <li>
+                      <a href="#sec1">Planning and rehabilitating</a>
+                    </li>
+                    <li>
+                      <a href="#sec2">Finances</a>
+                    </li>
+                    <li>
+                      <a href="#sec3">State government support</a>
+                    </li>
+                  </ul>
+
                 <p>The resources on this page will help you to plan for and find jobs, as well as provide support as you transition from Defence to civilian life.</p>
 
-                <h2>Finding jobs</h2>
+                <h2 id="sec0">Finding jobs</h2>
                 <h4><a href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">Jobactive</a></h4>
                 <p>The Australian Government provides a free jobs board on the Jobactive website, open to all employers, to advertise their vacancies.
                    It has been enhanced to allow employers to indicate that they prefer applicants with ADF experience.
@@ -41,7 +58,7 @@ export default class Veterans extends React.Component {
                   ranks to APS classifications.
                 </p>
 
-                <h2>Planning and rehabilitating</h2>
+                <h2 id="sec1">Planning and rehabilitating</h2>
                 <h4><a href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">Employment planning resources</a></h4>
                 <p>The Department of Employment provides a selection of employment planning resources and labour market information tailored to the needs of veterans.
                 </p>
@@ -67,7 +84,7 @@ export default class Veterans extends React.Component {
                    (with or without disability) who need assistance to obtain or hold suitable paid employment.
                 </p>
 
-                <h2>Finances</h2>
+                <h2 id="sec2">Finances</h2>
                 <h4><a href="http://adfconsumer.gov.au/">Australian Defence Force Financial Services Consumer Centre</a></h4>
                 <p>Australian Defence Force Financial Services Consumer Centre provides independent, professional financial education (not advice) to ADF members and their families.
                 </p>
@@ -77,7 +94,7 @@ export default class Veterans extends React.Component {
                    It also includes information about managing your pension.
                 </p>
 
-                <h2>State government support</h2>
+                <h2 id="sec3">State government support</h2>
                 <h4><a href="http://www.vep.veterans.nsw.gov.au/">NSW Government</a></h4>
                 <p>The New South Wales Government offers a variety of careers in its public sector allowing veterans to draw upon their unique military experience and skills.
                 </p>
