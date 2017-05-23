@@ -186,3 +186,11 @@ h4 {
 ::selection {
   background: $text-highlight
 }
+
+#top-nav {
+  margin-top: 1em;
+}
+
+#top-nav .list-inline a {
+  font-size: 1.3rem;
+}
