@@ -1,4 +1,5 @@
 import React from 'react';
+import GeneralResourses from "./generalResources";
 export default class Veterans extends React.Component {
 
   render() {
@@ -8,10 +9,7 @@ export default class Veterans extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <span>
-                  <h3>Prime Minister’s Veterans’ Employment Program</h3>
-                </span>
-                <h1 id="content">Veterans</h1>
+
               </div>
             </div>
           </div>
@@ -20,9 +18,10 @@ export default class Veterans extends React.Component {
           <div className="body-content container">
             <div className="row">
               <div className="col-md-7" id="mainCol">
+                <h1> Veterans </h1>
 
                 <ul className="list-unstyled" id="sidebar">
-                <li className="list-unstyled-header"> In this section</li>
+                <li className="list-unstyled-header"> Contents </li>
                     <li>
                       <a href="#sec0">Finding jobs</a>
                     </li>
@@ -130,6 +129,7 @@ export default class Veterans extends React.Component {
                 <p>The ACT Government is establishing a Veterans' Advisory Council comprised of community members with a material interest in issues affective the veterans' community.
                 </p>
 
+                <GeneralResourses/>
                 <p>
                   <a className="" href="#">Top <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></a>
                 </p>

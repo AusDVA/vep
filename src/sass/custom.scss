@@ -60,11 +60,13 @@ body {
   padding-left: 2em;
   border-left: .4em solid #888;
   margin-bottom: 2.5em;
+  font-weight: bold;
 }
 
 .list-unstyled-header{
   color: #6f6f6f;
   font-size:20px !important;
+  font-weight: normal;
 
 }
 
@@ -98,6 +100,7 @@ p {
 h1 {
   font-weight: bold;
   line-height: 0.8;
+  margin-bottom: 1.4em;
 }
 
 h2  {
@@ -105,11 +108,11 @@ h2  {
   font-weight: bold;
 }
 
-h4 {
+
+h10 {
   font-weight: bold;
-  line-height: 1.6;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  line-height: 0.8;
+
 }
 
 .news section {
