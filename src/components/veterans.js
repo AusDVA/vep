@@ -4,7 +4,7 @@ export default class Veterans extends React.Component {
 
   render() {
     return (
-      <div>        
+      <div>
         <section>
           <div className="body-content container">
             <div className="row">
@@ -18,10 +18,9 @@ export default class Veterans extends React.Component {
                   <li><a href="#Other initiatives">Other initiatives</a></li>
                   <li><a href="#Rehabilitation">Rehabilitation</a></li>
                   <li><a href="#conditions">Treatment for mental health conditions</a></li>
-                  <li><a href="#jobs">Finding jobs</a></li>
-                  <li><a href="#Planning">Planning and rehabilitating</a></li>
-                  <li><a href="#Finances">Finances</a></li>
-                  <li><a href="#support">State government support</a></li>
+                  <li><a href="#Resources">Resources</a></li>
+                  <li><a href="#support">Government initiatives</a></li>
+                  <li><a href="#Superannuation">Superannuation</a></li>
                   <li><a href="#general">Resourses-general</a></li>
                 </ul>
 
@@ -85,10 +84,94 @@ export default class Veterans extends React.Component {
                           and their families on 1800 011 046.</strong>
                 </p>
 
-                <p>The resources on this page will help you to plan for and find jobs, as well as provide support
+                <h2 id="Resources">RESOURCES for veterans</h2>
+                <h3>jobactive</h3>
+                  <p>jobactive is the Australian Government’s way to get more Australians into work by
+                     connecting job seekers with employers. Employers who are interested in hiring veterans
+                     can indicate that defence force experience is desirable when they advertise a job on the
+                     Australian Government’s <a href="https://jobactive.gov.au/">jobactive website,</a> by selecting the optional ‘defence force experience
+                     desirable’ flag. Veterans can <a href="https://jobsearch.gov.au/job/search/ex-adf">search specifically for jobs flagged as ‘defence force experience desirable’.</a></p>
+                     <br/>
+                  <h3>APSjobs</h3>
+                  <p>The Australian Public Service Commission (APSC) will redevelop its <a href="https://www.apsjobs.gov.au/">APSjobs website</a> to
+                      include information to assist veterans seeking employment in the Australian Public Service (APS).
+                      The new APSJobs website will be launched in the second half of 2017.</p>
+                  <p>The APSC is also developing a toolkit that will provide veterans with information on working
+                     in the APS and an application that aligns Australian Defence Force ranks to APS classifications.</p>
+                     <br/>
+                  <h2 id="support">State and territory government initiatives</h2>
+                  <h3>NSW Government</h3>
+                  <p>The <a href="http://www.vep.veterans.nsw.gov.au/about/about-the-veterans-employment-program/">NSW Veterans Employment Program,</a> launched
+                     on 5 May 2016, will assist an additional
+                     200 veterans to find suitable, sustainable and meaningful employment within the NSW Government
+                     Sector by 2019. The <a href="http://www.vep.veterans.nsw.gov.au/">NSW Government</a> offers a variety of careers allowing veterans to draw upon
+                     their unique military experience and skills. <a href="http://www.vep.veterans.nsw.gov.au/job-search/job-search/">An ADF Rank – NSW Government Grade Match Tool</a> has
+                     been developed to guide veterans to their equivalent NSW public sector grades. </p>
+                  <h3>Government of Victoria</h3>
+                  <p>In November 2016, the Premier announced that he would establish
+                     a <a href="http://www.dpc.vic.gov.au/index.php/veterans/public-sector-veterans-employment-strategy">Veterans Public Sector Employment initiative.</a> The
+                     initiative will assist up to 250 veterans find jobs in the Victorian
+                     public sector. </p>
+                  <p>The Government of Victoria is also working with the RSL Victorian Branch to establish a network
+                     of ESO providers and employers to further veterans’ employment in Victoria. </p>
+                    <h3>Government of Western Australia</h3>
+                  <p>The Government of Western Australia established
+                     the <a href="https://www.mediastatements.wa.gov.au/Pages/Barnett/2016/06/New-faces-on-Veterans-Advisory-Council.aspx">Western Australian Veterans Advisory Council</a> in 2014.</p>
+                  <p><a href="https://publicsector.wa.gov.au/veterans-employment-transition-support-vets">The Veterans’ Employment Transition Support</a> has
+                      been implemented to encourage current and former
+                     ADF members to consider employment in the WA public sector. </p>
+
+                  <h3>ACT Government</h3>
+                  <p>The ACT Government is establishing
+                     a <a href="http://www.cmd.act.gov.au/open_government/inform/act_government_media_releases/gordon-ramsay-mla-media-releases/2016/act-veterans-advisory-council-call-for-nominations">Veterans’ Advisory Council.</a> The
+                     Council will comprise community members with a material interest in issues
+                     affective the veterans’ community in the Australian Capital Territory.</p>
+                    <h3>Government of South Australia</h3>
+                    <p>The Government of South Australia established a <a href="http://anzaccentenary.sa.gov.au/about/veterans-advisory-council/">Veterans’ Advisory Council</a> in 2008.
+                       The Council’s role is to promote the wellbeing of veterans and provide advice to the
+                       Government of South Australia.</p>
+                    <h3>Northern Territory Government</h3>
+                    <p>A <a href="https://nt.gov.au/industry/defence-support/defence-community/veterans-support">Northern Territory Veterans’ Support Ministerial Advisory Council</a> has been established
+                       to provide advice to the Northern Territory Government on issues affecting veterans
+                       and their families in the Northern Territory.</p>
+                    <h3>Queensland Government</h3>
+                    <p>The <a href="https://www.qld.gov.au/about/how-government-works/other-government-bodies/veterans-advisory-council/">Queensland Veterans’ Advisory Council</a> was
+                       established in 2014 to assist in the development
+                       of strategies to promote the wellbeing of veterans and their families.</p>
+                       <br/> <br/>
+
+                    <h4><a href="http://www.defence.gov.au/DCO/Transitions/">Defence Community Organisation</a></h4>
+                    <p>Defence Community Organisation assists veterans to obtain practical guidance and
+                       information to help them to transition into civilian life.</p>
+                    <h4><a href="http://www.defence.gov.au/DCO/_Master/documents/Transition/ADF-Transition-Handbook.pdf">ADF Transition Handbook</a></h4>
+                    <p>The ADF Transition Handbook is a guide to help ADF members and their families prepare for
+                       separation from the military.</p>
+                    <h4><a href="http://www.defence.gov.au/payandconditions/adf/Chapter-2/Part-2/http:/www.defence.gov.au/payandconditions/adf/Chapter-2/Part-2/">Career Transition Assistance Scheme</a> </h4>
+                    <p>The Career Transition Assistance Scheme assists ADF personnel with career transition
+                       when they separate from the ADF.</p>
+                       <br/>
+                    <h3 id="Superannuation">Superannuation for ADF members</h3>
+                    <p><a href="https://adfsuper.gov.au/">Australian Defence Force Superannuation</a></p>
+                    <p><a href="https://militarysuper.gov.au/">Military Superannuation & Benefits Scheme</a></p>
+                    <p><a href="https://dfrdb.gov.au/">Defence Force Retirement & Death Benefits Scheme</a></p>
+                    <br/> <br/>
+                    <p><a href="http://adfconsumer.gov.au/">Australian Defence Force Financial Services Consumer Centre</a></p>
+                    <p>Australian Defence Force Financial Services Consumer Centre provides independent, professional
+                       financial education (not advice) to ADF members and their families.</p>
+
+
+
+
+
+
+
+
+
+
+                {/*<p>The resources on this page will help you to plan for and find jobs, as well as provide support
                     as you transition from Defence to civilian life.</p>
 
-                <h2 id="jobs">Finding jobs</h2>
+                 <h2 id="jobs">Finding jobs</h2>
                 <h4>
                   <a href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">Jobactive</a>
                 </h4>
@@ -223,7 +306,7 @@ export default class Veterans extends React.Component {
                 </h4>
                 <p>The ACT Government is establishing a Veterans' Advisory Council comprised of community members with
                    a material interest in issues affective the veterans' community.
-                </p>
+                </p> */}
 
                 <GeneralResourses/>
                 <p>
