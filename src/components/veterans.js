@@ -34,6 +34,9 @@ export default class Veterans extends React.Component {
                     <li>
                       <a href="#sec3">State government support</a>
                     </li>
+                    <li>
+                      <a href="#sec4">Resourses-general</a>
+                    </li>
                   </ul>
 
                 <p>The resources on this page will help you to plan for and find jobs, as well as provide support as you transition from Defence to civilian life.</p>
