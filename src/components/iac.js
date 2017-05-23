@@ -114,11 +114,11 @@ export default class IAC extends React.Component {
                 <h4 id="Links">Useful links</h4>
                 <ul>
                   <li>
-                    <a href="">Resources</a>
+                    <a href="/employers#">Information for Employers</a>
                   </li>
                 </ul>
                 <p>
-                  <a className="" href="#">Top
+                  <a href="#">Top
                     <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
                   </a>
                 </p>

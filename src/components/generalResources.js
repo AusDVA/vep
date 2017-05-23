@@ -4,7 +4,7 @@ export default class GeneralResourses extends React.Component {
   render() {
     return (
                <div>
-                <h2 id="sec4">Resources-general</h2>
+                <h2 id="general">Resources-general</h2>
 
                 <h3>Media Releases</h3>
 
