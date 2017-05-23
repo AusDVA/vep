@@ -4,8 +4,8 @@ export default class IACNews extends React.Component {
   render() {
     return (
       <div>
-        <h4 id="News">Latest News</h4>
-        <h4>Industry Advisory Committee on Veterans’ Employment Communique – 31 March 2017</h4>
+        <h2 id="News">Latest News</h2>
+        <h2>Industry Advisory Committee on Veterans’ Employment Communique – 31 March 2017</h2>
         <p>The Industry Advisory Committee on Veterans’ Employment held its inaugural meeting in Sydney
            on 31 March 2017.</p>
         <p>At the meeting, the Committee focused on establishing a number of priority areas of focus. These
