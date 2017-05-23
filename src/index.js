@@ -6,6 +6,7 @@ import {Provider} from "react-redux";
 import Home from "./components/home";
 import About from "./components/about";
 import Veterans from "./components/veterans";
+import ESO from "./components/eso";
 import Awards from "./components/awards";
 import Contact from "./components/contact";
 import NavBar from "./components/navbar";
@@ -34,6 +35,7 @@ ReactDOM.render(
           <Route path="/about" component={About}/>
           <Route path="/iac" component={IAC}/>
           <Route path="/veterans" component={Veterans}/>
+          <Route path="/ex-service-organisations" component={ESO}/>
           <Route path="/awards" component={Awards}/>
          <Provider store={ store }>
           <Route path="/contact" component={Contact}/>
