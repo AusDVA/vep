@@ -2,9 +2,11 @@
   padding: 3.4em 0 3.2em;
   margin-top: 1.3em;
   width: 100%;
-  min-height: 300px;
-  background: $light-blue url('../image/swirl.svg') no-repeat 50% 0;
-  color: $white;
+  min-height: 19vh;
+  background: $light-blue url('../image/banner3.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  color:$white;
 }
 
 .page-header {
@@ -12,7 +14,7 @@
   width: 100%;
   margin-bottom: 2.2em;
   margin-top: 1em;
-  background: $light-blue url('../image/swirl.svg') no-repeat 50% 0;
+  background: $light-blue url('../image/banner3.png') no-repeat;
   color: $white;
 }
 

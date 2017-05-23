@@ -10,8 +10,6 @@ export default class Home extends React.Component {
   		<div className="container">
   			<div className="row">
   				<div className="col-sm-12">
-  					<h1 id="content">Prime Minister’s Veterans’ Employment Program</h1>
-              <span><h3>Transfer between military and civilian life </h3></span>
   				</div>
   			</div>
   		</div>
