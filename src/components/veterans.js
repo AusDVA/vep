@@ -146,7 +146,7 @@ export default class Veterans extends React.Component {
                     <h4><a href="http://www.defence.gov.au/DCO/_Master/documents/Transition/ADF-Transition-Handbook.pdf">ADF Transition Handbook</a></h4>
                     <p>The ADF Transition Handbook is a guide to help ADF members and their families prepare for
                        separation from the military.</p>
-                    <h4><a href="http://www.defence.gov.au/payandconditions/adf/Chapter-2/Part-2/http:/www.defence.gov.au/payandconditions/adf/Chapter-2/Part-2/">Career Transition Assistance Scheme</a> </h4>
+                    <h4><a href="http://www.defence.gov.au/payandconditions/adf/Chapter-2/Part-2/">Career Transition Assistance Scheme</a> </h4>
                     <p>The Career Transition Assistance Scheme assists ADF personnel with career transition
                        when they separate from the ADF.</p>
                        <br/>
