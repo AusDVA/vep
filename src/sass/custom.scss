@@ -141,6 +141,11 @@ h10 {
   background: $text-highlight
 }
 
+.form-group.required .control-label:after {
+  content:"*";
+  color:red;
+}
+
 #top-nav {
   margin-top: 1em;
 }
