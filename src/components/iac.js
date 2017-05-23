@@ -4,20 +4,12 @@ export default class IAC extends React.Component {
 
   render() {
     return (
-      <div>
-        <header className="page-header" id="top">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12">
-              </div>
-            </div>
-          </div>
-        </header>
+      <div>        
         <section>
           <div className="body-content container">
             <div className="row">
               <div className="col-md-8" id="mainCol">
-                <h1 id="content">Industry Advisory Committee On Veterans’ Employment</h1>              
+                <h1 id="content">Industry Advisory Committee On Veterans’ Employment</h1>
                 <ul className="list-unstyled">
                   <li className="list-unstyled-header">Contents</li>
                   <li><a href="#Terms">Terms of reference</a></li>

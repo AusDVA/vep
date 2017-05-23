@@ -4,14 +4,7 @@ export default class Veterans extends React.Component {
 
   render() {
     return (
-      <div>
-        <header className="page-header" id="top">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-12"></div>
-            </div>
-          </div>
-        </header>
+      <div>        
         <section>
           <div className="body-content container">
             <div className="row">

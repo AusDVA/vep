@@ -13,6 +13,7 @@ import NavBar from "./components/navbar";
 import Footer from "./components/footer";
 import IAC from "./components/iac";
 import Employers from "./components/employers";
+import Header from "./components/header";
 import store from "./store.js";
 //CSS
 import "./sass/styles.scss";
@@ -29,6 +30,7 @@ ReactDOM.render(
   <BrowserRouter>
     <div>
       <NavBar/>
+      <Header/>
       <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/employers" component={Employers}/>

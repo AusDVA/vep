@@ -5,15 +5,7 @@ export default class Home extends React.Component {
 
   render() {
     return (
-      <div className="body-content">
-        <header className="newsfeed">
-  		<div className="container">
-  			<div className="row">
-  				<div className="col-sm-12">
-  				</div>
-  			</div>
-  		</div>
-  	</header>
+      <div className="body-content">      
         <div className="jumbotron jumbotron-fluid">
           <div className="container">
             <div className="description">
