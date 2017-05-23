@@ -41,7 +41,7 @@ export default class Employers extends React.Component {
                     <a href="#EmployerResources">Resources for employers</a>
                   </li>
                   <li>
-                    <a href="#sec">Resources-general</a>
+                    <a href="#general">Resources-general</a>
                   </li>
                 </ul>
 

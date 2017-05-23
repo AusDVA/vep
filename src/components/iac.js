@@ -9,10 +9,6 @@ export default class IAC extends React.Component {
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
-                <span>
-                  <h3>Prime Minister’s Veterans’ Employment Program</h3>
-                </span>
-                <h1 id="content">Industry Advisory Committee On Veterans’ Employment</h1>
               </div>
             </div>
           </div>
@@ -20,7 +16,10 @@ export default class IAC extends React.Component {
         <section>
           <div className="body-content container">
             <div className="row">
-              <div className="col-md-8" id="mainCol">
+              <div className="col-md-12" id="mainCol">
+                <h1 id="content">Industry Advisory Committee On Veterans’ Employment</h1>
+              </div>
+                <div className="col-md-8" id="mainCol">
                 <ul className="list-unstyled">
                   <li className="list-unstyled-header">Contents</li>
                   <li><a href="#Terms">Terms of reference</a></li>
@@ -36,7 +35,7 @@ export default class IAC extends React.Component {
                    practices of Australian business.</p>
                 <p>The Committee will also play a role in the broader promotion of skills and professional attributes
                    that veterans have to offer employers</p>
-                <h4 id="Terms">Terms of reference</h4>
+                <h2 id="Terms">Terms of reference</h2>
                 <p>The Industry Advisory Committee will:</p>
                 <ol>
                   <li>Develop practical measures to embed veterans' employment strategies into the recruitment
@@ -58,7 +57,7 @@ export default class IAC extends React.Component {
                   <li>Provide a report to the Minister for Veterans' Affairs/Defence Personnel by end of September
                       2017 outlining the Committee's progress against these Terms of Reference.</li>
                 </ol>
-                <h4 id="Membership">Membership</h4>
+                <h2 id="Membership">Membership</h2>
                 <div className="row">
                   <div className="col-md-4 col-sm-4 col-xs-6">
                     <p>Chair</p>
@@ -88,9 +87,9 @@ export default class IAC extends React.Component {
                   <li>Serco Australia Pty Ltd</li>
                   <li>Westpac Group</li>
                 </ul>
-                <h4 id="Biographies">Member Biographies</h4>
+                <h2 id="Biographies">Member Biographies</h2>
                 <p>TBA</p>
-                <h4 id="Groups">Working groups</h4>
+                <h2 id="Groups">Working groups</h2>
                 <p>The Committee has decided to initially focus on eight key areas:
                 </p>
                 <ul>
@@ -105,20 +104,20 @@ export default class IAC extends React.Component {
                   <li>the Prime Minister’s Veterans’ Employment Annual Awards.</li>
                 </ul>
                 <IacNews/>
-                <h4>Contact</h4>
-                <h4 id="Contact">IAC Secretariat</h4>
+                <h2>Contact</h2>
+                <h2 id="Contact">IAC Secretariat</h2>
                 <h5>C/- Department of Veterans' Affairs</h5>
                 <h5>GPO Box 9998</h5>
                 <h5>Canberra ACT 2601</h5>
                 <h5><i className="fa fa-envelope"></i> IAC.Secretariat@dva.gov.au</h5>
-                <h4 id="Links">Useful links</h4>
+                <h2 id="Links">Useful links</h2>
                 <ul>
                   <li>
-                    <a href="">Resources</a>
+                    <a href="/employers#">Information for Employers</a>
                   </li>
                 </ul>
                 <p>
-                  <a className="" href="#">Top
+                  <a href="#">Top
                     <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
                   </a>
                 </p>
