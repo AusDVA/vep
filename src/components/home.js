@@ -14,32 +14,6 @@ export default class Home extends React.Component {
               <span><h3>Transfer between military and civilian life </h3></span>
   				</div>
   			</div>
-  			<div className="row cards">
-  				<a href="#">
-  					<div className="col-sm-4 text-center">
-  						<div className="cards--item cards--item--veterans">
-  							<h2><span>Information for</span><br/>
-  							Veterans</h2>
-  						</div>
-  					</div>
-  				</a>
-  				<a href="#">
-  					<div className="col-sm-4 text-center">
-  						<div className="cards--item cards--item--employers">
-  							<h2><span>Information for</span><br/>
-  							Employers</h2>
-  						</div>
-  					</div>
-  				</a>
-  				<a href="#">
-  					<div className="col-sm-4 text-center">
-  						<div className="cards--item cards--item--esos">
-  							<h2><span>Information for</span><br/>
-  							Ex-service organisations</h2>
-  						</div>
-  					</div>
-  				</a>
-  			</div>
   		</div>
   	</header>
         <div className="jumbotron jumbotron-fluid">
