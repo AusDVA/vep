@@ -44,7 +44,6 @@ class Contact extends React.Component {
     console.log(values);
     //clear input after form submit.
     values.firstname = "";
-    values.lastname = "";
     values.email = "";
     values.phone = "";
     values.feedback = "";
@@ -116,14 +115,14 @@ function validate(values) {
     errors.firstname = "Please enter your name.";
   }
 
-  if (!values.email) {
-    errors.email = 'Please enter an email address.'
-  } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email)) {
+  if (!values.email && !values.phone) {
+    errors.email = 'Please provide an email address or phone number.'
+  } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email) && !values.phone) {
     errors.email = 'Invalid email address.'
   }
 
   if (!values.phone && !values.email) {
-    errors.phone = "Please enter either a phone number or an email address.";
+    errors.phone = "Please provide a phone number or an email address.";
   }
 
   if (!values.feedback) {
