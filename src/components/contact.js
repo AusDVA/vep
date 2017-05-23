@@ -88,16 +88,16 @@ class Contact extends React.Component {
                   <div className="contact-details">
                     <h4>Contact Details</h4>
                     <h5>
-                      <i className="fa fa-phone-square"></i>
-                      <span>Hours:</span>8am-5pm (AEST) Mon-Fri</h5>
+                      <i className="fa fa-phone-square"></i>&nbsp;
+                      <span>Hours: </span>8am-5pm (AEST) Mon-Fri</h5>
                     <h5>
-                      <span className="head">Local:</span>133 254</h5>
+                      <span className="head">Local: </span>133 254</h5>
                     <h5>
-                      <span className="head">Regional:</span>1800 555 254</h5>
+                      <span className="head">Regional: </span>1800 555 254</h5>
                     <h5>
-                      <span className="head">International:</span>61 2 6289 1133</h5>
+                      <span className="head">International: </span>61 2 6289 1133</h5>
                     <h5>
-                      <i className="fa fa-envelope"></i>veteransemployment@dva.gov.au</h5>
+                      <i className="fa fa-envelope"></i>&nbsp;veteransemployment@dva.gov.au</h5>
                   </div>
                 </div>
               </div>
