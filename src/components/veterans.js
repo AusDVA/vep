@@ -8,7 +8,7 @@ export default class Veterans extends React.Component {
         <section>
           <div className="body-content container">
             <div className="row">
-              <div className="col-md-7" id="mainCol">
+              <div className="col-md-8" id="mainCol">
                 <h1>Veterans</h1>
                 <ul className="list-unstyled" id="sidebar">
                   <li className="list-unstyled-header">Contents</li>
