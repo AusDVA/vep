@@ -7,7 +7,7 @@ export default class About extends React.Component {
         <section>
           <div className="body-content container">
             <div className="row">
-              <div className="col-md-7" id="mainCol">
+              <div className="col-md-8" id="mainCol">
                 <h1> About the Veterans’ Employment Program </h1>
                 <p>On 17 November 2016 the Prime Minister announced six initiatives under the Program.</p>
 
