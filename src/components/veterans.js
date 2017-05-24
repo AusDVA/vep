@@ -46,7 +46,7 @@ export default class Veterans extends React.Component {
                    by working with Australian businesses to demonstrate the value that veterans can bring to their organisations.
                 </p>
                 <p>
-                  <a href="">An Industry Advisory Committee</a> on Veterans’ Employment made up of industry representatives
+                  <a href="/iac">An Industry Advisory Committee</a> on Veterans’ Employment made up of industry representatives
                   has been established to develop
                   and provide advice on practical measures to embed veterans’ employment strategies into the
                   recruitment practices of Australian businesses.</p>

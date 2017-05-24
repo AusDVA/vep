@@ -3,7 +3,7 @@ export default class About extends React.Component {
 
   render() {
     return (
-      <div>        
+      <div>
         <section>
           <div className="body-content container">
             <div className="row">
@@ -12,7 +12,7 @@ export default class About extends React.Component {
                 <p>On 17 November 2016 the Prime Minister announced six initiatives under the Program.</p>
 
                 <h2>Industry Advisory Committee on Veterans’ Employment</h2>
-                <p>The <a href="#">Industry Advisory Committee on Veterans’ Employment (IAC)</a> will be established to develop and
+                <p>The <a href="/iac">Industry Advisory Committee on Veterans’ Employment (IAC)</a> will be established to develop and
                   provide advice on practical measures to embed veterans’ employment strategies into the recruitment
                   practices of Australian businesses.  The Committee will play a role in the broader promotion of the
                   skills and professional attributes that veterans have to offer employers.</p>
@@ -44,7 +44,7 @@ export default class About extends React.Component {
 
                 <h2>Department of Employment initiatives</h2>
                 <p>The Australian Government’s <a href="https://jobactive.gov.au/" target="_blank">jobactive website</a> will
-                  include an <a href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veteranshttps:/jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans" target="_blank">information page for veterans</a> and
+                  include an <a href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans" target="_blank">information page for veterans</a> and
                   an optional ‘defence force experience desirable’
                   flag for vacancies listed on the website.  This will enable former ADF members seeking a job
                   to <a href="https://jobsearch.gov.au/job/search/ex-adf" target="_blank">search for vacancies</a> for
