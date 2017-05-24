@@ -2,15 +2,20 @@ html {
   	  overflow-y: scroll;
 }
 
-.newsfeed {
-  padding: 3.4em 0 3.2em;
+.vep-branding {
   margin-top: 1.3em;
   width: 100%;
-  min-height: 19vh;
-  background: $light-blue url('../image/banner3.png') no-repeat;
+  background: $light-blue;
   background-size: contain;
   background-position: center;
   color:$white;
+  max-height: 19vh;
+}
+
+.vep-branding img {
+  max-width: 100%;
+  max-height: 19vh;
+  height: auto;
 }
 
 .logo img {
