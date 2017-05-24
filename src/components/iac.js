@@ -12,14 +12,15 @@ export default class IAC extends React.Component {
                 <h1 id="content">Industry Advisory Committee On Veterans’ Employment</h1>
                 <ul className="list-unstyled">
                   <li className="list-unstyled-header">Contents</li>
+                  <li><a href="#News">Latest News</a></li>
                   <li><a href="#Terms">Terms of reference</a></li>
                   <li><a href="#Membership">Membership</a></li>
                   <li><a href="#Biographies">Member Biographies</a></li>
                   <li><a href="#Groups">Working groups</a></li>
-                  <li><a href="#News">Latest News</a></li>
                   <li><a href="#Contact">Contact</a></li>
                   <li><a href="#Links">Useful links</a></li>
                 </ul>
+                <IacNews/>
                 <p>The Industry Advisory Committee (IAC) on Veterans’ Employment has been established to develop
                    and provide advice and practical measures to embed veterans’ employment strategies into recruitment
                    practices of Australian business.</p>
@@ -93,7 +94,6 @@ export default class IAC extends React.Component {
                   <li>appreciation of the contribution of veterans by the community; and</li>
                   <li>the Prime Minister’s Veterans’ Employment Annual Awards.</li>
                 </ul>
-                <IacNews/>
                 <h2>Contact</h2>
                 <h2 id="Contact">IAC Secretariat</h2>
                 <h5>C/- Department of Veterans' Affairs</h5>
