@@ -1,10 +1,11 @@
 import React from "react";
 import IacNews from "./iacnews";
+import ExampleImage from "../image/ico-user.svg";
 export default class IAC extends React.Component {
 
   render() {
     return (
-      <div>        
+      <div>
         <section>
           <div className="body-content container">
             <div className="row">
@@ -49,21 +50,35 @@ export default class IAC extends React.Component {
                       2017 outlining the Committee's progress against these Terms of Reference.</li>
                 </ol>
                 <h2 id="Membership">Membership</h2>
-                <div className="row">
-                  <div className="col-md-4 col-sm-4 col-xs-6">
-                    <p>Chair</p>
-                    <p>Deputy Chair</p>
-                    <p>Small business representative</p>
-                  </div>
-                  <div className="col-md-4 col-sm-4 col-xs-6">
-                    <p>Mr George Frazis
-                    </p>
-                    <p>Mr Ben Roberts-Smith VC, MG
-                    </p>
-                    <p>Ms Natalie Colbert<br/><br/></p>
-                  </div>
-
-                </div>
+                <div className="row cards">
+  				<a href="#">
+  					<div className="col-md-4 text-center">
+  						<div className="cards-item">
+                <img className="cards-image" src={ExampleImage} alt="Mr George Frazis"/>
+  							<h4>Chair</h4>
+                <p>Mr George Frazis</p>
+  						</div>
+  					</div>
+  				</a>
+  				<a href="#">
+  					<div className="col-md-4 text-center">
+  						<div className="cards-item">
+                <img className="cards-image" src={ExampleImage} alt="Mr Ben Roberts-Smith VC, MG"/>
+                <h4>Deputy Chair</h4>
+                <p>Mr Ben Roberts-Smith VC, MG</p>
+  						</div>
+  					</div>
+  				</a>
+  				<a href="#">
+  					<div className="col-md-4 text-center">
+  						<div className="cards-item">
+                <img className="cards-image" src={ExampleImage} alt="Ms Natalie Colbert"/>
+                <h4>Small business representative</h4>
+                <p>Ms Natalie Colbert</p>
+  						</div>
+  					</div>
+  				</a>
+  			</div>
                 <p>Representatives of the following organisations:</p>
                 <ul>
                   <li>Allied Express Transport</li>

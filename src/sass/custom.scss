@@ -1,5 +1,5 @@
 html {
-  	  overflow-y: scroll;
+  overflow-y: scroll;
 }
 
 .vep-branding {
@@ -87,8 +87,6 @@ body {
   outline-offset: 1px;
 }
 
-
-
 .active {
   color: $brand-primary!important;
   background-color: $white!important;
@@ -108,13 +106,6 @@ h1 {
 h2  {
   line-height: 1.4;
   font-weight: bold;
-}
-
-
-h10 {
-  font-weight: bold;
-  line-height: 0.8;
-
 }
 
 .news section {
@@ -154,6 +145,36 @@ h10 {
 .form-group.required .control-label:after {
   content:"*";
   color:red;
+}
+
+.cards {
+  margin-top: 5vh;
+}
+
+.cards-item:hover ,
+.cards-item:focus {
+  background-color: #F0F3F5;
+  border-bottom: 6px solid black;
+}
+
+.cards-image {
+  max-height: 200px;
+  padding-bottom:1em;
+  border-bottom: solid 1px #bbbbbb;
+}
+
+.cards-item {
+  height: 350px;
+  background-color: #fff;
+  line-height: 1.2;
+  padding: 2.25em 1.2em 0.8em 0.6em;
+  border-bottom: 6px solid #2A9ED1;
+  border-radius: 3px;
+  box-shadow: 2px 0 6px rgba(49,49,49,0.7);
+  margin-bottom: 2em;
+}
+.cards-item h4 {
+  margin-top: 1em;
 }
 
 #top-nav {
