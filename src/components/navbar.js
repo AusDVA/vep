@@ -28,7 +28,7 @@ export default class NavBar extends React.Component {
             <li><NavLink to="/veterans">Veterans</NavLink></li>
             <li><NavLink to="/employers">Employers</NavLink></li>
             <li><NavLink to="/ex-service-organisations">Ex-service organisations</NavLink></li>
-            <li><NavLink to="/iac">Industry Advisory Committee</NavLink></li>
+            <li><NavLink to="/industry-advisory-committee">Industry Advisory Committee</NavLink></li>
             <li><NavLink to="/awards">Awards</NavLink></li>
           </ul>
         </nav>

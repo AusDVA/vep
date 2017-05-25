@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import {Provider} from "react-redux";
+import withTracker from "./components/withTracker";
 //Components
 import Home from "./components/home";
 import About from "./components/about";
@@ -26,27 +27,26 @@ import "./vendor/googleFonts/oswald.css";
 import "bootstrap/dist/js/bootstrap";
 
 ReactDOM.render(
+    <BrowserRouter>
+        <div>
+            <NavBar/>
+            <Header/>
+            <Switch>
+                <Route exact path="/" component={withTracker(Home)}/>
+                <Route path="/employers" component={withTracker(Employers)}/>
+                <Route path="/about" component={withTracker(About)}/>
+                <Route path="/industry-advisory-committee" component={withTracker(IAC)}/>
+                <Route path="/veterans" component={withTracker(Veterans)}/>
+                <Route path="/ex-service-organisations" component={withTracker(ESO)}/>
+                <Route path="/awards" component={withTracker(Awards)}/>
+                <Provider store={ store }>
+                    <Route path="/contact" component={withTracker(Contact)}/>
+                </Provider>
 
-  <BrowserRouter>
-    <div>
-      <NavBar/>
-      <Header/>
-      <Switch>
-          <Route exact path="/" component={Home}/>
-          <Route path="/employers" component={Employers}/>
-          <Route path="/about" component={About}/>
-          <Route path="/iac" component={IAC}/>
-          <Route path="/veterans" component={Veterans}/>
-          <Route path="/ex-service-organisations" component={ESO}/>
-          <Route path="/awards" component={Awards}/>
-         <Provider store={ store }>
-          <Route path="/contact" component={Contact}/>
-         </Provider>
-
-        </Switch>
-      <Footer/>
-    </div>
-  </BrowserRouter>,
+            </Switch>
+            <Footer/>
+        </div>
+    </BrowserRouter>,
 
     document.getElementById('container')
 );
