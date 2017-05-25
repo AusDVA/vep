@@ -14,6 +14,8 @@ import Footer from "./components/footer";
 import IAC from "./components/iac";
 import Employers from "./components/employers";
 import Header from "./components/header";
+import Bios from "./components/bios";
+import BioFrazis from "./components/bioFrazis";
 import store from "./store.js";
 //CSS
 import "./sass/styles.scss";
@@ -39,6 +41,8 @@ ReactDOM.render(
           <Route path="/veterans" component={Veterans}/>
           <Route path="/ex-service-organisations" component={ESO}/>
           <Route path="/awards" component={Awards}/>
+          <Route path="/bios" component={Bios}/>
+          <Route path="/bioFrazis" component={BioFrazis}/>
          <Provider store={ store }>
           <Route path="/contact" component={Contact}/>
          </Provider>

@@ -4,7 +4,7 @@ export default class IAC extends React.Component {
 
   render() {
     return (
-      <div>        
+      <div>
         <section>
           <div className="body-content container">
             <div className="row">
@@ -78,8 +78,14 @@ export default class IAC extends React.Component {
                   <li>Serco Australia Pty Ltd</li>
                   <li>Westpac Group</li>
                 </ul>
+
                 <h2 id="Biographies">Member Biographies</h2>
-                <p>TBA</p>
+                <ul>
+                  <li>
+                    <a href="/bios#">Biographies</a>
+                  </li>
+                </ul>
+
                 <h2 id="Groups">Working groups</h2>
                 <p>The Committee has decided to initially focus on eight key areas:
                 </p>
