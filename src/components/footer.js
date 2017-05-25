@@ -6,10 +6,16 @@ export default class Footer extends React.Component {
       <footer className="panel-footer">
 		<div className="container">
 			<div className="row">
-				<div className="col-sm-12">
+				<div className="col-sm-6">
 					<section>
 						<p><small>© Commonwealth of Australia</small></p>
 					</section>
+				</div>
+				<div className="col-sm-6">
+					<ul className="list-inline pull-right">
+						<li><a href="#">Privacy</a></li>
+						<li><a href="#">Copyright</a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
