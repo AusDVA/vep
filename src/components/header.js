@@ -1,5 +1,5 @@
 import React from 'react';
-import VEPLogo from '../image/banner3.png';
+import VEPLogo from '../image/banner4.png';
 
 export default class Header extends React.Component {
 
