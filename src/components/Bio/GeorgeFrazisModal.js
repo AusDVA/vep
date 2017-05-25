@@ -14,12 +14,12 @@ export default class ModalGF  extends React.Component {
               </div>
               <div className="modal-body">
                 <div className="row">
-                  <div className="col-xs-4 col-md-3 col-sm-3">
+                  <div className="col-xs-5 col-md-3 col-sm-3">
                     <div className="thumbnail">
                       <img src={ExampleImage} alt="Mr George Frazis"/>
                     </div>
                     </div>
-                  <div className="col-md-6 col-xs-6">
+                  <div className="col-md-6 col-xs-7">
                     <h4><strong>George Frazis</strong></h4>
                     <h4><strong>Chief Executive, Consumer Bank</strong></h4>
                     <h4><strong>Westpac Group</strong></h4>
@@ -50,8 +50,8 @@ export default class ModalGF  extends React.Component {
                            of the St.George Foundation.</p>
               </div>
               <div className="modal-footer">
-                <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
+                    <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
             </div>
           </div>
         </div>
