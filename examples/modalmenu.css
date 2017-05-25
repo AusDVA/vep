@@ -1,0 +1,109 @@
+.modal.modal-menu,
+.modal.modal-bio {
+    /*! adjust transition time */
+    padding: 0 !important;
+    transition: all 0.3s ease-out !important;
+}
+
+.modal.modal-menu .modal-dialog,
+.modal.modal-bio .modal-dialog {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.modal.modal-menu .modal-dialog {
+  height: 100%;
+}
+
+.modal.modal-menu .modal-content,
+.modal.modal-bio .modal-content {
+    height: 100%;
+    border-radius: 0;
+    background: #1658a5;
+}
+
+.modal.modal-menu .modal-content .modal-body ul li a {
+    display: block;
+    font-size: 30px;
+    border-bottom: 0;
+    padding: 8px 0 5px;
+    margin: 12px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.modal.modal-menu .modal-content .modal-body ul li a:hover, .modal.modal-menu .modal-content .modal-body ul li a:focus {
+    background: #3784dd;
+    color: #fff;
+    text-decoration: none;
+}
+
+.modal.modal-menu.fade .modal-dialog {
+    /*! disable sliding from left/right/top/bottom */
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+.modal {
+    z-index: 9999;
+}
+
+.modal .modal-content .modal-header {
+    border-bottom: none;
+}
+
+.modal .modal-content .modal-header .close {
+    font-size: 70px !important;
+    color: #fff;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    text-shadow: none;
+    font-weight: normal;
+    line-height: 0.6;
+}
+
+.modal.modal-bio .modal-content .modal-body {
+  color: #fff;
+}
+
+
+.modal.modal-bio .modal-content .modal-body .name,
+.modal.modal-bio .modal-content .modal-body .company,
+.modal.modal-bio .modal-content .modal-body .qualifications {
+  margin: 0;
+}
+
+.modal.modal-bio .modal-content .modal-body .name,
+.modal.modal-bio .modal-content .modal-body .company {
+  font-size: 46px;
+}
+.modal.modal-bio .modal-content .modal-body .name {
+  color: #deb887;
+}
+.modal.modal-bio .modal-content .modal-body .company {
+  color: #fff;
+}
+.modal.modal-bio .modal-content .modal-body .qualifications {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #8fbc8f;
+}
+
+.modal.modal-menu li
+{
+    list-style-type: none;
+    color: white;
+    background-color: #1658a5;
+    font-size: 1em;
+    margin: -12px;
+
+}
+
+.dropdown-menu
+{
+
+}
+
