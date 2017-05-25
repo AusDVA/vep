@@ -53,7 +53,7 @@ export default class IAC extends React.Component {
                 <h2 id="Membership">Membership</h2>
                 <div className="row cards">
   				       <a href="#"data-toggle="modal" data-target="#chairModal">
-  					<div className="col-md-4 text-center">
+  					<div className="col-md-4 col-sm-4 text-center">
   						<div className="cards-item">
                 <img className="cards-image" src={ExampleImage} alt="Mr George Frazis"/>
   							<h3>Chair</h3>
@@ -62,7 +62,7 @@ export default class IAC extends React.Component {
   					</div>
   				</a>
   				<a href="#">
-  					<div className="col-md-4 text-center">
+  					<div className="col-md-4 col-sm-4 text-center">
   						<div className="cards-item">
                 <img className="cards-image" src={ExampleImage} alt="Mr Ben Roberts-Smith VC, MG"/>
                 <h3>Deputy Chair</h3>
@@ -71,7 +71,7 @@ export default class IAC extends React.Component {
   					</div>
   				</a>
   				<a href="#">
-  					<div className="col-md-4 text-center">
+  					<div className="col-md-4 col-sm-4 text-center">
   						<div className="cards-item">
                 <img className="cards-image" src={ExampleImage} alt="Ms Natalie Colbert"/>
                 <h3>Small business representative</h3>
@@ -81,7 +81,6 @@ export default class IAC extends React.Component {
   				</a>
   			</div>
         <ModalGF/>
-
                 <p>Representatives of the following organisations:</p>
                 <ul>
                   <li>Allied Express Transport</li>
