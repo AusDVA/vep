@@ -1,5 +1,6 @@
 import React from "react";
 import IacNews from "./iacnews";
+import DefaultBio from '../image/placeholderbio.png';
 export default class IAC extends React.Component {
 
   render() {
@@ -62,8 +63,100 @@ export default class IAC extends React.Component {
                     </p>
                     <p>Ms Natalie Colbert<br/><br/></p>
                   </div>
-
                 </div>
+
+
+
+                <div className="row">
+                  <div className="col-md-3 col-sm-3 col-xs-3">
+                    <img src={DefaultBio} alt="George Frazis" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Mr George Frazis</h3> 
+                    <p>Chair | <a href="" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-3">
+                    <img src={DefaultBio} alt="Ben Roberts-Smith" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Mr Ben Roberts-Smith VC, MG</h3> 
+                    <p>Deputy Chair | <a href="" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-3">
+                    <img src={DefaultBio} alt="George Frazis" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Ms Natalie Colbert</h3> 
+                    <p>Small Business Representative | <a href="" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-3">
+                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Sample Person</h3> 
+                    <p>Member | <a href="" class="">Bio</a></p>
+                  </div>
+                </div>
+
+                <div className="row">
+                  <div className="col-md-3 col-sm-3 col-xs-3">
+                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Sample Person</h3> 
+                    <p>Member | <a href="" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-3">
+                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Sample Person</h3> 
+                    <p>Member | <a href="" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-3">
+                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Sample Person</h3> 
+                    <p>Member | <a href="" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-3">
+                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Sample Person</h3> 
+                    <p>Member | <a href="" class="">Bio</a></p>
+                  </div>
+                </div>
+
+
+                
+                <div className="row">
+                  <div className="col-md-3 col-sm-3 col-xs-3">
+                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Sample Person</h3> 
+                    <p>Member | <a href="" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-3">
+                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Sample Person</h3> 
+                     <p>Member | <a href="" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-3">
+                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Sample Person</h3> 
+                    <p>Member | <a href="" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-3">
+                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Sample Person</h3> 
+                    <p>Member | <a href="" class="">Bio</a></p>
+                  </div>
+                </div>
+
+
+                
+                <div className="row">
+                  <div className="col-md-3 col-sm-3 col-xs-3">
+                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Sample Person</h3> 
+                    <p>Member | <a href="" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-3">
+                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Sample Person</h3> 
+                    <p>Member | <a href="" class="">Bio</a></p>
+                  </div>
+                </div>
+
+
+
+
+                <p></p>
                 <p>Representatives of the following organisations:</p>
                 <ul>
                   <li>Allied Express Transport</li>
