@@ -50,12 +50,12 @@ export default class IAC extends React.Component {
                 </ol>
                 <h2 id="Membership">Membership</h2>
                 <div className="row">
-                  <div className="col-md-4 col-sm-4 col-xs-6">
+                  <div className="col-md-4 col-sm-6 col-xs-6">
                     <p>Chair</p>
                     <p>Deputy Chair</p>
                     <p>Small business representative</p>
                   </div>
-                  <div className="col-md-4 col-sm-4 col-xs-6">
+                  <div className="col-md-6 col-sm-6 col-xs-6">
                     <p>Mr George Frazis
                     </p>
                     <p>Mr Ben Roberts-Smith VC, MG
