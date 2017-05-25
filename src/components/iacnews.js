@@ -15,11 +15,11 @@ export default class IACNews extends React.Component {
                         <div className="row">
                             <div className="col-sm-4"><img alt="Opera house" src={Opera} /></div>
                             <div className="col-sm-8">
-                                <h4><a href="#">Industry Advisory Committee on Veterans’ Employment Communique – 31
+                                <h4 className="news-headline"><a href="#">Industry Advisory Committee on Veterans’ Employment Communique – 31
                                     March 2017</a></h4>
                                 <p>The Industry Advisory Committee on Veterans’ Employment held its inaugural meeting in
                                     Sydney
-                                    on 31 March 2017.... <a href="#">Read more</a></p>
+                                    on 31 March 2017... <a href="#">Read&nbsp;more</a></p>
                             </div>
                         </div>
                     </section>

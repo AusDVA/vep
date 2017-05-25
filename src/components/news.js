@@ -17,8 +17,8 @@ export default class News extends React.Component {
     					<div className="row">
     						<div className="col-sm-4"><img alt="Opera house" src={Opera}/></div>
     						<div className="col-sm-8">
-    							<h4><a href="#">Industry Advisory Committee's inaugural meeting</a></h4>
-    							<p>The Industry Advisory Committee on Veterans’ Employment held its inaugural meeting in Sydney on 31 March 2017... <a href="#">Read more</a></p>
+    							<h4 className="news-headline"><a href="#">Industry Advisory Committee's inaugural meeting</a></h4>
+    							<p>The Industry Advisory Committee on Veterans’ Employment held its inaugural meeting in Sydney on 31 March 2017... <a href="#">Read&nbsp;more</a></p>
     						</div>
     					</div>
               </section>
@@ -29,8 +29,8 @@ export default class News extends React.Component {
     					<div className="row">
     						<div className="col-sm-4"><img alt="Disabled worker" src={Worker}/></div>
     						<div className="col-sm-8">
-    							<h4><a href="#">Helping veterans to find jobs</a></h4>
-    							<p>Jobactive is a board to help veterans to find jobs where ADF experience is valued... <a href="#">Read more</a></p>
+    							<h4 className="news-headline"><a href="#">Helping veterans to find jobs</a></h4>
+    							<p>Jobactive is a board to help veterans to find jobs where ADF experience is valued... <a href="#">Read&nbsp;more</a></p>
     						</div>
     					</div>
     				</section>
