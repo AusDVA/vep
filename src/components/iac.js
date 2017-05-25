@@ -1,6 +1,7 @@
 import React from "react";
 import IacNews from "./iacnews";
 import ExampleImage from "../image/ico-user.svg";
+import ModalGF from "./Bio/GeorgeFrazisModal";
 export default class IAC extends React.Component {
 
   render() {
@@ -51,11 +52,11 @@ export default class IAC extends React.Component {
                 </ol>
                 <h2 id="Membership">Membership</h2>
                 <div className="row cards">
-  				<a href="#">
+  				       <a href="#"data-toggle="modal" data-target="#chairModal">
   					<div className="col-md-4 text-center">
   						<div className="cards-item">
                 <img className="cards-image" src={ExampleImage} alt="Mr George Frazis"/>
-  							<h4>Chair</h4>
+  							<h3>Chair</h3>
                 <p>Mr George Frazis</p>
   						</div>
   					</div>
@@ -64,7 +65,7 @@ export default class IAC extends React.Component {
   					<div className="col-md-4 text-center">
   						<div className="cards-item">
                 <img className="cards-image" src={ExampleImage} alt="Mr Ben Roberts-Smith VC, MG"/>
-                <h4>Deputy Chair</h4>
+                <h3>Deputy Chair</h3>
                 <p>Mr Ben Roberts-Smith VC, MG</p>
   						</div>
   					</div>
@@ -73,12 +74,14 @@ export default class IAC extends React.Component {
   					<div className="col-md-4 text-center">
   						<div className="cards-item">
                 <img className="cards-image" src={ExampleImage} alt="Ms Natalie Colbert"/>
-                <h4>Small business representative</h4>
+                <h3>Small business representative</h3>
                 <p>Ms Natalie Colbert</p>
   						</div>
   					</div>
   				</a>
   			</div>
+        <ModalGF/>
+
                 <p>Representatives of the following organisations:</p>
                 <ul>
                   <li>Allied Express Transport</li>
