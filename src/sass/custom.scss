@@ -5,10 +5,7 @@ html {
 .vep-branding {
   margin-top: 1.3em;
   width: 100%;
-  background: #263873; /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #263873 0%, #3eaab7 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #263873 0%,#3eaab7 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #263873 0%,#3eaab7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(135deg, #263873 0%,#3eaab7 100%);
   max-height: 19vh;
 }
 
