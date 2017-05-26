@@ -1,5 +1,12 @@
 import React from "react";
 import IacNews from "./iacnews";
+import ModalGF from "./Bio/GeorgeFrazisModal";
+import ModalNC from "./Bio/NatalieColbertModal";
+import ModalBR from "./Bio/BenRobertsSmithModal";
+import George_Frazis from "../image/bio/George_Frazis.jpg";
+import Natalie_Colbert from "../image/bio/Natalie_Colbert.jpg"; 
+import Roberts_Smith from "../image/bio/ROBERTS_SMITH.jpg";
+
 export default class IAC extends React.Component {
 
   render() {
@@ -49,21 +56,81 @@ export default class IAC extends React.Component {
                       2017 outlining the Committee's progress against these Terms of Reference.</li>
                 </ol>
                 <h2 id="Membership">Membership</h2>
-                <div className="row">
-                  <div className="col-md-4 col-sm-4 col-xs-6">
-                    <p>Chair</p>
-                    <p>Deputy Chair</p>
-                    <p>Small business representative</p>
-                  </div>
-                  <div className="col-md-4 col-sm-4 col-xs-6">
-                    <p>Mr George Frazis
-                    </p>
-                    <p>Mr Ben Roberts-Smith VC, MG
-                    </p>
-                    <p>Ms Natalie Colbert<br/><br/></p>
-                  </div>
-
-                </div>
+                <div className="row cards">
+  				       <a href="#"data-toggle="modal" data-target="#chairModal">
+  					<div className="col-md-4 col-sm-4 text-center">
+  						<div className="cards-item">
+                <img className="cards-image" src={George_Frazis} alt="Mr George Frazis"/>
+  							<h3>Chair</h3>
+                <p>Mr George Frazis</p>
+  						</div>
+  					</div>
+  				</a>
+  				<a href="#" data-toggle="modal" data-target="#Deputy_Chair">
+  					<div className="col-md-4 col-sm-4 text-center">
+  						<div className="cards-item">
+                <img className="cards-image" src={Roberts_Smith} alt="Mr Ben Roberts-Smith VC, MG"/>
+                <h3>Deputy Chair</h3>
+                <p>Mr Ben Roberts-Smith VC, MG</p>
+  						</div>
+  					</div>
+  				</a>
+  				<a href="#" data-toggle="modal" data-target="#repModal">
+  					<div className="col-md-4 col-sm-4 text-center">
+  						<div className="cards-item">
+                <img className="cards-image" src={Natalie_Colbert} alt="Ms Natalie Colbert"/>
+                <h3>Small business representative</h3>
+                <p>Ms Natalie Colbert</p>
+  						</div>
+  					</div>
+  				</a>
+  			</div>
+        <h2 className="text-center">Or?</h2>
+        <div className="row">       
+          
+   <div className="col-md-4 col-sm-4 text-center">
+      <div className="iac-container">
+         <img src={George_Frazis} className="iac-img-sm" alt="Mr George Frazis"/>
+         <div className="iac-details-container-sm">
+            <div className="iac-details-sm">
+               <p className="title">Chair</p>
+               <p className="name">Mr George Frazis</p>
+               <p><a href="#" data-toggle="modal" data-target="#chairModal">View Biography</a></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   
+    <div className="col-md-4 col-sm-4 text-center">
+      <div className="iac-container">
+         <img src={Roberts_Smith} className="iac-img-sm" alt="Mr Ben Roberts-Smith VC, MG"/>
+         <div className="iac-details-container-sm">
+            <div className="iac-details-sm">
+               <p className="title">Deputy Chair</p>
+               <p className="name">Mr Ben Roberts-Smith VC, MG</p>
+               <p><a href="#" data-toggle="modal" data-target="#Deputy_Chair">View Biography</a></p>
+               </div>
+            </div>
+         </div>
+      </div>
+    
+    <div className="col-md-4 col-sm-4 text-center">
+      <div className="iac-container">
+         <img src={Natalie_Colbert} className="iac-img-sm" alt="Ms Natalie Colbert"/>
+         <div className="iac-details-container-sm">
+            <div className="iac-details-sm">
+               <p className="title">Small business representative</p>
+               <p className="name">Ms Natalie Colbert</p>
+               <p><a href="#" data-toggle="modal" data-target="#repModal">View Biography</a></p>
+               </div>
+            </div>
+         </div>
+      </div>
+ 
+</div>
+        <ModalGF/>
+        <ModalNC/>
+        <ModalBR/>
                 <p>Representatives of the following organisations:</p>
                 <ul>
                   <li>Allied Express Transport</li>

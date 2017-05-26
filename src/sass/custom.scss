@@ -171,3 +171,92 @@ h10 {
 .news-headline {
   line-height: 1.5em;
 }
+
+.iac-img-sm {
+  width: 210px;
+}
+
+.iac-details-container-sm {
+  width: 210px;
+  height: 130px;
+  background-color: #6d757a;
+  padding-top: 1.5em;
+
+}
+
+.iac-details-sm {
+  margin: 0 0 15px 5px;
+}
+.iac-details-lg p, .iac-details-sm p {
+  margin: 0;
+}
+
+.iac-details-sm .title,
+.iac-details-sm .name, {
+  color: #fff;
+}
+
+.iac-container {
+  height: 300px;
+  width: 210px;
+  margin-bottom: 16em;
+  margin-right: 1em;
+}
+
+.iac-details-sm .name,
+.iac-details-sm .title,
+ {
+  font-size: 8px;
+}
+
+.iac-details-sm .title {
+  font-weight: 400;
+}
+
+.iac-details-sm .title {
+  font-size: 18px;
+}
+
+.iac-details-sm .name {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.iac-details-sm .name {
+  font-size: 16px;
+}
+
+.cards {
+  margin-top: 5vh;
+}
+
+.cards-item:hover ,
+.cards-item:focus {
+  background-color: #F0F3F5;
+  border-bottom: 6px solid black;
+}
+
+.cards-image {
+  max-height: 200px;
+  padding-bottom:1em;
+  border-bottom: solid 1px #bbbbbb;
+}
+
+.cards-item {
+  height: 350px;
+  background-color: #fff;
+  line-height: 1.2;
+  padding: 2.25em 1.2em 0.8em 0.6em;
+  border-bottom: 6px solid #2A9ED1;
+  border-radius: 3px;
+  box-shadow: 2px 0 6px rgba(49,49,49,0.7);
+  margin-bottom: 2em;
+}
+.cards-item h4 {
+  margin-top: 1em;
+}
+
+.modal-footer,
+.modal-header, {
+  background-color: #f0f3f5;
+}
