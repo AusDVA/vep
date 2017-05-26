@@ -10,18 +10,21 @@ html {
   background: -webkit-linear-gradient(-45deg, #263873 0%,#3eaab7 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(135deg, #263873 0%,#3eaab7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   max-height: 19vh;
+
 }
 
 .vep-branding img {
   max-width: 100%;
   max-height: 19vh;
   height: auto;
+  -ms-interpolation-mode: bicubic;
 }
 
 .logo img {
     max-width: 300px;
     max-height: 72px;
     margin: 1em 0 1.5em 0;
+    -ms-interpolation-mode: bicubic;
 }
 
 body {

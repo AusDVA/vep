@@ -1,6 +1,24 @@
 import React from "react";
 import IacNews from "./iacnews";
-import DefaultBio from '../image/placeholderbio.png';
+import DefaultBio from '../image/bios/placeholderbio.png';
+import BioColbert from '../image/bios/biocolbert.png';
+import BioFrazis from '../image/bios/biofrazis.png';
+import BioBlake from '../image/bios/bioblake.png';
+import BioGalgsdies from '../image/bios/biogalgsdies.png';
+import BioJansen from '../image/bios/biojansen.png';
+import BioLambert from '../image/bios/biolambert.png';
+import BioLefever from '../image/bios/biolefever.png';
+import BioMcdowell from '../image/bios/biomcdowell.png';
+import BioPalmerlee from '../image/bios/biopalmerlee.png';
+import BioParker from '../image/bios/bioparker.png';
+import BioPlaskett from '../image/bios/bioplaskett.png';
+import BioRobertsSmith from '../image/bios/bioroberts-smith.png';
+import BioRosenfield from '../image/bios/biorosenfield.png';
+import BioWard from '../image/bios/bioward.png';
+
+
+
+
 export default class IAC extends React.Component {
 
   render() {
@@ -69,46 +87,47 @@ export default class IAC extends React.Component {
 
                 <div className="row">
                   <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={DefaultBio} alt="George Frazis" class="block image-circle" height="150px" width="150px"></img>
+                    <img src={BioFrazis} alt="Image of George Frazis" class="block image-circle" height="150px" width="150px"></img>
                     <h3>Mr George Frazis</h3> 
                     <p>Chair | <a href="" class="">Bio</a></p>
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={DefaultBio} alt="Ben Roberts-Smith" class="block image-circle" height="150px" width="150px"></img>
+                    <img src={BioRobertsSmith} alt="Image of Ben Roberts-Smith" class="block image-circle" height="150px" width="150px"></img>
                     <h3>Mr Ben Roberts-Smith VC, MG</h3> 
                     <p>Deputy Chair | <a href="" class="">Bio</a></p>
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={DefaultBio} alt="George Frazis" class="block image-circle" height="150px" width="150px"></img>
+                    <img src={BioColbert} alt="Image of Natalie Colbert" class='img-circle' height="150px" width="150px"></img>
                     <h3>Ms Natalie Colbert</h3> 
                     <p>Small Business Representative | <a href="" class="">Bio</a></p>
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
-                    <h3>Sample Person</h3> 
+                    <img src={BioBlake} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Mr Chris Blake</h3> 
                     <p>Member | <a href="" class="">Bio</a></p>
                   </div>
                 </div>
 
                 <div className="row">
                   <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
-                    <h3>Sample Person</h3> 
+                    <img src={BioGalgsdies} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Mr Mark Galgsdies</h3> 
                     <p>Member | <a href="" class="">Bio</a></p>
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
-                    <h3>Sample Person</h3> 
+                    <img src={BioJansen} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Mr Mark Jansen</h3> 
                     <p>Member | <a href="" class="">Bio</a></p>
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
-                    <h3>Sample Person</h3> 
+                    <img src={BioLambert} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Ms Jenny Lambert</h3> 
                     <p>Member | <a href="" class="">Bio</a></p>
                   </div>
+
                   <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
-                    <h3>Sample Person</h3> 
+                    <img src={BioLefever} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Mr Jim Lefever</h3> 
                     <p>Member | <a href="" class="">Bio</a></p>
                   </div>
                 </div>
@@ -117,23 +136,23 @@ export default class IAC extends React.Component {
                 
                 <div className="row">
                   <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
-                    <h3>Sample Person</h3> 
+                    <img src={BioMcdowell} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Mr Colin McDowell</h3> 
                     <p>Member | <a href="" class="">Bio</a></p>
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
-                    <h3>Sample Person</h3> 
+                    <img src={BioPalmerlee} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Mr Luke Palmerlee</h3> 
                      <p>Member | <a href="" class="">Bio</a></p>
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
-                    <h3>Sample Person</h3> 
+                    <img src={BioParker} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Ms Christine Parker</h3> 
                     <p>Member | <a href="" class="">Bio</a></p>
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
-                    <h3>Sample Person</h3> 
+                    <img src={BioPlaskett} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Mr Andrew Plaskett</h3> 
                     <p>Member | <a href="" class="">Bio</a></p>
                   </div>
                 </div>
@@ -142,13 +161,13 @@ export default class IAC extends React.Component {
                 
                 <div className="row">
                   <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
-                    <h3>Sample Person</h3> 
+                    <img src={BioRosenfield} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Mr Dean Rosenfield</h3> 
                     <p>Member | <a href="" class="">Bio</a></p>
                   </div>
                   <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={DefaultBio} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
-                    <h3>Sample Person</h3> 
+                    <img src={BioWard} alt="Sample" class="block image-circle" height="150px" width="150px"></img>
+                    <h3>Mr Michael Ward</h3> 
                     <p>Member | <a href="" class="">Bio</a></p>
                   </div>
                 </div>
