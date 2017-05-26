@@ -72,8 +72,8 @@ export default class IAC extends React.Component {
                 <img className="cards-image" src={Roberts_Smith} alt="Mr Ben Roberts-Smith VC, MG"/>
                 <h3>Deputy Chair</h3>
                 <p>Mr Ben Roberts-Smith VC, MG</p>
-  						</div>
-  					</div>
+  						</div> 
+              </div> 					
   				</a>
   				<a href="#" data-toggle="modal" data-target="#repModal">
   					<div className="col-md-4 col-sm-4 text-center">
