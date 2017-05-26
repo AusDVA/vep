@@ -1,6 +1,6 @@
 
 import React from 'react';
-import FranzisImg from '../image/Frazis.jpg';
+import FrazisImg from '../../image/bio/Frazis.jpg';
 export default class BioFrazis extends React.Component {
 
   render(){
@@ -14,7 +14,7 @@ export default class BioFrazis extends React.Component {
 
               <div className="col-xs-5 col-md-3 col-sm-3">
                   <div className="thumbnail">
-                    <img src={FranzisImg} alt="Mr George Frazis"/>
+                    <img src={FrazisImg} alt="Mr George Frazis"/>
                   </div>
               </div>
 

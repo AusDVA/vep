@@ -1,6 +1,6 @@
 
 import React from 'react';
-import RobertsSImg from '../image/RobertsS.jpg';
+import RobertsSImg from '../../image/bio/RobertsS.jpg';
 export default class BioRobertsS extends React.Component {
 
   render(){ 

@@ -1,14 +1,13 @@
 import React from "react";
-import FranzisImg from '../image/Frazis.jpg';
-import MarkGImg from '../image/MarkG.jpg';
-import RobertsSImg from '../image/RobertsS.jpg';
-import BlakeCImg from '../image/BlakeC.jpg';
+import FrazisImg from '../../image/bio/Frazis.jpg';
+import MarkGImg from '../../image/bio/MarkG.jpg';
+import RobertsSImg from '../../image/bio/RobertsS.jpg';
+import BlakeCImg from '../../image/bio/BlakeC.jpg';
 
 export default class BIOS extends React.Component {
 
   render() {
-    return (
-      //placeholder for eso page.
+    return (    
       <div>
         <section>
           <div className="body-content container">
@@ -22,7 +21,7 @@ export default class BIOS extends React.Component {
 
                     <div className="col-lg-3 col-md-4 col-xs-6 thumb">
                       <a href="/bioFrazis" className="thumbnail">
-                        <img src={FranzisImg} alt="Groge Frazis" ></img>
+                        <img src={FrazisImg} alt="Groge Frazis" ></img>
                         <p className="thumnail-text"><strong>Groge Frazis</strong> | Chair</p>
                       </a>
                     </div>
@@ -50,7 +49,7 @@ export default class BIOS extends React.Component {
 
                     <div className="col-lg-3 col-md-4 col-xs-6 thumb">
                       <a href="#" className="thumbnail">
-                        <img src={FranzisImg} alt=""></img>
+                        <img src={FrazisImg} alt=""></img>
                         <p className="thumnail-text"><strong>Groge Frazis</strong> | Chair </p>
                       </a>
                     </div>

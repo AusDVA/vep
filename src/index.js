@@ -14,9 +14,9 @@ import Footer from "./components/footer";
 import IAC from "./components/iac";
 import Employers from "./components/employers";
 import Header from "./components/header";
-import Bios from "./components/bios";
-import BioFrazis from "./components/bioFrazis";
-import BioRobertsS from "./components/bioRobertsS";
+import Bios from "./components/Bio/bios";
+import BioFrazis from "./components/Bio/bioFrazis";
+import BioRobertsS from "./components/Bio/bioRobertsS";
 import store from "./store.js";
 //CSS
 import "./sass/styles.scss";
