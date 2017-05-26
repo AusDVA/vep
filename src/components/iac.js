@@ -1,7 +1,9 @@
 import React from "react";
 import IacNews from "./iacnews";
-import ExampleImage from "../image/ico-user.svg";
 import ModalGF from "./Bio/GeorgeFrazisModal";
+import George_Frazis from "../image/bio/George_Frazis.jpg";
+import Natalie_Colbert from "../image/bio/Natalie_Colbert.jpg"; 
+import Roberts_Smith from "../image/bio/ROBERTS_SMITH.jpg";
 export default class IAC extends React.Component {
 
   render() {
@@ -55,7 +57,7 @@ export default class IAC extends React.Component {
   				       <a href="#"data-toggle="modal" data-target="#chairModal">
   					<div className="col-md-4 col-sm-4 text-center">
   						<div className="cards-item">
-                <img className="cards-image" src={ExampleImage} alt="Mr George Frazis"/>
+                <img className="cards-image" src={George_Frazis} alt="Mr George Frazis"/>
   							<h3>Chair</h3>
                 <p>Mr George Frazis</p>
   						</div>
@@ -64,7 +66,7 @@ export default class IAC extends React.Component {
   				<a href="#">
   					<div className="col-md-4 col-sm-4 text-center">
   						<div className="cards-item">
-                <img className="cards-image" src={ExampleImage} alt="Mr Ben Roberts-Smith VC, MG"/>
+                <img className="cards-image" src={Roberts_Smith} alt="Mr Ben Roberts-Smith VC, MG"/>
                 <h3>Deputy Chair</h3>
                 <p>Mr Ben Roberts-Smith VC, MG</p>
   						</div>
@@ -73,13 +75,58 @@ export default class IAC extends React.Component {
   				<a href="#">
   					<div className="col-md-4 col-sm-4 text-center">
   						<div className="cards-item">
-                <img className="cards-image" src={ExampleImage} alt="Ms Natalie Colbert"/>
+                <img className="cards-image" src={Natalie_Colbert} alt="Ms Natalie Colbert"/>
                 <h3>Small business representative</h3>
                 <p>Ms Natalie Colbert</p>
   						</div>
   					</div>
   				</a>
   			</div>
+
+        <h2 className="text-center">Or?</h2>
+
+        <div className="row">
+        
+   <div className="col-md-4 col-sm-4 text-center">
+      <div className="iac-container">
+         <img src={George_Frazis} className="iac-img-sm" alt="Mr George Frazis"/>
+         <div className="iac-details-container-sm">
+            <div className="iac-details-sm">
+               <p className="title">Chair</p>
+               <p className="name">Mr George Frazis</p>
+               <p><a href="#" data-toggle="modal" data-target="#chairModal">View Biography</a></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   
+    <div className="col-md-4 col-sm-4 text-center">
+      <div className="iac-container">
+         <img src={Roberts_Smith} className="iac-img-sm" alt="Mr Ben Roberts-Smith VC, MG"/>
+         <div className="iac-details-container-sm">
+            <div className="iac-details-sm">
+               <p className="title">Deputy Chair</p>
+               <p className="name">Mr Ben Roberts-Smith VC, MG</p>
+               <p><a href="#">View Biography</a></p>
+               </div>
+            </div>
+         </div>
+      </div>
+    
+    <div className="col-md-4 col-sm-4 text-center">
+      <div className="iac-container">
+         <img src={Natalie_Colbert} className="iac-img-sm" alt="Ms Natalie Colbert"/>
+         <div className="iac-details-container-sm">
+            <div className="iac-details-sm">
+               <p className="title">Small business representative</p>
+               <p className="name">Ms Natalie Colbert</p>
+               <p><a href="#">View Biography</a></p>
+               </div>
+            </div>
+         </div>
+      </div>
+ 
+</div>
         <ModalGF/>
                 <p>Representatives of the following organisations:</p>
                 <ul>

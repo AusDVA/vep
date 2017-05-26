@@ -1,5 +1,5 @@
 import React from "react";
-import ExampleImage from "../../image/ico-user.svg";
+import George_Frazis from "../../image/bio/George_Frazis.jpg";
 export default class ModalGF  extends React.Component {
 
   render() {
@@ -16,7 +16,7 @@ export default class ModalGF  extends React.Component {
                 <div className="row">
                   <div className="col-xs-5 col-md-3 col-sm-3">
                     <div className="thumbnail">
-                      <img src={ExampleImage} alt="Mr George Frazis"/>
+                      <img src={George_Frazis} alt="Mr George Frazis"/>
                     </div>
                     </div>
                   <div className="col-md-6 col-xs-7">
