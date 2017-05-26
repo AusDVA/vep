@@ -58,33 +58,33 @@ class Contact extends React.Component {
         <div className="subheader">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-7 col-md-offset-3">
-                <h2 className="section-heading">Contact Us</h2>
+              <div className="col-md-7">
+
               </div>
             </div>
           </div>
         </div>
         <section>
-          <div className="container-fluid">
+          <div className="container">
             <div className="row">
-              <div className="col-md-6 col-md-offset-3 contact-form">
-
-                <div className="col-md-7">
+              <div className="col-md-12">
+                <h1>Contact Us</h1>
+                <div className="col-md-7 col-sm-6">
                   <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
                     <Field name="firstname" label="Name: " placeholder="ex. John Smith" component={this.renderField}/>
                     <Field name="email" label="Email: " placeholder="ex. john.smith@example.com" component={this.renderField}/>
                     <Field name="phone" label="Phone: " placeholder="ex. 0412 345 678" component={this.renderField}/>
                     <Field name="feedback" label="Message: " component={this.renderFeedback}/>
 
-                    <div className="col-md-12"></div>
-                    <div className="col-md-1">
+                    <div className="col-md-1 col-sm-3">
                       <button className="btn btn-default" type="submit">Submit</button>
+                      <br/> <br/> 
                     </div>
                   </form>
 
                 </div>
-                <div className="col-md-5">
-                  <div className="contact-details">
+                <div className="col-md-5 col-sm-6">
+                  <div className="contact">
                     <h4>Contact Details</h4>
                     <h5>
                       <i className="fa fa-phone-square"></i>&nbsp;
