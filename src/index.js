@@ -16,6 +16,7 @@ import Employers from "./components/employers";
 import Header from "./components/header";
 import Bios from "./components/bios";
 import BioFrazis from "./components/bioFrazis";
+import BioRobertsS from "./components/bioRobertsS";
 import store from "./store.js";
 //CSS
 import "./sass/styles.scss";
@@ -43,6 +44,7 @@ ReactDOM.render(
           <Route path="/awards" component={Awards}/>
           <Route path="/bios" component={Bios}/>
           <Route path="/bioFrazis" component={BioFrazis}/>
+          <Route path="/bioRobertsS" component={BioRobertsS}/>
          <Provider store={ store }>
           <Route path="/contact" component={Contact}/>
          </Provider>
