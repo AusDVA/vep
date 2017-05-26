@@ -17,7 +17,11 @@ export default class NavBar extends React.Component {
               <nav id="top-nav">
                 <ul className="list-inline pull-right">
                   <li><NavLink to="/about">About</NavLink></li>
-                  <li><NavLink to="/contact">Contact</NavLink></li>
+                    <li>
+                        <NavLink to="/contact">
+                            <span className="glyphicon glyphicon-earphone" aria-hidden="true"></span> Contact
+                        </NavLink>
+                    </li>
                 </ul>
               </nav>
           </div>
