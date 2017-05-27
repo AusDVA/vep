@@ -14,7 +14,7 @@ export default class BioJansenM extends React.Component {
 
               <div className="col-xs-5 col-md-3 col-sm-3">
                   <div className="thumbnail">
-                    <img src={JansenMImg} alt="Mr George Frazis"/>
+                    <img src={JansenMImg} alt="Mark Jansen"/>
                   </div>
               </div>
 
