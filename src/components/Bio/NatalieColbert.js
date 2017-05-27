@@ -20,7 +20,7 @@ export default class NatalieColbert extends React.Component {
               <div className="col-md-8" id="mainCol">
                   <h4>Natalie Colbert</h4>
                   <h4>Chief Executive Officer</h4>
-                  <h4>Chief Executive Officer</h4>
+                  <h4>CanPLAY Pty Ltd</h4>
                   <p>Natalie has eight years of corporate experience as the founder and sole director/Chief Executive Officer 
                        of CanPLAY Pty Ltd, a company managing three separate early childhood business in Canberra and offering
                         consulting services to other early childhood education providers.</p>
