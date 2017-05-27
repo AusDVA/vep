@@ -14,7 +14,7 @@ export default class BioLefeverJ extends React.Component {
 
               <div className="col-xs-5 col-md-3 col-sm-3">
                   <div className="thumbnail">
-                    <img src={LefeverJImg} alt="Mr George Frazis"/>
+                    <img src={LefeverJImg} alt="Jim Lefever"/>
                   </div>
               </div>
 
