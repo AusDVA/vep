@@ -15,6 +15,7 @@ import Footer from "./components/footer";
 import IAC from "./components/iac";
 import Employers from "./components/employers";
 import Header from "./components/header";
+import Bio from "./components/bio";
 import store from "./store.js";
 //CSS
 import "./sass/styles.scss";
@@ -39,6 +40,7 @@ ReactDOM.render(
                 <Route path="/veterans" component={withTracker(Veterans)}/>
                 <Route path="/ex-service-organisations" component={withTracker(ESO)}/>
                 <Route path="/awards" component={withTracker(Awards)}/>
+                <Route path="/member-biographies" component={withTracker(Bio)}/>
                 <Provider store={ store }>
                     <Route path="/contact" component={withTracker(Contact)}/>
                 </Provider>

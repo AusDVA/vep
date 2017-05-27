@@ -1,0 +1,27 @@
+// custom print styles
+
+@media print {
+
+   img {
+     page-break-before: auto;
+     page-break-after: auto;
+     page-break-inside: avoid;
+    }
+
+    .bio-section,
+    #bio-section {
+      page-break-before: auto;
+      page-break-after: auto;
+      page-break-inside: avoid;
+    }
+
+    .logo img {
+      margin-top: 1em;
+      margin-bottom: 1em;
+      margin-left: 0;
+    }
+    a:link:after, a:visited:after {
+        content: "";
+    }
+
+}

@@ -224,7 +224,7 @@ export default class Veterans extends React.Component {
                                     professional
                                     financial education (not advice) to ADF members and their families.</p>
                                 <GeneralResourses/>
-                                <p>
+                                <p className="hidden-print">
                                     <a className="" href="#">Top
                                         <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
                                     </a>
