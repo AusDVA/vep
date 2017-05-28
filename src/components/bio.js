@@ -1,19 +1,19 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import BioColbert from "../image/bios/biocolbert.png";
-import BioFrazis from "../image/bios/biofrazis.png";
-import BioBlake from "../image/bios/bioblake.png";
-import BioGalgsdies from "../image/bios/biogalgsdies.png";
-import BioJansen from "../image/bios/biojansen.png";
-import BioLambert from "../image/bios/biolambert.png";
-import BioLefever from "../image/bios/biolefever.png";
-import BioMcdowell from "../image/bios/biomcdowell.png";
-import BioPalmerlee from "../image/bios/biopalmerlee.png";
-import BioParker from "../image/bios/bioparker.png";
-import BioPlaskett from "../image/bios/bioplaskett.png";
-import BioRobertsSmith from "../image/bios/bioroberts-smith.png";
-import BioRosenfield from "../image/bios/biorosenfield.png";
-import BioWard from "../image/bios/bioward.png";
+import BioColbert from "../image/bios/Natalie_Colbert.png";
+import BioFrazis from "../image/bios/George_Frazis.png";
+import BioBlake from "../image/bios/BlakeC.png";
+import BioGalgsdies from "../image/bios/MarkG.png";
+import BioJansen from "../image/bios/JansenM.png";
+import BioLambert from "../image/bios/Jenny.png";
+import BioLefever from "../image/bios/LefeverJ.png";
+import BioMcdowell from "../image/bios/ColinMcDowell.png";
+import BioPalmerlee from "../image/bios/LukePalmerlee.png";
+import BioParker from "../image/bios/ParkerC.png";
+import BioPlaskett from "../image/bios/AndrewPlaskett.png";
+import BioRobertsSmith from "../image/bios/ROBERTS_SMITH.png";
+import BioRosenfield from "../image/bios/DeanRosenfield.png";
+import BioWard from "../image/bios/MichaelWard.png";
 export default class Bio extends React.Component {
 
   render(){
@@ -28,14 +28,14 @@ export default class Bio extends React.Component {
 
         <section id="BioFrazis">
           <div className="row">
-            <div className="col-xs-5 col-md-3 col-sm-3">
+           <div className="col-xs-6 col-md-3 col-sm-3">
 
                   <div className="thumbnail">
                     <img src={BioFrazis} alt="Mr George Frazis"/>
                   </div>
               </div>
 
-              <div className="col-md-8" id="mainCol">
+           <div className="col-md-8" id="mainCol">
                   <h4><strong>George Frazis</strong></h4>
                   <h4><strong>Chief Executive, Consumer Bank</strong></h4>
                   <h4><strong>Westpac Group</strong></h4>
@@ -79,7 +79,7 @@ export default class Bio extends React.Component {
 
         <section className="bio-section" id="BioRobertsSmith">
           <div className="row">
-             <div className="col-xs-5 col-md-3 col-sm-3">
+             <div className="col-xs-6 col-md-3 col-sm-3">
                  <div className="thumbnail">
                    <img src={BioRobertsSmith} alt="Ben Roberts-Smith "/>
                  </div>
@@ -121,7 +121,7 @@ export default class Bio extends React.Component {
 
         <section className="bio-section" id="BioColbert">
           <div className="row">
-            <div className="col-xs-5 col-md-3 col-sm-3">
+            <div className="col-xs-6 col-md-3 col-sm-3">
                 <div className="thumbnail">
                   <img src={BioColbert} alt="Natalie Colbert"/>
                 </div>
@@ -153,7 +153,7 @@ export default class Bio extends React.Component {
 
       <section className="bio-section" id="BioBlake">
           <div className="row">
-              <div className="col-xs-5 col-md-3 col-sm-3">
+              <div className="col-xs-6 col-md-3 col-sm-3">
                   <div className="thumbnail">
                     <img src={BioBlake} alt="Chris Blake"/>
                   </div>
@@ -193,7 +193,7 @@ export default class Bio extends React.Component {
 
         <section className="bio-section" id="BioGalgsdies">
           <div className="row">
-           <div className="col-xs-5 col-md-3 col-sm-3">
+           <div className="col-xs-6 col-md-3 col-sm-3">
                <div className="thumbnail">
                  <img src={BioGalgsdies} alt="Mark Galgsdies"/>
                </div>
@@ -237,7 +237,7 @@ export default class Bio extends React.Component {
         <section className="bio-section" id="BioJansen">
           <div className="row">
 
-            <div className="col-xs-5 col-md-3 col-sm-3">
+            <div className="col-xs-6 col-md-3 col-sm-3">
                 <div className="thumbnail">
                   <img src={BioJansen} alt="Mark Jansen"/>
                 </div>
@@ -272,7 +272,7 @@ export default class Bio extends React.Component {
 
         <section className="bio-section" id="BioLambert">
           <div className="row">
-               <div className="col-xs-5 col-md-3 col-sm-3">
+               <div className="col-xs-6 col-md-3 col-sm-3">
                    <div className="thumbnail">
                      <img src={BioLambert} alt="Jenny Lambert"/>
                    </div>
@@ -303,7 +303,7 @@ export default class Bio extends React.Component {
 
         <section className="bio-section" id="BioLefever">
           <div className="row">
-           <div className="col-xs-5 col-md-3 col-sm-3">
+           <div className="col-xs-6 col-md-3 col-sm-3">
                <div className="thumbnail">
                  <img src={BioLefever} alt="Jim Lefever"/>
                </div>
@@ -334,7 +334,7 @@ export default class Bio extends React.Component {
         <section className="bio-section" id="BioMcdowell">
           <div className="row">
 
-              <div className="col-xs-5 col-md-3 col-sm-3">
+              <div className="col-xs-6 col-md-3 col-sm-3">
                   <div className="thumbnail">
                     <img src={BioMcdowell} alt="Colin McDowell"/>
                   </div>
@@ -364,7 +364,7 @@ export default class Bio extends React.Component {
 
         <section className="bio-section" id="BioPalmerlee">
           <div className="row">
-             <div className="col-xs-5 col-md-3 col-sm-3">
+             <div className="col-xs-6 col-md-3 col-sm-3">
                  <div className="thumbnail">
                    <img src={BioPalmerlee} alt="Mr Luke Palmerlee"/>
                  </div>
@@ -395,7 +395,7 @@ export default class Bio extends React.Component {
 
         <section className="bio-section" id="BioParker">
           <div className="row">
-              <div className="col-xs-5 col-md-3 col-sm-3">
+              <div className="col-xs-6 col-md-3 col-sm-3">
                   <div className="thumbnail">
                     <img src={BioParker} alt="Christine Parker"/>
                   </div>
@@ -439,7 +439,7 @@ export default class Bio extends React.Component {
         <section className="bio-section" id="BioPlaskett">
           <div className="row">
 
-              <div className="col-xs-5 col-md-3 col-sm-3">
+              <div className="col-xs-6 col-md-3 col-sm-3">
                   <div className="thumbnail">
                     <img src={BioPlaskett} alt="Andrew Plaskett"/>
                   </div>
@@ -466,7 +466,7 @@ export default class Bio extends React.Component {
 
         <section className="bio-section" id="BioRosenfield">
           <div className="row">
-              <div className="col-xs-5 col-md-3 col-sm-3">
+              <div className="col-xs-6 col-md-3 col-sm-3">
                   <div className="thumbnail">
                     <img src={BioRosenfield} alt="Dean Rosenfield"/>
                   </div>
@@ -498,7 +498,7 @@ export default class Bio extends React.Component {
 
         <section className="bio-section" id="BioWard">
           <div className="row">
-             <div className="col-xs-5 col-md-3 col-sm-3">
+             <div className="col-xs-6 col-md-3 col-sm-3">
                  <div className="thumbnail">
                    <img src={BioWard} alt="Michael Ward"/>
                  </div>

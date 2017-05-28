@@ -170,10 +170,19 @@ h10 {
 
 .bio-section {
   margin-top: 3em;
-  border-spacing: 1em;
-  border-top: 4px solid #555;;
+  border-top: 4px solid #555;
+}
+
+.bio-section .row {
+  margin-top: 1.5em;
 }
 
 .breadcrumb {
   background-color: $white;
+}
+
+@media (max-width: 415px) {
+  .col-xs-6 {
+    width: 100% !important;
+  }
 }
