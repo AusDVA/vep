@@ -167,3 +167,22 @@ h10 {
 .news-headline {
   line-height: 1.5em;
 }
+
+.bio-section {
+  margin-top: 3em;
+  border-top: 4px solid #555;
+}
+
+.bio-section .row {
+  margin-top: 1.5em;
+}
+
+.breadcrumb {
+  background-color: $white;
+}
+
+@media (max-width: 415px) {
+  .col-xs-6 {
+    width: 100% !important;
+  }
+}

@@ -1,20 +1,20 @@
 import React from "react";
 import IacNews from "./iacnews";
-import DefaultBio from '../image/bios/placeholderbio.png';
-import BioColbert from '../image/bios/biocolbert.png';
-import BioFrazis from '../image/bios/biofrazis.png';
-import BioBlake from '../image/bios/bioblake.png';
-import BioGalgsdies from '../image/bios/biogalgsdies.png';
-import BioJansen from '../image/bios/biojansen.png';
-import BioLambert from '../image/bios/biolambert.png';
-import BioLefever from '../image/bios/biolefever.png';
-import BioMcdowell from '../image/bios/biomcdowell.png';
-import BioPalmerlee from '../image/bios/biopalmerlee.png';
-import BioParker from '../image/bios/bioparker.png';
-import BioPlaskett from '../image/bios/bioplaskett.png';
-import BioRobertsSmith from '../image/bios/bioroberts-smith.png';
-import BioRosenfield from '../image/bios/biorosenfield.png';
-import BioWard from '../image/bios/bioward.png';
+import BioColbert from "../image/bios/biocolbert.png";
+import BioFrazis from "../image/bios/biofrazis.png";
+import BioBlake from "../image/bios/bioblake.png";
+import BioGalgsdies from "../image/bios/biogalgsdies.png";
+import BioJansen from "../image/bios/biojansen.png";
+import BioLambert from "../image/bios/biolambert.png";
+import BioLefever from "../image/bios/biolefever.png";
+import BioMcdowell from "../image/bios/biomcdowell.png";
+import BioPalmerlee from "../image/bios/biopalmerlee.png";
+import BioParker from "../image/bios/bioparker.png";
+import BioPlaskett from "../image/bios/bioplaskett.png";
+import BioRobertsSmith from "../image/bios/bioroberts-smith.png";
+import BioRosenfield from "../image/bios/biorosenfield.png";
+import BioWard from "../image/bios/bioward.png";
+
 
 
 
@@ -22,7 +22,7 @@ export default class IAC extends React.Component {
 
   render() {
     return (
-      <div>        
+      <div>
         <section>
           <div className="body-content container">
             <div className="row">
@@ -33,7 +33,6 @@ export default class IAC extends React.Component {
                   <li><a href="#News">Latest News</a></li>
                   <li><a href="#Terms">Terms of reference</a></li>
                   <li><a href="#Membership">Membership</a></li>
-                  <li><a href="#Biographies">Member Biographies</a></li>
                   <li><a href="#Groups">Working groups</a></li>
                   <li><a href="#Contact">Contact</a></li>
                   <li><a href="#Links">Useful links</a></li>
@@ -66,110 +65,95 @@ export default class IAC extends React.Component {
                   <li>Provide a report to the Minister for Veterans' Affairs/Defence Personnel by end of September
                       2017 outlining the Committee's progress against these Terms of Reference.</li>
                 </ol>
+              <section id="bio-section">
                 <h2 id="Membership">Membership</h2>
                 <div className="row">
-                  <div className="col-md-4 col-sm-6 col-xs-6">
-                    <p>Chair</p>
-                    <p>Deputy Chair</p>
-                    <p>Small business representative</p>
+                  <div className="col-md-3 col-sm-3 col-xs-6">
+                    <img src={BioFrazis} alt="Image of George Frazis" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Mr George Frazis</h3>
+                    <p>Chair | <a href="/member-biographies#BioFrazis" class="">Bio</a></p>
                   </div>
-                  <div className="col-md-6 col-sm-6 col-xs-6">
-                    <p>Mr George Frazis
-                    </p>
-                    <p>Mr Ben Roberts-Smith VC, MG
-                    </p>
-                    <p>Ms Natalie Colbert<br/><br/></p>
+                  <div className="col-md-3 col-sm-3 col-xs-6">
+                    <img src={BioRobertsSmith} alt="Image of Ben Roberts-Smith" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Mr Ben Roberts-Smith VC, MG</h3>
+                    <p>Deputy Chair | <a href="/member-biographies#BioRobertsSmith" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-6">
+                    <img src={BioColbert} alt="Image of Natalie Colbert" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Ms Natalie Colbert</h3>
+                    <p>Small Business Representative | <a href="/member-biographies#BioColbert" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-6">
+                    <img src={BioBlake} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Mr Chris Blake</h3>
+                    <p>Member | <a href="/member-biographies#BioBlake" class="">Bio</a></p>
+                  </div>
+                </div>
+
+                <div className="row">
+                  <div className="col-md-3 col-sm-3 col-xs-6">
+                    <img src={BioGalgsdies} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Mr Mark Galgsdies</h3>
+                    <p>Member | <a href="/member-biographies#BioGalgsdies" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-6">
+                    <img src={BioJansen} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Mr Mark Jansen</h3>
+                    <p>Member | <a href="/member-biographies#BioJansen" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-3 col-sm-3 col-xs-6">
+                    <img src={BioLambert} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Ms Jenny Lambert</h3>
+                    <p>Member | <a href="/member-biographies#BioLambert" class="">Bio</a></p>
+                  </div>
+
+                  <div className="col-md-3 col-sm-3 col-xs-6">
+                    <img src={BioLefever} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Mr Jim Lefever</h3>
+                    <p>Member | <a href="/member-biographies#BioLefever" class="">Bio</a></p>
                   </div>
                 </div>
 
 
 
                 <div className="row">
-                  <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={BioFrazis} alt="Image of George Frazis" className='img-circle' height="150px" width="150px"></img>
-                    <h3>Mr George Frazis</h3> 
-                    <p>Chair | <a href="" class="">Bio</a></p>
+                  <div className="col-md-3 col-sm-3 col-xs-6">
+                    <img src={BioMcdowell} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Mr Colin McDowell</h3>
+                    <p>Member | <a href="/member-biographies#BioMcdowell" class="">Bio</a></p>
                   </div>
-                  <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={BioRobertsSmith} alt="Image of Ben Roberts-Smith" className='img-circle' height="150px" width="150px"></img>
-                    <h3>Mr Ben Roberts-Smith VC, MG</h3> 
-                    <p>Deputy Chair | <a href="" class="">Bio</a></p>
+                  <div className="col-md-3 col-sm-3 col-xs-6">
+                    <img src={BioPalmerlee} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Mr Luke Palmerlee</h3>
+                     <p>Member | <a href="/member-biographies#BioPalmerlee" class="">Bio</a></p>
                   </div>
-                  <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={BioColbert} alt="Image of Natalie Colbert" className='img-circle' height="150px" width="150px"></img>
-                    <h3>Ms Natalie Colbert</h3> 
-                    <p>Small Business Representative | <a href="" class="">Bio</a></p>
+                  <div className="col-md-3 col-sm-3 col-xs-6">
+                    <img src={BioParker} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Ms Christine Parker</h3>
+                    <p>Member | <a href="/member-biographies#BioParker" class="">Bio</a></p>
                   </div>
-                  <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={BioBlake} alt="Sample" className='img-circle' height="150px" width="150px"></img>
-                    <h3>Mr Chris Blake</h3> 
-                    <p>Member | <a href="" class="">Bio</a></p>
+                  <div className="col-md-3 col-sm-3 col-xs-6">
+                    <img src={BioPlaskett} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Mr Andrew Plaskett</h3>
+                    <p>Member | <a href="/member-biographies#BioPlaskett" class="">Bio</a></p>
                   </div>
                 </div>
+
+
 
                 <div className="row">
-                  <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={BioGalgsdies} alt="Sample" className='img-circle' height="150px" width="150px"></img>
-                    <h3>Mr Mark Galgsdies</h3> 
-                    <p>Member | <a href="" class="">Bio</a></p>
+                  <div className="col-md-3 col-sm-3 col-xs-6">
+                    <img src={BioRosenfield} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Mr Dean Rosenfield</h3>
+                    <p>Member | <a href="/member-biographies#BioRosenfield" class="">Bio</a></p>
                   </div>
-                  <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={BioJansen} alt="Sample" className='img-circle' height="150px" width="150px"></img>
-                    <h3>Mr Mark Jansen</h3> 
-                    <p>Member | <a href="" class="">Bio</a></p>
-                  </div>
-                  <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={BioLambert} alt="Sample" className='img-circle' height="150px" width="150px"></img>
-                    <h3>Ms Jenny Lambert</h3> 
-                    <p>Member | <a href="" class="">Bio</a></p>
-                  </div>
-
-                  <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={BioLefever} alt="Sample" className='img-circle' height="150px" width="150px"></img>
-                    <h3>Mr Jim Lefever</h3> 
-                    <p>Member | <a href="" class="">Bio</a></p>
+                  <div className="col-md-3 col-sm-3 col-xs-6">
+                    <img src={BioWard} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Mr Michael Ward</h3>
+                    <p>Member | <a href="/member-biographies#BioWard" class="">Bio</a></p>
                   </div>
                 </div>
-
-
-                
-                <div className="row">
-                  <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={BioMcdowell} alt="Sample" className='img-circle' height="150px" width="150px"></img>
-                    <h3>Mr Colin McDowell</h3> 
-                    <p>Member | <a href="" class="">Bio</a></p>
-                  </div>
-                  <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={BioPalmerlee} alt="Sample" className='img-circle' height="150px" width="150px"></img>
-                    <h3>Mr Luke Palmerlee</h3> 
-                     <p>Member | <a href="" class="">Bio</a></p>
-                  </div>
-                  <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={BioParker} alt="Sample" className='img-circle' height="150px" width="150px"></img>
-                    <h3>Ms Christine Parker</h3> 
-                    <p>Member | <a href="" class="">Bio</a></p>
-                  </div>
-                  <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={BioPlaskett} alt="Sample" className='img-circle' height="150px" width="150px"></img>
-                    <h3>Mr Andrew Plaskett</h3> 
-                    <p>Member | <a href="" class="">Bio</a></p>
-                  </div>
-                </div>
-
-
-                
-                <div className="row">
-                  <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={BioRosenfield} alt="Sample" className='img-circle' height="150px" width="150px"></img>
-                    <h3>Mr Dean Rosenfield</h3> 
-                    <p>Member | <a href="" class="">Bio</a></p>
-                  </div>
-                  <div className="col-md-3 col-sm-3 col-xs-3">
-                    <img src={BioWard} alt="Sample" className='img-circle' height="150px" width="150px"></img>
-                    <h3>Mr Michael Ward</h3> 
-                    <p>Member | <a href="" class="">Bio</a></p>
-                  </div>
-                </div>
+              </section>
 
 
 
@@ -189,8 +173,6 @@ export default class IAC extends React.Component {
                   <li>Serco Australia Pty Ltd</li>
                   <li>Westpac Group</li>
                 </ul>
-                <h2 id="Biographies">Member Biographies</h2>
-                <p>TBA</p>
                 <h2 id="Groups">Working groups</h2>
                 <p>The Committee has decided to initially focus on eight key areas:
                 </p>
@@ -217,7 +199,7 @@ export default class IAC extends React.Component {
                     <a href="/employers#">Information for Employers</a>
                   </li>
                 </ul>
-                <p>
+                <p className="hidden-print">
                   <a href="#">Top
                     <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
                   </a>

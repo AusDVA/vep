@@ -4,7 +4,7 @@ export default class Employers extends React.Component {
 
   render() {
     return (
-      <div>        
+      <div>
         <section>
           <div className="body-content container">
             <div className="row">
@@ -99,7 +99,7 @@ export default class Employers extends React.Component {
                 <p> A guide has been developed to assist employers to list vacancies using the ‘defence force experience desirable’ flag.</p>
 
                 <GeneralResourses/>
-                <p>
+                <p className="hidden-print">
                   <a className="" href="#">Top <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></a>
                 </p>
               </div>

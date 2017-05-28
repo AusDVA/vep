@@ -13,7 +13,7 @@ export default class IACNews extends React.Component {
                 <div className="col-sm-12 col-md-6">
                     <section>
                         <div className="row">
-                            <div className="col-sm-4"><img alt="Opera house" src={Opera} /></div>
+                            <div className="col-sm-4 col-xs-6"><img alt="Opera house" src={Opera} /></div>
                             <div className="col-sm-8">
                                 <h4 className="news-headline"><a href="#">Industry Advisory Committee on Veterans’ Employment Communique – 31
                                     March 2017</a></h4>

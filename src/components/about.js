@@ -53,7 +53,7 @@ export default class About extends React.Component {
                   to enhance the Career Transition Assistance Scheme for separating ADF members, including the
                   provision of employment planning advice and labour market information.</p>
 
-                <p>
+                <p className="hidden-print">
                   <a className="" href="#">Top <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></a>
                 </p>
               </div>
