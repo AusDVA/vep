@@ -23,7 +23,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className="body-content">
-        <div className="jumbotron jumbotron-fluid hidden-print">
+        <div className="jumbotron jumbotron-fluid">
           <div className="container">
             <div className="description">
               <div className="row">
@@ -81,24 +81,8 @@ export default class Home extends React.Component {
                   to enhance the Career Transition Assistance Scheme for separating ADF members, including the
                   provision of employment planning advice and labour market information.</p>
 
-                    </ToggleDisplay><a href="#" onClick={ (e) => this.handleClick(e) }>{this.state.show ? 'Read less' : 'Read more'}</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="jumbotron jumbotron-fluid print-only">
-          <div className="container">
-            <div className="description">
-              <div className="row">
-                <div className="col-md-8">
-                  <p>The Prime Minister's Veterans' Employment Program demonstrates the importance the Government places on raising awareness with employers,
-                     both private and public sector, and of the value and unique experience of our veterans.</p>
-                     <p>The Australian Defence Force (ADF) invests heavily in its servicemen and women, and they have a broad range of skills and experience.
-                        Their skill-sets, including proven leadership and problem solving skills, are in strong demand and transfer readily to civilian employment. </p>
-                     <p>Australian businesses of all sizes, and across all industries, have an opportunity to acquire these skilled and capable employees when they
-                        separate from the ADF.  The Program aims to make businesses more aware of the value that veterans can add to their organisations, and as a
-                        result improve employment opportunities for veterans.</p>
+                </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClick(e) }>{this.state.show  ? 'Read less' : 'Read more'}</a>
+
                 </div>
               </div>
             </div>
