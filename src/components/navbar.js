@@ -10,11 +10,11 @@ export default class NavBar extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container hidden-print">
         <div className="row">
           <div className="logo col-md-6"><img alt="Logo" src={GOVLogo}/></div>
           <div className="col-md-6">
-              <nav className="hidden-print" id="top-nav">
+              <nav id="top-nav">
                 <ul className="list-inline pull-right">
                   <li><NavLink to="/about">About</NavLink></li>
                     <li>
@@ -26,7 +26,7 @@ export default class NavBar extends React.Component {
               </nav>
           </div>
         </div>
-        <nav className="hidden-print">
+        <nav>
           <ul className="list-inline">
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/veterans">Veterans</NavLink></li>
