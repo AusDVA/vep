@@ -5,6 +5,10 @@ export default class GeneralResourses extends React.Component {
     render() {
         return (
             <div>
+                
+                <h3>Australian Defence Force (ADF) Separation Data</h3>
+                <p>ADF Separations 2012-2016 by State and Category</p>  
+
                 <h3>Media Releases</h3>
 
                 <p> 31 March 2017 <a href="http://minister.dva.gov.au/media_releases/2017/mar/va043.htm">First meeting
@@ -22,8 +26,7 @@ export default class GeneralResourses extends React.Component {
                     at the launch of the Veterans’ Employment Initiative</a></p>
 
 
-                <h3>Australian Defence Force (ADF) Separation Data</h3>
-                <p>ADF Separations 2012-2016 by State and Category</p>              
+          
             </div>
         );
     }

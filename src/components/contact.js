@@ -85,18 +85,23 @@ class Contact extends React.Component {
                 </div>
                 <div className="col-md-5 col-sm-6">
                   <div className="contact">
-                    <h4>Contact Details</h4>
-                    <h5>
-                      <i className="fa fa-phone-square"></i>&nbsp;
-                      <span>General enquiries </span>(8am-5pm AEST, Mon-Fri)</h5>
-                    <h5>
-                      <span className="head">Telephone: </span>133 254</h5>
-                    <h5>
-                      <span className="head">Regional callers: </span>1800 555 254</h5>
-                    <h5>
-                      <span className="head">International callers: </span>61 2 6289 1133</h5>
-                    <h5>
-                      <i className="fa fa-envelope"></i>&nbsp;veteransemployment@dva.gov.au</h5>
+
+
+                  
+                      
+                    <h3>General enquiries (8am-5pm AEST, Mon-Fri)</h3>
+
+                    <h4>
+                      <span className="head">Telephone: </span>133 254</h4>
+                    <h4>
+                      <span className="head">Regional callers: </span>1800 555 254</h4>
+                    <h4>
+                      <span className="head">International callers: </span>61 2 6289 1133</h4>
+
+
+                    <h3>Email</h3>
+                    <h4>
+                      veteransemployment@dva.gov.au</h4>
                   </div>
                 </div>
               </div>

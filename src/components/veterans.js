@@ -46,7 +46,7 @@ export default class Veterans extends React.Component {
                                     can search for jobs that employers have flagged.</p>
                                 <p>The jobactive website also provides <a
                                     href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">
-                                    information tailored for veterans jobseekers.</a>
+                                    information tailored for veteran jobseekers.</a>
                                 </p>
 
                                 <h2 id="Industry Advisory Committee">Industry Advisory Committee on Veterans’
@@ -57,8 +57,8 @@ export default class Veterans extends React.Component {
                                     bring to their organisations.
                                 </p>
                                 <p>
-                                    An <a href="/industry-advisory-committee">Industry Advisory Committee on Veterans’ Employment</a> made up of
-                                    industry representatives
+                                    An <a href="/industry-advisory-committee">Industry Advisory Committee on Veterans’ Employment</a>, made up of
+                                    industry representatives, 
                                     has been established to develop
                                     and provide advice on practical measures to embed veterans’ employment strategies
                                     into the
@@ -98,8 +98,7 @@ export default class Veterans extends React.Component {
                                     on 5 May 2016, will assist an additional
                                     200 veterans to find suitable, sustainable and meaningful employment within the NSW
                                     Government
-                                    Sector by 2019. The <a href="http://www.vep.veterans.nsw.gov.au/">NSW Government</a>
-                                    offers a variety of careers allowing veterans to draw upon
+                                    Sector by 2019. The <a href="http://www.vep.veterans.nsw.gov.au/">NSW Government</a> offers a variety of careers allowing veterans to draw upon
                                     their unique military experience and skills. <a
                                         href="http://www.vep.veterans.nsw.gov.au/job-search/job-search/">An ADF Rank –
                                         NSW Government Grade Match Tool</a> has
@@ -115,9 +114,9 @@ export default class Veterans extends React.Component {
                                     of ESO providers and employers to further veterans’ employment in Victoria. </p>
                                 <h3>Government of Western Australia</h3>
                                 <p>The Government of Western Australia established
-                                    the <a
-                                        href="https://www.mediastatements.wa.gov.au/Pages/Barnett/2016/06/New-faces-on-Veterans-Advisory-Council.aspx">Western
-                                        Australian Veterans Advisory Council</a> in 2014.</p>
+                                    the
+                                        Western
+                                        Australian Veterans Advisory Council in 2014.</p>
                                 <p><a href="https://publicsector.wa.gov.au/veterans-employment-transition-support-vets">The
                                     Veterans’ Employment Transition Support</a> has
                                     been implemented to encourage current and former
@@ -128,14 +127,12 @@ export default class Veterans extends React.Component {
                                 <h2 id="Resources">Resources for Veterans</h2>
                                 <h3>jobactive</h3>
                                 <p><a href="http://www.jobactive.gov.au/">jobactive</a> is the Australian Government’s way to get more Australians into work, by connecting
-                                   job seekers with employers.  Under the Program, jobactive has been enhanced. The <a href="http://www.jobactive.gov.au/">jobactive website</a>
-                                   now enables employers to select an optional ‘defence force experience desirable’ flag,
+                                   job seekers with employers.  Under the Program, jobactive has been enhanced. The <a href="http://www.jobactive.gov.au/">jobactive website</a> now enables employers to select an optional ‘defence force experience desirable’ flag,
                                    and veterans can search for jobs that employers have flagged.
                                 </p>
                                 <p>The jobactive website also provides <a href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">
                                 information tailored for veterans jobseekers</a>.</p>
 
-                                <br/>
                                 <h3>APSjobs</h3>
                                 <p>The Australian Public Service (APS) provides a wide range of roles, generous support and remuneration for
                                    APS employees in locations across Australia.
@@ -145,37 +142,34 @@ export default class Veterans extends React.Component {
                                 </p>
                                 <p>The <a href="https://www.apsjobs.gov.au/">APSjobs</a> website provides a gateway to a challenging and rewarding career in the APS. </p>
 
-                                <br/>
-                                <h4>Defence Community Organisation</h4>
+                                <h3>Defence Community Organisation</h3>
                                 <p><a href="http://www.defence.gov.au/DCO/Transitions/">Defence Community Organisation</a> assists veterans to obtain practical guidance and
                                     information to help them to transition into civilian life.</p>
 
-                                <h4>ADF Transition Handbook</h4>
+                                <h3>ADF Transition Handbook</h3>
                                 <p>The <a href="http://www.defence.gov.au/DCO/_Master/documents/Transition/ADF-Transition-Handbook.pdf">ADF Transition Handbook</a> is a guide to help
                                    ADF members and their families prepare for separation from the military.</p>
 
-                                <h4>Career Transition Assistance Scheme</h4>
+                                <h3>Career Transition Assistance Scheme</h3>
                                 <p>The <a href="http://www.defence.gov.au/payandconditions/adf/Chapter-2/Part-2/">Career Transition Assistance Scheme</a> assists ADF
                                     personnel with career transition when they separate from the ADF.</p>
 
-                                <h4>Australian Defence Force Superannuation</h4>
+                                <h3>Australian Defence Force Superannuation</h3>
                                 <p><a href="https://adfsuper.gov.au/">Australian Defence Force Superannuation</a> (ADF Super) is the current superannuation
                                     scheme for members of the Australian Defence Force. </p>
 
-                                <h4>Military Superannuation & Benefits Scheme</h4>
+                                <h3>Military Superannuation & Benefits Scheme</h3>
                                 <p>The <a href="https://militarysuper.gov.au/">Military Superannuation & Benefits Scheme</a> (MilitarySuper) is the previous
                                    superannuation scheme for member of the Australian Defence Force.  </p>
 
-                                <h4>Defence Force Retirement & Death Benefits Scheme</h4>
+                                <h3>Defence Force Retirement & Death Benefits Scheme</h3>
                                 <p>The <a href="https://dfrdb.gov.au/">Defence Force Retirement & Death Benefits Scheme</a> (DFRDB) was the superannuation
                                    scheme for ADF members between 1973 – 1991.  </p>
 
-                                <h4>Australian Defence Force Financial Services Consumer Centre</h4>
+                                <h3>Australian Defence Force Financial Services Consumer Centre</h3>
                                 <p><a href="http://adfconsumer.gov.au/">Australian Defence Force Financial Services Consumer Centre</a> provides independent,
                                     professional financial education (not advice) to ADF members and their families.</p>
 
-                                <h4>Defence Reserves Support</h4>
-                                <p><a href="http://www.defencereservessupport.gov.au/">Defence Reserves Support provides support</a> to Australia’s Reservists and their employers. </p>
                                 <br/><br/>
 
                                 <GeneralResourses/>

@@ -447,7 +447,7 @@ export default class Bio extends React.Component {
               </div>
 
               <div className="col-md-8" id="mainCol">
-                  <h4><strong>AndrewPlaskett</strong></h4>
+                  <h4><strong>Andrew Plaskett</strong></h4>
                   <h4><strong>Director, Clients and Markets & People and Development</strong></h4>
                   <h4><strong>Clayton Utz</strong></h4>
 
@@ -485,9 +485,8 @@ export default class Bio extends React.Component {
                   <p>He has been with Saab since 2001 and has held senior roles in engineering, project management and business development
                      on the defence side of the business.  In 2007, Dean established Saab’s Civil Security business which now specialises
                      in security, air traffic management and communications. </p>
-                  <p>He is 49 years old, holds a Master of Management (Project Management) from the University of NSW and is a Member of the Australian
-                     Institute of Company Directors.  Dean is married to Clare, where they reside in Adelaide.  They have a son serving in the Royal Australian
-                     Navy and a daughter studying Commerce at University.</p>
+                  <p>He holds a Master of Management (Project Management) from the University of NSW and is a Member of the Australian
+                     Institute of Company Directors.</p>
                </div>
              </div>
              <p className="hidden-print">

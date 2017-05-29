@@ -39,7 +39,7 @@ export default class Employers extends React.Component {
                    This demonstrates that Australian businesses are not fully recognising the value that veterans can bring to their business, and they are missing out on hiring these
                    skilled and capable individuals to fill their vacancies.
                 </p>
-                <p>The Program aims to promote awareness of the benefits of employing veterans to ensure that Australian businesses can reap the benefits of their service in the ADF.</p>
+                <p>The Prime Minister's Veterans' Employment Program aims to promote awareness of the benefits of employing veterans, to ensure that Australian businesses can reap the benefits of their ADF service.</p>
 
 
                 <h2 id="Benefits">Benefits of employing veterans</h2>
@@ -77,10 +77,10 @@ export default class Employers extends React.Component {
                   </p>
                   <p>The Register will be launched later in 2017.</p>
 
-                  <h2 id="Department">Department of Employment initiatives</h2>
+                  <h2 id="Department">Department of Employment Initiatives</h2>
                   <p>Employers who are interested in hiring veterans can now indicate that defence force experience is desirable when they advertise a job on the
                      Australian Government’s <a href="http://www.jobactive.gov.au/">jobactive website</a>, by selecting the optional ‘defence force experience desirable’ flag.
-                     More information on how to advertise vacancies is available on the Resources for Employers page.
+                     A guide has been developed to assist employers to list vacancies using the 'defence force experience desirable' flag.
                   </p>
 
                   <h2 id="PrimeMinister">Prime Minister’s Veterans’ Employment Annual Awards</h2>

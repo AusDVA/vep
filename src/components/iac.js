@@ -26,21 +26,21 @@ export default class IAC extends React.Component {
         <section>
           <div className="body-content container">
             <div className="row">
-              <div className="col-md-8" id="mainCol">
+              <div className="col-md-9" id="mainCol">
                 <h1 id="content">Industry Advisory Committee On Veterans’ Employment</h1>
                 <ul className="list-unstyled">
                   <li className="list-unstyled-header">Contents</li>
-                  <li><a href="#News">Latest News</a></li>
                   <li><a href="#Terms">Terms of reference</a></li>
                   <li><a href="#Membership">Membership</a></li>
                   <li><a href="#Groups">Working groups</a></li>
+                  <li><a href="#News">Latest News</a></li>
                   <li><a href="#Contact">Contact</a></li>
                   <li><a href="#Links">Useful links</a></li>
                 </ul>
-                <IacNews/>
+
                 <p>The Industry Advisory Committee (IAC) on Veterans’ Employment has been established to develop
-                   and provide advice and practical measures to embed veterans’ employment strategies into recruitment
-                   practices of Australian business.</p>
+                  practical measures to embed veterans’ employment strategies into recruitment
+                   practices of Australian businesses.</p>
                 <p>The Committee will also play a role in the broader promotion of skills and professional attributes
                    that veterans have to offer employers</p>
                 <h2 id="Terms">Terms of reference</h2>
@@ -67,110 +67,121 @@ export default class IAC extends React.Component {
                 </ol>
               <section id="section-nobreak">
                 <h2 id="Membership">Membership</h2>
+
+                <p>The committee comprises 14 members.</p>
+
                 <div className="row">
-                  <div className="col-md-4 col-sm-4 col-xs-6">
+                  <div className="col-md-offset-2 col-md-4 col-sm-4 col-xs-6 text-center">
                     <img src={BioFrazis} alt="Image of George Frazis" className="img-circle" height="150px" width="150px"></img>
-                    <h3>Mr George Frazis</h3>
-                    <h4>Westpac Group</h4>
-                    <p>Chair | <a href="/member-biographies#BioFrazis" class="">Bio</a></p>
+                    <h3>George Frazis</h3>
+                                        <h4>Westpac Group</h4>
+                                        <p>Chair | <a href="/member-biographies#BioFrazis" class="">Bio</a></p>
+
+
                   </div>
-                  <div className="col-md-4 col-sm-4 col-xs-6">
+                  <div className="col-md-4 col-sm-4 col-xs-6 text-center">
                     <img src={BioRobertsSmith} alt="Image of Ben Roberts-Smith" className="img-circle" height="150px" width="150px"></img>
-                    <h3>Mr Ben Roberts-Smith VC, MG</h3>
-                    <h4>Seven Network</h4>
-                    <p>Deputy Chair | <a href="/member-biographies#BioRobertsSmith" class="">Bio</a></p>
+                    <h3>Ben Roberts-Smith VC, MG</h3>
+                                        <h4>Seven Network</h4>
+ 
+                                       <p>Deputy Chair | <a href="/member-biographies#BioRobertsSmith" class="">Bio</a></p>
+
                   </div>
-                  <div className="col-md-4 col-sm-4 col-xs-6">
-                    <img src={BioColbert} alt="Image of Natalie Colbert" className="img-circle" height="150px" width="150px"></img>
-                    <h3>Ms Natalie Colbert</h3>
-                    <h4>CanPLAY Pty Ltd</h4>
-                    <p>Small Business Representative | <a href="/member-biographies#BioColbert" class="">Bio</a></p>
-                  </div>
+
 
                 </div>
 
                 <div className="row">
 
-                  <div className="col-md-4 col-sm-4 col-xs-6">
+                  <div className="col-md-4 col-sm-4 col-xs-6 text-center">
                     <img src={BioBlake} alt="Sample" className="img-circle" height="150px" width="150px"></img>
-                    <h3>Mr Chris Blake</h3>
+                    <h3>Chris Blake</h3>
                     <h4>Australia Post</h4>
                     <p>Member | <a href="/member-biographies#BioBlake" class="">Bio</a></p>
                   </div>
-                  <div className="col-md-4 col-sm-4 col-xs-6">
+                  <div className="col-md-4 col-sm-4 col-xs-6 text-center">
+                    <img src={BioColbert} alt="Image of Natalie Colbert" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Natalie Colbert</h3>
+                    <h4>CanPLAY Pty Ltd</h4>
+                    <p>Small Business Representative | <a href="/member-biographies#BioColbert" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-4 col-sm-4 col-xs-6 text-center">
                     <img src={BioGalgsdies} alt="Sample" className="img-circle" height="150px" width="150px"></img>
-                    <h3>Mr Mark Galgsdies</h3>
+                    <h3>Mark Galgsdies</h3>
                     <h4>Serco Asia Pacific</h4>
                     <p>Member | <a href="/member-biographies#BioGalgsdies" class="">Bio</a></p>
                   </div>
-                  <div className="col-md-4 col-sm-4 col-xs-6">
-                    <img src={BioJansen} alt="Sample" className="img-circle" height="150px" width="150px"></img>
-                    <h3>Mr Mark Jansen</h3>
-                    <h4>PricewaterhouseCoopers</h4>
-                    <p>Member | <a href="/member-biographies#BioJansen" class="">Bio</a></p>
-                  </div>
+
 
                 </div>
 
 
-
                 <div className="row">
-                   <div className="col-md-4 col-sm-4 col-xs-6">
+
+                  
+                <div className="col-md-4 col-sm-4 col-xs-6 text-center">
+                    <img src={BioJansen} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Mark Jansen</h3>
+                    <h4>PwC</h4>
+                    <p>Member | <a href="/member-biographies#BioJansen" class="">Bio</a></p>
+                </div>
+                <div className="col-md-4 col-sm-4 col-xs-6 text-center">
                     <img src={BioLambert} alt="Sample" className="img-circle" height="150px" width="150px"></img>
-                    <h3>Ms Jenny Lambert</h3>
+                    <h3>Jenny Lambert</h3>
                     <h4>Australian Chamber of Commerce and Industry</h4>
                     <p>Member | <a href="/member-biographies#BioLambert" class="">Bio</a></p>
-                  </div>
+                </div>
 
-                  <div className="col-md-4 col-sm-4 col-xs-6">
+                  <div className="col-md-4 col-sm-4 col-xs-6 text-center">
                     <img src={BioLefever} alt="Sample" className="img-circle" height="150px" width="150px"></img>
-                    <h3>Mr Jim Lefever</h3>
+                    <h3>Jim Lefever</h3>
                     <h4>CSC Australia Pty Ltd</h4>
                     <p>Member | <a href="/member-biographies#BioLefever" class="">Bio</a></p>
                   </div>
-                  <div className="col-md-4 col-sm-4 col-xs-6">
+
+                </div>
+
+
+                <div className="row">
+                   <div className="col-md-4 col-sm-4 col-xs-6 text-center">
                     <img src={BioMcdowell} alt="Sample" className="img-circle" height="150px" width="150px"></img>
-                    <h3>Mr Colin McDowell</h3>
+                    <h3>Colin McDowell</h3>
                     <h4>Allied Express Transport</h4>
                     <p>Member | <a href="/member-biographies#BioMcdowell" class="">Bio</a></p>
                   </div>
-                </div>
-
-
-                <div className="row">
-                  <div className="col-md-4 col-sm-4 col-xs-6">
+                  <div className="col-md-4 col-sm-4 col-xs-6 text-center">
                     <img src={BioPalmerlee} alt="Sample" className="img-circle" height="150px" width="150px"></img>
-                    <h3>Mr Luke Palmerlee</h3>
-                    <h4>J.P. Morgan Chase Bank</h4>
+                    <h3>Luke Palmerlee</h3>
+                    <h4>J.P. Morgan Chase Bank, NA (Sydney Branch)</h4>
                      <p>Member | <a href="/member-biographies#BioPalmerlee" class="">Bio</a></p>
                   </div>
-                  <div className="col-md-4 col-sm-4 col-xs-6">
+                  <div className="col-md-4 col-sm-4 col-xs-6 text-center">
                     <img src={BioParker} alt="Sample" className="img-circle" height="150px" width="150px"></img>
-                    <h3>Ms Christine Parker</h3>
+                    <h3>Christine Parker</h3>
                     <h4>Westpac Group</h4>
                     <p>Member | <a href="/member-biographies#BioParker" class="">Bio</a></p>
                   </div>
-                  <div className="col-md-4 col-sm-4 col-xs-6">
-                    <img src={BioPlaskett} alt="Sample" className="img-circle" height="150px" width="150px"></img>
-                    <h3>Mr Andrew Plaskett</h3>
-                    <h4>Clayton Utz</h4>
-                    <p>Member | <a href="/member-biographies#BioPlaskett" class="">Bio</a></p>
-                  </div>
+
                 </div>
 
 
 
                 <div className="row">
-
-                  <div className="col-md-4 col-sm-4 col-xs-6">
+                  <div className="col-md-4 col-sm-4 col-xs-6 text-center">
+                    <img src={BioPlaskett} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <h3>Andrew Plaskett</h3>
+                    <h4>Clayton Utz</h4>
+                    <p>Member | <a href="/member-biographies#BioPlaskett" class="">Bio</a></p>
+                  </div>
+                  <div className="col-md-4 col-sm-4 col-xs-6 text-center">
                     <img src={BioRosenfield} alt="Sample" className="img-circle" height="150px" width="150px"></img>
-                    <h3>Mr Dean Rosenfield</h3>
+                    <h3>Dean Rosenfield</h3>
                     <h4>Saab Australia Pty Ltd</h4>
                     <p>Member | <a href="/member-biographies#BioRosenfield" class="">Bio</a></p>
                   </div>
-                  <div className="col-md-4 col-sm-4 col-xs-6">
+                  <div className="col-md-4 col-sm-4 col-xs-6 text-center">
                     <img src={BioWard} alt="Sample" className="img-circle" height="150px" width="150px"></img>
-                    <h3>Mr Michael Ward</h3>
+                    <h3>Michael Ward</h3>
                     <h4>Raytheon Australia</h4>
                     <p>Member | <a href="/member-biographies#BioWard" class="">Bio</a></p>
                   </div>
@@ -178,25 +189,8 @@ export default class IAC extends React.Component {
               </section>
 
 
-
-
-                <p></p>
-                <p>Representatives of the following organisations:</p>
-                <ul>
-                  <li>Allied Express Transport</li>
-                  <li>Australia Post</li>
-                  <li>Australian Chamber of Commerce and Industry</li>
-                  <li>Clayton Utz – Andrew Plaskett</li>
-                  <li>CSC Australia Pty Ltd</li>
-                  <li>J.P. Morgan Chase Bank, NA (Sydney Branch)</li>
-                  <li>PwC – Mark Jansen</li>
-                  <li>Raytheon Australia</li>
-                  <li>Saab Australia Pty Ltd</li>
-                  <li>Serco Australia Pty Ltd</li>
-                  <li>Westpac Group</li>
-                </ul>
                 <h2 id="Groups">Working groups</h2>
-                <p>The Committee has decided to initially focus on eight key areas:
+                <p>The Committee will initially focus on eight key areas:
                 </p>
                 <ul>
                   <li>data and the business case for hiring veterans;</li>
@@ -209,18 +203,16 @@ export default class IAC extends React.Component {
                   <li>appreciation of the contribution of veterans by the community; and</li>
                   <li>the Prime Minister’s Veterans’ Employment Annual Awards.</li>
                 </ul>
+
+                <IacNews/>
+
                 <h2>Contact</h2>
-                <h2 id="Contact">IAC Secretariat</h2>
+                <h5 id="Contact">IAC Secretariat</h5>
                 <h5>C/- Department of Veterans' Affairs</h5>
                 <h5>GPO Box 9998</h5>
                 <h5>Canberra ACT 2601</h5>
                 <h5><i className="fa fa-envelope"></i> IAC.Secretariat@dva.gov.au</h5>
-                <h2 id="Links">Useful links</h2>
-                <ul>
-                  <li>
-                    <a href="/employers#">Information for Employers</a>
-                  </li>
-                </ul>
+                
                 <p className="hidden-print">
                   <a href="#">Top
                     <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
