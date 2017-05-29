@@ -23,12 +23,7 @@ export default class GeneralResourses extends React.Component {
 
 
                 <h3>Australian Defence Force (ADF) Separation Data</h3>
-                <p>ADF Separations 2012-2016 by State and Category</p>
-
-                <h4> Useful links</h4>
-                <p><a href="http://www.defencereservessupport.gov.au/">Defence Reserves Support</a></p>
-                <p> Supporting Australia’s Reservists and their employers </p>
-
+                <p>ADF Separations 2012-2016 by State and Category</p>              
             </div>
         );
     }
