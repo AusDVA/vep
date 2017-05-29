@@ -2,26 +2,48 @@
 
 @media print {
 
+  .no-float-print div,
+  .bio-section section {
+   float: none !important;
+  }
+
    img {
      page-break-before: auto;
      page-break-after: auto;
      page-break-inside: avoid;
+     float: none !important;
+
     }
 
     .bio-section,
-    #bio-section {
+    #section-nobreak {
       page-break-before: auto;
       page-break-after: auto;
       page-break-inside: avoid;
+      float: none !important;
+
     }
 
     .logo img {
-      margin-top: 1em;
-      margin-bottom: 1em;
-      margin-left: 0;
+      margin: 1em, 0, 1em, 0 ;
     }
+
+    .thumbnail {
+      height: 230px;
+      width: 155px;
+    }
+
     a:link:after, a:visited:after {
         content: "";
     }
+
+    .print-only {
+      display: block;
+    }
+
+  .news img {
+    height: 165px;
+    width: 165px;
+  }
 
 }

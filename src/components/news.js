@@ -7,7 +7,7 @@ export default class News extends React.Component {
 
     return (
 
-    	<div className="container">
+    	<div className="container section-nobreak">
     		<div className="news row">
     			<div className="col-sm-12">
     				<h2>Recent news</h2>

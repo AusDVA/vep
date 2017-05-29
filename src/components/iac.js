@@ -65,7 +65,7 @@ export default class IAC extends React.Component {
                   <li>Provide a report to the Minister for Veterans' Affairs/Defence Personnel by end of September
                       2017 outlining the Committee's progress against these Terms of Reference.</li>
                 </ol>
-              <section id="bio-section">
+              <section id="section-nobreak">
                 <h2 id="Membership">Membership</h2>
                 <div className="row">
                   <div className="col-md-3 col-sm-3 col-xs-6">
