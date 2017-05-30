@@ -37,8 +37,8 @@ export default class Veterans extends React.Component {
                                     life.</p>
 
                                 <h2 id="jobactive">jobactive</h2>
-                                <p><a href="http://www.jobactive.gov.au/">jobactive</a> is the Australian Government’s way to get more Australians into work,
-                                    by connecting job seekers with employers. Under the Program, <a href="http://www.jobactive.gov.au/">jobactive</a> has been
+                                <p>jobactive is the Australian Government’s way to get more Australians into work,
+                                    by connecting job seekers with employers. Under the Program, jobactive has been
                                     enhanced.</p>
                                 <p>The <a href="http://www.jobactive.gov.au/">jobactive website</a> now enables
                                     employers
@@ -82,13 +82,11 @@ export default class Veterans extends React.Component {
                                 <p>
                                     <a href="http://www.defence.gov.au/dco/">Defence Community Organisation</a>
                                 </p>
-                                <h3>APSjobs</h3>
                                 <p>To assist former ADF members who are looking to transition to the Commonwealth public
                                     sector, the Australian Public Service Commission is developing a toolkit and an application
                                     to align ADF ranks with Australian Public Service classifications. The Commission’s revamped <a href="https://www.apsjobs.gov.au/">
                                     APSjobs website</a>, to be launched later in 2017, will also include specific
                                     information for veterans on what to expect from employment in the APS.</p>
-                                <br/>
 
                                 <h2 id="support">State and territory government initiatives to increase veterans’ employment</h2>
                                 <h3>NSW Government</h3>
@@ -122,13 +120,11 @@ export default class Veterans extends React.Component {
                                     been implemented to encourage current and former
                                     ADF members to consider employment in the WA public sector. </p>
 
-                                <br/>
-
                                 <h2 id="Resources">Resources for Veterans</h2>
                                 <h3>jobactive</h3>
-                                <p><a href="http://www.jobactive.gov.au/">jobactive</a> is the Australian Government’s way to get more Australians into work, by connecting
+                                <p>jobactive is the Australian Government’s way to get more Australians into work, by connecting
                                    job seekers with employers.  Under the Program, jobactive has been enhanced. The <a href="http://www.jobactive.gov.au/">jobactive website</a> now enables employers to select an optional ‘defence force experience desirable’ flag,
-                                   and veterans can search for jobs that employers have flagged.
+                                   and veterans can <a href="https://jobsearch.gov.au/job/search/ex-adf">search for jobs</a> that employers have flagged.
                                 </p>
                                 <p>The jobactive website also provides <a href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">
                                 information tailored for veterans jobseekers</a>.</p>
@@ -137,10 +133,10 @@ export default class Veterans extends React.Component {
                                 <p>The Australian Public Service (APS) provides a wide range of roles, generous support and remuneration for
                                    APS employees in locations across Australia.
                                 </p>
-                                <p><a href="https://www.apsjobs.gov.au/">APSjobs</a> will help jobseekers to discover the many career paths the APS has to offer by linking them to
+                                <p>APSjobs will help jobseekers to discover the many career paths the APS has to offer by linking them to
                                     vacancies available in the APS, the Parliamentary Service and many other Australian Government agencies.
                                 </p>
-                                <p>The <a href="https://www.apsjobs.gov.au/">APSjobs</a> website provides a gateway to a challenging and rewarding career in the APS. </p>
+                                <p>The <a href="https://www.apsjobs.gov.au/">APSjobs website</a> provides a gateway to a challenging and rewarding career in the APS. </p>
 
                                 <h3>Defence Community Organisation</h3>
                                 <p><a href="http://www.defence.gov.au/DCO/Transitions/">Defence Community Organisation</a> assists veterans to obtain practical guidance and

@@ -68,8 +68,8 @@ export default class IAC extends React.Component {
               <section id="section-nobreak">
                 <h2 id="Membership">Membership</h2>
 
-                <p>The committee comprises 14 members.</p>
-
+                <p>The committee comprises a Chair, Deputy Chair, a representative of small businesses, a representative of the Australian Chamber of Commerce and Industry, and representatives of ten other organisations.</p>
+                <p>&nbsp;</p>
                 <div className="row">
                   <div className="col-md-offset-2 col-md-4 col-sm-4 col-xs-6 text-center">
                     <img src={BioFrazis} alt="Image of George Frazis" className="img-circle" height="150px" width="150px"></img>
@@ -207,11 +207,14 @@ export default class IAC extends React.Component {
                 <IacNews/>
 
                 <h2>Contact</h2>
-                <h5 id="Contact">IAC Secretariat</h5>
-                <h5>C/- Department of Veterans' Affairs</h5>
-                <h5>GPO Box 9998</h5>
-                <h5>Canberra ACT 2601</h5>
-                <h5><i className="fa fa-envelope"></i> IAC.Secretariat@dva.gov.au</h5>
+                 <p>IAC Secretariat </p>
+                 <p>C/- Department of Veterans' Affairs</p>
+                 <p>GPO Box 9998</p>
+                 <p>Canberra ACT 2601</p>
+
+                  
+                <h2>Email</h2>
+                <p>IAC.Secretariat@dva.gov.au</p>
                 
                 <p className="hidden-print">
                   <a href="#">Top
