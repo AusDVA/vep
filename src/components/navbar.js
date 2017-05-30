@@ -35,8 +35,8 @@ export default class NavBar extends React.Component {
            <div className="col-md-6 col-xs-12">
               <nav className="collapse navbar-collapse text-center" id ="top-nav">
              <ul className="nav navbar-nav navbar-right">
-               <li><a data-toggle="collapse" data-target="#top-nav, #main-nav"href="/#About">About the Program</a></li>
-               <li><NavLink data-toggle="collapse" data-target="#top-nav, #main-nav"to="/contact">Contact </NavLink></li>
+               <li><a href="/#About">About the Program</a></li>
+               <li><NavLink to="/contact">Contact </NavLink></li>
 
              </ul>
            </nav>
@@ -46,12 +46,12 @@ export default class NavBar extends React.Component {
 
     <div className="collapse navbar-collapse" id="main-nav">
       <ul className="nav navbar-nav text-center">
-       <li><NavLink data-toggle="collapse" data-target="#top-nav, #main-nav"  exact to="/">Home</NavLink></li>
-       <li><NavLink data-toggle="collapse" data-target="#top-nav, #main-nav"  to="/veterans">Veterans</NavLink></li>
-       <li><NavLink data-toggle="collapse" data-target="#top-nav, #main-nav"  to="/employers">Employers</NavLink></li>
-       <li><NavLink data-toggle="collapse" data-target="#top-nav, #main-nav"  to="/ex-service-organisations">Ex-service organisations</NavLink></li>
-       <li><NavLink data-toggle="collapse" data-target="#top-nav, #main-nav"  to="/industry-advisory-committee">Industry Advisory Committee</NavLink></li>
-       <li><NavLink data-toggle="collapse" data-target="#top-nav, #main-nav"  to="/awards">Awards</NavLink></li>
+       <li><NavLink exact to="/">Home</NavLink></li>
+       <li><NavLink to="/veterans">Veterans</NavLink></li>
+       <li><NavLink to="/employers">Employers</NavLink></li>
+       <li><NavLink to="/ex-service-organisations">Ex-service organisations</NavLink></li>
+       <li><NavLink to="/industry-advisory-committee">Industry Advisory Committee</NavLink></li>
+       <li><NavLink to="/awards">Awards</NavLink></li>
      </ul>
     </div>
 </nav>
