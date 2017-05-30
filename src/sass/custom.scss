@@ -84,22 +84,6 @@ body {
 
 }
 
- .list-inline li a {
-  margin: .4em 1em .8em .4em;
-  color: $light-blue;
-  font-weight: bold;
-  font-size: $p-font-size;
-}
-
-.list-inline li a:focus {
-  background-color: $link-hover;
-  border-bottom: transparent;
-  outline: 1px solid #313131;
-  outline-offset: 1px;
-}
-
-
-
 .active {
   color: $brand-primary!important;
   background-color: $white!important;
@@ -164,10 +148,6 @@ h3 {
   color:red;
 }
 
-#top-nav {
-  margin-top: 1em;
-}
-
 .panel-footer .list-inline a {
   font-size: 85%;
 }
@@ -193,4 +173,63 @@ h3 {
   .col-xs-6 {
     width: 100% !important;
   }
+}
+
+//navbar
+
+.mobile-menu {
+  padding: 0.6em;
+  margin:0;
+}
+
+.mobile-menu:hover,
+.mobile-menu:focus {
+  background-color: #bbbbbb;
+}
+
+#top-nav {
+  margin-top: 1em;
+}
+
+.navbar-nav > li > a {
+  margin: .4em 1em .8em .4em;
+  color: $light-blue;
+  font-weight: bold;
+  font-size: $p-font-size;
+
+}
+@media (min-width: 767px) {
+  .nav > li > a {
+      padding: 0;
+      margin-right: 1.5em;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav > li > a {
+    border-bottom: 3px solid #bbbbbb;
+    padding: 1.5em 0 1.5em 0;
+    margin: 0;
+  }
+  .navbar-nav > li > a:hover,
+ .navbar-nav > li > a:focus {
+   background-color: $link-hover;
+   border-color: #18788d;
+  }
+}
+
+.rotate-down
+ {
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transition-duration: 0.4s;
+}
+
+.rotate
+ {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transition-duration: 0.4s;
 }
