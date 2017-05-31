@@ -1,5 +1,5 @@
-import React from 'react';
-
+import React from "react";
+import data from "../../doc/ADF Seperations 2012 to 2016.xlsx";
 export default class GeneralResourses extends React.Component {
 
     render() {
@@ -7,7 +7,7 @@ export default class GeneralResourses extends React.Component {
             <div>
 
                 <h3>Australian Defence Force (ADF) Separation Data</h3>
-                <p>ADF Separations 2012-2016 by State and Category</p>
+                <p><a href={data} target="_blank">ADF Separations 2012-2016 by State and Category</a></p>
 
                 <h3>Media Releases</h3>
 

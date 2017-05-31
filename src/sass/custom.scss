@@ -231,10 +231,13 @@ h3 {
 .panel-footer {
   border-top: $panel-footer-border-color;
   margin-top: 1.4em;
+  padding: 10px 0 0 0;
 }
 
 .panel-footer small {
   vertical-align: middle;
+  line-height: 4;
+
 }
 
 .panel-footer .list-inline a {

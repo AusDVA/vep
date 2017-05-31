@@ -1,5 +1,6 @@
 import React from 'react';
 import GeneralResourses from "./partials/generalResources";
+import Guide from "../doc/Guide - How to list a Defence Force Experience Desirable vacancy on jobactive.pdf";
 export default class Employers extends React.Component {
 
   render() {
@@ -80,7 +81,7 @@ export default class Employers extends React.Component {
                   <h2 id="Department">Department of Employment Initiatives</h2>
                   <p>Employers who are interested in hiring veterans can now indicate that defence force experience is desirable when they advertise a job on the
                      Australian Government’s <a target="_blank" href="http://www.jobactive.gov.au/">jobactive website</a>, by selecting the optional ‘defence force experience desirable’ flag.
-                     A guide has been developed to assist employers to list vacancies using the 'defence force experience desirable' flag.
+                     A <a href={Guide} target="_blank">guide</a> has been developed to assist employers to list vacancies using the 'defence force experience desirable' flag.
                   </p>
 
                   <h2 id="PrimeMinister">Prime Minister’s Veterans’ Employment Annual Awards</h2>
@@ -96,7 +97,7 @@ export default class Employers extends React.Component {
                     Australian Government’s <a target="_blank" href="http://www.jobactive.gov.au/">jobactive website</a>, by selecting the optional ‘defence force experience desirable’ flag. Employers can also approach local jobactive,
                     Transition to Work or Disability Employment Service providers to list vacancies targeting veterans on their behalf.
                 </p>
-                <p> A guide has been developed to assist employers to list vacancies using the ‘defence force experience desirable’ flag.</p>
+                <p> A <a href={Guide} target="_blank">guide</a> has been developed to assist employers to list vacancies using the ‘defence force experience desirable’ flag.</p>
 
                 <GeneralResourses/>
                 <p className="hidden-print">
