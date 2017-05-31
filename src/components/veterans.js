@@ -167,8 +167,6 @@ export default class Veterans extends React.Component {
                                 <p><a target="_blank" href="http://adfconsumer.gov.au/">Australian Defence Force Financial Services Consumer Centre</a> provides independent,
                                     professional financial education (not advice) to ADF members and their families.</p>
 
-                                <br/><br/>
-
                                 <GeneralResourses/>
 
                                 <p className="hidden-print">
