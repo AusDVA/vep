@@ -19,8 +19,12 @@
   color: $light-blue;
   font-weight: bold;
   font-size: $p-font-size;
-
 }
+
+span.glyphicon.glyphicon-chevron-down {
+  margin-left: 3em;
+}
+
 
 @media (min-width: 767px) {
   .nav > li > a {
