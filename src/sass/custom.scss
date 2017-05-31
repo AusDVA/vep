@@ -237,6 +237,20 @@ h3 {
   font-size: 85%;
 }
 
+.list-inline li a {
+   margin: .4em 1em .8em .4em;
+   color: $light-blue;
+   font-weight: bold;
+   font-size: $p-font-size;
+ }
+
+ .list-inline li a:focus {
+   background-color: $link-hover;
+   border-bottom: transparent;
+   outline: 1px solid #313131;
+   outline-offset: 1px;
+ }
+
 // misc
 
 .print-only {

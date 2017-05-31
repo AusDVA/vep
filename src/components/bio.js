@@ -25,7 +25,7 @@ export default class Bio extends React.Component {
           <li class="active">Member Biographies</li>
         </ol>
           <h1 className="hidden-print">Member Biographies</h1>
-          <h2 className="print-only">Industry Advisory Committee on Veterans' Employment Member biographies.</h2>
+          <h2 className="print-only">Industry Advisory Committee on Veterans' Employment Member biographies</h2>
 
         <section id="BioFrazis">
           <div className="row">

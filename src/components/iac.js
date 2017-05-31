@@ -27,7 +27,7 @@ export default class IAC extends React.Component {
           <div className="body-content container">
             <div className="row">
               <div className="col-md-9" id="mainCol">
-                <h1 id="content">Industry Advisory Committee On Veterans’ Employment</h1>
+                <h1 id="content">Industry Advisory Committee on Veterans’ Employment</h1>
                 <ul className="list-unstyled">
                   <li className="list-unstyled-header">Contents</li>
                   <li><a href="#Terms">Terms of reference</a></li>
@@ -75,14 +75,14 @@ export default class IAC extends React.Component {
                     <img src={BioFrazis} alt="Image of George Frazis" className="img-circle" height="150px" width="150px"></img>
                     <h3>George Frazis</h3>
                     <h4>Westpac Group</h4>
-                    <p>Chair | <a href="/member-biographies#BioFrazis" class="">Bio</a></p>
+                    <p>Chair | <a href="/member-biographies#BioFrazis">Bio</a></p>
 
                   </div>
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioRobertsSmith} alt="Image of Ben Roberts-Smith" className="img-circle" height="150px" width="150px"></img>
                     <h3>Ben Roberts-Smith VC, MG</h3>
                     <h4>Seven Network</h4>
-                    <p>Deputy Chair | <a href="/member-biographies#BioRobertsSmith" class="">Bio</a></p>
+                    <p>Deputy Chair | <a href="/member-biographies#BioRobertsSmith">Bio</a></p>
 
                   </div>
                 </div>
@@ -93,19 +93,19 @@ export default class IAC extends React.Component {
                     <img src={BioBlake} alt="Sample" className="img-circle" height="150px" width="150px"></img>
                     <h3>Chris Blake</h3>
                     <h4>Australia Post</h4>
-                    <p>Member | <a href="/member-biographies#BioBlake" class="">Bio</a></p>
+                    <p>Member | <a href="/member-biographies#BioBlake" >Bio</a></p>
                   </div>
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioColbert} alt="Image of Natalie Colbert" className="img-circle" height="150px" width="150px"></img>
                     <h3>Natalie Colbert</h3>
                     <h4>CanPLAY Pty Ltd</h4>
-                    <p>Small Business Representative | <a href="/member-biographies#BioColbert" class="">Bio</a></p>
+                    <p>Small Business Representative | <a href="/member-biographies#BioColbert" >Bio</a></p>
                   </div>
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioGalgsdies} alt="Sample" className="img-circle" height="150px" width="150px"></img>
                     <h3>Mark Galgsdies</h3>
                     <h4>Serco Asia Pacific</h4>
-                    <p>Member | <a href="/member-biographies#BioGalgsdies" class="">Bio</a></p>
+                    <p>Member | <a href="/member-biographies#BioGalgsdies" >Bio</a></p>
                   </div>
 
                 </div>
@@ -116,20 +116,20 @@ export default class IAC extends React.Component {
                     <img src={BioJansen} alt="Sample" className="img-circle" height="150px" width="150px"></img>
                     <h3>Mark Jansen</h3>
                     <h4>PwC</h4>
-                    <p>Member | <a href="/member-biographies#BioJansen" class="">Bio</a></p>
+                    <p>Member | <a href="/member-biographies#BioJansen" >Bio</a></p>
                 </div>
                 <div className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioLambert} alt="Sample" className="img-circle" height="150px" width="150px"></img>
                     <h3>Jenny Lambert</h3>
                     <h4>Australian Chamber of Commerce and Industry</h4>
-                    <p>Member | <a href="/member-biographies#BioLambert" class="">Bio</a></p>
+                    <p>Member | <a href="/member-biographies#BioLambert" >Bio</a></p>
                 </div>
 
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioLefever} alt="Sample" className="img-circle" height="150px" width="150px"></img>
                     <h3>Jim Lefever</h3>
                     <h4>CSC Australia Pty Ltd</h4>
-                    <p>Member | <a href="/member-biographies#BioLefever" class="">Bio</a></p>
+                    <p>Member | <a href="/member-biographies#BioLefever" >Bio</a></p>
                   </div>
 
                 </div>
@@ -139,19 +139,19 @@ export default class IAC extends React.Component {
                     <img src={BioMcdowell} alt="Sample" className="img-circle" height="150px" width="150px"></img>
                     <h3>Colin McDowell</h3>
                     <h4>Allied Express Transport</h4>
-                    <p>Member | <a href="/member-biographies#BioMcdowell" class="">Bio</a></p>
+                    <p>Member | <a href="/member-biographies#BioMcdowell" >Bio</a></p>
                   </div>
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioPalmerlee} alt="Sample" className="img-circle" height="150px" width="150px"></img>
                     <h3>Luke Palmerlee</h3>
                     <h4>J.P. Morgan Chase Bank, NA (Sydney Branch)</h4>
-                     <p>Member | <a href="/member-biographies#BioPalmerlee" class="">Bio</a></p>
+                     <p>Member | <a href="/member-biographies#BioPalmerlee" >Bio</a></p>
                   </div>
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioParker} alt="Sample" className="img-circle" height="150px" width="150px"></img>
                     <h3>Christine Parker</h3>
                     <h4>Westpac Group</h4>
-                    <p>Member | <a href="/member-biographies#BioParker" class="">Bio</a></p>
+                    <p>Member | <a href="/member-biographies#BioParker" >Bio</a></p>
                   </div>
 
                 </div>
@@ -161,19 +161,19 @@ export default class IAC extends React.Component {
                     <img src={BioPlaskett} alt="Sample" className="img-circle" height="150px" width="150px"></img>
                     <h3>Andrew Plaskett</h3>
                     <h4>Clayton Utz</h4>
-                    <p>Member | <a href="/member-biographies#BioPlaskett" class="">Bio</a></p>
+                    <p>Member | <a href="/member-biographies#BioPlaskett" >Bio</a></p>
                   </div>
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioRosenfield} alt="Sample" className="img-circle" height="150px" width="150px"></img>
                     <h3>Dean Rosenfield</h3>
                     <h4>Saab Australia Pty Ltd</h4>
-                    <p>Member | <a href="/member-biographies#BioRosenfield" class="">Bio</a></p>
+                    <p>Member | <a href="/member-biographies#BioRosenfield" >Bio</a></p>
                   </div>
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioWard} alt="Sample" className="img-circle" height="150px" width="150px"></img>
                     <h3>Michael Ward</h3>
                     <h4>Raytheon Australia</h4>
-                    <p>Member | <a href="/member-biographies#BioWard" class="">Bio</a></p>
+                    <p>Member | <a href="/member-biographies#BioWard" >Bio</a></p>
                   </div>
                 </div>
               </section>
