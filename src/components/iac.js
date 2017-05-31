@@ -1,19 +1,19 @@
 import React from "react";
 import IacNews from "./partials/iacnews";
-import BioColbert from "../image/bios/biocolbert.png";
-import BioFrazis from "../image/bios/biofrazis.png";
-import BioBlake from "../image/bios/bioblake.png";
-import BioGalgsdies from "../image/bios/biogalgsdies.png";
-import BioJansen from "../image/bios/biojansen.png";
-import BioLambert from "../image/bios/biolambert.png";
-import BioLefever from "../image/bios/biolefever.png";
-import BioMcdowell from "../image/bios/biomcdowell.png";
-import BioPalmerlee from "../image/bios/biopalmerlee.png";
-import BioParker from "../image/bios/bioparker.png";
-import BioPlaskett from "../image/bios/bioplaskett.png";
-import BioRobertsSmith from "../image/bios/bioroberts-smith.png";
-import BioRosenfield from "../image/bios/biorosenfield.png";
-import BioWard from "../image/bios/bioward.png";
+import BioColbert from "../image/bios/biocolbert.jpg";
+import BioFrazis from "../image/bios/biofrazis.jpg";
+import BioBlake from "../image/bios/bioblake.jpg";
+import BioGalgsdies from "../image/bios/biogalgsdies.jpg";
+import BioJansen from "../image/bios/biojansen.jpg";
+import BioLambert from "../image/bios/biolambert.jpg";
+import BioLefever from "../image/bios/biolefever.jpg";
+import BioMcdowell from "../image/bios/biomcdowell.jpg";
+import BioPalmerlee from "../image/bios/biopalmerlee.jpg";
+import BioParker from "../image/bios/bioparker.jpg";
+import BioPlaskett from "../image/bios/bioplaskett.jpg";
+import BioRobertsSmith from "../image/bios/bioroberts-smith.jpg";
+import BioRosenfield from "../image/bios/biorosenfield.jpg";
+import BioWard from "../image/bios/bioward.jpg";
 
 
 
