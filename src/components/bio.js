@@ -1,19 +1,19 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import BioColbert from "../image/bios/Natalie_Colbert.png";
-import BioFrazis from "../image/bios/George_Frazis.png";
-import BioBlake from "../image/bios/BlakeC.png";
-import BioGalgsdies from "../image/bios/MarkG.png";
-import BioJansen from "../image/bios/JansenM.png";
-import BioLambert from "../image/bios/Jenny.png";
-import BioLefever from "../image/bios/LefeverJ.png";
-import BioMcdowell from "../image/bios/ColinMcDowell.png";
-import BioPalmerlee from "../image/bios/LukePalmerlee.png";
-import BioParker from "../image/bios/ParkerC.png";
-import BioPlaskett from "../image/bios/AndrewPlaskett.png";
-import BioRobertsSmith from "../image/bios/ROBERTS_SMITH.png";
-import BioRosenfield from "../image/bios/DeanRosenfield.png";
-import BioWard from "../image/bios/MichaelWard.png";
+import BioColbert from "../image/bios/Colbert_280x350.jpg";
+import BioFrazis from "../image/bios/Frazis_280x350.jpg";
+import BioBlake from "../image/bios/Blake_280x350.jpg";
+import BioGalgsdies from "../image/bios/Galgsdies_280x350.jpg";
+import BioJansen from "../image/bios/Jansen_280x350.jpg";
+import BioLambert from "../image/bios/Lambert_280x350.jpg";
+import BioLefever from "../image/bios/Lefever_280x350.jpg";
+import BioMcdowell from "../image/bios/McDowell_280x350.jpg";
+import BioPalmerlee from "../image/bios/PalmerLee_280x350.jpg";
+import BioParker from "../image/bios/Parker_280x350.jpg";
+import BioPlaskett from "../image/bios/Plaskett_280x350.jpg";
+import BioRobertsSmith from "../image/bios/Roberts-Smith_280x350.jpg";
+import BioRosenfield from "../image/bios/Rosenfield_280x350.jpg";
+import BioWard from "../image/bios/Ward_280x350.jpg";
 export default class Bio extends React.Component {
 
   render(){
