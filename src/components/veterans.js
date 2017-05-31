@@ -1,5 +1,5 @@
 import React from "react";
-import GeneralResourses from "./generalResources";
+import GeneralResourses from "./partials/generalResources";
 import {Link} from "react-router-dom";
 
 export default class Veterans extends React.Component {

@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-import GOVLogo from '../image/logo-gov.svg';
+import GOVLogo from '../../image/logo-gov.svg';
 
 export default class NavBar extends React.Component {
 
@@ -19,13 +19,12 @@ export default class NavBar extends React.Component {
   }
 
   render() {
-
     return (
       <div className="container hidden-print">
         <div className="row">
           <div className="logo col-md-6 col-sm-6 col-xs-12"><img alt="Logo" src={GOVLogo}/></div>
            <div className="navbar-header col-md-1 col-xs-12 text-center">
-      <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-nav, #main-nav" aria-expanded="false">
+      <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav" aria-expanded="false">
          <a onClick={this.handleClick} href="#"><h3 className="mobile-menu text-center">Menu &nbsp;
 
                      <span onClick={this.handleClick} className= { this.state.isToggleOn ? "glyphicon glyphicon-chevron-down rotate-down" : "glyphicon glyphicon-chevron-down rotate"}
@@ -35,7 +34,6 @@ export default class NavBar extends React.Component {
            <div className="col-md-6 col-xs-12">
               <nav className="collapse navbar-collapse text-center" id ="top-nav">
              <ul className="nav navbar-nav navbar-right">
-               <li><a href="/#About">About the Program</a></li>
                <li><NavLink to="/contact">Contact </NavLink></li>
 
              </ul>
@@ -54,6 +52,21 @@ export default class NavBar extends React.Component {
        <li><NavLink to="/awards">Awards</NavLink></li>
      </ul>
     </div>
+</nav>
+
+<nav className="mobile-nav">
+
+<div className="collapse navbar-collapse" id="mobile-nav">
+<ul className="nav navbar-nav text-center">
+ <li><NavLink onClick={this.handleClick} data-toggle="collapse" data-target="#mobile-nav" to="/contact">Contact </NavLink></li>
+ <li><NavLink onClick={this.handleClick} data-toggle="collapse" data-target="#mobile-nav" exact to="/">Home</NavLink></li>
+ <li><NavLink onClick={this.handleClick} data-toggle="collapse" data-target="#mobile-nav" to="/veterans">Veterans</NavLink></li>
+ <li><NavLink onClick={this.handleClick} data-toggle="collapse" data-target="#mobile-nav" to="/employers">Employers</NavLink></li>
+ <li><NavLink onClick={this.handleClick} data-toggle="collapse" data-target="#mobile-nav" to="/ex-service-organisations">Ex-service organisations</NavLink></li>
+ <li><NavLink onClick={this.handleClick} data-toggle="collapse" data-target="#mobile-nav" to="/industry-advisory-committee">Industry Advisory Committee</NavLink></li>
+ <li><NavLink onClick={this.handleClick} data-toggle="collapse" data-target="#mobile-nav" to="/awards">Awards</NavLink></li>
+</ul>
+</div>
 </nav>
       </div>
 

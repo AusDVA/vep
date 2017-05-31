@@ -5,16 +5,15 @@ import {Provider} from "react-redux";
 import withTracker from "./components/withTracker";
 //Components
 import Home from "./components/home";
-import About from "./components/about";
 import Veterans from "./components/veterans";
 import ESO from "./components/eso";
 import Awards from "./components/awards";
 import Contact from "./components/contact";
-import NavBar from "./components/navbar";
-import Footer from "./components/footer";
+import NavBar from "./components/partials/navbar";
+import Footer from "./components/partials/footer";
 import IAC from "./components/iac";
 import Employers from "./components/employers";
-import Header from "./components/header";
+import Header from "./components/partials/header";
 import Bio from "./components/bio";
 import store from "./store.js";
 //CSS
@@ -35,7 +34,6 @@ ReactDOM.render(
             <Switch>
                 <Route exact path="/" component={withTracker(Home)}/>
                 <Route path="/employers" component={withTracker(Employers)}/>
-                <Route path="/about" component={withTracker(About)}/>
                 <Route path="/industry-advisory-committee" component={withTracker(IAC)}/>
                 <Route path="/veterans" component={withTracker(Veterans)}/>
                 <Route path="/ex-service-organisations" component={withTracker(ESO)}/>

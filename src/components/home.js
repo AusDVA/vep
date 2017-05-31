@@ -1,5 +1,5 @@
 import React from "react";
-import News from "./news";
+import News from "./partials/news";
 import {Link} from "react-router-dom";
 import ToggleDisplay from "react-toggle-display";
 

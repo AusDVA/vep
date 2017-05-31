@@ -1,6 +1,6 @@
 import React from 'react';
-import VEPLogo from '../image/banner4.png';
-import PrintHeader from "../image/vepbanner.png";
+import VEPLogo from '../../image/banner4.png';
+import PrintHeader from "../../image/vepbanner.png";
 
 export default class Header extends React.Component {
 

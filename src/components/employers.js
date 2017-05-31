@@ -1,5 +1,5 @@
 import React from 'react';
-import GeneralResourses from "./generalResources";
+import GeneralResourses from "./partials/generalResources";
 export default class Employers extends React.Component {
 
   render() {

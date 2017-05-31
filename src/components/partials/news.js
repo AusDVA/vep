@@ -1,6 +1,6 @@
 import React from 'react';
-import Opera from '../image/opera-house.jpg';
-import Worker from '../image/worker.jpg';
+import Opera from '../../image/opera-house.jpg';
+import Worker from '../../image/worker.jpg';
 import ToggleDisplay from "react-toggle-display";
 export default class News extends React.Component {
 

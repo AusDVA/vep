@@ -1,5 +1,5 @@
 import React from "react";
-import IacNews from "./iacnews";
+import IacNews from "./partials/iacnews";
 import BioColbert from "../image/bios/biocolbert.png";
 import BioFrazis from "../image/bios/biofrazis.png";
 import BioBlake from "../image/bios/bioblake.png";
