@@ -27,7 +27,7 @@ export default class Home extends React.Component {
           <div className="container">
             <div className="description">
               <div className="row">
-                <div className="col-md-8">
+                <div className="col-md-10">
                   <p>The Prime Minister's Veterans' Employment Program demonstrates the importance the Government places on raising awareness with employers,
                      both private and public sector, and of the value and unique experience of our veterans.</p>
                      <ToggleDisplay show={this.state.show}>

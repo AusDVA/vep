@@ -31,8 +31,7 @@ export default class News extends React.Component {
             <section>
     					<div className="row">
     						<div className="col-sm-4 col-xs-6"><img alt="Opera house" src={Opera}/></div>
-    						<div className="col-sm-8">
-                  <h3>Latest News</h3>
+    						<div className="col-sm-8">                  
                   <p>The Industry Advisory Committee on Veterans' Employment held its inaugural meeting in Sydney on 31 March 2017.</p>
                   <ToggleDisplay show={this.state.show}>
                   <p>At the meeting, the Committee focused on establishing a number of priority areas of focus. These areas include the availability of data on the employment profile of veterans, improving the transition process from the ADF, translating skills and raising awareness of the value that former members of the ADF offer to Australian businesses.</p>

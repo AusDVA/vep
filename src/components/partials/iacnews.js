@@ -1,5 +1,4 @@
 import React from "react";
-import Opera from '../../image/opera-house.jpg';
 
 export default class IACNews extends React.Component {
 

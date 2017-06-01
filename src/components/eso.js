@@ -9,7 +9,7 @@ export default class ESO extends React.Component {
         <section>
           <div className="body-content container">
             <div className="row">
-              <div className="col-md-8">
+              <div className="col-md-10">
                 <h1> Ex-service organisations </h1>
 
                 <p>Ex-service organisations can participate in the Prime Minister’s Veterans’

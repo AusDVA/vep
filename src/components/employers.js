@@ -9,7 +9,7 @@ export default class Employers extends React.Component {
         <section>
           <div className="body-content container">
             <div className="row">
-              <div className="col-md-8" id="mainCol">
+              <div className="col-md-10" id="mainCol">
 
               <h1> Employers </h1>
 

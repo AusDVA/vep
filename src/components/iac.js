@@ -23,7 +23,7 @@ export default class IAC extends React.Component {
         <section>
           <div className="body-content container">
             <div className="row">
-              <div className="col-md-9" id="mainCol">
+              <div className="col-md-10" id="mainCol">
                 <h1 id="content">Industry Advisory Committee on Veterans’ Employment</h1>
                 <ul className="list-unstyled">
                   <li className="list-unstyled-header">Contents</li>
