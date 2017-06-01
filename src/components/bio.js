@@ -87,7 +87,7 @@ export default class Bio extends React.Component {
              </div>
 
              <div className="col-md-8">
-                 <h4><strong>Ben Roberts-Smith</strong></h4>
+                 <h4><strong>Ben Roberts-Smith VC, MG</strong></h4>
                  <h4><strong>General Manager</strong></h4>
                  <h4><strong>Seven Network, Queensland</strong></h4>
 
