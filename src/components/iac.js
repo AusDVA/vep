@@ -15,9 +15,6 @@ import BioRobertsSmith from "../image/bios/bioroberts-smith.jpg";
 import BioRosenfield from "../image/bios/biorosenfield.jpg";
 import BioWard from "../image/bios/bioward.jpg";
 
-
-
-
 export default class IAC extends React.Component {
 
   render() {

@@ -23,7 +23,7 @@ export default class NavBar extends React.Component {
     return (
       <div className="container hidden-print">
         <div className="row">
-          <div className="logo col-md-6 col-sm-6 col-xs-12"><img alt="Logo" src={GOVLogo}/></div>
+          <div className="logo col-md-6 col-sm-6 col-xs-12"><img alt="Australian Coat of arms" src={GOVLogo}/></div>
            <div className="navbar-header col-md-1 col-xs-12 text-center">
       <button onClick={this.handleClick}  type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav" aria-expanded="false">
          <a href="#"><h3 className="mobile-menu text-center">Menu

@@ -20,12 +20,12 @@ export default class Bio extends React.Component {
     return (
       <div className="body-content container no-float-print">
         <ol className="breadcrumb hidden-print">
-          <li><Link exact to="/">Home</Link></li>
+          <li><Link to="/">Home</Link></li>
           <li><Link to="/industry-advisory-committee">Industry Advisory Committee</Link></li>
-          <li class="active">Member Biographies</li>
+          <li className="active">Member Biographies</li>
         </ol>
           <h1 className="hidden-print">Member Biographies</h1>
-          <h2 className="print-only" aria-hidden="true">Industry Advisory Committee on Veterans' Employment Member biographies</h2>
+          <h2 className="print-only">Industry Advisory Committee on Veterans' Employment Member biographies</h2>
 
         <section id="BioFrazis">
           <div className="row">
@@ -36,7 +36,7 @@ export default class Bio extends React.Component {
                   </div>
               </div>
 
-           <div className="col-md-8" id="mainCol">
+           <div className="col-md-8">
                   <h4><strong>George Frazis</strong></h4>
                   <h4><strong>Chief Executive, Consumer Bank</strong></h4>
                   <h4><strong>Westpac Group</strong></h4>
@@ -86,7 +86,7 @@ export default class Bio extends React.Component {
                  </div>
              </div>
 
-             <div className="col-md-8" id="mainCol">
+             <div className="col-md-8">
                  <h4><strong>Ben Roberts-Smith</strong></h4>
                  <h4><strong>General Manager</strong></h4>
                  <h4><strong>Seven Network, Queensland</strong></h4>
@@ -128,7 +128,7 @@ export default class Bio extends React.Component {
                 </div>
             </div>
 
-            <div className="col-md-8" id="mainCol">
+            <div className="col-md-8">
                 <h4><strong>Natalie Colbert</strong></h4>
                 <h4><strong>Chief Executive Officer</strong></h4>
                 <h4><strong>CanPLAY Pty Ltd</strong></h4>
@@ -160,7 +160,7 @@ export default class Bio extends React.Component {
                   </div>
               </div>
 
-              <div className="col-md-8" id="mainCol">
+              <div className="col-md-8">
                   <h4><strong>Chris Blake</strong></h4>
                   <h4><strong>Executive General Manager, Group Services</strong></h4>
                   <h4><strong>Australia Post</strong></h4>
@@ -200,7 +200,7 @@ export default class Bio extends React.Component {
                </div>
            </div>
 
-           <div className="col-md-8" id="mainCol">
+           <div className="col-md-8">
                <h4><strong>Mark Galgsdies, JP</strong></h4>
                <h4><strong>National Training Manager – Defence</strong></h4>
                <h4><strong>Serco Asia Pacific</strong></h4>
@@ -244,7 +244,7 @@ export default class Bio extends React.Component {
                 </div>
             </div>
 
-            <div className="col-md-8" id="mainCol">
+            <div className="col-md-8">
                 <h4><strong>Mark Jansen</strong></h4>
                 <h4><strong>Director</strong></h4>
                 <h4><strong>PwC</strong></h4>
@@ -279,7 +279,7 @@ export default class Bio extends React.Component {
                    </div>
                </div>
 
-               <div className="col-md-8" id="mainCol">
+               <div className="col-md-8">
                    <h4><strong>Jenny Lambert</strong></h4>
                    <h4><strong>Director Employment, Education and Training</strong></h4>
                    <h4><strong>Australian Chamber of Commerce and Industry</strong></h4>
@@ -310,7 +310,7 @@ export default class Bio extends React.Component {
                </div>
            </div>
 
-           <div className="col-md-8" id="mainCol">
+           <div className="col-md-8">
                <h4><strong>Jim Lefever</strong></h4>
                <h4><strong>Human Resources</strong></h4>
                <h4><strong>CSC Australia Pty Ltd</strong></h4>
@@ -341,7 +341,7 @@ export default class Bio extends React.Component {
                   </div>
               </div>
 
-              <div className="col-md-8" id="mainCol">
+              <div className="col-md-8">
                   <h4><strong>Colin McDowell</strong></h4>
                   <h4><strong>Chief Executive Officer</strong></h4>
                   <h4><strong>Allied Express Transport</strong></h4>
@@ -371,7 +371,7 @@ export default class Bio extends React.Component {
                  </div>
              </div>
 
-             <div className="col-md-8" id="mainCol">
+             <div className="col-md-8">
                  <h4><strong>Mr Luke Palmerlee</strong></h4>
                  <h4><strong>Executive Director</strong></h4>
                  <h4><strong>J.P. Morgan Chase Bank, NA (Sydney Branch)</strong></h4>
@@ -402,7 +402,7 @@ export default class Bio extends React.Component {
                   </div>
               </div>
 
-              <div className="col-md-8" id="mainCol">
+              <div className="col-md-8">
                   <h4><strong>Christine Parker</strong></h4>
                   <h4><strong>Group Executive, Human Resources, Corporate Affairs and Sustainability</strong></h4>
                   <h4><strong>Westpac Group</strong></h4>
@@ -446,7 +446,7 @@ export default class Bio extends React.Component {
                   </div>
               </div>
 
-              <div className="col-md-8" id="mainCol">
+              <div className="col-md-8">
                   <h4><strong>Andrew Plaskett</strong></h4>
                   <h4><strong>Director, Clients and Markets & People and Development</strong></h4>
                   <h4><strong>Clayton Utz</strong></h4>
@@ -473,7 +473,7 @@ export default class Bio extends React.Component {
                   </div>
               </div>
 
-              <div className="col-md-8" id="mainCol">
+              <div className="col-md-8">
                   <h4><strong>Dean Rosenfield</strong></h4>
                   <h4><strong>Managing Director</strong></h4>
                   <h4><strong>Saab Australia Pty Ltd</strong></h4>
@@ -504,7 +504,7 @@ export default class Bio extends React.Component {
                  </div>
              </div>
 
-             <div className="col-md-8" id="mainCol">
+             <div className="col-md-8">
                  <h4><strong>Michael Ward</strong></h4>
                  <h4><strong>Managing Director</strong></h4>
                  <h4><strong>Raytheon Australia</strong></h4>
