@@ -4,7 +4,7 @@ export default class Footer extends React.Component {
   render(){
     return (
       <footer className="panel-footer">
-		<div className="container body-content">
+		<div className="container">
 			<div className="row">
 				<div className="col-sm-6">
 					<section>

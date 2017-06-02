@@ -25,7 +25,7 @@ export default class Bio extends React.Component {
           <li className="active">Member Biographies</li>
         </ol>
           <h1 className="hidden-print">Member Biographies</h1>
-          <h2 className="print-only">Industry Advisory Committee on Veterans' Employment Member biographies</h2>
+          <h2 className="print-only" aria-hidden="true">Industry Advisory Committee on Veterans' Employment Member biographies</h2>
 
         <section id="BioFrazis">
           <div className="row">
@@ -37,13 +37,13 @@ export default class Bio extends React.Component {
               </div>
 
            <div className="col-md-8">
-                  <h4><strong>George Frazis</strong></h4>
-                  <h4><strong>Chief Executive, Consumer Bank</strong></h4>
-                  <h4><strong>Westpac Group</strong></h4>
-                  <h5><strong>B.Eng. (Hons), MBA (AGSM/Wharton)</strong></h5>
-                  <br/>
+                  <h4>George Frazis</h4>
+                  <h4>Chief Executive, Consumer Bank</h4>
+                  <h4>Westpac Group</h4>
+                  <h5>B.Eng. (Hons), MBA (AGSM/Wharton)</h5>
 
-                  <p> George was appointed Chief Executive, Consumer Bank for the Westpac Group in June 2015, responsible for managing the end to end relationship with consumer customers.
+
+                  <p className="break"> George was appointed Chief Executive, Consumer Bank for the Westpac Group in June 2015, responsible for managing the end to end relationship with consumer customers.
                     This includes managing over 10,300 people and all consumer banking products and services under the Westpac, St.George, BankSA, Bank of Melbourne and RAMS brands.
                     In his first 12 months in the role George has achieved above market balance sheet growth while increasing cash earnings by 16%.
                   </p>
@@ -87,11 +87,11 @@ export default class Bio extends React.Component {
              </div>
 
              <div className="col-md-8">
-                 <h4><strong>Ben Roberts-Smith VC, MG</strong></h4>
-                 <h4><strong>General Manager</strong></h4>
-                 <h4><strong>Seven Network, Queensland</strong></h4>
+                 <h4>Ben Roberts-Smith VC, MG</h4>
+                 <h4>General Manager</h4>
+                 <h4>Seven Network, Queensland</h4>
 
-                 <p> Ben Roberts-Smith served with distinction in the Australian Army and Special Air Service Regiment.
+                 <p className="break"> Ben Roberts-Smith served with distinction in the Australian Army and Special Air Service Regiment.
                     His service spans over 19 years and included operational deployments to East Timor, Fiji, Iraq, Afghanistan, and the Middle East.
                     Ben is a recipient of the Victoria Cross for Australia, the Medal for Gallantry and Commendation for Distinguished Service.
                  </p>
@@ -129,10 +129,10 @@ export default class Bio extends React.Component {
             </div>
 
             <div className="col-md-8">
-                <h4><strong>Natalie Colbert</strong></h4>
-                <h4><strong>Chief Executive Officer</strong></h4>
-                <h4><strong>CanPLAY Pty Ltd</strong></h4>
-                <p>Natalie has eight years of corporate experience as the founder and sole director/Chief Executive Officer
+                <h4>Natalie Colbert</h4>
+                <h4>Chief Executive Officer</h4>
+                <h4>CanPLAY Pty Ltd</h4>
+                <p className="break">Natalie has eight years of corporate experience as the founder and sole director/Chief Executive Officer
                      of CanPLAY Pty Ltd, a company managing three separate early childhood business in Canberra and offering
                       consulting services to other early childhood education providers.</p>
                   <p>Natalie is a veteran of the Royal Australian Air Force after serving twenty-two years’ as a Logistics Officer
@@ -161,11 +161,11 @@ export default class Bio extends React.Component {
               </div>
 
               <div className="col-md-8">
-                  <h4><strong>Chris Blake</strong></h4>
-                  <h4><strong>Executive General Manager, Group Services</strong></h4>
-                  <h4><strong>Australia Post</strong></h4>
+                  <h4>Chris Blake</h4>
+                  <h4>Executive General Manager, Group Services</h4>
+                  <h4>Australia Post</h4>
 
-                  <p> Chris Blake joined Australia Post in July 2010 and is the Executive General Manager Group Services.
+                  <p className="break"> Chris Blake joined Australia Post in July 2010 and is the Executive General Manager Group Services.
                       He is responsible for leading strategy, cultural change, innovation, internal and external communications, Human Resources,
                       Government and Regulatory Affairs and stakeholder management.
                   </p>
@@ -201,11 +201,11 @@ export default class Bio extends React.Component {
            </div>
 
            <div className="col-md-8">
-               <h4><strong>Mark Galgsdies, JP</strong></h4>
-               <h4><strong>National Training Manager – Defence</strong></h4>
-               <h4><strong>Serco Asia Pacific</strong></h4>
+               <h4>Mark Galgsdies, JP</h4>
+               <h4>National Training Manager – Defence</h4>
+               <h4>Serco Asia Pacific</h4>
 
-               <p>Mark joined Serco Asia Pacific as its National Training Manager - Defence in March 2016.
+               <p className="break">Mark joined Serco Asia Pacific as its National Training Manager - Defence in March 2016.
                   After spending 8 years as an Education Officer in the Royal Australian Air Force, Mark pursued a career focussed on staff training and development.
                   Over the past 20 years, Mark has worked in both public and private sector organisations across many different industries ranging from banking to
                   construction, in Australia, Papua New Guinea, New Zealand, USA and Singapore.
@@ -245,16 +245,15 @@ export default class Bio extends React.Component {
             </div>
 
             <div className="col-md-8">
-                <h4><strong>Mark Jansen</strong></h4>
-                <h4><strong>Director</strong></h4>
-                <h4><strong>PwC</strong></h4>
+                <h4>Mark Jansen</h4>
+                <h4>Director</h4>
+                <h4>PwC</h4>
 
-                <p> Bachelor of Science – University of New South Wales
-                    Graduate Diploma of Technology Management – Deakin University
-                    Master of Defence Studies – Canberra University
-                </p>
+                    <h5>Bachelor of Science – University of New South Wales</h5>
+                    <h5>Graduate Diploma of Technology Management – Deakin University</h5>
+                    <h5>Master of Defence Studies – Canberra University</h5>
 
-                <p>Mark Jansen is a Partner in PwC and leads elements of the Defence and National Security Businesses. He supports clients in Strategy, Aerospace, Command, Control,
+                <p className="break">Mark Jansen is a Partner in PwC and leads elements of the Defence and National Security Businesses. He supports clients in Strategy, Aerospace, Command, Control,
                    Intelligence and Information Technology.  Mark has over 15 years of consulting experience and was a Partner in Booz & Company before the company was acquired by PwC in 2015.
                 </p>
 
@@ -280,10 +279,10 @@ export default class Bio extends React.Component {
                </div>
 
                <div className="col-md-8">
-                   <h4><strong>Jenny Lambert</strong></h4>
-                   <h4><strong>Director Employment, Education and Training</strong></h4>
-                   <h4><strong>Australian Chamber of Commerce and Industry</strong></h4>
-                     <p>Jenny has been serving the business community for 32 years as a senior manager within industry associations,
+                   <h4>Jenny Lambert</h4>
+                   <h4>Director Employment, Education and Training</h4>
+                   <h4>Australian Chamber of Commerce and Industry</h4>
+                     <p className="break">Jenny has been serving the business community for 32 years as a senior manager within industry associations,
                         including 16 years as a CEO of associations largely in the services sector.</p>
                      <p>Commencing with the Australian Hotels Association as their Industrial & Research Officer in 1984, Jenny then served
                         as Project Manager at Tourism’s Industry Training Advisory Board in the early 1990s, working on projects relating
@@ -311,10 +310,10 @@ export default class Bio extends React.Component {
            </div>
 
            <div className="col-md-8">
-               <h4><strong>Jim Lefever</strong></h4>
-               <h4><strong>Human Resources</strong></h4>
-               <h4><strong>CSC Australia Pty Ltd</strong></h4>
-               <p> Jim Lefever leads CSC’s human resources department. </p>
+               <h4>Jim Lefever</h4>
+               <h4>Human Resources</h4>
+               <h4>CSC Australia Pty Ltd</h4>
+               <p className="break"> Jim Lefever leads CSC’s human resources department. </p>
                <p>He is an experienced business transformation leader, human resources director, change manager and consultant.
                   Jim has designed and managed the implementation of innovative and successful transformations across the world.
                   Jim previously held senior HR and transformation roles at Salmat, Hewlett Packard/EDS Group, Equant/Global One,
@@ -342,10 +341,10 @@ export default class Bio extends React.Component {
               </div>
 
               <div className="col-md-8">
-                  <h4><strong>Colin McDowell</strong></h4>
-                  <h4><strong>Chief Executive Officer</strong></h4>
-                  <h4><strong>Allied Express Transport</strong></h4>
-                <p>Colin McDowell is the Chief Executive Officer of Allied Express Transport.</p>
+                  <h4>Colin McDowell</h4>
+                  <h4>Chief Executive Officer</h4>
+                  <h4>Allied Express Transport</h4>
+                <p className="break">Colin McDowell is the Chief Executive Officer of Allied Express Transport.</p>
                 <p>Allied Express Transport are Australia’s largest privately owned express transport company,
                    responsible for the distribution of product from many industry leading brands such as Holden
                    (Allied Express builds the Holden motor car!), Schneider Electric, Repco, AutoNexus, De’Longhi Group, LG and Foxtel.
@@ -372,10 +371,10 @@ export default class Bio extends React.Component {
              </div>
 
              <div className="col-md-8">
-                 <h4><strong>Mr Luke Palmerlee</strong></h4>
-                 <h4><strong>Executive Director</strong></h4>
-                 <h4><strong>J.P. Morgan Chase Bank, NA (Sydney Branch)</strong></h4>
-                 <p>Luke Palmerlee is an Executive Director in the investment banking division of J.P. Morgan Australia
+                 <h4>Mr Luke Palmerlee</h4>
+                 <h4>Executive Director</h4>
+                 <h4>J.P. Morgan Chase Bank, NA (Sydney Branch)</h4>
+                 <p className="break">Luke Palmerlee is an Executive Director in the investment banking division of J.P. Morgan Australia
                     and heads the bank’s government business, reporting directly to the bank’s Australian CEO, Robert Priestley.
                     He has been with the bank nearly 15 years, working throughout Asia and for the last 12 years in Australia.
                     Luke has covered clients across a range of sectors including
@@ -403,11 +402,11 @@ export default class Bio extends React.Component {
               </div>
 
               <div className="col-md-8">
-                  <h4><strong>Christine Parker</strong></h4>
-                  <h4><strong>Group Executive, Human Resources, Corporate Affairs and Sustainability</strong></h4>
-                  <h4><strong>Westpac Group</strong></h4>
+                  <h4>Christine Parker</h4>
+                  <h4>Group Executive, Human Resources, Corporate Affairs and Sustainability</h4>
+                  <h4>Westpac Group</h4>
 
-                  <p> Christine Parker is Group Executive, Human Resources and Corporate Affairs for the Westpac Group. </p>
+                  <p className="break"> Christine Parker is Group Executive, Human Resources and Corporate Affairs for the Westpac Group. </p>
 
                   <p>In this role, Christine is a member of Westpac Group’s Executive Team and holds leadership responsibility for the
                      Human Resources and Corporate Affairs and Sustainability functions across the Westpac Group.
@@ -447,11 +446,11 @@ export default class Bio extends React.Component {
               </div>
 
               <div className="col-md-8">
-                  <h4><strong>Andrew Plaskett</strong></h4>
-                  <h4><strong>Director, Clients and Markets & People and Development</strong></h4>
-                  <h4><strong>Clayton Utz</strong></h4>
+                  <h4>Andrew Plaskett</h4>
+                  <h4>Director, Clients and Markets & People and Development</h4>
+                  <h4>Clayton Utz</h4>
 
-                  <p>Andrew Plaskett joined Clayton Utz in April 2007 and is currently the Director of Clients and Markets/People and Development.</p>
+                  <p className="break">Andrew Plaskett joined Clayton Utz in April 2007 and is currently the Director of Clients and Markets/People and Development.</p>
                   <p>Prior to this appointment, he was the National Manager, Client Strategy at Freehills.</p>
                   <p>Andrew also worked as a Management Consultant for CCA which included a focus on supporting Government agencies
                      across Federal and State and Local Government in the design and implementation of enterprise development initiatives.</p>
@@ -474,12 +473,12 @@ export default class Bio extends React.Component {
               </div>
 
               <div className="col-md-8">
-                  <h4><strong>Dean Rosenfield</strong></h4>
-                  <h4><strong>Managing Director</strong></h4>
-                  <h4><strong>Saab Australia Pty Ltd</strong></h4>
+                  <h4>Dean Rosenfield</h4>
+                  <h4>Managing Director</h4>
+                  <h4>Saab Australia Pty Ltd</h4>
 
-                  <p>Dean Rosenfield was appointed as the Managing Director of Saab Australia Pty Ltd in 2013 and is the senior representative
-                     for the Saab defence and security corporation in Australia and New Zealand. </p>
+                  <p className="break">Dean Rosenfield was appointed as the Managing Director of Saab Australia Pty Ltd in 2013 and is the senior representative
+                     for the SaclassName="break"ab defence and security corporation in Australia and New Zealand. </p>
                   <p>Dean is a graduate of the Royal Military College, Duntroon and served 15 years in the Australian Army
                      before moving to industry in 1999 as a management consultant.</p>
                   <p>He has been with Saab since 2001 and has held senior roles in engineering, project management and business development
@@ -505,11 +504,11 @@ export default class Bio extends React.Component {
              </div>
 
              <div className="col-md-8">
-                 <h4><strong>Michael Ward</strong></h4>
-                 <h4><strong>Managing Director</strong></h4>
-                 <h4><strong>Raytheon Australia</strong></h4>
+                 <h4>Michael Ward</h4>
+                 <h4>Managing Director</h4>
+                 <h4>Raytheon Australia</h4>
 
-                 <p>Michael Ward is Managing Director of Raytheon Australia responsible for the executive management
+                 <p className="break">Michael Ward is Managing Director of Raytheon Australia responsible for the executive management
                     of Raytheon operations in Australia and New Zealand.</p>
                  <p>As a leading provider of Defence and training capability, Raytheon Australia is trusted to deliver; always.  The company
                     provides integrated mission solutions, weapon systems and mission support services for the Australian Defence Force across

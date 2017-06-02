@@ -92,12 +92,12 @@ export default class Veterans extends React.Component {
                                 <h2 id="support">State and territory government initiatives to increase veterans’ employment</h2>
                                 <h3>NSW Government</h3>
                                 <p>The <a target="_blank"
-                                    href="http://www.vep.veterans.nsw.gov.au/about/about-the-veterans-employment-program/">NSW
+                                    href="http://www.vep.veterans.nsw.gov.au">NSW
                                     Veterans Employment Program</a>, launched
                                     on 5 May 2016, will assist an additional
                                     200 veterans to find suitable, sustainable and meaningful employment within the NSW
                                     Government
-                                    Sector by 2019. The <a target="_blank" href="http://www.vep.veterans.nsw.gov.au/">NSW Government</a> offers a variety of careers allowing veterans to draw upon
+                                    Sector by 2019. The NSW Government offers a variety of careers allowing veterans to draw upon
                                     their unique military experience and skills. <a target="_blank"
                                         href="http://www.vep.veterans.nsw.gov.au/job-search/job-search/">An ADF Rank –
                                         NSW Government Grade Match Tool</a> has
@@ -121,14 +121,14 @@ export default class Veterans extends React.Component {
                                     been implemented to encourage current and former
                                     ADF members to consider employment in the WA public sector. </p>
 
-                                <h2 id="Resources">Resources for Veterans</h2>
+                                <h2 id="Resources">Resources for veterans</h2>
                                 <h3>jobactive</h3>
                                 <p>jobactive is the Australian Government’s way to get more Australians into work, by connecting
                                    job seekers with employers.  Under the Program, jobactive has been enhanced. The <a target="_blank" href="http://www.jobactive.gov.au/">jobactive website</a> now enables employers to select an optional ‘defence force experience desirable’ flag,
                                    and veterans can <a target="_blank" href="https://jobsearch.gov.au/job/search/ex-adf">search for jobs</a> that employers have flagged.
                                 </p>
                                 <p>The jobactive website also provides <a target="_blank" href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">
-                                information tailored for veterans jobseekers</a>.</p>
+                                information tailored for veteran jobseekers</a>.</p>
 
                                 <h3>APSjobs</h3>
                                 <p>The Australian Public Service (APS) provides a wide range of roles, generous support and remuneration for

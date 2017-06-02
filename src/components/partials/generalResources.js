@@ -6,7 +6,7 @@ export default class GeneralResourses extends React.Component {
         return (
             <div>
 
-                <h3>Australian Defence Force (ADF) Separation Data</h3>
+                <h3>Australian Defence Force Separation Data</h3>
                 <p><a href={data} target="_blank">ADF Separations 2012-2016 by State and Category</a></p>
 
                 <h3>Media Releases</h3>

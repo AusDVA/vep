@@ -102,13 +102,17 @@ body {
   font-family: $font-family-uikit;
 }
 
-.row{
+.row {
   padding-bottom: 1em;
 }
 
 .body-content ul > li, .body-content ol > li {
   margin-bottom: .4em;
   font-size: $p-font-size;
+}
+
+.body-content {
+  min-height: 605px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -147,11 +151,19 @@ h1 {
 
 h2  {
   line-height: 1.4;
-  font-weight: bold;
 }
 
-h3 {
+h2, h3 {
   font-weight: 600;
+}
+
+
+h4, h5 {
+  font-weight: 700;
+}
+
+h5 {
+  line-height: 0.9;
 }
 
 ::-moz-selection {
@@ -276,4 +288,8 @@ h3 {
   .col-xs-6 {
     width: 100% !important;
   }
+}
+
+.break {
+  margin-top: 2em;
 }
