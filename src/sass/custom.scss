@@ -188,13 +188,15 @@ h5 {
 // news items
 
 .news section {
-  border-top: 5px solid $card-border;
+
   line-height: 1.6;
   font-family: $font-family-uikit;
 }
 
 .news img {
-  width: 100%;
+  width: 400px;
+  height: 150px;
+  border-top: 5px solid $card-border;
 }
 
 .news {
@@ -287,6 +289,9 @@ h5 {
 @media (max-width: 415px) {
   .col-xs-6 {
     width: 100% !important;
+  }
+  .news img {
+    width: 100%;
   }
 }
 
