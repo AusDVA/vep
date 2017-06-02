@@ -22,7 +22,7 @@ export default class News extends React.Component {
 
     return (
 
-    	<div className="container section-nobreak">
+    	<div className="container section-nobreak no-float-print">
     		<div className="news row">
     			<div className="col-sm-12">
     				<h2>Recent news</h2>
@@ -31,9 +31,9 @@ export default class News extends React.Component {
             <section>
     					<div className="row">
     						<div className="col-sm-4 col-xs-12"><img alt="Group photo of Industry Advisory Committee members." src={IAC_Img}/></div>
-    						<div className="col-sm-12">
+    						<div className="col-sm-9 col-md-12">
                   <h4 className="news-headline">Industry Advisory Committee's inaugural meeting</h4>
-                  <p>The Industry Advisory Committee on Veterans' Employment held its inaugural meeting in Sydney on 31 March 2017.</p>
+                  <p>The Industry Advisory Committee on Veterans' Employment held its inaugural meeting in Sydney on <span className="no-wrap">31 March 2017.</span></p>
                   <ToggleDisplay show={this.state.show}>
                   <p>At the meeting, the Committee focused on establishing a number of priority areas of focus. These areas include the availability of data on the employment profile of veterans, improving the transition process from the ADF, translating skills and raising awareness of the value that former members of the ADF offer to Australian businesses.</p>
 
@@ -46,11 +46,11 @@ export default class News extends React.Component {
               </section>
 
     			</div>
-    			<div className="col-sm-12 col-md-5 col-md-offset-1">
+    			<div className="col-sm-12 col-md-6 col-md-offset-1">
     				<section>
     					<div className="row">
     						<div className="col-sm-4 col-xs-12"><img className="text-center" alt="JobActive Logo" src={JobActive}/></div>
-    						<div className="col-sm-12">
+    						<div className="col-sm-9 col-md-12">
     							<h4 className="news-headline">Helping veterans to find jobs</h4>
     							<p>Jobactive is a board to help veterans to find jobs where ADF experience is valued... <a href="#">Read&nbsp;more</a></p>
     						</div>

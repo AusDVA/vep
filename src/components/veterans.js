@@ -94,7 +94,7 @@ export default class Veterans extends React.Component {
                                 <p>The <a target="_blank"
                                     href="http://www.vep.veterans.nsw.gov.au">NSW
                                     Veterans Employment Program</a>, launched
-                                    on 5 May 2016, will assist an additional
+                                    on <span className="no-wrap">5 May 2016</span>, will assist an additional
                                     200 veterans to find suitable, sustainable and meaningful employment within the NSW
                                     Government
                                     Sector by 2019. The NSW Government offers a variety of careers allowing veterans to draw upon
