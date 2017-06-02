@@ -3,8 +3,6 @@ import {Field, reduxForm} from 'redux-form';
 
 class Contact extends React.Component {
 
-
-
   renderField(field) {
     const {meta: {touched,error}} = field;
     const className = `form-group ${touched && error ? 'has-error' : ''}`;
@@ -12,8 +10,8 @@ class Contact extends React.Component {
     return (
       <div className="col-md-12 form-group required">
         <div className={className}>
-          <label className="control-label">{field.label}</label>
-          <input className="form-control" {...field.input} type="text" placeholder={field.placeholder}/>
+          <label className="control-label" htmlFor={field.label}>{field.label}</label>
+          <input className="form-control" id= {field.label} {...field.input} type="text" placeholder={field.placeholder}/>
           <span className="text-danger">
             {touched ? error : ''}
           </span>
@@ -30,8 +28,8 @@ class Contact extends React.Component {
     return (
       <div className="col-md-12 form-group required">
         <div className={className}>
-          <label className="control-label">{field.label}</label>
-          <textarea className="form-control" {...field.input} type="text" placeholder={field.placeholder} rows="4"/>
+          <label className="control-label" htmlFor={field.label}>{field.label}</label>
+          <textarea className="form-control" {...field.input} type="text" id= {field.label} placeholder={field.placeholder} rows="4"/>
           <span className="text-danger">
             {touched ? error : ''}
           </span>
@@ -43,10 +41,10 @@ class Contact extends React.Component {
   onSubmit(values) {
     console.log(values);
     //clear input after form submit.
-    values.firstname = "";
-    values.email = "";
-    values.phone = "";
-    values.feedback = "";
+    values.Name = "";
+    values.Email = "";
+    values.Phone = "";
+    values.Message = "";
 
 
   }
@@ -71,14 +69,14 @@ class Contact extends React.Component {
                 <h1>Contact Us</h1>
                 <div className="col-md-7 col-sm-6">
                   <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
-                    <Field name="firstname" label="Name: " placeholder="ex. John Smith" component={this.renderField}/>
-                    <Field name="email" label="Email: " placeholder="ex. john.smith@example.com" component={this.renderField}/>
-                    <Field name="phone" label="Phone: " placeholder="ex. 0412 345 678" component={this.renderField}/>
-                    <Field name="feedback" label="Message: " component={this.renderFeedback}/>
+                    <Field aria-label="Name" aria-required="true" name="Name" label="Name: " placeholder="ex. John Smith" component={this.renderField}/>
+                    <Field aria-label="Email" aria-required="true" name="Email" label="Email: " placeholder="ex. john.smith@example.com" component={this.renderField}/>
+                    <Field aria-label="Phone number" aria-required="true" name="Phone" placeholder="ex. 0412 345 678" label="Phone: " component={this.renderField}/>
+                    <Field aria-label="Message" aria-required="true" name="Message" label="Message: " component={this.renderFeedback}/>
 
                     <div className="col-md-1 col-sm-3">
                       <button className="btn btn-default" type="submit">Submit</button>
-                      <br/> <br/> 
+                      <br/> <br/>
                     </div>
                   </form>
 
@@ -87,8 +85,8 @@ class Contact extends React.Component {
                   <div className="contact">
 
 
-                  
-                      
+
+
                     <h3>General enquiries (8am-5pm AEST, Mon-Fri)</h3>
 
                     <h4>
@@ -116,22 +114,22 @@ class Contact extends React.Component {
 function validate(values) {
   const errors = {};
 
-  if (!values.firstname) {
-    errors.firstname = "Please enter your name.";
+  if (!values.Name) {
+    errors.Name = "Please enter your name.";
   }
 
-  if (!values.email && !values.phone) {
-    errors.email = 'Please provide an email address or phone number.'
-  } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email) && !values.phone) {
-    errors.email = 'Invalid email address.'
+  if (!values.Email && !values.Phone) {
+    errors.Email = 'Please provide an email address or phone number.'
+  } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.Email) && !values.Phone) {
+    errors.Email = 'Invalid email address.'
   }
 
-  if (!values.phone && !values.email) {
-    errors.phone = "Please provide a phone number or an email address.";
+  if (!values.Phone && !values.Email) {
+    errors.Phone = "Please provide a phone number or an email address.";
   }
 
-  if (!values.feedback) {
-    errors.feedback = "Please enter a message.";
+  if (!values.Message) {
+    errors.Message = "Please enter a message.";
   }
 
   return errors;

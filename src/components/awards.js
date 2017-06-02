@@ -3,11 +3,11 @@ export default class Awards extends React.Component {
 
   render(){
     return (
-      <div>      
+      <div>
         <section>
           <div className="body-content container">
             <div className="row">
-              <div className="col-md-8" id="mainCol">
+              <div className="col-md-10" id="mainCol">
                 <h1> Awards </h1>
                 <p>The Prime Minister’s Veterans’ Employment Annual Awards will recognise the achievements
                   of companies in creating employment opportunities for veterans.  The criteria for the awards

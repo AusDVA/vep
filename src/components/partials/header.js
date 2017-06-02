@@ -7,7 +7,7 @@ export default class Header extends React.Component {
   render(){
     return (
       <div>
-      <header className="print-only">
+      <header className="print-only" aria-hidden="true">
         <div className="row">
           <div className="col-md-12">
               <img src={PrintHeader} alt="Header image for printing purposes"></img>

@@ -14,19 +14,16 @@ import BioPlaskett from "../image/bios/bioplaskett.jpg";
 import BioRobertsSmith from "../image/bios/bioroberts-smith.jpg";
 import BioRosenfield from "../image/bios/biorosenfield.jpg";
 import BioWard from "../image/bios/bioward.jpg";
-
-
-
+import Bio_Print from "../image/bios/iac_bio.png";
 
 export default class IAC extends React.Component {
 
   render() {
     return (
       <div>
-        <section>
           <div className="body-content container">
             <div className="row">
-              <div className="col-md-9" id="mainCol">
+              <div className="col-md-10" id="mainCol">
                 <h1 id="content">Industry Advisory Committee on Veterans’ Employment</h1>
                 <ul className="list-unstyled">
                   <li className="list-unstyled-header">Contents</li>
@@ -35,7 +32,6 @@ export default class IAC extends React.Component {
                   <li><a href="#Groups">Working groups</a></li>
                   <li><a href="#News">Latest News</a></li>
                   <li><a href="#Contact">Contact</a></li>
-                  <li><a href="#Links">Useful links</a></li>
                 </ul>
 
                 <p>The Industry Advisory Committee (IAC) on Veterans’ Employment has been established to develop
@@ -65,11 +61,11 @@ export default class IAC extends React.Component {
                   <li>Provide a report to the Minister for Veterans' Affairs/Defence Personnel by end of September
                       2017 outlining the Committee's progress against these Terms of Reference.</li>
                 </ol>
-              <section id="section-nobreak">
+                <section id="section-nobreak">
                 <h2 id="Membership">Membership</h2>
-
                 <p>The committee comprises a Chair, Deputy Chair, a representative of small businesses, a representative of the Australian Chamber of Commerce and Industry, and representatives of ten other organisations.</p>
-                <p>&nbsp;</p>
+                  <img className="print-only bio-img text-center" src={Bio_Print} alt="Printing version of Industry Advisory Committee Membership" aria-hidden="true"/>
+                <div className="hidden-print">
                 <div className="row">
                   <div className="col-md-offset-2 col-sm-offset-2 col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioFrazis} alt="Image of George Frazis" className="img-circle" height="150px" width="150px"></img>
@@ -144,7 +140,8 @@ export default class IAC extends React.Component {
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioPalmerlee} alt="Sample" className="img-circle" height="150px" width="150px"></img>
                     <h3>Luke Palmerlee</h3>
-                    <h4>J.P. Morgan Chase Bank, NA (Sydney Branch)</h4>
+                    <h4>J.P. Morgan Chase Bank, NA</h4>
+                      <h4>(Sydney Branch)</h4>
                      <p>Member | <a href="/member-biographies#BioPalmerlee" >Bio</a></p>
                   </div>
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
@@ -176,8 +173,9 @@ export default class IAC extends React.Component {
                     <p>Member | <a href="/member-biographies#BioWard" >Bio</a></p>
                   </div>
                 </div>
-              </section>
-
+              </div>
+            </section>
+            <section id="section-nobreak">
                 <h2 id="Groups">Working groups</h2>
                 <p>The Committee will initially focus on eight key areas:
                 </p>
@@ -209,10 +207,10 @@ export default class IAC extends React.Component {
                     <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
                   </a>
                 </p>
+              </section>
               </div>
             </div>
           </div>
-        </section>
       </div>
     );
   }
