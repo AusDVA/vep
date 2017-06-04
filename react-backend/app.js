@@ -22,8 +22,44 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.post('/contactus', function (req, res) {
   console.log("express server received values. Name: " + req.body.name +
               " Email: " + req.body.email +
-              " Phone: " + req.body.email +
+              " Phone: " + req.body.phone +
               " Message: " + req.body.message);
+
+              let transporter = nodemailer.createTransport({
+              service: 'gmail',
+              auth: {
+                  user: 'email@gmail.com',
+                  pass: 'pass1234'
+              }
+          });
+
+          // setup email data
+          let mailOptions = {
+              from: 'noreply <noreply@noreply.com>', // sender address
+              to: 'yourtestemail@testemail.com', // list of receivers
+              subject: 'feedback received from: ' + req.body.name, // Subject line
+              text: 'You have received feedback from ' + req.body.name +
+                    ' The feedback message received is: ' + req.body.message +
+                    ' The client can be contacted on: ' + req.body.email + ' or ' + req.body.phone  , // plain text body
+
+              html: '<div style="font-size: 18px;" >' +
+                    '<p>Feedback received from: ' + req.body.name + '</p>' +
+                    '<p>The feedback message is :  ' +req.body.message + '</p>' +
+                    '<p>The client can be contacted on... </p>'+
+                    '<p>Phone: ' + req.body.phone + '</p>' +
+                    '<p>Email: ' + req.body.email + '</p>' + '</div>'// html body
+          };
+
+          // send mail with defined transport object
+          transporter.sendMail(mailOptions, (error, info) => {
+              if (error) {
+                  return console.log(error);
+              }
+              console.log('Message %s sent: %s', info.messageId, info.response);
+          });
+
+
+
 });
 
 
