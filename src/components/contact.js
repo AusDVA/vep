@@ -1,5 +1,6 @@
-import React from 'react';
-import {Field, reduxForm} from 'redux-form';
+import React from "react";
+import {Field, reduxForm} from "redux-form";
+import axios from "axios";
 
 class Contact extends React.Component {
 
@@ -40,13 +41,23 @@ class Contact extends React.Component {
 
   onSubmit(values) {
     console.log(values);
+
+axios.post("/contactus",{
+    name: values.Name,
+    email: values.Email,
+    phone: values.Phone,
+    message: values.Message
+}).then((response)=> {
+   console.log("Data submitted successfully");
+}).catch((error)=> {
+   console.log("got errr while posting data", error);
+});
+
     //clear input after form submit.
     values.Name = "";
     values.Email = "";
     values.Phone = "";
     values.Message = "";
-
-
   }
 
   render() {

@@ -15,6 +15,7 @@ import IAC from "./components/iac";
 import Employers from "./components/employers";
 import Header from "./components/partials/header";
 import Bio from "./components/bio";
+import NotFound from "./components/notfound";
 import store from "./store.js";
 //CSS
 import "./sass/styles.scss";
@@ -27,6 +28,7 @@ import "./vendor/googleFonts/oswald.css";
 import "bootstrap/dist/js/bootstrap";
 
 ReactDOM.render(
+  <Provider store={ store }>
     <BrowserRouter>
         <div>
             <NavBar/>
@@ -39,14 +41,13 @@ ReactDOM.render(
                 <Route path="/ex-service-organisations" component={withTracker(ESO)}/>
                 <Route path="/awards" component={withTracker(Awards)}/>
                 <Route path="/member-biographies" component={withTracker(Bio)}/>
-                <Provider store={ store }>
-                    <Route path="/contact" component={withTracker(Contact)}/>
-                </Provider>
-
+                <Route path="/contact" component={withTracker(Contact)}/>
+                <Route path="*" component={withTracker(NotFound)}/>
             </Switch>
             <Footer/>
         </div>
-    </BrowserRouter>,
+    </BrowserRouter>
+    </Provider>,
 
     document.getElementById('container')
 );

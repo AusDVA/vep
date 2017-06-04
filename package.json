@@ -4,6 +4,7 @@
   "description": "Veterans' Employment Program",
   "main": "index.js",
   "dependencies": {
+    "axios": "^0.16.2",
     "bootstrap": "^3.3.7",
     "bootstrap-sass": "^3.3.7",
     "ejs": "^2.5.6",
@@ -71,6 +72,7 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
+  "proxy": "http://localhost:3001",
   "license": "MIT",
   "jest": {
     "collectCoverageFrom": [
