@@ -4,6 +4,17 @@ import axios from "axios";
 
 class Contact extends React.Component {
 
+  constructor(props) {
+   super(props);
+   this.state = {success: false,
+                 error: false,
+                 loading: false,
+                 disabled: false};
+
+  }
+
+
+
   renderField(field) {
     const {meta: {touched,error}} = field;
     const className = `form-group ${touched && error ? 'has-error' : ''}`;
@@ -41,6 +52,12 @@ class Contact extends React.Component {
 
   onSubmit(values) {
     console.log(values);
+    this.setState({
+       success: false,
+       error: false,
+       loading: true,
+       disabled: true
+     });
 
 axios.post("/contactus",{
     name: values.Name,
@@ -49,8 +66,17 @@ axios.post("/contactus",{
     message: values.Message
 }).then((response)=> {
    console.log("Data submitted successfully");
+   this.setState({
+      loading: false,
+      success : true
+    })
+
 }).catch((error)=> {
    console.log("got errr while posting data", error);
+   this.setState({
+      loading: false,
+      error: true
+    })
 });
 
     //clear input after form submit.
@@ -85,18 +111,34 @@ axios.post("/contactus",{
                     <Field aria-label="Phone number" aria-required="true" name="Phone" placeholder="ex. 0412 345 678" label="Phone: " component={this.renderField}/>
                     <Field aria-label="Message" aria-required="true" name="Message" label="Message: " component={this.renderFeedback}/>
 
-                    <div className="col-md-1 col-sm-3">
-                      <button className="btn btn-default" type="submit">Submit</button>
-                      <br/> <br/>
+                    <div className="col-md-2 break-bottom">
+                      <button disabled={ this.state.disabled ? "disabled" : ""}  className= { this.state.disabled ? "btn btn-default disabled" : "btn btn-default"} type="submit">Submit</button>
                     </div>
+
+                    <div className="col-md-10">
+                      <div className= { this.state.loading ? "alert alert-info" : "alert alert-info hidden"}>
+                        <i className="fa fa-circle-o-notch fa-spin"></i> Sending feedback email.</div>
+
+
+                    <div className= { this.state.success ? "alert alert-success" : "alert alert-success hidden"}>
+                      <strong>Success!</strong> We have received your feedback and will get back to you shortly.
+                    </div>
+
+                   <div className= { this.state.error ? "alert alert-danger" : "alert alert-danger hidden"}>
+                      <strong>Error!</strong> Unfortunatly there has been an error, try refreshing the page and submitting again.
+                                              If the problem still persists you can directly send your feedback
+                                               to <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>
+                    </div>
+                  </div>
+
                   </form>
+
+
 
                 </div>
                 <div className="col-md-5 col-sm-6">
+
                   <div className="contact">
-
-
-
 
                     <h3>General enquiries (8am-5pm AEST, Mon-Fri)</h3>
 
@@ -112,7 +154,9 @@ axios.post("/contactus",{
                     <h4>
                       veteransemployment@dva.gov.au</h4>
                   </div>
+
                 </div>
+
               </div>
             </div>
           </div>
