@@ -5,6 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
+var config = require('./mailer/config');
 var app = express();
 
 // view engine setup
@@ -28,15 +29,15 @@ app.post('/contactus', function (req, res) {
               let transporter = nodemailer.createTransport({
               service: 'gmail',
               auth: {
-                  user: 'email@gmail.com',
-                  pass: 'pass1234'
+                user: config.mailer.auth.user,
+                pass: config.mailer.auth.pass
               }
           });
 
           // setup email data
           let mailOptions = {
-              from: 'noreply <noreply@noreply.com>', // sender address
-              to: 'yourtestemail@testemail.com', // list of receivers
+              from: config.mailer.defaultFromAddress, // sender address
+              to: config.mailer.defaultToAddress, // list of receivers
               subject: 'feedback received from: ' + req.body.name, // Subject line
               text: 'You have received feedback from ' + req.body.name +
                     ' The feedback message received is: ' + req.body.message +
