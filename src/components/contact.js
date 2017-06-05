@@ -10,10 +10,7 @@ class Contact extends React.Component {
                  error: false,
                  loading: false,
                  disabled: false};
-
   }
-
-
 
   renderField(field) {
     const {meta: {touched,error}} = field;
@@ -127,7 +124,7 @@ axios.post("/contactus",{
                    <div className= { this.state.error ? "alert alert-danger" : "alert alert-danger hidden"}>
                       <strong>Error!</strong> Unfortunatly there has been an error, try refreshing the page and submitting again.
                                               If the problem still persists you can directly send your feedback
-                                               to <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>
+                                              to <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>
                     </div>
                   </div>
 
