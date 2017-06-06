@@ -89,17 +89,15 @@ class Contact extends React.Component {
 
                     <h3>General enquiries (8am-5pm AEST, Mon-Fri)</h3>
 
-                    <h4>
-                      <span className="head">Telephone: </span>133 254</h4>
-                    <h4>
-                      <span className="head">Regional callers: </span>1800 555 254</h4>
-                    <h4>
-                      <span className="head">International callers: </span>61 2 6289 1133</h4>
+                    <p><span className="head">Telephone: </span>133 254 </p>
+
+                    <p><span className="head">Regional callers: </span>1800 555 254 </p>
+
+                    <p><span className="head">International callers: </span>61 2 6289 1133 </p>
 
 
                     <h3>Email</h3>
-                    <h4>
-                      veteransemployment@dva.gov.au</h4>
+                     <p>veteransemployment@dva.gov.au </p>
                   </div>
                 </div>
               </div>
