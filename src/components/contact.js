@@ -97,7 +97,7 @@ class Contact extends React.Component {
 
 
                     <h3>Email</h3>
-                     <p>veteransemployment@dva.gov.au </p>
+                     <p> veteransemployment@dva.gov.au </p>
                   </div>
                 </div>
               </div>
