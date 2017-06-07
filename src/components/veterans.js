@@ -161,11 +161,8 @@ export default class Veterans extends React.Component {
 
                                 <h3>Defence Force Retirement & Death Benefits Scheme</h3>
                                 <p>The <a target="_blank" href="https://dfrdb.gov.au/">Defence Force Retirement & Death Benefits Scheme</a> (DFRDB) was the superannuation
-                                   scheme for ADF members between 1973 – 1991.  </p>
+                                   scheme for ADF members between 1973 - 1991.  </p>
 
-                                <h3>Australian Defence Force Financial Services Consumer Centre</h3>
-                                <p><a target="_blank" href="http://adfconsumer.gov.au/">Australian Defence Force Financial Services Consumer Centre</a> provides independent,
-                                    professional financial education (not advice) to ADF members and their families.</p>
 
                                 <GeneralResourses/>
 
