@@ -65,8 +65,8 @@ export default class News extends React.Component {
     							<h4 className="news-headline">Helping veterans to find jobs</h4>
     							<p>jobactive is the Australian Government’s way to get more Australians into work, by connecting job seekers with employers.  Under the Prime Minister’s Veterans’ Employment Program, jobactive has been enhanced.</p>
                     <ToggleDisplay show={this.state.showNews2}>
-                  <p>The jobactive website now enables employers to select an optional ‘defence force experience desirable’ flag, and veterans can search for jobs that employers have flagged.</p>
-                  <p>The jobactive website also provides information tailored for veteran jobseekers.</p>
+                  <p>The <a target="_blank" href="https://www.jobactive.gov.au/">jobactive website</a> now enables employers to select an optional ‘defence force experience desirable’ flag, and veterans can <a target="_blank" href="https://jobsearch.gov.au/job/search/ex-adf">search for jobs</a> that employers have flagged.</p>
+                  <p>The jobactive website also provides <a target="_blank" href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">information tailored for veteran jobseekers.</a></p>
                 </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClickNews2(e) }>{this.state.showNews2 ? 'Read less' : 'Read more'}</a>
     						</div>
     					</div>
