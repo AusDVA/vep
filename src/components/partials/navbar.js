@@ -23,16 +23,18 @@ export default class NavBar extends React.Component {
     return (
       <div className="container hidden-print">
         <div className="row">
-          <div className="logo col-md-6 col-sm-6 col-xs-12"><img alt="Australian Coat of arms" src={GOVLogo}/></div>
-           <div className="navbar-header col-md-1 col-xs-12 text-center">
-      <button onClick={this.handleClick}  type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav" aria-expanded="false">
-         <a href="#"><h3 className="mobile-menu text-center">Menu
-              <span className= { this.state.isToggleOn ? "glyphicon glyphicon-chevron-down rotate-down" : "glyphicon glyphicon-chevron-down rotate"}
-                    aria-hidden="true"></span></h3></a>
-      </button>
-       </div>
+          <div className="logo col-md-6 col-sm-6 col-xs-6"><img alt="Australian Coat of arms" src={GOVLogo}/></div>
+          <div className="col-md-2 col-xs-6 col-md-offset-2"><span className="beta">Beta Version</span></div>
 
+          <div className="navbar-header col-md-1 col-xs-12 text-center">
+     <button onClick={this.handleClick}  type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-nav" aria-expanded="false">
+        <a href="#"><h3  className="mobile-menu text-center">Menu
+             <span className= { this.state.isToggleOn ? "glyphicon glyphicon-chevron-down rotate-down" : "glyphicon glyphicon-chevron-down rotate"}
+                   aria-hidden="true"></span></h3></a>
+     </button>
+      </div>
         </div>
+
       <nav >
     <div className="collapse navbar-collapse" id="main-nav">
       <ul className="nav navbar-nav text-center">

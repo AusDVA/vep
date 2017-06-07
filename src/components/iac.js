@@ -200,7 +200,7 @@ export default class IAC extends React.Component {
                  <p>Canberra ACT 2601</p>
 
                 <h2>Email</h2>
-                <p>IAC.Secretariat@dva.gov.au</p>
+                <p><a href="mailto:IAC.Secretariat@dva.gov.au">IAC.Secretariat@dva.gov.au</a></p>
 
                 <p className="hidden-print">
                   <a href="#">Top

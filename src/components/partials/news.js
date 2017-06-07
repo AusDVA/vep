@@ -6,12 +6,22 @@ export default class News extends React.Component {
 
   constructor() {
    super();
-   this.state = { show: false };
+   this.state = { showNews1: false,
+                  showNews2: false};
   }
 
-  handleClick(e) {
+  handleClickNews1(e) {
    this.setState({
-     show: !this.state.show
+     showNews1: !this.state.showNews1
+   });
+
+   e.preventDefault();
+   return false;
+  }
+
+  handleClickNews2(e) {
+   this.setState({
+     showNews2: !this.state.showNews2
    });
 
    e.preventDefault();
@@ -34,13 +44,13 @@ export default class News extends React.Component {
     						<div className="col-sm-9 col-md-12">
                   <h4 className="news-headline">Industry Advisory Committee's inaugural meeting</h4>
                   <p>The Industry Advisory Committee on Veterans' Employment held its inaugural meeting in Sydney on <span className="no-wrap">31 March 2017.</span></p>
-                  <ToggleDisplay show={this.state.show}>
+                  <ToggleDisplay show={this.state.showNews1}>
                   <p>At the meeting, the Committee focused on establishing a number of priority areas of focus. These areas include the availability of data on the employment profile of veterans, improving the transition process from the ADF, translating skills and raising awareness of the value that former members of the ADF offer to Australian businesses.</p>
 
                   <p>The Committee will form Working Groups to progress its work, and will look to involve other businesses that have expressed interest in the Program.</p>
 
                   <p>The next meeting of the Committee will be held in mid-June.</p>
-                </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClick(e) }>{this.state.show ? 'Read less' : 'Read more'}</a>
+                </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClickNews1(e) }>{this.state.showNews1 ? 'Read less' : 'Read more'}</a>
     						</div>
     					</div>
               </section>
@@ -51,8 +61,13 @@ export default class News extends React.Component {
     					<div className="row">
     						<div className="col-sm-4 col-xs-12"><img className="text-center" alt="JobActive Logo" src={JobActive}/></div>
     						<div className="col-sm-9 col-md-12">
+
     							<h4 className="news-headline">Helping veterans to find jobs</h4>
-    							<p>Jobactive is a board to help veterans to find jobs where ADF experience is valued... <a href="#">Read&nbsp;more</a></p>
+    							<p>jobactive is the Australian Government’s way to get more Australians into work, by connecting job seekers with employers.  Under the Prime Minister’s Veterans’ Employment Program, jobactive has been enhanced.</p>
+                    <ToggleDisplay show={this.state.showNews2}>
+                  <p>The jobactive website now enables employers to select an optional ‘defence force experience desirable’ flag, and veterans can search for jobs that employers have flagged.</p>
+                  <p>The jobactive website also provides information tailored for veteran jobseekers.</p>
+                </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClickNews2(e) }>{this.state.showNews2 ? 'Read less' : 'Read more'}</a>
     						</div>
     					</div>
     				</section>
