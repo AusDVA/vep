@@ -39,6 +39,7 @@ export default class IAC extends React.Component {
                    practices of Australian businesses.</p>
                 <p>The Committee will also play a role in the broader promotion of skills and professional attributes
                    that veterans have to offer employers</p>
+                   <section id="section-nobreak">
                 <h2 id="Terms">Terms of reference</h2>
                 <p>The Industry Advisory Committee will:</p>
                 <ol>
@@ -61,6 +62,7 @@ export default class IAC extends React.Component {
                   <li>Provide a report to the Minister for Veterans' Affairs/Defence Personnel by end of September
                       2017 outlining the Committee's progress against these Terms of Reference.</li>
                 </ol>
+              </section>
                 <section id="section-nobreak">
                 <h2 id="Membership">Membership</h2>
                 <p>The committee comprises a Chair, Deputy Chair, a representative of small businesses, a representative of the Australian Chamber of Commerce and Industry, and representatives of ten other organisations.</p>
@@ -86,7 +88,7 @@ export default class IAC extends React.Component {
                 <div className="row">
 
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
-                    <img src={BioBlake} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <img src={BioBlake} alt="Image of Chris Blake" className="img-circle" height="150px" width="150px"></img>
                     <h3>Chris Blake</h3>
                     <h4>Australia Post</h4>
                     <p>Member | <a href="/member-biographies#BioBlake" >Bio</a></p>
@@ -98,7 +100,7 @@ export default class IAC extends React.Component {
                     <p>Small Business Representative | <a href="/member-biographies#BioColbert" >Bio</a></p>
                   </div>
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
-                    <img src={BioGalgsdies} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <img src={BioGalgsdies} alt="Image of Mark Galgsdies" className="img-circle" height="150px" width="150px"></img>
                     <h3>Mark Galgsdies</h3>
                     <h4>Serco Asia Pacific</h4>
                     <p>Member | <a href="/member-biographies#BioGalgsdies" >Bio</a></p>
@@ -109,20 +111,20 @@ export default class IAC extends React.Component {
                 <div className="row">
 
                 <div className="col-md-4 col-sm-4 col-xs-12 text-center">
-                    <img src={BioJansen} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <img src={BioJansen} alt="Image of Mark Jansen" className="img-circle" height="150px" width="150px"></img>
                     <h3>Mark Jansen</h3>
                     <h4>PwC</h4>
                     <p>Member | <a href="/member-biographies#BioJansen" >Bio</a></p>
                 </div>
                 <div className="col-md-4 col-sm-4 col-xs-12 text-center">
-                    <img src={BioLambert} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <img src={BioLambert} alt="Image of Jenny Lambert" className="img-circle" height="150px" width="150px"></img>
                     <h3>Jenny Lambert</h3>
                     <h4>Australian Chamber of Commerce and Industry</h4>
                     <p>Member | <a href="/member-biographies#BioLambert" >Bio</a></p>
                 </div>
 
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
-                    <img src={BioLefever} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <img src={BioLefever} alt="Image of Jim Lefever" className="img-circle" height="150px" width="150px"></img>
                     <h3>Jim Lefever</h3>
                     <h4>CSC Australia Pty Ltd</h4>
                     <p>Member | <a href="/member-biographies#BioLefever" >Bio</a></p>
@@ -132,20 +134,20 @@ export default class IAC extends React.Component {
 
                 <div className="row">
                    <div className="col-md-4 col-sm-4 col-xs-12 text-center">
-                    <img src={BioMcdowell} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <img src={BioMcdowell} alt="Image of Colin McDowell" className="img-circle" height="150px" width="150px"></img>
                     <h3>Colin McDowell</h3>
                     <h4>Allied Express Transport</h4>
                     <p>Member | <a href="/member-biographies#BioMcdowell" >Bio</a></p>
                   </div>
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
-                    <img src={BioPalmerlee} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <img src={BioPalmerlee} alt="Image of Luke Palmerlee" className="img-circle" height="150px" width="150px"></img>
                     <h3>Luke Palmerlee</h3>
                     <h4>J.P. Morgan Chase Bank, NA</h4>
                       <h4>(Sydney Branch)</h4>
                      <p>Member | <a href="/member-biographies#BioPalmerlee" >Bio</a></p>
                   </div>
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
-                    <img src={BioParker} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <img src={BioParker} alt="Image of Christine Parker" className="img-circle" height="150px" width="150px"></img>
                     <h3>Christine Parker</h3>
                     <h4>Westpac Group</h4>
                     <p>Member | <a href="/member-biographies#BioParker" >Bio</a></p>
@@ -155,19 +157,19 @@ export default class IAC extends React.Component {
 
                 <div className="row">
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
-                    <img src={BioPlaskett} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <img src={BioPlaskett} alt="Image of Andrew Plaskett" className="img-circle" height="150px" width="150px"></img>
                     <h3>Andrew Plaskett</h3>
                     <h4>Clayton Utz</h4>
                     <p>Member | <a href="/member-biographies#BioPlaskett" >Bio</a></p>
                   </div>
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
-                    <img src={BioRosenfield} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <img src={BioRosenfield} alt="Image of Dean Rosenfield" className="img-circle" height="150px" width="150px"></img>
                     <h3>Dean Rosenfield</h3>
                     <h4>Saab Australia Pty Ltd</h4>
                     <p>Member | <a href="/member-biographies#BioRosenfield" >Bio</a></p>
                   </div>
                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
-                    <img src={BioWard} alt="Sample" className="img-circle" height="150px" width="150px"></img>
+                    <img src={BioWard} alt="Image of Michael Ward" className="img-circle" height="150px" width="150px"></img>
                     <h3>Michael Ward</h3>
                     <h4>Raytheon Australia</h4>
                     <p>Member | <a href="/member-biographies#BioWard" >Bio</a></p>
