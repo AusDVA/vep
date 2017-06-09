@@ -194,7 +194,7 @@ export default class IAC extends React.Component {
                 </ul>
 
                 <IacNews/>
-
+                <div id="Contact">
                 <h2>Contact</h2>
                  <p>IAC Secretariat </p>
                  <p>C/- Department of Veterans' Affairs</p>
@@ -209,6 +209,7 @@ export default class IAC extends React.Component {
                     <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
                   </a>
                 </p>
+                </div>
               </section>
               </div>
             </div>
