@@ -182,15 +182,15 @@ export default class IAC extends React.Component {
                 <p>The Committee will initially focus on eight key areas:
                 </p>
                 <ul>
-                  <li>data and the business case for hiring veterans;</li>
-                  <li>translation of skills, including use of common language;</li>
-                  <li>awareness, career fairs and branding, including accrediting veterans’ employers;</li>
-                  <li>human resources policies and targets;</li>
+                  <li>data and the business case for hiring veterans</li>
+                  <li>translation of skills, including use of common language</li>
+                  <li>awareness, career fairs and branding, including accrediting veterans’ employers</li>
+                  <li>human resources policies and targets</li>
                   <li>on-boarding, transition, retention and mentors, including links with reserves and other
-                      defence support organisations;</li>
-                  <li>employment of spouses;</li>
-                  <li>appreciation of the contribution of veterans by the community; and</li>
-                  <li>the Prime Minister’s Veterans’ Employment Annual Awards.</li>
+                      defence support organisations</li>
+                  <li>employment of spouses</li>
+                  <li>appreciation of the contribution of veterans by the community</li>
+                  <li>the Prime Minister’s Veterans’ Employment Annual Awards</li>
                 </ul>
 
                 <IacNews/>

@@ -18,8 +18,7 @@ export default class ESO extends React.Component {
                    interested in partnering with industry to promote the employment of veterans. </p>
 
                 <p>Businesses who are considering projects that will create or enhance employment
-                   opportunities for veterans will be able to access the Register to identify interested
-                  organisations to work with them. </p>
+                   opportunities for veterans will be able to access the Register to identify interested ex-service organisations to work with. </p>
 
                 <p>The Register will be launched later in 2017.</p>
 
