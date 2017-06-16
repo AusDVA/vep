@@ -205,7 +205,7 @@ export default class IAC extends React.Component {
                 <p><a href="mailto:IAC.Secretariat@dva.gov.au">IAC.Secretariat@dva.gov.au</a></p>
 
                 <p className="hidden-print">
-                  <a href="#">Top
+                  <a href="#top">Top
                     <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
                   </a>
                 </p>

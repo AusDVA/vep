@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
 			<div className="row">
 				<div className="col-sm-6">
 					<section>
-						<p><small>© Commonwealth of Australia</small></p>
+						<p><small><span className="sr-only">Copyright</span> <i className="fa fa-copyright" aria-hidden="true"></i> Commonwealth of Australia</small></p>
 					</section>
 				</div>
 				<div className="col-sm-6">

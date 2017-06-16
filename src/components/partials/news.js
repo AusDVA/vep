@@ -50,7 +50,7 @@ export default class News extends React.Component {
                   <p>The Committee will form Working Groups to progress its work, and will look to involve other businesses that have expressed interest in the Program.</p>
 
                   <p>The next meeting of the Committee will be held in mid-June.</p>
-                </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClickNews1(e) }>{this.state.showNews1 ? 'Read less' : 'Read more'}</a>
+                </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClickNews1(e) }>{this.state.showNews1 ? "Read less about the Industry Advisory Committee's inaugural meeting" : "Read more about the Industry Advisory Committee's inaugural meeting"}</a>
     						</div>
     					</div>
               </section>
@@ -65,9 +65,13 @@ export default class News extends React.Component {
     							<h4 className="news-headline">Helping veterans to find jobs</h4>
     							<p>jobactive is the Australian Government’s way to get more Australians into work, by connecting job seekers with employers.  Under the Prime Minister’s Veterans’ Employment Program, jobactive has been enhanced.</p>
                     <ToggleDisplay show={this.state.showNews2}>
-                  <p>The <a target="_blank" href="https://www.jobactive.gov.au/">jobactive website</a> now enables employers to select an optional ‘defence force experience desirable’ flag, and veterans can <a target="_blank" href="https://jobsearch.gov.au/job/search/ex-adf">search for jobs</a> that employers have flagged.</p>
-                  <p>The jobactive website also provides <a target="_blank" href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">information tailored for veteran jobseekers.</a></p>
-                </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClickNews2(e) }>{this.state.showNews2 ? 'Read less' : 'Read more'}</a>
+                  <p>The <a target="_blank" href="https://www.jobactive.gov.au/">jobactive website <span className="sr-only">(this link will open in a new tab)</span> </a> now 
+                     enables employers to select an optional ‘defence force experience desirable’ flag, and veterans 
+                     can <a target="_blank" href="https://jobsearch.gov.au/job/search/ex-adf">search for jobs <span className="sr-only">(this link will open in a new tab)</span> </a> that 
+                     employers have flagged.</p>
+                  <p>The jobactive website also provides <a target="_blank" href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">information tailored for veteran jobseekers. <span className="sr-only">(this link will open in a new tab)</span> 
+                  </a></p>
+                </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClickNews2(e) }>{this.state.showNews2 ? 'Read less about jobactive' : 'Read more about jobactive'}</a>
     						</div>
     					</div>
     				</section>
