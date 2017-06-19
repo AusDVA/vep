@@ -13,27 +13,17 @@ export default class Employers extends React.Component {
 
               <h1> Employers </h1>
 
-              <ul className="list-unstyled" id="sidebar">
-              <li className="list-unstyled-header"> Contents </li>
-                  <li>
-                    <a href="#Benefits">Benefits of employing veterans</a>
-                  </li>
-                  <li>
-                    <a href="#Industry">Industry Advisory Committee on Veterans’ Employment</a>
-                  </li>
-                  <li>
-                    <a href="#ExService">Ex-service Organisation Industry Partnership Register</a>
-                  </li>
-                  <li>
-                    <a href="#Department">Department of Employment initiatives</a>
-                  </li>
-                  <li>
-                    <a href="#PrimeMinister">Prime Minister’s Veterans’ Employment Annual Awards</a>
-                  </li>
-                  <li>
-                    <a href="#EmployerResources">Resources for employers</a>
-                  </li>
+            <div className="list-unstyled-wrapper">
+              <h2 className="list-unstyled-header"> Contents </h2>
+              <ul className="list-unstyled" id="sidebar">             
+                  <li><a href="#Benefits">Benefits of employing veterans</a></li>
+                  <li><a href="#Industry">Industry Advisory Committee on Veterans’ Employment</a></li>
+                  <li><a href="#ExService">Ex-service Organisation Industry Partnership Register</a></li>
+                  <li><a href="#Department">Department of Employment initiatives</a></li>
+                  <li><a href="#PrimeMinister">Prime Minister’s Veterans’ Employment Annual Awards</a></li>
+                  <li><a href="#EmployerResources">Resources for employers</a></li>
                 </ul>
+               </div>
 
                 <p>
                    Despite the heavy investment in our former servicemen and women, too often they are finding it difficult to get a job when they leave the Australian Defence Force (ADF).

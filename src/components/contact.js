@@ -9,7 +9,7 @@ export default class Contact extends React.Component {
           <div className="col-md-10" id="mainCol">
 
             <h1>Contact</h1>
-            <h3>General enquiries (8am-5pm AEST, Mon-Fri)</h3>
+            <h2 className="contact-subheader">General enquiries (8am-5pm AEST, Mon-Fri)</h2>
             <p><span className="head">Telephone: </span>133 254 </p>
             <p><span className="head">Regional callers: </span>1800 555 254 </p>
             <p><span className="head">International callers: </span>61 2 6289 1133 </p>

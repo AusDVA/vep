@@ -12,14 +12,16 @@ export default class Veterans extends React.Component {
                         <div className="row">
                             <div className="col-md-10" id="mainCol">
                                 <h1>Veterans</h1>
-                                <ul className="list-unstyled" id="sidebar">
-                                    <li className="list-unstyled-header">Contents</li>
+                                <div className="list-unstyled-wrapper">
+                                 <h2 className="list-unstyled-header">Contents</h2>
+                                <ul className="list-unstyled" id="sidebar">                                    
                                     <li><a href="#jobactive">jobactive</a></li>
                                     <li><a href="#Industry-Advisory-Committee">Industry Advisory Committee on Veterans’ Employment</a></li>
                                     <li><a href="#Other-initiatives">Other initiatives</a></li>
                                     <li><a href="#support">State and territory government initiatives to increase veterans’ employment</a></li>
                                     <li><a href="#Resources">Resources for veterans</a></li>
                                 </ul>
+                                </div>
 
                                 <p>Veterans have a lot to offer an employer after they separate from the Australian
                                     Defence Force (ADF).</p>
