@@ -80,7 +80,9 @@ export default class Home extends React.Component {
                   provision of employment planning advice and labour market information.</p>
 
                   </div>
-                </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClick(e) }>{this.state.show ? "Read less about the Prime Minister's Veterans' Employment Program" : "Read more about the Prime Minister's Veterans' Employment Program"}</a>
+                </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClick(e) }>{this.state.show ? "Read less" : "Read more"}
+                  <span className="sr-only">{this.state.show ? "Less about the Prime Minister's Veterans' Employment Program" : "More about the Prime Minister's Veterans' Employment Program"}</span>
+                </a>
               </div>
               </div>
             </div>
