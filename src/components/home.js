@@ -28,6 +28,7 @@ export default class Home extends React.Component {
             <div className="description">
               <div className="row">
                 <div className="col-md-10">
+                  <h1 className="page-title">The Prime Minister's Veterans' Employment Program</h1>
                   <p>The Prime Minister's Veterans' Employment Program demonstrates the importance the Government places on raising awareness with employers,
                      both private and public sector, of the value and unique experience of our veterans.</p>
                      <ToggleDisplay show={this.state.show}>
@@ -39,18 +40,18 @@ export default class Home extends React.Component {
 
                         <div id="About">  <p>On 17 November 2016 the Prime Minister announced six initiatives under the Program.</p>
 
-                <h3>Industry Advisory Committee on Veterans’ Employment</h3>
+                <h2>Industry Advisory Committee on Veterans’ Employment</h2>
                 <p>The Industry Advisory Committee on Veterans’ Employment (IAC) will be established to develop and
                   provide advice on practical measures to embed veterans’ employment strategies into the recruitment
                   practices of Australian businesses.  The Committee will play a role in the broader promotion of the
                   skills and professional attributes that veterans have to offer Australian businesses.</p>
 
-                <h3>The Prime Minister’s Veterans’ Employment Annual Awards</h3>
+                <h2>The Prime Minister’s Veterans’ Employment Annual Awards</h2>
                 <p>The Annual Awards will recognise the achievements of businesses
                   in creating employment opportunities for veterans.  The criteria for the awards will be developed in
                   consultation with the Industry Advisory Committee on Veterans’ Employment.</p>
 
-                <h3>Ex-Service Organisation Industry Partnership Register</h3>
+                <h2>Ex-Service Organisation Industry Partnership Register</h2>
                 <p>Ex-service organisations will be able to register their interest in partnering with industry on
                   projects to promote the employment of veterans.  Industry will be able to access this information
                   when they are seeking a partner to assist in the creation of employment opportunities for veterans,
@@ -58,18 +59,18 @@ export default class Home extends React.Component {
                 <p>Ex-service organisations can register their interest by
                   emailing <a href="mailto:ESOindustryregister@dva.gov.au">ESOindustryregister@dva.gov.au</a></p>
 
-                <h3>Department of Defence and Department of Veterans’ Affairs initiatives</h3>
+                <h2>Department of Defence and Department of Veterans’ Affairs initiatives</h2>
                 <p>The Departments of Defence and Veterans’ Affairs will continue to improve the transition process for separating members of the Australian Defence Force (ADF). </p>
                 <p>Separating members of the ADF will receive separation documentation, including training records.  They will also receive an individual transition plan and tailored transition coaching services.  Surveys of former ADF personnel post-separation will be reinstated to assess the effectiveness of ADF transition programs and inform future initiatives, and work will continue on aligning military qualifications with civilian qualifications.</p>
                 <p>Vocational rehabilitation services for veterans with an ADF-related injury or illness will also be improved.</p>
 
-                <h3>Australian Public Service (APS) initiatives</h3>
+                <h2>Australian Public Service (APS) initiatives</h2>
                 <p>A new APSjobs website will be launched in 2017 and will include specific information
                   for veterans seeking employment in the APS.  An application that aligns ADF ranks to APS
                   classifications and a toolkit that provides information to veterans about working in the APS
                   are also being developed.</p>
 
-                <h3>Department of Employment initiatives</h3>
+                <h2>Department of Employment initiatives</h2>
                 <p>The Australian Government’s jobactive website will
                   include an information page for veterans and
                   an optional ‘defence force experience desirable’
