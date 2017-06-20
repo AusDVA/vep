@@ -13,7 +13,7 @@ export default class Contact extends React.Component {
             <p><span className="head">Telephone: </span>133 254 </p>
             <p><span className="head">Regional callers: </span>1800 555 254 </p>
             <p><span className="head">International callers: </span>61 2 6289 1133 </p>
-            <h3>Email</h3>
+            <h2 className="contact-subheader">Email</h2>
              <p><a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a> </p>
 
           </div>

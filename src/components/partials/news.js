@@ -60,7 +60,7 @@ export default class News extends React.Component {
     			<div className="col-sm-12 col-md-6 col-md-offset-1">
     				<section>
     					<div className="row">
-    						<div className="col-sm-4 col-xs-12"><img className="text-center" alt="JobActive Logo" src={JobActive}/></div>
+    						<div className="col-sm-4 col-xs-12"><img className="text-center" alt="Jobactive an Australian Government Initiative" src={JobActive}/></div>
     						<div className="col-sm-9 col-md-12">
 
     							<h3 className="news-headline">Helping veterans to find jobs</h3>

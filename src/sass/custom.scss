@@ -21,10 +21,6 @@
   background-color: #bbbbbb;
 }
 
-#top-nav {
-  margin-top: 1em;
-}
-
 .navbar-nav > li > a {
   margin: .4em 1em .8em .4em;
   color: $light-blue;
@@ -224,16 +220,17 @@ h5 {
 
 // table of contents.
 
-.list-unstyled-wrapper {
+.list-contents-wrapper {
    border-left: .4em solid #888;
 }
-.list-unstyled{
+.list-contents{
   padding-left: 2em;
   margin-bottom: 2.5em;
   font-weight: bold;
+  list-style: none;
 }
 
-.list-unstyled-header{
+.list-contents-header{
   color: #6f6f6f;
   font-size:20px !important;
   font-weight: normal;

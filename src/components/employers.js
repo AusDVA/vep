@@ -13,9 +13,9 @@ export default class Employers extends React.Component {
 
               <h1> Employers </h1>
 
-            <div className="list-unstyled-wrapper">
-              <h2 className="list-unstyled-header"> Contents </h2>
-              <ul className="list-unstyled" id="sidebar">             
+            <div className="list-contents-wrapper">
+              <h2 className="list-contents-header"> Contents </h2>
+              <ul className="list-contents" id="sidebar">             
                   <li><a href="#Benefits">Benefits of employing veterans</a></li>
                   <li><a href="#Industry">Industry Advisory Committee on Veterans’ Employment</a></li>
                   <li><a href="#ExService">Ex-service Organisation Industry Partnership Register</a></li>

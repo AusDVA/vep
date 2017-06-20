@@ -25,9 +25,9 @@ export default class IAC extends React.Component {
             <div className="row">
               <div className="col-md-10" id="mainCol">
                 <h1 id="content">Industry Advisory Committee on Veterans’ Employment</h1>
-                <div className="list-unstyled-wrapper">
-                <h2 className="list-unstyled-header">Contents</h2>
-                <ul className="list-unstyled">                 
+                <div className="list-contents-wrapper">
+                <h2 className="list-contents-header">Contents</h2>
+                <ul className="list-contents">                 
                   <li><a href="#Terms">Terms of reference</a></li>
                   <li><a href="#Membership">Membership</a></li>
                   <li><a href="#Groups">Working groups</a></li>
@@ -71,111 +71,111 @@ export default class IAC extends React.Component {
                   <img className="print-only bio-img text-center" src={Bio_Print} alt="Printing version of Industry Advisory Committee Membership" aria-hidden="true"/>
                 <div className="hidden-print">
                 <div className="row">
-                  <div className="col-md-offset-2 col-sm-offset-2 col-md-4 col-sm-4 col-xs-12 text-center">
+                  <figure className="col-md-offset-2 col-sm-offset-2 col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioFrazis} alt="George Frazis" className="img-circle" height="150px" width="150px"></img>
-                    <p className="bio-title">George Frazis</p>
-                    <p className="bio-description">Westpac Group</p>
-                    <p>Chair | <a href="/member-biographies#BioFrazis">Bio</a></p>
+                    <figcaption className="bio-title">George Frazis</figcaption>
+                    <figcaption className="bio-description">Westpac Group</figcaption>
+                    <figcaption>Chair | <a href="/member-biographies#BioFrazis">Bio</a></figcaption>
 
-                  </div>
-                  <div className="col-md-4 col-sm-4 col-xs-12 text-center">
+                  </figure>
+                  <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioRobertsSmith} alt="Ben Roberts-Smith" className="img-circle" height="150px" width="150px"></img>
-                    <p className="bio-title">Ben Roberts-Smith VC, MG</p>
-                    <p className="bio-description">Seven Network</p>
-                    <p>Deputy Chair | <a href="/member-biographies#BioRobertsSmith">Bio</a></p>
+                    <figcaption className="bio-title">Ben Roberts-Smith VC, MG</figcaption>
+                    <figcaption className="bio-description">Seven Network</figcaption>
+                    <figcaption>Deputy Chair | <a href="/member-biographies#BioRobertsSmith">Bio</a></figcaption>
 
-                  </div>
+                  </figure>
                 </div>
 
                 <div className="row">
 
-                  <div className="col-md-4 col-sm-4 col-xs-12 text-center">
+                  <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioBlake} alt="Chris Blake" className="img-circle" height="150px" width="150px"></img>
-                    <p className="bio-title">Chris Blake</p>
-                    <p className="bio-description">Australia Post</p>
-                    <p>Member | <a href="/member-biographies#BioBlake" >Bio</a></p>
-                  </div>
-                  <div className="col-md-4 col-sm-4 col-xs-12 text-center">
+                    <figcaption className="bio-title">Chris Blake</figcaption>
+                    <figcaption className="bio-description">Australia Post</figcaption>
+                    <figcaption>Member | <a href="/member-biographies#BioBlake" >Bio</a></figcaption>
+                  </figure>
+                  <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioColbert} alt="Natalie Colbert" className="img-circle" height="150px" width="150px"></img>
-                    <p className="bio-title">Natalie Colbert</p>
-                    <p className="bio-description">CanPLAY Pty Ltd</p>
-                    <p>Small Business Representative | <a href="/member-biographies#BioColbert" >Bio</a></p>
-                  </div>
-                  <div className="col-md-4 col-sm-4 col-xs-12 text-center">
+                    <figcaption className="bio-title">Natalie Colbert</figcaption>
+                    <figcaption className="bio-description">CanPLAY Pty Ltd</figcaption>
+                    <figcaption>Small Business Representative | <a href="/member-biographies#BioColbert" >Bio</a></figcaption>
+                  </figure>
+                  <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioGalgsdies} alt="Mark Galgsdies" className="img-circle" height="150px" width="150px"></img>
-                    <p className="bio-title">Mark Galgsdies</p>
-                    <p className="bio-description">Serco Asia Pacific</p>
-                    <p>Member | <a href="/member-biographies#BioGalgsdies" >Bio</a></p>
-                  </div>
+                    <figcaption className="bio-title">Mark Galgsdies</figcaption>
+                    <figcaption className="bio-description">Serco Asia Pacific</figcaption>
+                    <figcaption>Member | <a href="/member-biographies#BioGalgsdies" >Bio</a></figcaption>
+                  </figure>
 
                 </div>
 
                 <div className="row">
 
-                <div className="col-md-4 col-sm-4 col-xs-12 text-center">
+                <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioJansen} alt="Mark Jansen" className="img-circle" height="150px" width="150px"></img>
-                    <p className="bio-title">Mark Jansen</p>
-                    <p className="bio-description">PwC</p>
-                    <p>Member | <a href="/member-biographies#BioJansen" >Bio</a></p>
-                </div>
-                <div className="col-md-4 col-sm-4 col-xs-12 text-center">
+                    <figcaption className="bio-title">Mark Jansen</figcaption>
+                    <figcaption className="bio-description">PwC</figcaption>
+                    <figcaption>Member | <a href="/member-biographies#BioJansen" >Bio</a></figcaption>
+                </figure>
+                <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioLambert} alt="Jenny Lambert" className="img-circle" height="150px" width="150px"></img>
-                    <p className="bio-title">Jenny Lambert</p>
-                    <p className="bio-description">Australian Chamber of Commerce and Industry</p>
-                    <p>Member | <a href="/member-biographies#BioLambert" >Bio</a></p>
-                </div>
+                    <figcaption className="bio-title">Jenny Lambert</figcaption>
+                    <figcaption className="bio-description">Australian Chamber of Commerce and Industry</figcaption>
+                    <figcaption>Member | <a href="/member-biographies#BioLambert" >Bio</a></figcaption>
+                </figure>
 
-                  <div className="col-md-4 col-sm-4 col-xs-12 text-center">
+                  <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioLefever} alt="Jim Lefever" className="img-circle" height="150px" width="150px"></img>
-                    <p className="bio-title">Jim Lefever</p>
-                    <p className="bio-description">CSC Australia Pty Ltd</p>
-                    <p>Member | <a href="/member-biographies#BioLefever" >Bio</a></p>
-                  </div>
+                    <figcaption className="bio-title">Jim Lefever</figcaption>
+                    <figcaption className="bio-description">CSC Australia Pty Ltd</figcaption>
+                    <figcaption>Member | <a href="/member-biographies#BioLefever" >Bio</a></figcaption>
+                  </figure>
 
                 </div>
 
                 <div className="row">
-                   <div className="col-md-4 col-sm-4 col-xs-12 text-center">
+                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioMcdowell} alt="Colin McDowell" className="img-circle" height="150px" width="150px"></img>
-                    <p className="bio-title">Colin McDowell</p>
-                    <p className="bio-description">Allied Express Transport</p>
-                    <p>Member | <a href="/member-biographies#BioMcdowell" >Bio</a></p>
-                  </div>
-                  <div className="col-md-4 col-sm-4 col-xs-12 text-center">
+                    <figcaption className="bio-title">Colin McDowell</figcaption>
+                    <figcaption className="bio-description">Allied Express Transport</figcaption>
+                    <figcaption>Member | <a href="/member-biographies#BioMcdowell" >Bio</a></figcaption>
+                  </figure>
+                  <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioPalmerlee} alt="Luke Palmerlee" className="img-circle" height="150px" width="150px"></img>
-                    <p className="bio-title">Luke Palmerlee</p>
-                    <p className="bio-description">J.P. Morgan Chase Bank, NA</p>
-                      <p className="bio-description">(Sydney Branch)</p>
-                     <p>Member | <a href="/member-biographies#BioPalmerlee" >Bio</a></p>
-                  </div>
-                  <div className="col-md-4 col-sm-4 col-xs-12 text-center">
+                    <figcaption className="bio-title">Luke Palmerlee</figcaption>
+                    <figcaption className="bio-description">J.P. Morgan Chase Bank, NA</figcaption>
+                      <figcaption className="bio-description">(Sydney Branch)</figcaption>
+                     <figcaption>Member | <a href="/member-biographies#BioPalmerlee" >Bio</a></figcaption>
+                  </figure>
+                  <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioParker} alt="Christine Parker" className="img-circle" height="150px" width="150px"></img>
-                    <p className="bio-title">Christine Parker</p>
-                    <p className="bio-description">Westpac Group</p>
-                    <p>Member | <a href="/member-biographies#BioParker" >Bio</a></p>
-                  </div>
+                    <figcaption className="bio-title">Christine Parker</figcaption>
+                    <figcaption className="bio-description">Westpac Group</figcaption>
+                    <figcaption>Member | <a href="/member-biographies#BioParker" >Bio</a></figcaption>
+                  </figure>
 
                 </div>
 
                 <div className="row">
-                  <div className="col-md-4 col-sm-4 col-xs-12 text-center">
+                  <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioPlaskett} alt="Andrew Plaskett" className="img-circle" height="150px" width="150px"></img>
-                    <p className="bio-title">Andrew Plaskett</p>
-                    <p className="bio-description">Clayton Utz</p>
-                    <p>Member | <a href="/member-biographies#BioPlaskett" >Bio</a></p>
-                  </div>
-                  <div className="col-md-4 col-sm-4 col-xs-12 text-center">
+                    <figcaption className="bio-title">Andrew Plaskett</figcaption>
+                    <figcaption className="bio-description">Clayton Utz</figcaption>
+                    <figcaption>Member | <a href="/member-biographies#BioPlaskett" >Bio</a></figcaption>
+                  </figure>
+                  <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioRosenfield} alt="Dean Rosenfield" className="img-circle" height="150px" width="150px"></img>
-                    <p className="bio-title">Dean Rosenfield</p>
-                    <p className="bio-description">Saab Australia Pty Ltd</p>
-                    <p>Member | <a href="/member-biographies#BioRosenfield" >Bio</a></p>
-                  </div>
-                  <div className="col-md-4 col-sm-4 col-xs-12 text-center">
+                    <figcaption className="bio-title">Dean Rosenfield</figcaption>
+                    <figcaption className="bio-description">Saab Australia Pty Ltd</figcaption>
+                    <figcaption>Member | <a href="/member-biographies#BioRosenfield" >Bio</a></figcaption>
+                  </figure>
+                  <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioWard} alt="Michael Ward" className="img-circle" height="150px" width="150px"></img>
-                    <p className="bio-title">Michael Ward</p>
-                    <p className="bio-description">Raytheon Australia</p>
-                    <p>Member | <a href="/member-biographies#BioWard" >Bio</a></p>
-                  </div>
+                    <figcaption className="bio-title">Michael Ward</figcaption>
+                    <figcaption className="bio-description">Raytheon Australia</figcaption>
+                    <figcaption>Member | <a href="/member-biographies#BioWard" >Bio</a></figcaption>
+                  </figure>
                 </div>
               </div>
             </section>

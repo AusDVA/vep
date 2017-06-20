@@ -12,9 +12,9 @@ export default class Veterans extends React.Component {
                         <div className="row">
                             <div className="col-md-10" id="mainCol">
                                 <h1>Veterans</h1>
-                                <div className="list-unstyled-wrapper">
-                                 <h2 className="list-unstyled-header">Contents</h2>
-                                <ul className="list-unstyled" id="sidebar">                                    
+                                <div className="list-contents-wrapper">
+                                 <h2 className="list-contents-header">Contents</h2>
+                                <ul className="list-contents" id="sidebar">                                    
                                     <li><a href="#jobactive">jobactive</a></li>
                                     <li><a href="#Industry-Advisory-Committee">Industry Advisory Committee on Veterans’ Employment</a></li>
                                     <li><a href="#Other-initiatives">Other initiatives</a></li>
@@ -74,18 +74,20 @@ export default class Veterans extends React.Component {
                                     transition and rehabilitation processes to ensure that former ADF members can
                                     transition
                                     seamlessly into civilian jobs.</p>
+                                    <ul className="list-unstyled">
 
-                                <p>
+                                <li>
                                     <a target="_blank" href="https://www.dva.gov.au/health-and-wellbeing/rehabilitation">DVA
                                         Rehabilitation <span className="sr-only">(this link will open in a new tab)</span> </a>
-                                </p>
-                                <p>
+                                </li>
+                                <li>
                                     <a target="_blank" href="http://www.defence.gov.au/Health/DRC/ADFRehabilitationProgram.asp">ADF
                                         Rehabilitation Program <span className="sr-only">(this link will open in a new tab)</span> </a>
-                                </p>
-                                <p>
+                                </li>
+                                <li>
                                     <a target="_blank" href="http://www.defence.gov.au/dco/">Defence Community Organisation <span className="sr-only">(this link will open in a new tab)</span> </a>
-                                </p>
+                                </li>
+                                </ul>
                                 <p>To assist former ADF members who are looking to transition to the Commonwealth public
                                     sector, the Australian Public Service Commission is developing a toolkit and an application
                                     to align ADF ranks with Australian Public Service classifications. The Commission’s revamped <a target="_blank" href="https://www.apsjobs.gov.au/">
