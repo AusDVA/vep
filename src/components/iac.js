@@ -129,7 +129,7 @@ export default class IAC extends React.Component {
                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioLefever} alt="Jim Lefever" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Jim Lefever</figcaption>
-                    <figcaption className="bio-description">CSC Australia Pty Ltd</figcaption>
+                    <figcaption className="bio-description">DXC Technology Australia Pty Limited</figcaption>
                     <figcaption>Member | <a href="/member-biographies#BioLefever" >Bio</a></figcaption>
                   </figure>
 

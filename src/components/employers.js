@@ -11,7 +11,7 @@ export default class Employers extends React.Component {
             <div className="row">
               <div className="col-md-10" id="mainCol">
 
-              <h1> Employers </h1>
+              <h1>Employers </h1>
 
             <div className="list-contents-wrapper">
               <h2 className="list-contents-header"> Contents </h2>

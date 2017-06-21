@@ -16,6 +16,13 @@ import Employers from "./components/employers";
 import Header from "./components/partials/header";
 import Bio from "./components/bio";
 import store from "./store.js";
+import Accessibility from "./components/accessibility";
+import Copyright from "./components/copyright";
+import Disclaimer from "./components/disclaimer";
+import Privacy from "./components/privacy";
+
+
+
 //CSS
 import "./sass/styles.scss";
 import "./vendor/font-awesome/css/font-awesome.min.css";
@@ -39,6 +46,10 @@ ReactDOM.render(
                 <Route path="/ex-service-organisations" component={withTracker(ESO)}/>
                 <Route path="/awards" component={withTracker(Awards)}/>
                 <Route path="/member-biographies" component={withTracker(Bio)}/>
+                <Route path="/copyright" component={withTracker(Copyright)}/>
+                <Route path="/disclaimer" component={withTracker(Disclaimer)}/>
+                <Route path="/privacy" component={withTracker(Privacy)}/>
+                <Route path="/accessibility" component={withTracker(Accessibility)}/>
                 <Provider store={ store }>
                     <Route path="/contact" component={withTracker(Contact)}/>
                 </Provider>

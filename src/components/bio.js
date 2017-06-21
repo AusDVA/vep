@@ -312,7 +312,7 @@ export default class Bio extends React.Component {
            <div className="col-md-8">
                <p className="bio-description">Jim Lefever</p>
                <p className="bio-description">Human Resources</p>
-               <p className="bio-description">CSC Australia Pty Ltd</p>
+               <p className="bio-description">DXC Technology Australia Pty Limited</p>
                <p className="break"> Jim Lefever leads CSC’s human resources department. </p>
                <p>He is an experienced business transformation leader, human resources director, change manager and consultant.
                   Jim has designed and managed the implementation of innovative and successful transformations across the world.

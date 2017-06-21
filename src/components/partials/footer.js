@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 export default class Footer extends React.Component {
 
   render(){
@@ -13,8 +14,15 @@ export default class Footer extends React.Component {
 				</div>
 				<div className="col-sm-6">
 					<ul className="list-inline pull-right hidden-print">
-						<li><a href="#">Privacy</a></li>
-						<li><a href="#">Copyright</a></li>
+						<li><Link to="/accessibility">Accessibility</Link></li>
+						<li><Link to="/copyright">Copyright</Link></li>
+						<li><Link to="/disclaimer">Disclaimer</Link></li>
+						<li><Link to="/privacy">Privacy</Link></li>
+
+
+
+						
+						
 					</ul>
 				</div>
 			</div>
