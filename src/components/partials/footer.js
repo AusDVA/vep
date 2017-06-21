@@ -17,12 +17,7 @@ export default class Footer extends React.Component {
 						<li><Link to="/accessibility">Accessibility</Link></li>
 						<li><Link to="/copyright">Copyright</Link></li>
 						<li><Link to="/disclaimer">Disclaimer</Link></li>
-						<li><Link to="/privacy">Privacy</Link></li>
-
-
-
-						
-						
+						<li><Link to="/privacy">Privacy</Link></li>									
 					</ul>
 				</div>
 			</div>

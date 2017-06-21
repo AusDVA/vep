@@ -1,6 +1,7 @@
 import React from 'react';
 import GeneralResourses from "./partials/generalResources";
 import Guide from "../doc/Guide - How to list a Defence Force Experience Desirable vacancy on jobactive.pdf";
+import { HashLink as Link } from "react-router-hash-link";
 export default class Employers extends React.Component {
 
   render() {
@@ -16,12 +17,12 @@ export default class Employers extends React.Component {
             <div className="list-contents-wrapper">
               <h2 className="list-contents-header"> Contents </h2>
               <ul className="list-contents" id="sidebar">             
-                  <li><a href="#Benefits">Benefits of employing veterans</a></li>
-                  <li><a href="#Industry">Industry Advisory Committee on Veterans’ Employment</a></li>
-                  <li><a href="#ExService">Ex-service Organisation Industry Partnership Register</a></li>
-                  <li><a href="#Department">Department of Employment initiatives</a></li>
-                  <li><a href="#PrimeMinister">Prime Minister’s Veterans’ Employment Annual Awards</a></li>
-                  <li><a href="#EmployerResources">Resources for employers</a></li>
+                  <li><Link to="#Benefits">Benefits of employing veterans</Link></li>
+                  <li><Link to="#Industry">Industry Advisory Committee on Veterans’ Employment</Link></li>
+                  <li><Link to="#ExService">Ex-service Organisation Industry Partnership Register</Link></li>
+                  <li><Link to="#Department">Department of Employment initiatives</Link></li>
+                  <li><Link to="#PrimeMinister">Prime Minister’s Veterans’ Employment Annual Awards</Link></li>
+                  <li><Link to="#EmployerResources">Resources for employers</Link></li>
                 </ul>
                </div>
 
@@ -57,7 +58,7 @@ export default class Employers extends React.Component {
                 </p>
 
                 <h2 id="Industry">Industry Advisory Committee on Veterans’ Employment </h2>
-                 <p>The <a href="/industry-advisory-committee">Industry Advisory Committee on Veterans’ Employment <span className="sr-only">Industry Advisory Committee page inside this website</span></a> has been established under the Program to develop and provide advice on practical measures
+                 <p>The <Link to="/industry-advisory-committee#top">Industry Advisory Committee on Veterans’ Employment <span className="sr-only">Industry Advisory Committee page inside this website</span></Link> has been established under the Program to develop and provide advice on practical measures
                    to embed veterans’ employment strategies into the recruitment practices of Australian businesses.
                  </p>
 
@@ -81,7 +82,7 @@ export default class Employers extends React.Component {
 
                  <h2 id="EmployerResources">Resources for employers</h2>
 
-                 <h3>jobactive </h3>
+                 <h3>jobactive</h3>
                  <p>jobactive is the Australian Government’s way to get more Australians into work by connecting job seekers with employers. </p>
                  <p>Employers who are interested in hiring veterans can indicate that defence force experience is desirable when they advertise a job on the
                     Australian Government’s <a target="_blank" href="http://www.jobactive.gov.au/">jobactive website <span className="sr-only">(this link will open in a new tab)</span></a>, by selecting the optional ‘defence force experience desirable’ flag. Employers can also approach local jobactive,
@@ -91,7 +92,7 @@ export default class Employers extends React.Component {
 
                 <GeneralResourses/>
                 <p className="hidden-print">
-                  <a href="#top">Top <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></a>
+                  <Link to="#top">Back to top <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></Link>
                 </p>
               </div>
             </div>

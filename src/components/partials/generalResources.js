@@ -12,6 +12,9 @@ export default class GeneralResourses extends React.Component {
 
                 <h3>Media Releases</h3>
                 <ul className="list-unstyled">
+                     
+                <li> 17 June 2017 <a target="_blank" href="http://minister.dva.gov.au/media_releases/2017/jun/va079.htm">More than 1,000 jobs for 
+                veterans flagged <span className="sr-only">(this link will open in a new tab)</span> </a></li>
                 <li> 31 March 2017 <a target="_blank" href="http://minister.dva.gov.au/media_releases/2017/mar/va043.htm">First meeting
                     of Industry Advisory Committee on Veterans’ Employment <span className="sr-only">(this link will open in a new tab)</span> </a></li>
                 <li> 30 March 2017 <a target="_blank" href="http://minister.dva.gov.au/media_releases/2017/mar/va038.htm">Enhanced

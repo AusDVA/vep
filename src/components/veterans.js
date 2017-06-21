@@ -1,6 +1,6 @@
 import React from "react";
 import GeneralResourses from "./partials/generalResources";
-import {Link} from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default class Veterans extends React.Component {
 
@@ -15,11 +15,11 @@ export default class Veterans extends React.Component {
                                 <div className="list-contents-wrapper">
                                  <h2 className="list-contents-header">Contents</h2>
                                 <ul className="list-contents" id="sidebar">                                    
-                                    <li><a href="#jobactive">jobactive</a></li>
-                                    <li><a href="#Industry-Advisory-Committee">Industry Advisory Committee on Veterans’ Employment</a></li>
-                                    <li><a href="#Other-initiatives">Other initiatives</a></li>
-                                    <li><a href="#support">State and territory government initiatives to increase veterans’ employment</a></li>
-                                    <li><a href="#Resources">Resources for veterans</a></li>
+                                    <li><Link to="#jobactive">jobactive</Link></li>
+                                    <li><Link to="#Industry-Advisory-Committee">Industry Advisory Committee on Veterans’ Employment</Link></li>
+                                    <li><Link to="#Other-initiatives">Other initiatives</Link></li>
+                                    <li><Link to="#support">State and territory government initiatives to increase veterans’ employment</Link></li>
+                                    <li><Link to="#Resources">Resources for veterans</Link></li>
                                 </ul>
                                 </div>
 
@@ -173,9 +173,9 @@ export default class Veterans extends React.Component {
                                 <GeneralResourses/>
 
                                 <p className="hidden-print">
-                                    <a href="#top">Top 
+                                    <Link to="#top">Back to top 
                                         <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
-                                    </a>
+                                    </Link>
                                 </p>
                             </div>
                         </div>

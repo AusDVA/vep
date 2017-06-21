@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import BioColbert from "../image/bios/Colbert_280x350.jpg";
 import BioFrazis from "../image/bios/Frazis_280x350.jpg";
 import BioBlake from "../image/bios/Blake_280x350.jpg";
@@ -73,8 +73,8 @@ export default class Bio extends React.Component {
              </div>
              <p className="hidden-print">
                <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-               <a href="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-               </a>
+               <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
+               </Link>
              </p>
         </section>
 
@@ -115,8 +115,8 @@ export default class Bio extends React.Component {
             </div>
             <p className="hidden-print">
               <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-              <a href="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-              </a>
+              <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
+              </Link>
             </p>
         </section>
 
@@ -147,8 +147,8 @@ export default class Bio extends React.Component {
            </div>
            <p className="hidden-print">
              <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-             <a href="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-             </a>
+             <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
+             </Link>
            </p>
         </section>
 
@@ -187,8 +187,8 @@ export default class Bio extends React.Component {
              </div>
              <p className="hidden-print">
                <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-               <a href="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-               </a>
+               <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
+               </Link>
              </p>
         </section>
 
@@ -230,8 +230,8 @@ export default class Bio extends React.Component {
           </div>
           <p className="hidden-print">
             <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-            <a href="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-            </a>
+            <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
+            </Link>
           </p>
         </section>
 
@@ -265,8 +265,8 @@ export default class Bio extends React.Component {
            </div>
            <p className="hidden-print">
              <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-             <a href="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-             </a>
+             <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
+             </Link>
            </p>
         </section>
 
@@ -296,8 +296,8 @@ export default class Bio extends React.Component {
               </div>
               <p className="hidden-print">
                 <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-                <a href="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-                </a>
+                <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
+                </Link>
               </p>
         </section>
 
@@ -326,8 +326,8 @@ export default class Bio extends React.Component {
           </div>
           <p className="hidden-print">
             <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-            <a href="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-            </a>
+            <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
+            </Link>
           </p>
         </section>
 
@@ -357,8 +357,8 @@ export default class Bio extends React.Component {
              </div>
              <p className="hidden-print">
                <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-               <a href="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-               </a>
+               <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
+               </Link>
              </p>
         </section>
 
@@ -388,8 +388,8 @@ export default class Bio extends React.Component {
             </div>
             <p className="hidden-print">
               <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-              <a href="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-              </a>
+              <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
+              </Link>
             </p>
         </section>
 
@@ -431,8 +431,8 @@ export default class Bio extends React.Component {
               </div>
               <p className="hidden-print">
                 <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-                <a href="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-                </a>
+                <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
+                </Link>
               </p>
         </section>
 
@@ -459,8 +459,8 @@ export default class Bio extends React.Component {
              </div>
              <p className="hidden-print">
                <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-               <a href="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-               </a>
+               <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
+               </Link>
              </p>
         </section>
 
@@ -490,8 +490,8 @@ export default class Bio extends React.Component {
              </div>
              <p className="hidden-print">
                <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-               <a href="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-               </a>
+               <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
+               </Link>
              </p>
         </section>
 
@@ -527,8 +527,8 @@ export default class Bio extends React.Component {
             </div>
             <p className="hidden-print">
               <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-              <a href="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-              </a>
+              <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
+              </Link>
             </p>
         </section>
       </div>
