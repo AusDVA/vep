@@ -15,6 +15,7 @@ import BioRobertsSmith from "../image/bios/bioroberts-smith.jpg";
 import BioRosenfield from "../image/bios/biorosenfield.jpg";
 import BioWard from "../image/bios/bioward.jpg";
 import Bio_Print from "../image/bios/iac_bio.png";
+import {Link} from "react-router-dom";
 
 export default class IAC extends React.Component {
 
@@ -75,14 +76,14 @@ export default class IAC extends React.Component {
                     <img src={BioFrazis} alt="George Frazis" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">George Frazis</figcaption>
                     <figcaption className="bio-description">Westpac Group</figcaption>
-                    <figcaption>Chair | <a href="/member-biographies#BioFrazis">Bio</a></figcaption>
+                    <figcaption>Chair | <Link to="/member-biographies#BioFrazis">Bio</Link></figcaption>
 
                   </figure>
                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioRobertsSmith} alt="Ben Roberts-Smith" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Ben Roberts-Smith VC, MG</figcaption>
                     <figcaption className="bio-description">Seven Network</figcaption>
-                    <figcaption>Deputy Chair | <a href="/member-biographies#BioRobertsSmith">Bio</a></figcaption>
+                    <figcaption>Deputy Chair | <Link to="/member-biographies#BioRobertsSmith">Bio</Link></figcaption>
 
                   </figure>
                 </div>
@@ -99,7 +100,7 @@ export default class IAC extends React.Component {
                     <img src={BioColbert} alt="Natalie Colbert" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Natalie Colbert</figcaption>
                     <figcaption className="bio-description">CanPLAY Pty Ltd</figcaption>
-                    <figcaption>Small Business Representative | <a href="/member-biographies#BioColbert" >Bio</a></figcaption>
+                    <figcaption>Small Business Representative | <Link to="/member-biographies#BioColbert">Bio</Link></figcaption>
                   </figure>
                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioGalgsdies} alt="Mark Galgsdies" className="img-circle" height="150px" width="150px"></img>
