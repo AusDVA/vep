@@ -27,7 +27,7 @@ import "./vendor/googleFonts/oswald.css";
 import "bootstrap/dist/js/bootstrap";
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div>
             <NavBar/>
             <Header/>
