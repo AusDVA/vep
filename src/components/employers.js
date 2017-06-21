@@ -57,7 +57,7 @@ export default class Employers extends React.Component {
                 </p>
 
                 <h2 id="Industry">Industry Advisory Committee on Veterans’ Employment </h2>
-                 <p>The <a href="/industry-advisory-committee">Industry Advisory Committee on Veterans’ Employment</a> has been established under the Program to develop and provide advice on practical measures
+                 <p>The <a href="/industry-advisory-committee">Industry Advisory Committee on Veterans’ Employment <span className="sr-only">Industry Advisory Committee page inside this website</span></a> has been established under the Program to develop and provide advice on practical measures
                    to embed veterans’ employment strategies into the recruitment practices of Australian businesses.
                  </p>
 
