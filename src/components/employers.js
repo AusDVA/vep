@@ -8,7 +8,7 @@ export default class Employers extends React.Component {
     return (
       <div>
         <section>
-          <div className="body-content container">
+          <div className="body-content container" id="content" tabindex="-1">
             <div className="row">
               <div className="col-md-10" id="mainCol">
 
@@ -16,7 +16,7 @@ export default class Employers extends React.Component {
 
             <div className="list-contents-wrapper">
               <h2 className="list-contents-header"> Contents </h2>
-              <ul className="list-contents" id="sidebar">             
+              <ul className="list-contents" id="sidebar">
                   <li><Link to="#Benefits">Benefits of employing veterans</Link></li>
                   <li><Link to="#Industry">Industry Advisory Committee on Veterans’ Employment</Link></li>
                   <li><Link to="#ExService">Ex-service Organisation Industry Partnership Register</Link></li>

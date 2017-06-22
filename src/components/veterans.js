@@ -8,13 +8,13 @@ export default class Veterans extends React.Component {
         return (
             <div>
                 <section>
-                    <div className="body-content container">
+                    <div className="body-content container" id="content" tabindex="-1">
                         <div className="row">
                             <div className="col-md-10" id="mainCol">
                                 <h1>Veterans</h1>
                                 <div className="list-contents-wrapper">
                                  <h2 className="list-contents-header">Contents</h2>
-                                <ul className="list-contents" id="sidebar">                                    
+                                <ul className="list-contents" id="sidebar">
                                     <li><Link to="#jobactive">jobactive</Link></li>
                                     <li><Link to="#Industry-Advisory-Committee">Industry Advisory Committee on Veterans’ Employment</Link></li>
                                     <li><Link to="#Other-initiatives">Other initiatives</Link></li>
@@ -173,7 +173,7 @@ export default class Veterans extends React.Component {
                                 <GeneralResourses/>
 
                                 <p className="hidden-print">
-                                    <Link to="#top">Back to top 
+                                    <Link to="#top">Back to top
                                         <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
                                     </Link>
                                 </p>

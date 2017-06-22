@@ -25,7 +25,7 @@ export default class Home extends React.Component {
     return (
       <div className="body-content">
         <div className="jumbotron jumbotron-fluid">
-          <div className="container">
+          <div className="container" id="content" tabindex="-1">
             <div className="description">
               <div className="row">
                 <div className="col-md-10">
@@ -44,7 +44,7 @@ export default class Home extends React.Component {
                         separate from the ADF.  The Program aims to make businesses more aware of the value that veterans can bring to their organisations, and as a
                         result improve employment opportunities for veterans.</p>
 
-              <div> 
+              <div>
                 <p>On 17 November 2016 the Prime Minister announced six initiatives under the Program.</p>
                 <h2>Industry Advisory Committee on Veterans’ Employment</h2>
                 <p>The Industry Advisory Committee on Veterans’ Employment (IAC) will be established to develop and
@@ -90,7 +90,7 @@ export default class Home extends React.Component {
                   <a className="hidden-print" href="#" onClick={ (e) => this.handleClick(e) }>Read less
                   <span className="sr-only">Less about the Prime Minister's Veterans' Employment Program</span></a>
                 </ToggleDisplay>
-                
+
               </div>
               </div>
             </div>

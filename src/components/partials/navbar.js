@@ -22,12 +22,13 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <div className="container hidden-print">
+      <a href="#content" className="sr-only sr-only-focusable">Skip to main content</a>
         <div className="row">
           <div className="logo col-md-6 col-sm-6 col-xs-6"><img alt="Australian Coat of arms" src={GOVLogo}/></div>
           <div className="col-md-2 col-xs-6 col-md-offset-2"><span className="beta">Beta Version</span></div>
 
           <div className="navbar-header col-md-1 col-xs-12 text-center">
-     <button onClick={this.handleClick}  type="button" className="navbar-toggle collapsed" data-toggle="collapse" 
+     <button onClick={this.handleClick}  type="button" className="navbar-toggle collapsed" data-toggle="collapse"
              data-target="#mobile-nav" aria-expanded="false" aria-label="Toggle navigation">
         <a href="#"><h3  className="mobile-menu text-center">Menu
              <span className= { this.state.isToggleOn ? "glyphicon glyphicon-chevron-down rotate-down" : "glyphicon glyphicon-chevron-down rotate"}
@@ -39,13 +40,13 @@ export default class NavBar extends React.Component {
       <nav >
     <div className="collapse navbar-collapse" id="main-nav">
       <ul className="nav navbar-nav text-center">
-       <li><NavLink exact to="/">Home</NavLink></li>
-       <li><NavLink to="/veterans">Veterans</NavLink></li>
-       <li><NavLink to="/employers">Employers</NavLink></li>
-       <li><NavLink to="/ex-service-organisations">Ex-service organisations</NavLink></li>
-       <li><NavLink to="/industry-advisory-committee">Industry Advisory Committee</NavLink></li>
-       <li><NavLink to="/awards">Awards</NavLink></li>
-       <li><NavLink to="/contact">Contact </NavLink></li>
+       <li><NavLink exact to="/" onClick={this.forceUpdate}>Home</NavLink></li>
+       <li><NavLink to="/veterans" onClick={this.forceUpdate}>Veterans</NavLink></li>
+       <li><NavLink to="/employers" onClick={this.forceUpdate}>Employers</NavLink></li>
+       <li><NavLink to="/ex-service-organisations" onClick={this.forceUpdate}>Ex-service organisations</NavLink></li>
+       <li><NavLink to="/industry-advisory-committee" onClick={this.forceUpdate}>Industry Advisory Committee</NavLink></li>
+       <li><NavLink to="/awards" onClick={this.forceUpdate}>Awards</NavLink></li>
+       <li><NavLink to="/contact" onClick={this.forceUpdate}>Contact </NavLink></li>
      </ul>
     </div>
 </nav>
