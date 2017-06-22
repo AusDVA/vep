@@ -4,5 +4,5 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://websphere.ibm.com/xml/ns/javaee http://websphere.ibm.com/xml/ns/javaee/ibm-web-ext_1_0.xsd"
         version="1.0">
-    <file-serving-attribute name="file.serving.patterns.allow" value="static/*" />
+    <file-serving-attribute name="file.serving.patterns.allow" value="static/* favicon.ico" />
 </web-ext>
