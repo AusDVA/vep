@@ -5,15 +5,15 @@ export default class GeneralResourses extends React.Component {
 
     render() {
         return (
-            <div>     
+            <div>
 
                 <h3>Australian Defence Force Separation Data</h3>
-                <p><a href={data} target="_blank" title="ADF Seperations 2012 to 2016.xlsx">ADF Separations 2012-2016 by State and Category (XLSX 808 KB)</a></p>
+                <p><a href={data} target="_blank" title="ADF Seperations 2012 to 2016.xlsx">ADF Separations 2012-2016 by State and Category (XLSX 808 KB) <span className="sr-only">Opens a excel file in a new tab</span></a></p>
 
                 <h3>Media Releases</h3>
                 <ul className="list-unstyled">
-                     
-                <li> 17 June 2017 <a target="_blank" href="http://minister.dva.gov.au/media_releases/2017/jun/va079.htm">More than 1,000 jobs for 
+
+                <li> 17 June 2017 <a target="_blank" href="http://minister.dva.gov.au/media_releases/2017/jun/va079.htm">More than 1,000 jobs for
                 veterans flagged <span className="sr-only">(this link will open in a new tab)</span> </a></li>
                 <li> 31 March 2017 <a target="_blank" href="http://minister.dva.gov.au/media_releases/2017/mar/va043.htm">First meeting
                     of Industry Advisory Committee on Veterans’ Employment <span className="sr-only">(this link will open in a new tab)</span> </a></li>

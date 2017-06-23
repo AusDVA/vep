@@ -40,7 +40,7 @@ export default class Bio extends React.Component {
                   <p className="bio-description">George Frazis</p>
                   <p className="bio-description">Chief Executive, Consumer Bank</p>
                   <p className="bio-description">Westpac Group</p>
-                  <p className="bio-education">B.Eng. (Hons), MBA (AGSM/Wharton)</p>
+                  <p className="bio-education">B.Eng. (Hons), MBA (AGSM/Wharton) <span className="sr-only">Bachelor of Engineering (Honours), MBA (AGSM/Wharton)</span></p>
 
 
                   <p className="break"> George was appointed Chief Executive, Consumer Bank for the Westpac Group in June 2015, responsible for managing the end to end relationship with consumer customers.
