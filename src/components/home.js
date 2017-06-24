@@ -16,6 +16,7 @@ export default class Home extends React.Component {
       show: !this.state.show,
       showReadMore: !this.state.showReadMore
     });
+      this.refs.mainFocus.focus();
 
     e.preventDefault();
     return false;
@@ -32,11 +33,7 @@ export default class Home extends React.Component {
                   <h1 className="page-title">The Prime Minister's Veterans' Employment Program</h1>
                   <p>The Prime Minister's Veterans' Employment Program demonstrates the importance the Government places on raising awareness with employers,
                      both private and public sector, of the value and unique experience of our veterans.</p>
-                     <ToggleDisplay show={this.state.showReadMore}>
-                      <a className="hidden-print" href="#about" onClick={ (e) => this.handleClick(e) }>Read more
-                      <span className="sr-only">More about the Prime Minister's Veterans' Employment Program</span></a>
-                     </ToggleDisplay>
-
+                    <span tabIndex="-1" ref="mainFocus" autoFocus />
                      <ToggleDisplay show={this.state.show}>
                      <p id="about">The Australian Defence Force (ADF) invests heavily in its servicemen and women, and they have a broad range of skills and experience.
                         Their skill-sets, including proven leadership and problem solving skills, are in strong demand and transfer readily to civilian employment. </p>
@@ -87,9 +84,9 @@ export default class Home extends React.Component {
                   provision of employment planning advice and labour market information.</p>
 
                   </div>
-                  <a className="hidden-print" href="#" onClick={ (e) => this.handleClick(e) }>Read less
-                  <span className="sr-only">Less about the Prime Minister's Veterans' Employment Program</span></a>
-                </ToggleDisplay>
+                </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClick(e) }>{this.state.show ? "Read less" : "Read more"}
+                <span className="sr-only">{this.state.show ? "Less about the Prime Minister's Veterans' Employment Program" : "More about the Prime Minister's Veterans' Employment Program"}</span>
+              </a>
 
               </div>
               </div>
