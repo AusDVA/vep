@@ -22,7 +22,7 @@ export default class IAC extends React.Component {
   render() {
     return (
       <div>
-          <div className="body-content container" id="content" tabindex="-1">
+          <div className="body-content container" id="content">
             <div className="row">
               <div className="col-md-10" id="mainCol">
                 <h1 id="content">Industry Advisory Committee on Veterans’ Employment</h1>

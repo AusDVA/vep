@@ -7,7 +7,7 @@ export default class Disclaimer extends React.Component {
         return (
             <div>
              <section>
-          <div className="body-content container">
+          <div id="content" className="body-content container">
             <div className="row">
               <div className="col-md-10" id="mainCol">
               <h1>Disclaimer</h1>
@@ -27,14 +27,3 @@ export default class Disclaimer extends React.Component {
         );
     }
 }
-
-
-
-
-
-
-
-
-
-
-

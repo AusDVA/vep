@@ -21,8 +21,6 @@ import Copyright from "./components/copyright";
 import Disclaimer from "./components/disclaimer";
 import Privacy from "./components/privacy";
 
-
-
 //CSS
 import "./sass/styles.scss";
 import "./vendor/font-awesome/css/font-awesome.min.css";

@@ -25,7 +25,7 @@ export default class Home extends React.Component {
     return (
       <div className="body-content">
         <div className="jumbotron jumbotron-fluid">
-          <div className="container" id="content" tabindex="-1">
+          <div className="container" id="content">
             <div className="description">
               <div className="row">
                 <div className="col-md-10">

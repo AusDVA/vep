@@ -4,10 +4,9 @@ export default class ESO extends React.Component {
 
   render() {
     return (
-      //placeholder for eso page.
       <div>
         <section>
-          <div className="body-content container" id="content" tabindex="-1">
+          <div className="body-content container" id="content">
             <div className="row">
               <div className="col-md-10">
                 <h1> Ex-service organisations </h1>

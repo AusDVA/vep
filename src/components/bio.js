@@ -1,5 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import NavBar from "./partials/navbar";
 import BioColbert from "../image/bios/Colbert_280x350.jpg";
 import BioFrazis from "../image/bios/Frazis_280x350.jpg";
 import BioBlake from "../image/bios/Blake_280x350.jpg";
@@ -14,11 +15,17 @@ import BioPlaskett from "../image/bios/Plaskett_280x350.jpg";
 import BioRobertsSmith from "../image/bios/Roberts-Smith_280x350.jpg";
 import BioRosenfield from "../image/bios/Rosenfield_280x350.jpg";
 import BioWard from "../image/bios/Ward_280x350.jpg";
+
 export default class Bio extends React.Component {
+
+
+
+
+
 
   render(){
     return (
-      <div className="body-content container no-float-print">
+      <div id="content" className="body-content container no-float-print">
         <ol className="breadcrumb hidden-print">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/industry-advisory-committee">Industry Advisory Committee</Link></li>

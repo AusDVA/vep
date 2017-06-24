@@ -2,10 +2,11 @@ import React from 'react';
 export default class Awards extends React.Component {
 
   render(){
+
     return (
       <div>
         <section>
-          <div className="body-content container" id="content" tabindex="-1">
+          <div className="body-content container" id="content">
             <div className="row">
               <div className="col-md-10" id="mainCol">
                 <h1> Awards </h1>

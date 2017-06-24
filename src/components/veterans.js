@@ -8,7 +8,7 @@ export default class Veterans extends React.Component {
         return (
             <div>
                 <section>
-                    <div className="body-content container" id="content" tabindex="-1">
+                    <div className="body-content container" id="content">
                         <div className="row">
                             <div className="col-md-10" id="mainCol">
                                 <h1>Veterans</h1>

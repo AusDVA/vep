@@ -7,8 +7,8 @@ export default class NavBar extends React.Component {
    constructor(props) {
     super(props);
     this.state = {isToggleOn: true};
-
     this.handleClick = this.handleClick.bind(this);
+    this.focus = this.focus.bind(this);
   }
 
   handleClick(e) {
@@ -19,10 +19,16 @@ export default class NavBar extends React.Component {
     return false;
   }
 
+  focus() {
+    this.refs.skipNav.focus();
+  }
+
   render() {
     return (
       <div className="container hidden-print">
-      <a href="#content" className="sr-only sr-only-focusable">Skip to main content</a>
+        <nav tabIndex="-1" ref="skipNav" autoFocus>
+          <a href="#content" className="sr-only sr-only-focusable">Skip to main content</a>
+        </nav>
         <div className="row">
           <div className="logo col-md-6 col-sm-6 col-xs-6"><img alt="Australian Coat of arms" src={GOVLogo}/></div>
           <div className="col-md-2 col-xs-6 col-md-offset-2"><span className="beta">Beta Version</span></div>
@@ -39,14 +45,14 @@ export default class NavBar extends React.Component {
 
       <nav >
     <div className="collapse navbar-collapse" id="main-nav">
-      <ul className="nav navbar-nav text-center">
-       <li><NavLink exact to="/" onClick={this.forceUpdate}>Home</NavLink></li>
-       <li><NavLink to="/veterans" onClick={this.forceUpdate}>Veterans</NavLink></li>
-       <li><NavLink to="/employers" onClick={this.forceUpdate}>Employers</NavLink></li>
-       <li><NavLink to="/ex-service-organisations" onClick={this.forceUpdate}>Ex-service organisations</NavLink></li>
-       <li><NavLink to="/industry-advisory-committee" onClick={this.forceUpdate}>Industry Advisory Committee</NavLink></li>
-       <li><NavLink to="/awards" onClick={this.forceUpdate}>Awards</NavLink></li>
-       <li><NavLink to="/contact" onClick={this.forceUpdate}>Contact </NavLink></li>
+      <ul onClick={this.focus} className="nav navbar-nav text-center">
+       <li><NavLink exact to="/">Home</NavLink></li>
+       <li><NavLink to="/veterans">Veterans</NavLink></li>
+       <li><NavLink to="/employers">Employers</NavLink></li>
+       <li><NavLink to="/ex-service-organisations">Ex-service organisations</NavLink></li>
+       <li><NavLink to="/industry-advisory-committee">Industry Advisory Committee</NavLink></li>
+       <li><NavLink to="/awards">Awards</NavLink></li>
+       <li><NavLink to="/contact">Contact </NavLink></li>
      </ul>
     </div>
 </nav>
