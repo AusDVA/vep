@@ -33,7 +33,7 @@ export default class Home extends React.Component {
                   <h1 className="page-title">The Prime Minister's Veterans' Employment Program</h1>
                   <p>The Prime Minister's Veterans' Employment Program demonstrates the importance the Government places on raising awareness with employers,
                      both private and public sector, of the value and unique experience of our veterans.</p>
-                    <span tabIndex="-1" ref="mainFocus" autoFocus />
+                    <span className="no-border" tabIndex="-1" ref="mainFocus" autoFocus />
                      <ToggleDisplay show={this.state.show}>
                      <p id="about">The Australian Defence Force (ADF) invests heavily in its servicemen and women, and they have a broad range of skills and experience.
                         Their skill-sets, including proven leadership and problem solving skills, are in strong demand and transfer readily to civilian employment. </p>

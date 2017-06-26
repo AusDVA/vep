@@ -245,7 +245,7 @@ h5 {
 }
 
 .contact-subheader {
-  font-size: 20px;  
+  font-size: 20px;
   line-height: 1.1;
 }
 
@@ -282,7 +282,7 @@ h5 {
   line-height: 0.9;
 }
 
-    
+
 
 // footer
 
@@ -349,3 +349,6 @@ h5 {
   top: auto;
 }
 
+.no-border:focus {
+  outline: 0;
+}

@@ -26,7 +26,7 @@ export default class NavBar extends React.Component {
   render() {
     return (
       <div className="container hidden-print">
-        <nav tabIndex="-1" ref="skipNav" autoFocus>
+        <nav className="no-border" tabIndex="-1" ref="skipNav" autoFocus>
           <a href="#content" className="sr-only sr-only-focusable">Skip to main content</a>
         </nav>
         <div className="row">
