@@ -4,7 +4,7 @@ export default class Contact extends React.Component {
   render() {
 
     return (
-      <div className="body-content container" id="content">
+      <div className="body-content container no-border" id="content" tabIndex="-1" autoFocus>
         <div className="row">
           <div className="col-md-10" id="mainCol">
 
