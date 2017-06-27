@@ -25,7 +25,7 @@ export default class Bio extends React.Component {
 
   render(){
     return (
-      <div id="content" className="body-content container no-float-print">
+      <div id="content" className="body-content container no-float-print no-border" tabIndex="-1" autoFocus>
         <ol className="breadcrumb hidden-print">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/industry-advisory-committee">Industry Advisory Committee</Link></li>

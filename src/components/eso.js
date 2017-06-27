@@ -6,7 +6,7 @@ export default class ESO extends React.Component {
     return (
       <div>
         <section>
-          <div className="body-content container" id="content">
+          <div className="body-content container no-border" id="content" tabIndex="-1" autoFocus>
             <div className="row">
               <div className="col-md-10">
                 <h1> Ex-service organisations </h1>
