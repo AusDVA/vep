@@ -7,7 +7,7 @@ export default class Disclaimer extends React.Component {
         return (
             <div>
              <section>
-          <div id="content" className="body-content container">
+          <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
             <div className="row">
               <div className="col-md-10" id="mainCol">
               <h1>Disclaimer</h1>
