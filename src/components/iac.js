@@ -41,7 +41,7 @@ export default class IAC extends React.Component {
                   practical measures to embed veterans’ employment strategies into recruitment
                    practices of Australian businesses.</p>
                 <p>The Committee will also play a role in the broader promotion of skills and professional attributes
-                   that veterans have to offer employers</p>
+                   that veterans have to offer employers.</p>
                    <section id="section-nobreak">
                 <h2 id="Terms">Terms of reference</h2>
                 <p>The Industry Advisory Committee will:</p>

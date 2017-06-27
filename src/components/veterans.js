@@ -44,7 +44,7 @@ export default class Veterans extends React.Component {
                                     by connecting job seekers with employers. Under the Program, jobactive has been
                                     enhanced.</p>
                                 <p>The <a target="_blank" href="http://www.jobactive.gov.au/">
-                                jobactive website <span className="sr-only">(this link will open in a new tab)</span> </a> now enables
+                                jobactive website<span className="sr-only">(this link will open in a new tab)</span></a> now enables
                                     employers
                                     to select an optional ‘defence force experience desirable’ flag, and veterans
                                     can search for jobs that employers have flagged.</p>
@@ -92,26 +92,26 @@ export default class Veterans extends React.Component {
                                 <p>To assist former ADF members who are looking to transition to the Commonwealth public
                                     sector, the Australian Public Service Commission is developing a toolkit and an application
                                     to align ADF ranks with Australian Public Service classifications. The Commission’s revamped <a target="_blank" href="https://www.apsjobs.gov.au/">
-                                    APSjobs website <span className="sr-only">(this link will open in a new tab)</span> </a>, to be launched later in 2017, will also include specific
+                                    APSjobs website<span className="sr-only">(this link will open in a new tab)</span></a>, to be launched later in 2017, will also include specific
                                     information for veterans on what to expect from employment in the APS.</p>
 
                                 <h2 id="support">State and territory government initiatives to increase veterans’ employment</h2>
                                 <h3>NSW Government</h3>
                                 <p>The <a target="_blank"
                                     href="http://www.vep.veterans.nsw.gov.au">NSW
-                                    Veterans Employment Program <span className="sr-only">(this link will open in a new tab)</span> </a>, launched
+                                    Veterans Employment Program<span className="sr-only">(this link will open in a new tab)</span></a>, launched
                                     on <span className="no-wrap">5 May 2016</span>, will assist an additional
                                     200 veterans to find suitable, sustainable and meaningful employment within the NSW
                                     Government
                                     Sector by 2019. The NSW Government offers a variety of careers allowing veterans to draw upon
                                     their unique military experience and skills. <a target="_blank"
                                         href="http://www.vep.veterans.nsw.gov.au/job-search/job-search/">An ADF Rank –
-                                        NSW Government Grade Match Tool <span className="sr-only">(this link will open in a new tab)</span> </a> has
+                                        NSW Government Grade Match Tool<span className="sr-only">(this link will open in a new tab)</span></a> has
                                     been developed to guide veterans to their equivalent NSW public sector grades. </p>
                                 <h3>Government of Victoria</h3>
                                 <p>In November 2016, the Premier announced that he would establish a <a target="_blank"
                                         href="http://www.dpc.vic.gov.au/index.php/veterans/public-sector-veterans-employment-strategy">Veterans
-                                        Public Sector Employment initiative. <span className="sr-only">(this link will open in a new tab)</span> </a> The
+                                        Public Sector Employment initiative.<span className="sr-only">(this link will open in a new tab)</span></a> The
                                     initiative will assist up to 250 veterans find jobs in the Victorian
                                     public sector. </p>
                                 <p>The Government of Victoria is also working with the RSL Victorian Branch to establish
@@ -123,18 +123,18 @@ export default class Veterans extends React.Component {
                                         Western
                                         Australian Veterans Advisory Council in 2014.</p>
                                 <p><a target="_blank" href="https://publicsector.wa.gov.au/veterans-employment-transition-support-vets">The
-                                    Veterans’ Employment Transition Support <span className="sr-only">(this link will open in a new tab)</span> </a> has
+                                    Veterans’ Employment Transition Support<span className="sr-only">(this link will open in a new tab)</span></a> has
                                     been implemented to encourage current and former
                                     ADF members to consider employment in the WA public sector. </p>
 
                                 <h2 id="Resources">Resources for veterans</h2>
                                 <h3>jobactive</h3>
                                 <p>jobactive is the Australian Government’s way to get more Australians into work, by connecting
-                                   job seekers with employers.  Under the Program, jobactive has been enhanced. The <a target="_blank" href="http://www.jobactive.gov.au/">jobactive website <span className="sr-only">(this link will open in a new tab)</span> </a> now enables employers to select an optional ‘defence force experience desirable’ flag,
-                                   and veterans can <a target="_blank" href="https://jobsearch.gov.au/job/search/ex-adf">search for jobs <span className="sr-only">(this link will open in a new tab)</span> </a> that employers have flagged.
+                                   job seekers with employers.  Under the Program, jobactive has been enhanced. The <a target="_blank" href="http://www.jobactive.gov.au/">jobactive website<span className="sr-only">(this link will open in a new tab)</span></a> now enables employers to select an optional ‘defence force experience desirable’ flag,
+                                   and veterans can <a target="_blank" href="https://jobsearch.gov.au/job/search/ex-adf">search for jobs<span className="sr-only">(this link will open in a new tab)</span></a> that employers have flagged.
                                 </p>
                                 <p>The jobactive website also provides <a target="_blank" href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">
-                                information tailored for veteran jobseekers <span className="sr-only">(this link will open in a new tab)</span> </a>.</p>
+                                information tailored for veteran jobseekers<span className="sr-only">(this link will open in a new tab)</span></a>.</p>
 
                                 <h3>APSjobs</h3>
                                 <p>The Australian Public Service (APS) provides a wide range of roles, generous support and remuneration for
@@ -143,30 +143,30 @@ export default class Veterans extends React.Component {
                                 <p>APSjobs will help jobseekers to discover the many career paths the APS has to offer by linking them to
                                     vacancies available in the APS, the Parliamentary Service and many other Australian Government agencies.
                                 </p>
-                                <p>The <a target="_blank" href="https://www.apsjobs.gov.au/">APSjobs website <span className="sr-only">(this link will open in a new tab)</span> </a> provides a gateway to a challenging and rewarding career in the APS. </p>
+                                <p>The <a target="_blank" href="https://www.apsjobs.gov.au/">APSjobs website<span className="sr-only">(this link will open in a new tab)</span></a> provides a gateway to a challenging and rewarding career in the APS. </p>
 
                                 <h3>Defence Community Organisation</h3>
-                                <p><a target="_blank" href="http://www.defence.gov.au/DCO/Transitions/">Defence Community Organisation <span className="sr-only">(this link will open in a new tab)</span> </a> assists veterans to obtain practical guidance and
+                                <p><a target="_blank" href="http://www.defence.gov.au/DCO/Transitions/">Defence Community Organisation<span className="sr-only">(this link will open in a new tab)</span></a> assists veterans to obtain practical guidance and
                                     information to help them to transition into civilian life.</p>
 
                                 <h3>ADF Transition Handbook</h3>
-                                <p>The <a target="_blank" href="http://www.defence.gov.au/DCO/_Master/documents/Transition/ADF-Transition-Handbook.pdf">ADF Transition Handbook (PDF 3.3 MB) <span className="sr-only">Opens a pdf file in a new tab</span></a> is a guide to help
+                                <p>The <a target="_blank" href="http://www.defence.gov.au/DCO/_Master/documents/Transition/ADF-Transition-Handbook.pdf">ADF Transition Handbook (PDF 3.3 MB)<span className="sr-only">Opens a pdf file in a new tab</span></a> is a guide to help
                                    ADF members and their families prepare for separation from the military.</p>
 
                                 <h3>Career Transition Assistance Scheme</h3>
-                                <p>The <a target="_blank" href="http://www.defence.gov.au/payandconditions/adf/Chapter-2/Part-2/">Career Transition Assistance Scheme <span className="sr-only">(this link will open in a new tab)</span> </a> assists ADF
+                                <p>The <a target="_blank" href="http://www.defence.gov.au/payandconditions/adf/Chapter-2/Part-2/">Career Transition Assistance Scheme<span className="sr-only">(this link will open in a new tab)</span></a> assists ADF
                                     personnel with career transition when they separate from the ADF.</p>
 
                                 <h3>Australian Defence Force Superannuation</h3>
-                                <p><a target="_blank" href="https://adfsuper.gov.au/">Australian Defence Force Superannuation <span className="sr-only">(this link will open in a new tab)</span> </a> (ADF Super) is the current superannuation
+                                <p><a target="_blank" href="https://adfsuper.gov.au/">Australian Defence Force Superannuation<span className="sr-only">(this link will open in a new tab)</span></a> (ADF Super) is the current superannuation
                                     scheme for members of the Australian Defence Force. </p>
 
                                 <h3>Military Superannuation & Benefits Scheme</h3>
-                                <p>The <a target="_blank" href="https://militarysuper.gov.au/">Military Superannuation & Benefits Scheme <span className="sr-only">(this link will open in a new tab)</span> </a> (MilitarySuper) is the previous
+                                <p>The <a target="_blank" href="https://militarysuper.gov.au/">Military Superannuation & Benefits Scheme<span className="sr-only">(this link will open in a new tab)</span></a> (MilitarySuper) is the previous
                                    superannuation scheme for member of the Australian Defence Force.  </p>
 
                                 <h3>Defence Force Retirement & Death Benefits Scheme</h3>
-                                <p>The <a target="_blank" href="https://dfrdb.gov.au/">Defence Force Retirement & Death Benefits Scheme <span className="sr-only">(this link will open in a new tab)</span> </a> (DFRDB) was the superannuation
+                                <p>The <a target="_blank" href="https://dfrdb.gov.au/">Defence Force Retirement & Death Benefits Scheme<span className="sr-only">(this link will open in a new tab)</span></a> (DFRDB) was the superannuation
                                    scheme for ADF members between 1973 - 1991.  </p>
 
 

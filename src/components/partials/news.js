@@ -75,11 +75,11 @@ export default class News extends React.Component {
     							<p>jobactive is the Australian Government’s way to get more Australians into work, by connecting job seekers with employers.  Under the Prime Minister’s Veterans’ Employment Program, jobactive has been enhanced.</p>
                     <span className="no-border" tabIndex="-1" ref="newsFoucs2" autoFocus />
                     <ToggleDisplay show={this.state.showNews2}>
-                  <p>The <a target="_blank" href="https://www.jobactive.gov.au/">jobactive website <span className="sr-only">(this link will open in a new tab)</span> </a> now
+                  <p>The <a target="_blank" href="https://www.jobactive.gov.au/">jobactive website<span className="sr-only">(this link will open in a new tab)</span></a> now
                      enables employers to select an optional ‘defence force experience desirable’ flag, and veterans
-                     can <a target="_blank" href="https://jobsearch.gov.au/job/search/ex-adf">search for jobs <span className="sr-only">(this link will open in a new tab)</span> </a> that
+                     can <a target="_blank" href="https://jobsearch.gov.au/job/search/ex-adf">search for jobs<span className="sr-only">(this link will open in a new tab)</span></a> that
                      employers have flagged.</p>
-                  <p>The jobactive website also provides <a target="_blank" href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">information tailored for veteran jobseekers. <span className="sr-only">(this link will open in a new tab)</span>
+                  <p>The jobactive website also provides <a target="_blank" href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">information tailored for veteran jobseekers.<span className="sr-only">(this link will open in a new tab)</span>
                   </a></p>
                 </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClickNews2(e) }>{this.state.showNews2 ? 'Read less' : 'Read more'}
                  <span className="sr-only">{this.state.showNews2 ? 'Less about jobactive' : 'More about jobactive'}</span>
