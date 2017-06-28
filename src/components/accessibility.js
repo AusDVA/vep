@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 export default class Accessibility extends React.Component {
 
@@ -16,7 +16,7 @@ export default class Accessibility extends React.Component {
                                Web Consortium’s <a target="_blank" href="http://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines version 2.0 (WCAG 2.0)
                                <span className="sr-only">(this link will open in a new tab)</span></a> at level AA.</p>
                             <p>Maintaining an accessible site and providing our information to all users, including those with a disability, is important to us.  If you experience
-                               any problems accessing content, please <Link to="/contact">contact us</Link>.</p>
+                               any problems accessing content, please <Link to="/contact#top">contact us</Link>.</p>
                          </div>
                      </div>
                  </div>

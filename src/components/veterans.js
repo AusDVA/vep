@@ -61,7 +61,7 @@ export default class Veterans extends React.Component {
                                     bring to their organisations.
                                 </p>
                                 <p>
-                                    An <Link to="/industry-advisory-committee">Industry Advisory Committee on Veterans’ Employment
+                                    An <Link to="/industry-advisory-committee#top">Industry Advisory Committee on Veterans’ Employment
                                     <span className="sr-only">Industry Advisory Committee page inside this website</span></Link>, made up of
                                     industry representatives,
                                     has been established to develop

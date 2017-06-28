@@ -1,5 +1,5 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 export default class Footer extends React.Component {
 
   render(){
@@ -14,10 +14,10 @@ export default class Footer extends React.Component {
 				</div>
 				<div className="col-sm-6">
 					<ul className="list-inline pull-right hidden-print">
-						<li><Link to="/accessibility">Accessibility</Link></li>
-						<li><Link to="/copyright">Copyright</Link></li>
-						<li><Link to="/disclaimer">Disclaimer</Link></li>
-						<li><Link to="/privacy">Privacy</Link></li>									
+						<li><Link to="/accessibility#top">Accessibility</Link></li>
+						<li><Link to="/copyright#top">Copyright</Link></li>
+						<li><Link to="/disclaimer#top">Disclaimer</Link></li>
+						<li><Link to="/privacy#top">Privacy</Link></li>									
 					</ul>
 				</div>
 			</div>
