@@ -4,7 +4,7 @@ export default class Footer extends React.Component {
 
   render(){
     return (
-      <footer className="panel-footer">
+      <footer className="panel-footer hidden-print">
 		<div className="container">
 			<div className="row">
 				<div className="col-sm-6">
@@ -13,7 +13,7 @@ export default class Footer extends React.Component {
 					</section>
 				</div>
 				<div className="col-sm-6">
-					<ul className="list-inline pull-right hidden-print">
+					<ul className="list-inline pull-right">
 						<li><Link to="/accessibility#top">Accessibility</Link></li>
 						<li><Link to="/copyright#top">Copyright</Link></li>
 						<li><Link to="/disclaimer#top">Disclaimer</Link></li>

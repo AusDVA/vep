@@ -27,7 +27,7 @@ export default class Privacy extends React.Component {
                           </ul>
                    </div>
 
-                  <p>This website is administered by the Department of Veteran’s Affairs (DVA). Your privacy is important to us. 
+                  <p>This website is administered by the Department of Veterans' Affairs (DVA). Your privacy is important to us. 
                      DVA is bound by the Privacy Act 1988 (the Privacy Act) and the Australian Privacy Principles (APPs). The APPs 
                      regulate the handling of personal information by Australian government agencies and businesses under the Privacy Act.</p> 
                   <p>DVA collects personal information in order to deliver government programs for war veterans, members of the Australian 
@@ -78,7 +78,7 @@ export default class Privacy extends React.Component {
                                 <li>the pages accessed and documents downloaded</li>
                                 <li>the previous site visited</li>
                                 <li>the type of browser used</li>
-                                <li>the type of device used</li>
+                                <li>the type of device used.</li>
                               </ul>
                           <p>DVA will not make any attempt to identify users or their browsing activities except, in the unlikely event of an investigation, 
                              where a law enforcement agency may exercise a warrant to inspect the internet service provider's logs.</p>
@@ -93,7 +93,7 @@ export default class Privacy extends React.Component {
                                   <li>session-based cookies are short-lived, are used only during a browsing session, and expire when you close your browser.</li>                                  
                                 </ul>
                             <p>This website may use session cookies during a search query of the website.  No other cookies are employed on the website except for those 
-                               associated with the search engine. Website statistics for DVA websites are generated from the web logs as outlined above under 'Site visit data'.</p>
+                               associated with the search engine and analytics. Website statistics for DVA websites are generated from the web logs as outlined above under <Link to="#site-visit-data">Site visit data</Link>.</p>
                             <p>Once you have closed your browser, the session cookie set by the DVA website is destroyed and DVA does not maintain any personal information 
                                that might identify you should you visit our website at a later date.</p>
                             <p>DVA does not use persistent cookies on this website.</p>
