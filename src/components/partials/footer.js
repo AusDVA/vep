@@ -13,11 +13,16 @@ export default class Footer extends React.Component {
 					</section>
 				</div>
 				<div className="col-sm-6">
-					<ul className="list-inline pull-right">
+					<ul className="list-inline pull-right hidden-print">
 						<li><Link to="/accessibility#top">Accessibility</Link></li>
 						<li><Link to="/copyright#top">Copyright</Link></li>
 						<li><Link to="/disclaimer#top">Disclaimer</Link></li>
-						<li><Link to="/privacy#top">Privacy</Link></li>									
+						<li><Link to="/privacy#top">Privacy</Link></li>
+
+
+
+						
+						
 					</ul>
 				</div>
 			</div>
