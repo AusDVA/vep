@@ -55,9 +55,7 @@ export default class Home extends React.Component {
                     <p>The Annual Awards will recognise the achievements of businesses
                       in creating employment opportunities for veterans.  The criteria for the awards will be developed in
                       consultation with the Industry Advisory Committee on Veterans’ Employment.</p>
-                 
-
-                  
+                                  
                     <h2>Ex-Service Organisation Industry Partnership Register</h2>
                     <p>Ex-service organisations will be able to register their interest in partnering with industry on
                       projects to promote the employment of veterans.  Industry will be able to access this information
@@ -70,7 +68,9 @@ export default class Home extends React.Component {
                 <section id="section-nobreak">                                          
                     <h2>Department of Defence and Department of Veterans’ Affairs initiatives</h2>
                     <p>The Departments of Defence and Veterans’ Affairs will continue to improve the transition process for separating members of the Australian Defence Force (ADF). </p>
-                    <p>Separating members of the ADF will receive separation documentation, including training records.  They will also receive an individual transition plan and tailored transition coaching services.  Surveys of former ADF personnel post-separation will be reinstated to assess the effectiveness of ADF transition programs and inform future initiatives, and work will continue on aligning military qualifications with civilian qualifications.</p>
+                    <p>Separating members of the ADF will receive separation documentation, including training records.  They will also receive an individual transition plan and tailored 
+                       transition coaching services.  Surveys of former ADF personnel post-separation will be reinstated to assess the effectiveness of ADF transition programs and inform 
+                       future initiatives, and work will continue on aligning military qualifications with civilian qualifications.</p>
                     <p>Vocational rehabilitation services for veterans with an ADF-related injury or illness will also be improved.</p>
            
                     <h2>Australian Public Service (APS) initiatives</h2>

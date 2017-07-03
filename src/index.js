@@ -20,6 +20,7 @@ import Accessibility from "./components/accessibility";
 import Copyright from "./components/copyright";
 import Disclaimer from "./components/disclaimer";
 import Privacy from "./components/privacy";
+import NewsArchive from "./components/newsArchive";
 
 //CSS
 import "./sass/styles.scss";
@@ -48,6 +49,7 @@ ReactDOM.render(
                 <Route path="/disclaimer" component={withTracker(Disclaimer)}/>
                 <Route path="/privacy" component={withTracker(Privacy)}/>
                 <Route path="/accessibility" component={withTracker(Accessibility)}/>
+                <Route path="/news-archive" component={withTracker(NewsArchive)}/>
                 <Provider store={ store }>
                     <Route path="/contact" component={withTracker(Contact)}/>
                 </Provider>
