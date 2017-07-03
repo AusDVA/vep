@@ -37,7 +37,7 @@ export default class IAC extends React.Component {
                 </ul>
                 </div>
 
-                <p>The Industry Advisory Committee (IAC) on Veterans’ Employment has been established to develop
+                <p>The Industry Advisory Committee on Veterans’ Employment has been established to develop
                   practical measures to embed veterans’ employment strategies into recruitment
                    practices of Australian businesses.</p>
                 <p>The Committee will also play a role in the broader promotion of skills and professional attributes
@@ -182,18 +182,14 @@ export default class IAC extends React.Component {
             </section>
             <section id="section-nobreak">
                 <h2 id="Groups">Working groups</h2>
-                <p>The Committee will initially focus on eight key areas:
+                <p>The Committee is focusing on five key areas:
                 </p>
                 <ul>
-                  <li>data and the business case for hiring veterans</li>
-                  <li>translation of skills, including use of common language</li>
-                  <li>awareness, career fairs and branding, including accrediting veterans’ employers</li>
-                  <li>human resources policies and targets</li>
-                  <li>on-boarding, transition, retention and mentors, including links with reserves and other
-                      defence support organisations</li>
-                  <li>employment of spouses</li>
-                  <li>appreciation of the contribution of veterans by the community</li>
-                  <li>the Prime Minister’s Veterans’ Employment Annual Awards</li>
+                  <li>data, research and targets</li>
+                  <li>human resources policies, accreditation, retention, translation of skills</li>
+                  <li>communications (branding, awareness, transition seminars, website, job fairs)</li>
+                  <li>spouse employment</li>
+                  <li>Prime Minister’s Veterans’ Employment Annual Awards</li>
                 </ul>
 
                 <IacNews/>

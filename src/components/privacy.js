@@ -38,13 +38,13 @@ export default class Privacy extends React.Component {
                      you how we manage your personal information. This includes:</p>  
                   
                     <ul>
-                        <li>the kinds of personal information that we collect and hold about you;</li>
-                        <li>how we collect your personal information;</li>  
-                        <li>how we hold your personal information;</li>
-                        <li>the purposes for collecting, holding, using and disclosing your personal information;</li>
-                        <li>how you may access your personal information held by us and correct that information where it is incorrect;</li>
-                        <li>how you may make a complaint about the way we collect, hold, use or disclose personal information, and how we will deal with privacy related complaints;</li>
-                        <li>whether we will (or are likely to) disclose your personal information to overseas recipients and the countries where such recipients may be located.</li>                                                    
+                        <li>the kinds of personal information that we collect and hold about you</li>
+                        <li>how we collect your personal information</li>  
+                        <li>how we hold your personal information</li>
+                        <li>the purposes for collecting, holding, using and disclosing your personal information</li>
+                        <li>how you may access your personal information held by us and correct that information where it is incorrect</li>
+                        <li>how you may make a complaint about the way we collect, hold, use or disclose personal information, and how we will deal with privacy related complaints</li>
+                        <li>whether we will (or are likely to) disclose your personal information to overseas recipients and the countries where such recipients may be located</li>                                                    
                     </ul>   
                   </section>
 
@@ -82,7 +82,7 @@ export default class Privacy extends React.Component {
                                 <li>the pages accessed and documents downloaded</li>
                                 <li>the previous site visited</li>
                                 <li>the type of browser used</li>
-                                <li>the type of device used.</li>
+                                <li>the type of device used</li>
                               </ul>
                           <p>DVA will not make any attempt to identify users or their browsing activities except, in the unlikely event of an investigation, 
                              where a law enforcement agency may exercise a warrant to inspect the internet service provider's logs.</p>

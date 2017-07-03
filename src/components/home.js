@@ -44,7 +44,7 @@ export default class Home extends React.Component {
                      <p>On 17 November 2016 the Prime Minister announced six initiatives under the Program.</p>
                         
                     <h2>Industry Advisory Committee on Veterans’ Employment</h2>
-                    <p>The Industry Advisory Committee on Veterans’ Employment (IAC) will be established to develop and
+                    <p>The Industry Advisory Committee on Veterans’ Employment will be established to develop and
                       provide advice on practical measures to embed veterans’ employment strategies into the recruitment
                       practices of Australian businesses.  The Committee will play a role in the broader promotion of the
                       skills and professional attributes that veterans have to offer Australian businesses.</p>
