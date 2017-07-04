@@ -42,7 +42,7 @@ export default class IAC extends React.Component {
                    practices of Australian businesses.</p>
                 <p>The Committee will also play a role in the broader promotion of skills and professional attributes
                    that veterans have to offer employers.</p>
-                   <section id="section-nobreak">
+                   <section className="section-nobreak">
                 <h2 id="Terms">Terms of reference</h2>
                 <p>The Industry Advisory Committee will:</p>
                 <ol>
@@ -66,7 +66,7 @@ export default class IAC extends React.Component {
                       2017 outlining the Committee's progress against these Terms of Reference.</li>
                 </ol>
               </section>
-                <section id="section-nobreak">
+                <section className="section-nobreak">
                 <h2 id="Membership">Membership</h2>
                 <p>The Committee comprises a Chair, Deputy Chair, a representative of small businesses, a representative of the Australian Chamber of Commerce and Industry, and representatives of ten other organisations.</p>
                   <img className="print-only bio-img text-center" src={Bio_Print} alt="Printing version of Industry Advisory Committee Membership" aria-hidden="true"/>
@@ -180,7 +180,7 @@ export default class IAC extends React.Component {
                 </div>
               </div>
             </section>
-            <section id="section-nobreak">
+            <section className="section-nobreak">
                 <h2 id="Groups">Working groups</h2>
                 <p>The Committee is focusing on five key areas:
                 </p>

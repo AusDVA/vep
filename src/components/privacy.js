@@ -26,7 +26,7 @@ export default class Privacy extends React.Component {
                               <li><Link to="#spam">No spam</Link></li>
                           </ul>
                    </div>
-                <section id="section-nobreak">
+                <section className="section-nobreak">
                   <p>This website is administered by the Department of Veterans' Affairs (DVA). Your privacy is important to us.
                      DVA is bound by the Privacy Act 1988 (the Privacy Act) and the Australian Privacy Principles (APPs). The APPs
                      regulate the handling of personal information by Australian government agencies and businesses under the Privacy Act.</p>
@@ -48,7 +48,7 @@ export default class Privacy extends React.Component {
                     </ul>
                   </section>
 
-                  <section id="section-nobreak">
+                  <section className="section-nobreak">
                     <h2 id="privacy-notices">Privacy Notices</h2>
                       <p>DVA is required under the Privacy Act to notify you of certain matters when it collects personal information about you. The below privacy notices, together
                          with the DVA Privacy Policy, discuss the purposes for which DVA collects personal information, the usual parties to whom DVA may disclose this information and more.</p>
@@ -63,7 +63,7 @@ export default class Privacy extends React.Component {
                            and feedback, please refer to DVA’s <a target="_blank" href="https://www.dva.gov.au/contact/feedback">Feedback Management Policy<span className="sr-only">(this link will open in a new tab)</span></a>.</p>
                   </section>
 
-                  <section id="section-nobreak">
+                  <section className="section-nobreak">
                       <h2 id="security">Security of your information when visiting our website </h2>
                         <p>DVA applies a range of security controls to protect its websites from unauthorised access. However, users should be aware that the World Wide Web is
                            an unsecured public network. There is a risk using this website a user's transactions are being viewed, intercepted or modified by third parties. </p>
@@ -88,7 +88,7 @@ export default class Privacy extends React.Component {
                              where a law enforcement agency may exercise a warrant to inspect the internet service provider's logs.</p>
                     </section>
 
-                    <section id="section-nobreak">
+                    <section className="section-nobreak">
                           <h2 id="cookies">Cookies</h2>
                             <p>A cookie is a collection of information, usually including a username and the current date and time, stored on the local computer
                                of a person using the World Wide Web, used chiefly by websites to identify users who have previously registered or visited their site.</p>
@@ -113,7 +113,7 @@ export default class Privacy extends React.Component {
                                  External parties are only able to respond to sensitive e-mails sent to them by DVA. See <a target="_blank" href="https://www.dva.gov.au/site-help/sensitive-emails">further information and tips for using the Secure Mail Facility<span className="sr-only">(this link will open in a new tab)</span></a>.</p>
                       </section>
 
-                      <section id="section-nobreak">
+                      <section className="section-nobreak">
                             <h2 id="subscription-lists">Subscription lists</h2>
                               <p>If you subscribe to a mailing list on any of DVA's websites, your email address and any other personal information that you might provide will be maintained
                                  on our mailing list. The mailing list is hosted by an external service provider. It will only be used for the purpose for which you have provided it

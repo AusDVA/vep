@@ -16,13 +16,13 @@
     }
 
   .bio-section,
-  #section-nobreak
+  .section-nobreak
   {
     page-break-before: auto;
     page-break-after: auto;
     page-break-inside: avoid;
     float: none !important;
-   
+
 
     }
 
@@ -53,7 +53,7 @@
     height: 900px;
   }
 
-  #show-print {
+  .show-print {
     display:block!important
   }
 
