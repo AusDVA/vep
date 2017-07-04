@@ -36,9 +36,9 @@ export default class NavBar extends React.Component {
           <div className="navbar-header col-md-1 col-xs-12 text-center">
      <button onClick={this.handleClick}  type="button" className="navbar-toggle collapsed" data-toggle="collapse"
              data-target="#mobile-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <a href="#"><h3  className="mobile-menu text-center">Menu
+        <a href="#"><p  className="mobile-menu text-center">Menu
              <span className= { this.state.isToggleOn ? "glyphicon glyphicon-chevron-down rotate-down" : "glyphicon glyphicon-chevron-down rotate"}
-                   aria-hidden="true"></span></h3></a>
+                   aria-hidden="true"></span></p></a>
      </button>
       </div>
         </div>

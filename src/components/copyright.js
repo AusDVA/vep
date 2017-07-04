@@ -26,13 +26,14 @@ export default class Copyright extends React.Component {
                 <p>The full legal code for the CC BY 3.0 AU license is available
                   at <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/au/legalcode">https://creativecommons.org/licenses/by/3.0/au/legalcode</a>
                 </p>
-                <p><img alt="Attribution Creative Commons" src={CCImg}/>Attribution</p>
-                <p>
-                  <b>CC BY</b>
-                </p>
+                <p><img alt="Attribution Creative Commons" src={CCImg}/></p>
+                
+                <p className="copyright">Attribution</p>
+                <p><b>CC BY</b></p>
+               
                 <p>Use of all or part of any material on this website must include the following attribution:</p>
                 <p>© Commonwealth of Australia 2017</p>
-                <p>The terms under which the Commonwealth Coat of Arms can be used are set out on the Department of Prime Minister and Cabinet’s
+                <p>The terms under which the Commonwealth Coat of Arms can be used are set out on the Department of the Prime Minister and Cabinet’s
                    website <a target="_blank" href="http://www.dpmc.gov.au/government/commonwealth-coat-arms">http://www.dpmc.gov.au/government/commonwealth-coat-arms</a>
                 </p>
                 <p>Wherever a third party holds copyright in material presented on this website, the copyright remains with that party. Their permission may be required to use the material. The Department has made all reasonable efforts to:</p>

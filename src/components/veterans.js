@@ -61,7 +61,7 @@ export default class Veterans extends React.Component {
                                     bring to their organisations.
                                 </p>
                                 <p>
-                                    An <Link to="/industry-advisory-committee">Industry Advisory Committee on Veterans’ Employment
+                                    An <Link to="/industry-advisory-committee#top">Industry Advisory Committee on Veterans’ Employment
                                     <span className="sr-only">Industry Advisory Committee page inside this website</span></Link>, made up of
                                     industry representatives,
                                     has been established to develop
@@ -70,7 +70,7 @@ export default class Veterans extends React.Component {
                                     recruitment practices of Australian businesses.</p>
 
                                 <h2 id="Other-initiatives">Other initiatives</h2>
-                                <p>The Departments of Veterans’ Affairs (DVA) and Defence (Defence) continue to improve
+                                <p>The Departments of Veterans’ Affairs (DVA) and Defence continue to improve
                                     their
                                     transition and rehabilitation processes to ensure that former ADF members can
                                     transition
@@ -91,7 +91,7 @@ export default class Veterans extends React.Component {
                                 </ul>
                                 <p>To assist former ADF members who are looking to transition to the Commonwealth public
                                     sector, the Australian Public Service Commission is developing a toolkit and an application
-                                    to align ADF ranks with Australian Public Service classifications. The Commission’s revamped <a target="_blank" href="https://www.apsjobs.gov.au/">
+                                    to align ADF ranks with Australian Public Service (APS) classifications. The Commission’s revamped <a target="_blank" href="https://www.apsjobs.gov.au/">
                                     APSjobs website<span className="sr-only">(this link will open in a new tab)</span></a>, to be launched later in 2017, will also include specific
                                     information for veterans on what to expect from employment in the APS.</p>
 
@@ -163,7 +163,7 @@ export default class Veterans extends React.Component {
 
                                 <h3>Military Superannuation & Benefits Scheme</h3>
                                 <p>The <a target="_blank" href="https://militarysuper.gov.au/">Military Superannuation & Benefits Scheme<span className="sr-only">(this link will open in a new tab)</span></a> (MilitarySuper) is the previous
-                                   superannuation scheme for member of the Australian Defence Force.  </p>
+                                   superannuation scheme for members of the Australian Defence Force.  </p>
 
                                 <h3>Defence Force Retirement & Death Benefits Scheme</h3>
                                 <p>The <a target="_blank" href="https://dfrdb.gov.au/">Defence Force Retirement & Death Benefits Scheme<span className="sr-only">(this link will open in a new tab)</span></a> (DFRDB) was the superannuation

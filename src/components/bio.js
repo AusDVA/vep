@@ -18,11 +18,6 @@ import BioWard from "../image/bios/Ward_280x350.jpg";
 
 export default class Bio extends React.Component {
 
-
-
-
-
-
   render(){
     return (
       <div id="content" className="body-content container no-float-print no-border" tabIndex="-1" autoFocus>
