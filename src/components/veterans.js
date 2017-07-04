@@ -34,7 +34,7 @@ export default class Veterans extends React.Component {
                                     are strong leaders, resilient and highly motivated, and work well in team and
                                     high-pressure environments.
                                 </p>
-                                <p>The Australian Government is committed to ensuring that veterans are provided with a
+                                <p>The Australian Government is committed to ensuring that veterans have a
                                     range of employment
                                     options when they separate, to support their smooth transition into civilian
                                     life.</p>
@@ -123,7 +123,7 @@ export default class Veterans extends React.Component {
                                         Western
                                         Australian Veterans Advisory Council in 2014.</p>
                                 <p><a target="_blank" href="https://publicsector.wa.gov.au/veterans-employment-transition-support-vets">The
-                                    Veterans’ Employment Transition Support<span className="sr-only">(this link will open in a new tab)</span></a> has
+                                    Veterans’ Employment Transition Support program<span className="sr-only">(this link will open in a new tab)</span></a> has
                                     been implemented to encourage current and former
                                     ADF members to consider employment in the WA public sector. </p>
 
@@ -151,7 +151,7 @@ export default class Veterans extends React.Component {
 
                                 <h3>ADF Transition Handbook</h3>
                                 <p>The <a target="_blank" href="http://www.defence.gov.au/DCO/_Master/documents/Transition/ADF-Transition-Handbook.pdf">ADF Transition Handbook (PDF 3.3 MB)<span className="sr-only">Opens a pdf file in a new tab</span></a> is a guide to help
-                                   ADF members and their families prepare for separation from the military.</p>
+                                   ADF members and their families prepare for separation from the ADF.</p>
 
                                 <h3>Career Transition Assistance Scheme</h3>
                                 <p>The <a target="_blank" href="http://www.defence.gov.au/payandconditions/adf/Chapter-2/Part-2/">Career Transition Assistance Scheme<span className="sr-only">(this link will open in a new tab)</span></a> assists ADF

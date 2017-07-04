@@ -18,7 +18,7 @@ export default class Disclaimer extends React.Component {
                 <p>Links to other sites are inserted for convenience and do not constitute endorsement or recommendation of material at those sites, or any associated organisation, product or service.</p>
                 <p>The material on this website may include the views or advice of third parties.  These views do not necessarily reflect the views of the Department or the Commonwealth, or the Department’s commitment to a particular course of action.  The Department accepts no legal liability for the accuracy, reliability, currency or completeness of any third party information.</p>
                 <p>The Department accepts no responsibility for any interference, loss, damage or disruption to your own computer system which arises in connection with your use of this website or any linked site.  You must take your own precautions to ensure that the process you employ to obtain access to this website does not expose you to the risk of viruses, malicious computer code or other forms of interference which may damage your computer system.</p>
-               <p>The Department encourages you to <Link to="/contact#top">contact us</Link> if you have any concerns about the information contained on this website. </p>
+               <p><Link to="/contact#top">Contact us</Link> if you have any concerns about the information contained on this website. </p>
            </div>
             </div>
              </div>

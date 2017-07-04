@@ -12,12 +12,12 @@ export default class ESO extends React.Component {
                 <h1> Ex-service organisations </h1>
 
                 <p>Ex-service organisations can participate in the Prime Minister’s Veterans’
-                   Employment Program through the Ex-Service Organisation Industry Partnership Register.
+                   Employment Program through the Ex-service Organisation Industry Partnership Register.
                    The Register is being created to record the details of ex-service organisations that are
                    interested in partnering with industry to promote the employment of veterans. </p>
 
                 <p>Businesses who are considering projects that will create or enhance employment
-                   opportunities for veterans will be able to access the Register to identify interested ex-service organisations to work with. </p>
+                   opportunities for veterans will be able to access the Register to identify interested <span className="no-wrap">ex-service</span> organisations to work with. </p>
 
                 <p>The Register will be launched later in 2017.</p>
 

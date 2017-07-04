@@ -68,7 +68,7 @@ export default class IAC extends React.Component {
               </section>
                 <section id="section-nobreak">
                 <h2 id="Membership">Membership</h2>
-                <p>The committee comprises a Chair, Deputy Chair, a representative of small businesses, a representative of the Australian Chamber of Commerce and Industry, and representatives of ten other organisations.</p>
+                <p>The Committee comprises a Chair, Deputy Chair, a representative of small businesses, a representative of the Australian Chamber of Commerce and Industry, and representatives of ten other organisations.</p>
                   <img className="print-only bio-img text-center" src={Bio_Print} alt="Printing version of Industry Advisory Committee Membership" aria-hidden="true"/>
                 <div className="hidden-print">
                 <div className="row">
@@ -100,7 +100,7 @@ export default class IAC extends React.Component {
                     <img src={BioColbert} alt="Natalie Colbert" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Natalie Colbert</figcaption>
                     <figcaption className="bio-description">CanPLAY Pty Ltd</figcaption>
-                    <figcaption className="bio-position">Small Business Representative | <Link to="/member-biographies#BioColbert">Bio</Link></figcaption>
+                    <figcaption className="bio-position">Member | <Link to="/member-biographies#BioColbert">Bio</Link></figcaption>
                   </figure>
                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioGalgsdies} alt="Mark Galgsdies" className="img-circle" height="150px" width="150px"></img>
@@ -188,7 +188,7 @@ export default class IAC extends React.Component {
                   <li>data, research and targets</li>
                   <li>human resources policies, accreditation, retention, translation of skills</li>
                   <li>communications (branding, awareness, transition seminars, website, job fairs)</li>
-                  <li>spouse employment</li>
+                  <li>spouse employment of serving ADF members</li>
                   <li>Prime Minister’s Veterans’ Employment Annual Awards</li>
                 </ul>
 
