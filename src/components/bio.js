@@ -56,9 +56,9 @@ export default class Bio extends React.Component {
                     financial year and 17% in the 2013 financial year.
                   </p>
 
-                  <p>George joined the Westpac Group in <span className="no-wrap">March 2009</span> as Chief Executive, Westpac New Zealand Limited where he was instrumental in improving the performance
+                  <p>George joined the Westpac Group in <span className="no-wrap">March 2009</span> as Chief Executive, Westpac <span className="no-wrap">New Zealand</span> Limited where he was instrumental in improving the performance
                      of the New Zealand business by tripling cash earnings over three years, growing home loans at twice the banking system average and achieving
-                     above average growth in Business Banking and Deposits during a period when the New Zealand economy was in a recession.
+                     above average growth in Business Banking and Deposits during a period when the <span className="no-wrap">New Zealand</span> economy was in a recession.
                   </p>
 
                   <p>Prior to his roles with the Westpac Group, George was Group Executive General Manager at National Australia Bank where he was responsible for restoring
@@ -145,7 +145,7 @@ export default class Bio extends React.Component {
                        where he led the development of a new global business strategy for the wholesale bank following the Global Financial Crisis.
                     </p>
 
-                    <p>Chris has a wealth of experience in overseeing complex organisation-wide change as a result of his work in senior roles in banking and with PricewaterhouseCoopers,
+                    <p>Chris has a wealth of experience in overseeing complex, organisation-wide change as a result of his work in senior roles in banking and with PricewaterhouseCoopers,
                        where he was a Partner for 10 years.
                     </p>
 
@@ -174,10 +174,10 @@ export default class Bio extends React.Component {
                 <p className="bio-description">Natalie Colbert</p>
                 <p className="bio-description">Chief Executive Officer</p>
                 <p className="bio-description">CanPLAY Pty Ltd</p>
-                <p className="break">Natalie has eight years of corporate experience as the founder and sole Director/Chief Executive Officer
+                <p className="break">Natalie Colbert has eight years of corporate experience as the founder and sole Director/Chief Executive Officer
                      of CanPLAY Pty Ltd, a company managing three separate early childhood business in Canberra and offering
                       consulting services to other early childhood education providers.</p>
-                  <p>Natalie is a veteran of the Royal Australian Air Force after serving for twenty-two years as a Logistics Officer
+                  <p>Natalie is a veteran of the Royal Australian Air Force after serving for twenty-two years as a Logistics Officer,
                      including a deployment to East Timor.  During her career, Natalie was exposed to many unique aspects of the
                      Defence industry, mainly within the logistics/engineering and financial environments.  She has gained substantial
                      experience in tactical, operational and strategic logistics management, the development of Defence capability requirements,
@@ -426,7 +426,7 @@ export default class Bio extends React.Component {
                      that included KFC, Pizza Hut and Starbucks.
                   </p>
                   <p>Christine trained as an Accountant and continued her professional development with a range of post graduate qualifications in HR Management,
-                     Leadership and Quality Management.  Christine is a Governor of the St. George Foundation, a <span className="no-wrap">not-for-profit</span>organisation that helps disadvantaged children and a
+                     Leadership and Quality Management.  Christine is a Governor of the St. George Foundation, a <span className="no-wrap">not-for-profit</span> organisation that helps disadvantaged children and a
                      Director of Women’s Community Shelters, an organisation that provides emergency shelter and support for homeless women.
                   </p>
                </div>

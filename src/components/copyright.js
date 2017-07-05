@@ -36,7 +36,7 @@ export default class Copyright extends React.Component {
                 <p>The terms under which the Commonwealth Coat of Arms can be used are set out on the Department of the Prime Minister and Cabinet’s
                    website <a target="_blank" href="http://www.dpmc.gov.au/government/commonwealth-coat-arms">http://www.dpmc.gov.au/government/commonwealth-coat-arms</a>
                 </p>
-                <p>Wherever a third party holds copyright in material presented on this website, the copyright remains with that party. Their permission may be required to use the material. All reasonable efforts to:</p>
+                <p>Wherever a third party holds copyright in material presented on this website, the copyright remains with that party. Their permission may be required to use the material. All reasonable efforts have been made to:</p>
 
                 <ul>
                   <li>clearly label material where the copyright is owned by a third party</li>
