@@ -62,7 +62,7 @@ export default class News extends React.Component {
                     <li>data, research and targets</li>
                     <li>human resources policies, accreditation, retention, translation of skills</li>
                     <li>communications (branding, awareness, transition seminars, website, job fairs)</li>
-                    <li>spouse employment</li>
+                    <li>spouse employment of serving ADF members</li>
                     <li>Prime Minister’s Veterans’ Employment Annual Awards</li>
                  </ul>
                <p>The Committee was also provided with a demonstration of the Veterans’ Employment Program’s website.  This website
