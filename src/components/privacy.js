@@ -1,5 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import TopLink from "./partials/topLink";
 
 export default class Privacy extends React.Component {
 
@@ -123,12 +124,7 @@ export default class Privacy extends React.Component {
                               <h2 id="spam">No spam</h2>
                                 <p>The publication of electronic addresses on this website is for the information of users. DVA does not authorise the receipt of commercial electronic
                                    messages (generally known as spam) at any published electronic address. They are to be used for legitimate correspondence only.</p>
-
-                              <p className="hidden-print">
-                                  <Link to="#top">Back to top
-                                      <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
-                                  </Link>
-                             </p>
+                                <TopLink/>
                       </section>
               </div>
             </div>

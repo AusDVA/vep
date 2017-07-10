@@ -15,6 +15,7 @@ import BioRobertsSmith from "../image/bios/bioroberts-smith.jpg";
 import BioRosenfield from "../image/bios/biorosenfield.jpg";
 import BioWard from "../image/bios/bioward.jpg";
 import Bio_Print from "../image/bios/iac_bio.png";
+import TopLink from "./partials/topLink";
 import { HashLink as Link } from "react-router-hash-link";
 
 export default class IAC extends React.Component {
@@ -202,12 +203,7 @@ export default class IAC extends React.Component {
 
                 <h2>Email</h2>
                 <p><a href="mailto:IAC.Secretariat@dva.gov.au">IAC.Secretariat@dva.gov.au</a></p>
-
-                <p className="hidden-print">
-                  <Link to="#top">Back to top
-                    <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
-                  </Link>
-                </p>
+                  <TopLink/>
                 </div>
               </section>
               </div>

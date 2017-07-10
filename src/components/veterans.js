@@ -1,6 +1,7 @@
 import React from "react";
 import GeneralResourses from "./partials/generalResources";
 import { HashLink as Link } from "react-router-hash-link";
+import TopLink from "./partials/topLink";
 
 export default class Veterans extends React.Component {
 
@@ -171,12 +172,7 @@ export default class Veterans extends React.Component {
 
 
                                 <GeneralResourses/>
-
-                                <p className="hidden-print">
-                                    <Link to="#top">Back to top
-                                        <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
-                                    </Link>
-                                </p>
+                                <TopLink/>                            
                             </div>
                         </div>
                     </div>

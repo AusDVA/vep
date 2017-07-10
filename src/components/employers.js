@@ -2,6 +2,8 @@ import React from 'react';
 import GeneralResourses from "./partials/generalResources";
 import Guide from "../doc/Guide - How to list a Defence Force Experience Desirable vacancy on jobactive.pdf";
 import { HashLink as Link } from "react-router-hash-link";
+import TopLink from "./partials/topLink";
+
 export default class Employers extends React.Component {
 
   render() {
@@ -91,9 +93,7 @@ export default class Employers extends React.Component {
                 <p> A <a href={Guide} target="_blank">guide (PDF 444 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a> has been developed to assist employers to list vacancies using the ‘defence force experience desirable’ flag.</p>
 
                 <GeneralResourses/>
-                <p className="hidden-print">
-                  <Link to="#top">Back to top <span className="glyphicon glyphicon-arrow-up" aria-hidden="true"></span></Link>
-                </p>
+                <TopLink/>
               </div>
             </div>
           </div>
