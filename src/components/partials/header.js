@@ -15,7 +15,7 @@ export default class Header extends React.Component {
         </div>
       </header>
       <div className="hidden-print" id="header">
-        <header className="vep-branding" id="top">
+        <header className="vep-branding">
           <div className="container">
               <img src={VEPLogo} alt="Prime Minister's Veterans' Employment Program"/>
           </div>

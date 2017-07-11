@@ -26,7 +26,7 @@ export default class IAC extends React.Component {
           <div className="body-content container no-border" id="content" tabIndex="-1" autoFocus>
             <div className="row">
               <div className="col-md-10" id="mainCol">
-                <h1 id="content">Industry Advisory Committee on Veterans’ Employment</h1>
+                <h1>Industry Advisory Committee on Veterans’ Employment</h1>
                 <div className="list-contents-wrapper">
                 <h2 className="list-contents-header">Contents</h2>
                 <ul className="list-contents">
