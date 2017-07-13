@@ -29,9 +29,9 @@ export default class Employers extends React.Component {
                </div>
 
                 <p>
-                   Despite the heavy investment in our former servicemen and women, too often they are finding it difficult to get a job when they leave the Australian Defence Force (ADF).
-                   This demonstrates that Australian businesses are not fully recognising the value that veterans can bring to their business, and they are missing out on hiring these
-                   skilled and capable individuals to fill their vacancies.
+                  Despite the heavy investment in our former servicemen and women, some of them are finding it difficult to get a job when they
+                  leave the Australian Defence Force (ADF).  Australian businesses who recognise the value that veterans can bring to their businesses
+                  have the opportunity to recruit these skilled and capable individuals to fill their vacancies.
                 </p>
                 <p>The Prime Minister's Veterans' Employment Program aims to promote awareness of the benefits of employing veterans, to ensure that Australian businesses can reap the benefits of their ADF service.</p>
 

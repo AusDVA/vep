@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../../doc/ADF Seperations 2012 to 2016.xlsx";
+import data from "../../doc/ADF Separations 2012 to 2016.xlsx";
 
 export default class GeneralResourses extends React.Component {
 
@@ -8,7 +8,7 @@ export default class GeneralResourses extends React.Component {
             <div>
 
                 <h3>Australian Defence Force Separation Data</h3>
-                <p><a href={data} target="_blank" title="ADF Seperations 2012 to 2016.xlsx">ADF Separations 2012-2016 by State and Category (XLSX 808 KB) <span className="sr-only">Opens a excel file in a new tab</span></a></p>
+                <p><a href={data} target="_blank" title="ADF Separations 2012 to 2016.xlsx">ADF Separations 2012-2016 by State and Category (XLSX 808 KB) <span className="sr-only">Opens a excel file in a new tab</span></a></p>
 
                 <h3>Media Releases</h3>
                 <ul className="list-unstyled">
