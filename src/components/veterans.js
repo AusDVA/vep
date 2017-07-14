@@ -148,7 +148,7 @@ export default class Veterans extends React.Component {
                                 <p>The <a target="_blank" href="https://www.apsjobs.gov.au/">APSjobs website<span className="sr-only">(this link will open in a new tab)</span></a> provides a gateway to a challenging and rewarding career in the APS. </p>
 
                                 <h3>Department of Veterans' Affairs</h3>
-                                <p>The <a target="_blank" href="http://www.dva.gov.au/">Department of Veterans' Affairs<span className="sr-only">(this link will open in a new tab)</span></a> develops and delivers programs and services that assist the veterans and defence force communities.</p>
+                                <p>The <a target="_blank" href="http://www.dva.gov.au/">Department of Veterans' Affairs<span className="sr-only">(this link will open in a new tab)</span></a> develops and delivers programs and services that assist the veteran and defence force communities.</p>
 
                                 <h3>Defence Community Organisation</h3>
                                 <p><a target="_blank" href="http://www.defence.gov.au/DCO/Transitions/">Defence Community Organisation<span className="sr-only">(this link will open in a new tab)</span></a> assists veterans to obtain practical guidance and
