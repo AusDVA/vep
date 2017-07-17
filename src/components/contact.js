@@ -14,13 +14,13 @@ class Contact extends React.Component {
 
   renderField(field) {
     const {meta: {touched,error}} = field;
-    const className = `form-group ${touched && error ? 'has-error' : ''}`;
+    const className = `form-group${touched && error ? ' has-error' : ''}`;
 
     return (
       <div className="col-md-12 form-group required">
         <div className={className}>
-          <label className="control-label" htmlFor={field.label}>{field.label}</label>
-          <input className="form-control" id= {field.label} {...field.input} type="text" placeholder={field.placeholder}/>
+          <label className="control-label" htmlFor={field.id}>{field.label}</label>
+          <input className="form-control" id={field.id}{...field.input} type="text" placeholder={field.placeholder}/>
           <span className="text-danger">
             {touched ? error : ''}
           </span>
@@ -32,13 +32,13 @@ class Contact extends React.Component {
 
   renderFeedback(field) {
     const {meta: {touched, error}} = field;
-    const className = `form-group ${touched && error ? 'has-error' : ''}`;
+    const className = `form-group${touched && error ? ' has-error' : ''}`;
 
     return (
       <div className="col-md-12 form-group required">
         <div className={className}>
-          <label className="control-label" htmlFor={field.label}>{field.label}</label>
-          <textarea className="form-control" {...field.input} type="text" id= {field.label} placeholder={field.placeholder} rows="4"/>
+          <label className="control-label" htmlFor={field.id}>{field.label}</label>
+          <textarea className="form-control" id={field.id} {...field.input} placeholder={field.placeholder} rows="4"/>
           <span className="text-danger">
             {touched ? error : ''}
           </span>
@@ -86,26 +86,17 @@ axios.post("http://localhost:8181/contactus",{
     const {handleSubmit} = this.props;
     return (
       <div>
-        <div className="subheader">
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col-md-7">
-
-              </div>
-            </div>
-          </div>
-        </div>
         <section>
-          <div className="container">
+          <div id ="content" tabIndex="-1" autoFocus className="container no-border">
             <div className="row">
               <div className="col-md-12">
                 <h1>Contact Us</h1>
                 <div className="col-md-7 col-sm-6">
                   <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
-                    <Field aria-label="Name" aria-required="true" name="Name" label="Name: " placeholder="ex. John Smith" component={this.renderField}/>
-                    <Field aria-label="Email" aria-required="true" name="Email" label="Email: " placeholder="ex. john.smith@example.com" component={this.renderField}/>
-                    <Field aria-label="Phone number" aria-required="true" name="Phone" placeholder="ex. 0412 345 678" label="Phone: " component={this.renderField}/>
-                    <Field aria-label="Message" aria-required="true" name="Message" label="Message: " component={this.renderFeedback}/>
+                    <Field aria-required="true" name="Name" id="name" label="Name:" placeholder="ex. John Smith" component={this.renderField}/>
+                    <Field aria-required="true" name="Email" id="email" label="Email:" placeholder="ex. john.smith@example.com" component={this.renderField}/>
+                    <Field aria-required="true" name="Phone" id="phone" placeholder="ex. 0412 345 678" label="Phone:" component={this.renderField}/>
+                    <Field aria-required="true" name="Message" id="message" label="Message:" component={this.renderFeedback}/>
 
                     <div className="col-md-2 break-bottom">
                       <button disabled={ this.state.disabled ? "disabled" : ""}  className= { this.state.disabled ? "btn btn-default disabled" : "btn btn-default"} type="submit">Submit</button>
@@ -155,6 +146,7 @@ axios.post("http://localhost:8181/contactus",{
           </div>
         </section>
       </div>
+      
     );
   }
 }
