@@ -154,9 +154,9 @@ export default class Veterans extends React.Component {
                                 <p><a target="_blank" href="http://www.defence.gov.au/DCO/Transitions/">Defence Community Organisation<span className="sr-only">(this link will open in a new tab)</span></a> assists veterans to obtain practical guidance and
                                     information to help them to transition into civilian life.</p>
 
-                                <h3>ADF Transition Handbook</h3>
-                                <p>The <a target="_blank" href="http://www.defence.gov.au/DCO/_Master/documents/Transition/ADF-Transition-Handbook.pdf">ADF Transition Handbook (PDF 3.3 MB)<span className="sr-only">Opens a pdf file in a new tab</span></a> is a guide to help
-                                   ADF members and their families prepare for separation from the ADF.</p>
+                                <h3>ADF Member and Family Transition Guide – A Practical Manual to Transitioning</h3>
+                                <p>The <a target="_blank" href="http://www.defence.gov.au/DCO/_Master/documents/Transition/ADF-Transition-Handbook.pdf">ADF Member and Family Transition Guide – A Practical Manual to Transitioning (PDF 1.59 MB)<span className="sr-only">Opens a pdf file in a new tab</span></a> contains information on the transition process for permanent ADF members.  
+                                    The Guide includes information on support services available to transitioning ADF members and their administrative requirements.</p>
 
                                 <h3>Career Transition Assistance Scheme</h3>
                                 <p>The <a target="_blank" href="http://www.defence.gov.au/payandconditions/adf/Chapter-2/Part-2/">Career Transition Assistance Scheme<span className="sr-only">(this link will open in a new tab)</span></a> assists ADF
