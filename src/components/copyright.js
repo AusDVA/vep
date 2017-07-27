@@ -3,11 +3,24 @@ import CCImg from "../image/cc.png";
 
 export default class Copyright extends React.Component {
 
+  constructor(props) {
+   super(props);
+   this.focus = this.focus.bind(this);
+ }
+
+ focus() {
+   this.refs.mainContent.focus();
+ }
+
+ componentDidMount() {
+  this.focus();
+ }
+
   render() {
     return (
       <div>
         <section>
-          <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
+          <div ref="mainContent" id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
             <div className="row">
               <div className="col-md-10" id="mainCol">
                 <h1>Copyright</h1>
