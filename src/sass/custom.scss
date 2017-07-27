@@ -101,7 +101,47 @@ span.glyphicon.glyphicon-chevron-down {
   }
 }
 
+.header-message {
+    background-color: #000;
+    color: #fff;
+    line-height: 1.2;
+    padding: 0.5em 0;
+    margin-top: -1em;
+    min-width: 320px;
 
+}
+
+ .non-mobile-text {
+     display: inline;
+   }
+
+   .mobile-text {
+     display : none;
+   }
+
+@media (max-width: 510px) {
+
+   .non-mobile-text {
+     display : none;
+   }
+
+   .mobile-text {
+     display: inline;
+   }
+}
+
+.header-message a {
+    color: #fff !important;
+    text-decoration: underline;
+    border-bottom: transparent;
+    padding: 2px;
+    font-weight: 700;
+}
+
+.header-message a:hover, .header-message a:focus {
+    background-color: #1057a7 !important;
+    text-decoration: none;
+}
 
 // header
 
@@ -376,4 +416,10 @@ h5 {
 .copyright {
  margin-bottom: 0.1em; 
 }
+
+#container {
+  margin-top: -1em;
+}
+
+
 

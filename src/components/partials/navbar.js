@@ -25,10 +25,17 @@ export default class NavBar extends React.Component {
 
   render() {
     return (
-      <div id="top" className="container hidden-print">
+      <div>
+       <div className="header-message hidden-print" role="alert" id="top">
+         <div className="container">
+            This is a trial.<span className="non-mobile-text"> We'd love to hear what you think - please</span> <span className="mobile-text"> Please</span> provide <a href="mailto:veteransemployment@dva.gov.au?subject=Veterans'%20Employment%20Program%20-%20Beta%20Feedback">feedback</a>.
+          </div>
+        </div>
+      <div className="container hidden-print">
         <nav className="no-border" tabIndex="-1" ref="skipNav" autoFocus>
           <a href="#content" className="sr-only sr-only-focusable">Skip to main content</a>
         </nav>
+       
         <div className="row">
           <div className="logo col-md-6 col-sm-6 col-xs-6"><img alt="Australian Coat of arms" src={GOVLogo}/></div>
           <div className="col-md-2 col-xs-6 col-md-offset-2"><span className="beta">Beta Version</span></div>
@@ -71,6 +78,7 @@ export default class NavBar extends React.Component {
     </ul>
    </div>
  </nav>
+</div>
 </div>
     );
   }
