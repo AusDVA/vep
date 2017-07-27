@@ -22,13 +22,13 @@ export default class NavBar extends React.Component {
   focus() {
     this.refs.skipNav.focus();
   }
-
+  
   render() {
     return (
       <div>
        <div className="header-message hidden-print" role="alert" id="top">
          <div className="container">
-            This is a trial.<span className="non-mobile-text"> We'd love to hear what you think - please</span> <span className="mobile-text"> Please</span> provide <a href="mailto:veteransemployment@dva.gov.au?subject=Veterans'%20Employment%20Program%20-%20Beta%20Feedback">feedback 
+           This is a beta version of this website. We welcome your <a href="mailto:veteransemployment@dva.gov.au?subject=Veterans'%20Employment%20Program%20-%20Beta%20Feedback">feedback 
             <span className="sr-only">(this link will create a new email addressed to veteransemployment@dva.gov.au)</span></a>. 
           </div>
         </div>
@@ -39,7 +39,7 @@ export default class NavBar extends React.Component {
        
         <div className="row">
           <div className="logo col-md-6 col-sm-6 col-xs-6"><img alt="Australian Coat of arms" src={GOVLogo}/></div>
-          <div className="col-md-2 col-xs-6 col-md-offset-2"><span className="beta">Beta Version</span></div>
+          <div className="col-md-2 col-xs-6 col-md-offset-2"><span className="beta">BETA</span></div>
 
           <div className="navbar-header col-md-1 col-xs-12 text-center">
      <button onClick={this.handleClick}  type="button" className="navbar-toggle collapsed" data-toggle="collapse"
