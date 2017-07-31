@@ -68,8 +68,8 @@ export default class News extends React.Component {
                <p>The Committee was also provided with a demonstration of the Veterans’ Employment Program’s website.  This website
                   will provide information about the Program, deliver the Ex-service Organisation Industry Partnership Register and support the Annual Awards.</p>
                 </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClickNews1(e) }>{this.state.showNews1 ? "Read less" : "Read more"}
-                <span className="sr-only">{this.state.showNews1 ? "Less about the Industry Advisory Committee's inaugural meeting" :
-                                                                  "More about the Industry Advisory Committee's inaugural meeting"}</span></a>
+                <span className="sr-only">{this.state.showNews1 ? " about the Industry Advisory Committee's inaugural meeting" :
+                                                                  " about the Industry Advisory Committee's inaugural meeting"}</span></a>
     						</div>
     					</div>
     			</div>
@@ -95,7 +95,7 @@ export default class News extends React.Component {
                   <p>The jobactive website also provides <a target="_blank" href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">information tailored for veteran jobseekers.<span className="sr-only">(this link will open in a new tab)</span>
                   </a></p>
                 </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClickNews2(e) }>{this.state.showNews2 ? 'Read less' : 'Read more'}
-                 <span className="sr-only">{this.state.showNews2 ? 'Less about jobactive' : 'More about jobactive'}</span>
+                 <span className="sr-only">{this.state.showNews2 ? ' about jobactive' : ' about jobactive'}</span>
                </a>
     						</div>
     					</div>

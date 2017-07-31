@@ -38,7 +38,7 @@ export default class NavBar extends React.Component {
         </nav>
        
         <div className="row">
-          <div className="logo col-md-6 col-sm-6 col-xs-6"><img alt="Australian Coat of arms" src={GOVLogo}/></div>
+          <div className="logo col-md-6 col-sm-6 col-xs-6"><img alt="Australian Government Logo" src={GOVLogo}/></div>
           <div className="col-md-2 col-xs-6 col-md-offset-2"><span className="beta">BETA</span></div>
 
           <div className="navbar-header col-md-1 col-xs-12 text-center">
