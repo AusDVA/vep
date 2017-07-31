@@ -92,7 +92,7 @@ export default class Home extends React.Component {
                   </section>
 
                 </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClick(e) }>{this.state.show ? "Read less" : "Read more"}
-                <span className="sr-only">{this.state.show ? "Less about the Prime Minister's Veterans' Employment Program" : "More about the Prime Minister's Veterans' Employment Program"}</span>
+                <span className="sr-only">{this.state.show ? "Less about the Prime Minister's Veterans' Employment Program" : " about the Prime Minister's Veterans' Employment Program"}</span>
               </a>
 
               </div>
