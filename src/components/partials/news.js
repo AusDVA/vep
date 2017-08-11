@@ -46,33 +46,27 @@ export default class News extends React.Component {
     			</div>
     			<div className="col-sm-12 col-md-5">
     					<div className="row">
-    						<div className="col-sm-4 col-xs-12"><img alt="Group photo of Industry Advisory Committee members." src={IAC_Img}/></div>
-    						<div className="col-sm-9 col-md-12">
-                  <h3 className="news-headline">Industry Advisory Committee meets for the second time</h3>
-                   <p>The Industry Advisory Committee on Veterans’ Employment met for the second time on <span className="no-wrap">16 June 2017.</span> The Committee heard updates
-                      on the work being undertaken across the eight priority areas it had identified at its inaugural meeting on <span className="no-wrap">31 March 2017.</span></p>
+    						<div className="col-sm-4 col-xs-12"><img alt="Group photo of Industry Advisory Committee members." src={IAC_Img}/></div>   			
+                <div className="col-sm-9 col-md-12">
+                 <h3 className="news-headline">Meeting of the Industry Advisory Committee</h3>
+                   <p>The Industry Advisory Committee on Veterans’ Employment met on <span className="no-wrap">4 August 2017.</span> Five working 
+                      groups, established by the Committee to focus on priority areas, presented updates and recommendations for the Committee’s 
+                      program of work going forward.  This will inform the Committee’s report to the Minister for Veterans’ Affairs by the end of September. 
+                    </p>
                   <span className="no-border" tabIndex="-1" ref="newsFoucs1" autoFocus />
                   <ToggleDisplay className="show-print" show={this.state.showNews1}>
-                    <p>The Committee noted progress on data collection and developing the business case for employing veterans.  Several working groups have recommended
-                       the establishment of an accreditation process for employers and identified the need to facilitate contact between potential employers and transitioning
-                       and former ADF members.  The Committee also discussed the importance of improving employment opportunities for spouses of serving members and planning
-                       for the Prime Minister’s Veterans’ Employment Annual Awards.</p>
-                  <p>The Committee acknowledged that there were overlaps in the eight focus areas and agreed to combine work into five priority areas:</p>
-                  <ul>
-                    <li>data, research and targets</li>
-                    <li>human resources policies, accreditation, retention, translation of skills</li>
-                    <li>communications (branding, awareness, transition seminars, website, job fairs)</li>
-                    <li>spouse employment of serving ADF members</li>
-                    <li>Prime Minister’s Veterans’ Employment Annual Awards</li>
-                 </ul>
-               <p>The Committee was also provided with a demonstration of the Veterans’ Employment Program’s website.  This website
-                  will provide information about the Program, deliver the Ex-service Organisation Industry Partnership Register and support the Annual Awards.</p>
+                      <p>The Committee was also updated on the work being done by McKinsey & Company for a group of employers assembled by JP Morgan
+                       last year.  This work will provide vital evidence and recommendations that will inform the Committee’s work.</p>
+                     <p>A representative of Townsville Enterprise also provided the Committee with information on Townsville’s employment situation and outlook.  Townsville 
+                        has close ties with the Australian Defence Force and an interest in the work of the Committee.</p>        
+                     <p>The Committee will next meet to finalise its report to the Minister.</p>
                 </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClickNews1(e) }>{this.state.showNews1 ? "Read less" : "Read more"}
-                <span className="sr-only">{this.state.showNews1 ? " about the Industry Advisory Committee's inaugural meeting" :
-                                                                  " about the Industry Advisory Committee's inaugural meeting"}</span></a>
+                <span className="sr-only">{this.state.showNews1 ? " about meeting of the Industry Advisory Committee" :
+                                                                  " about meeting of the Industry Advisory Committee"}</span></a>
     						</div>
+
     					</div>
-    			</div>
+    			</div>  
          </section>
 
 
