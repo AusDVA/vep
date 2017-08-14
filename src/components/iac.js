@@ -18,8 +18,26 @@ import Bio_Print from "../image/bios/iac_bio.png";
 import TopLink from "./partials/topLink";
 import { HashLink as Link } from "react-router-hash-link";
 
+
+
 export default class IAC extends React.Component {
 
+  constructor(props) {
+   super(props);
+   this.focus = this.focus.bind(this);
+ }
+
+ focus() {
+   this.refs.iacMembership.focus();
+ }
+
+ componentDidMount() {
+    const LOCATION = (location.search);
+
+    if (LOCATION == "?MembershipFocus=true") {
+      this.focus();
+    }
+  }
   render() {
     return (
       <div>
@@ -67,7 +85,7 @@ export default class IAC extends React.Component {
                       2017 outlining the Committee's progress against these Terms of Reference.</li>
                 </ol>
               </section>
-                <section className="section-nobreak">
+                <section ref="iacMembership" tabIndex="-1" autoFocus className="section-nobreak no-border">
                 <h2 id="Membership">Membership</h2>
                 <p>The Committee comprises a Chair, Deputy Chair, a representative of small businesses, a representative of the Australian Chamber of Commerce and Industry, and representatives of ten other organisations.</p>
                   <img className="print-only bio-img text-center" src={Bio_Print} alt="Printing version of Industry Advisory Committee Membership" aria-hidden="true"/>
@@ -77,14 +95,14 @@ export default class IAC extends React.Component {
                     <img src={BioFrazis} alt="George Frazis" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">George Frazis</figcaption>
                     <figcaption className="bio-description">Westpac Group</figcaption>
-                    <figcaption className="bio-position">Chair | <Link to="/member-biographies#BioFrazis">Bio</Link></figcaption>
+                    <figcaption className="bio-position">Chair | <Link to="/member-biographies?member=Frazis#BioFrazis">Bio</Link></figcaption>
 
                   </figure>
                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioRobertsSmith} alt="Ben Roberts-Smith" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Ben Roberts-Smith VC, MG</figcaption>
                     <figcaption className="bio-description">Seven Network</figcaption>
-                    <figcaption className="bio-position">Deputy Chair | <Link to="/member-biographies#BioRobertsSmith">Bio</Link></figcaption>
+                    <figcaption className="bio-position">Deputy Chair | <Link to="/member-biographies?member=RobertsSmith#BioRobertsSmith">Bio</Link></figcaption>
 
                   </figure>
                 </div>
@@ -95,19 +113,19 @@ export default class IAC extends React.Component {
                     <img src={BioBlake} alt="Chris Blake" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Chris Blake</figcaption>
                     <figcaption className="bio-description">Australia Post</figcaption>
-                    <figcaption className="bio-position">Member | <Link to="/member-biographies#BioBlake" >Bio</Link></figcaption>
+                    <figcaption className="bio-position">Member | <Link to="/member-biographies?member=Blake#BioBlake" >Bio</Link></figcaption>
                   </figure>
                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioColbert} alt="Natalie Colbert" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Natalie Colbert</figcaption>
                     <figcaption className="bio-description">CanPLAY Pty Ltd</figcaption>
-                    <figcaption className="bio-position">Member | <Link to="/member-biographies#BioColbert">Bio</Link></figcaption>
+                    <figcaption className="bio-position">Member | <Link to="/member-biographies?member=Colbert#BioColbert">Bio</Link></figcaption>
                   </figure>
                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioGalgsdies} alt="Mark Galgsdies" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Mark Galgsdies</figcaption>
                     <figcaption className="bio-description">Serco Asia Pacific</figcaption>
-                    <figcaption className="bio-position">Member | <Link to="/member-biographies#BioGalgsdies" >Bio</Link></figcaption>
+                    <figcaption className="bio-position">Member | <Link to="/member-biographies?member=Galgsdies#BioGalgsdies" >Bio</Link></figcaption>
                   </figure>
 
                 </div>
@@ -118,20 +136,20 @@ export default class IAC extends React.Component {
                     <img src={BioJansen} alt="Mark Jansen" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Mark Jansen</figcaption>
                     <figcaption className="bio-description">PwC</figcaption>
-                    <figcaption className="bio-position">Member | <Link to="/member-biographies#BioJansen" >Bio</Link></figcaption>
+                    <figcaption className="bio-position">Member | <Link to="/member-biographies?member=Jansen#BioJansen" >Bio</Link></figcaption>
                 </figure>
                 <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioLambert} alt="Jenny Lambert" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Jenny Lambert</figcaption>
                     <figcaption className="bio-description">Australian Chamber of Commerce and Industry</figcaption>
-                    <figcaption className="bio-position">Member | <Link to="/member-biographies#BioLambert" >Bio</Link></figcaption>
+                    <figcaption className="bio-position">Member | <Link to="/member-biographies?member=Lambert#BioLambert" >Bio</Link></figcaption>
                 </figure>
 
                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioLefever} alt="Jim Lefever" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Jim Lefever</figcaption>
                     <figcaption className="bio-description">DXC Technology Australia Pty Limited</figcaption>
-                    <figcaption className="bio-position">Member | <Link to="/member-biographies#BioLefever" >Bio</Link></figcaption>
+                    <figcaption className="bio-position">Member | <Link to="/member-biographies?member=Lefever#BioLefever" >Bio</Link></figcaption>
                   </figure>
 
                 </div>
@@ -141,20 +159,20 @@ export default class IAC extends React.Component {
                     <img src={BioMcdowell} alt="Colin McDowell" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Colin McDowell</figcaption>
                     <figcaption className="bio-description">Allied Express Transport</figcaption>
-                    <figcaption className="bio-position">Member | <Link to="/member-biographies#BioMcdowell" >Bio</Link></figcaption>
+                    <figcaption className="bio-position">Member | <Link to="/member-biographies?member=McDowell#BioMcDowell" >Bio</Link></figcaption>
                   </figure>
                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioPalmerlee} alt="Luke Palmerlee" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Luke Palmerlee</figcaption>
                     <figcaption className="bio-description">J.P. Morgan Chase Bank, NA</figcaption>
                       <figcaption className="bio-description">(Sydney Branch)</figcaption>
-                     <figcaption className="bio-position">Member | <Link to="/member-biographies#BioPalmerlee" >Bio</Link></figcaption>
+                     <figcaption className="bio-position">Member | <Link to="/member-biographies?member=Palmerlee#BioPalmerlee" >Bio</Link></figcaption>
                   </figure>
                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioParker} alt="Christine Parker" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Christine Parker</figcaption>
                     <figcaption className="bio-description">Westpac Group</figcaption>
-                    <figcaption className="bio-position">Member | <Link to="/member-biographies#BioParker" >Bio</Link></figcaption>
+                    <figcaption className="bio-position">Member | <Link to="/member-biographies?member=Parker#BioParker" >Bio</Link></figcaption>
                   </figure>
 
                 </div>
@@ -164,19 +182,19 @@ export default class IAC extends React.Component {
                     <img src={BioPlaskett} alt="Andrew Plaskett" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Andrew Plaskett</figcaption>
                     <figcaption className="bio-description">Clayton Utz</figcaption>
-                    <figcaption className="bio-position">Member | <Link to ="/member-biographies#BioPlaskett" >Bio</Link></figcaption>
+                    <figcaption className="bio-position">Member | <Link to ="/member-biographies?member=Plaskett#BioPlaskett" >Bio</Link></figcaption>
                   </figure>
                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioRosenfield} alt="Dean Rosenfield" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Dean Rosenfield</figcaption>
                     <figcaption className="bio-description">Saab Australia Pty Ltd</figcaption>
-                    <figcaption className="bio-position">Member | <Link to="/member-biographies#BioRosenfield" >Bio</Link></figcaption>
+                    <figcaption className="bio-position">Member | <Link to="/member-biographies?member=Rosenfield#BioRosenfield" >Bio</Link></figcaption>
                   </figure>
                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioWard} alt="Michael Ward" className="img-circle" height="150px" width="150px"></img>
                     <figcaption className="bio-title">Michael Ward</figcaption>
                     <figcaption className="bio-description">Raytheon Australia</figcaption>
-                    <figcaption className="bio-position">Member | <Link to="/member-biographies#BioWard" >Bio</Link></figcaption>
+                    <figcaption className="bio-position">Member | <Link to="/member-biographies?member=Ward#BioWard" >Bio</Link></figcaption>
                   </figure>
                 </div>
               </div>

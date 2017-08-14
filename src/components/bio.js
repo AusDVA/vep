@@ -16,11 +16,89 @@ import BioRobertsSmith from "../image/bios/Roberts-Smith_280x350.jpg";
 import BioRosenfield from "../image/bios/Rosenfield_280x350.jpg";
 import BioWard from "../image/bios/Ward_280x350.jpg";
 
+
+class BackLink extends React.Component {
+
+  render() {
+    return (
+      <p className="hidden-print">
+        <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+        <Link to="/industry-advisory-committee?MembershipFocus=true#Membership"> Back to Industry Advisory Committee
+        </Link>
+      </p>
+    );
+  }
+}
+
 export default class Bio extends React.Component {
+
+  constructor(props) {
+   super(props);
+   this.state = {member: ""};
+   this.focus = this.focus.bind(this);
+}
+
+ focus() {
+   this.refs.focus();
+ }
+
+ componentDidMount() {
+   const LOCATION = (location.search);
+
+     switch(LOCATION) {
+     case "?member=Frazis":
+         this.refs.Frazis.focus();
+         break;
+     case "?member=RobertsSmith":
+         this.refs.RobertsSmith.focus();
+         break;
+     case "?member=Blake":
+         this.refs.Blake.focus();
+         break;
+     case "?member=Colbert":
+         this.refs.Colbert.focus();
+         break;
+     case "?member=Galgsdies":
+         this.refs.Galgsdies.focus();
+         break;
+     case "?member=Jansen":
+         this.refs.Jansen.focus();
+         break;
+     case "?member=Lambert":
+         this.refs.Lambert.focus();
+         break;
+     case "?member=Lefever":
+         this.refs.Lefever.focus();
+         break;
+     case "?member=McDowell":
+         this.refs.McDowell.focus();
+         break;
+     case "?member=Palmerlee":
+         this.refs.Palmerlee.focus();
+         break;
+     case "?member=Parker":
+         this.refs.Parker.focus();
+         break;
+     case "?member=Plaskett":
+         this.refs.Plaskett.focus();
+         break;
+     case "?member=Rosenfield":
+         this.refs.Rosenfield.focus();
+          break;
+     case "?member=Ward":
+          this.refs.Ward.focus();
+          break;
+     default:
+       this.refs.main.focus();
+ }
+ }
+
+
+
 
   render(){
     return (
-      <div id="content" className="body-content container no-float-print no-border" tabIndex="-1" autoFocus>
+      <div id="content" className="body-content container no-float-print no-border" ref="main" tabIndex="-1" autoFocus>
         <ol className="breadcrumb hidden-print">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/industry-advisory-committee">Industry Advisory Committee</Link></li>
@@ -29,7 +107,7 @@ export default class Bio extends React.Component {
           <h1 className="hidden-print">Member Biographies</h1>
           <h2 className="print-only" aria-hidden="true">Industry Advisory Committee on Veterans' Employment Member biographies</h2>
 
-        <section id="BioFrazis">
+        <section ref="Frazis" className="no-border" autoFocus id="BioFrazis" tabIndex="-1">
           <div className="row">
            <div className="col-xs-6 col-md-3 col-sm-3">
 
@@ -73,14 +151,10 @@ export default class Bio extends React.Component {
                      and a Governor of the St.George Foundation.</p>
                </div>
              </div>
-             <p className="hidden-print">
-               <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-               <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-               </Link>
-             </p>
+            <BackLink />
         </section>
 
-        <section className="bio-section" id="BioRobertsSmith">
+        <section ref="RobertsSmith" tabIndex="-1" autoFocus className="bio-section no-border" id="BioRobertsSmith">
           <div className="row">
              <div className="col-xs-6 col-md-3 col-sm-3">
                  <div className="thumbnail">
@@ -115,14 +189,10 @@ export default class Bio extends React.Component {
                  </p>
               </div>
             </div>
-            <p className="hidden-print">
-              <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-              <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-              </Link>
-            </p>
+            <BackLink />
         </section>
 
-        <section className="bio-section" id="BioBlake">
+        <section ref="Blake" tabIndex="-1" autoFocus className="bio-section no-border" id="BioBlake">
             <div className="row">
                 <div className="col-xs-6 col-md-3 col-sm-3">
                     <div className="thumbnail">
@@ -155,14 +225,10 @@ export default class Bio extends React.Component {
                     </p>
                  </div>
                </div>
-               <p className="hidden-print">
-                 <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-                 <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-                 </Link>
-               </p>
+            <BackLink />
           </section>
 
-        <section className="bio-section" id="BioColbert">
+        <section ref="Colbert" tabIndex="-1" autoFocus className="bio-section no-border" id="BioColbert">
           <div className="row">
             <div className="col-xs-6 col-md-3 col-sm-3">
                 <div className="thumbnail">
@@ -187,14 +253,10 @@ export default class Bio extends React.Component {
 
              </div>
            </div>
-           <p className="hidden-print">
-             <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-             <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-             </Link>
-           </p>
+        <BackLink />
         </section>
 
-        <section className="bio-section" id="BioGalgsdies">
+        <section ref="Galgsdies" tabIndex="-1" autoFocus className="bio-section no-border" id="BioGalgsdies">
           <div className="row">
            <div className="col-xs-6 col-md-3 col-sm-3">
                <div className="thumbnail">
@@ -230,14 +292,10 @@ export default class Bio extends React.Component {
                   with the Australian Human Resources Institute.</p>
             </div>
           </div>
-          <p className="hidden-print">
-            <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-            <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-            </Link>
-          </p>
+        <BackLink />
         </section>
 
-        <section className="bio-section" id="BioJansen">
+        <section ref="Jansen" tabIndex="-1" autoFocus className="bio-section no-border" id="BioJansen">
           <div className="row">
 
             <div className="col-xs-6 col-md-3 col-sm-3">
@@ -265,14 +323,10 @@ export default class Bio extends React.Component {
                 </p>
              </div>
            </div>
-           <p className="hidden-print">
-             <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-             <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-             </Link>
-           </p>
+        <BackLink />
         </section>
 
-        <section className="bio-section" id="BioLambert">
+        <section ref="Lambert" tabIndex="-1" autoFocus className="bio-section no-border" id="BioLambert">
           <div className="row">
                <div className="col-xs-6 col-md-3 col-sm-3">
                    <div className="thumbnail">
@@ -296,14 +350,10 @@ export default class Bio extends React.Component {
                         and is responsible for policy development and advocacy in vocational training, higher education, schools, employment and migration. </p>
                 </div>
               </div>
-              <p className="hidden-print">
-                <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-                <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-                </Link>
-              </p>
+            <BackLink />
         </section>
 
-        <section className="bio-section" id="BioLefever">
+        <section ref="Lefever" tabIndex="-1" autoFocus className="bio-section no-border" id="BioLefever">
           <div className="row">
            <div className="col-xs-6 col-md-3 col-sm-3">
                <div className="thumbnail">
@@ -326,14 +376,10 @@ export default class Bio extends React.Component {
                <p>He is passionate about building better relationships between employers and employees by creating solutions that transform the status quo within organisations.</p>
             </div>
           </div>
-          <p className="hidden-print">
-            <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-            <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-            </Link>
-          </p>
+        <BackLink />
         </section>
 
-        <section className="bio-section" id="BioMcdowell">
+        <section ref="McDowell" tabIndex="-1" autoFocus className="bio-section no-border" id="BioMcDowell">
           <div className="row">
 
               <div className="col-xs-6 col-md-3 col-sm-3">
@@ -357,14 +403,10 @@ export default class Bio extends React.Component {
                    also sponsors and supports the North Melbourne Football Club, and a number of other sporting and charitable associations.</p>
                </div>
              </div>
-             <p className="hidden-print">
-               <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-               <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-               </Link>
-             </p>
+           <BackLink />
         </section>
 
-        <section className="bio-section" id="BioPalmerlee">
+        <section ref="Palmerlee" tabIndex="-1" autoFocus className="bio-section no-border" id="BioPalmerlee">
           <div className="row">
              <div className="col-xs-6 col-md-3 col-sm-3">
                  <div className="thumbnail">
@@ -388,14 +430,10 @@ export default class Bio extends React.Component {
                   <p>Luke earned a Bachelor of Arts (History) from Yale University and an MBA from Columbia University’s School of Business. </p>
               </div>
             </div>
-            <p className="hidden-print">
-              <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-              <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-              </Link>
-            </p>
+            <BackLink />
         </section>
 
-        <section className="bio-section" id="BioParker">
+        <section ref="Parker" tabIndex="-1" autoFocus className="bio-section no-border" id="BioParker">
           <div className="row">
               <div className="col-xs-6 col-md-3 col-sm-3">
                   <div className="thumbnail">
@@ -431,14 +469,10 @@ export default class Bio extends React.Component {
                   </p>
                </div>
               </div>
-              <p className="hidden-print">
-                <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-                <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-                </Link>
-              </p>
+            <BackLink />
         </section>
 
-        <section className="bio-section" id="BioPlaskett">
+        <section ref="Plaskett" tabIndex="-1" autoFocus className="bio-section no-border" id="BioPlaskett">
           <div className="row">
 
               <div className="col-xs-6 col-md-3 col-sm-3">
@@ -459,14 +493,10 @@ export default class Bio extends React.Component {
                   <p>He holds a Bachelor of Business (International Management) from Monash University.</p>
                </div>
              </div>
-             <p className="hidden-print">
-               <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-               <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-               </Link>
-             </p>
+           <BackLink />
         </section>
 
-        <section className="bio-section" id="BioRosenfield">
+        <section ref="Rosenfield" tabIndex="-1" autoFocus className="bio-section no-border" id="BioRosenfield">
           <div className="row">
               <div className="col-xs-6 col-md-3 col-sm-3">
                   <div className="thumbnail">
@@ -490,14 +520,10 @@ export default class Bio extends React.Component {
                      Institute of Company Directors.</p>
                </div>
              </div>
-             <p className="hidden-print">
-               <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-               <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-               </Link>
-             </p>
+            <BackLink />
         </section>
 
-        <section className="bio-section" id="BioWard">
+        <section ref="Ward" tabIndex="-1" autoFocus className="bio-section no-border" id="BioWard">
           <div className="row">
              <div className="col-xs-6 col-md-3 col-sm-3">
                  <div className="thumbnail">
@@ -526,11 +552,7 @@ export default class Bio extends React.Component {
                     Michael has also undertaken graduate training in aeronautical engineering, defence studies and training.</p>
               </div>
             </div>
-            <p className="hidden-print">
-              <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-              <Link to="/industry-advisory-committee#Membership"> Back to Industry Advisory Committee
-              </Link>
-            </p>
+          <BackLink />
         </section>
       </div>
 

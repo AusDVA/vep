@@ -2,13 +2,24 @@ import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import TopLink from "./partials/topLink";
 
-export default class NewsArchive extends React.Component {
- 
+class BackLink extends React.Component {
+
   render() {
     return (
-      
+      <p className="hidden-print">
+        <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+        <Link to="/industry-advisory-committee?newsFocus=true#News"> Back to Industry Advisory Committee</Link>
+      </p>
+    );
+  }
+}
+
+export default class NewsArchive extends React.Component {
+
+  render() {
+    return (
+
       <div>
-        
           <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
             <div className="row">
                  <ol className="breadcrumb hidden-print">
@@ -24,7 +35,7 @@ export default class NewsArchive extends React.Component {
                 <h2 className="list-contents-header">Contents</h2>
                 <ul className="list-contents">
                   <li><Link to="#June-2017">June 2017</Link></li>
-                  <li><Link to="#March-2017">March 2017</Link></li>             
+                  <li><Link to="#March-2017">March 2017</Link></li>
                 </ul>
               </div>
 
@@ -49,14 +60,10 @@ export default class NewsArchive extends React.Component {
                       will provide information about the Program, deliver the Ex-service Organisation Industry Partnership Register and support the Annual Awards.</p>
 
                 </section>
-
-             <p className="hidden-print">
-               <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-               <Link to="/industry-advisory-committee?focus=true#News"> Back to Industry Advisory Committee</Link>
-             </p>
+              <BackLink />
 
                 <section className="section-nobreak">
-                 
+
                   <h2 id="March-2017">Industry Advisory Committee's inaugural meeting</h2>
                     <p>The Industry Advisory Committee on Veterans' Employment held its inaugural meeting in Sydney on <span className="no-wrap">31 March 2017.</span></p>
                     <p>At the meeting, the Committee focused on establishing a number of priority areas of focus. These areas include the availability
@@ -66,18 +73,14 @@ export default class NewsArchive extends React.Component {
                     <p>The next meeting of the Committee will be held in mid-June.</p>
 
                  </section>
-
-              <p className="hidden-print">
-               <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-               <Link to="/industry-advisory-committee?focus=true#News"> Back to Industry Advisory Committee</Link>
-             </p>
+              <BackLink />
 
              <p className="break"></p>
              <TopLink/>
               </div>
             </div>
           </div>
-       
+
 
 
       </div>
