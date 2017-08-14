@@ -1,6 +1,5 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import { NewsArchive } from "../newsArchive";
 import { QueryString } from "query-string"; 
 
 export default class IACNews extends React.Component {
