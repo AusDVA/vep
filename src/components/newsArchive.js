@@ -3,11 +3,12 @@ import { HashLink as Link } from "react-router-hash-link";
 import TopLink from "./partials/topLink";
 
 export default class NewsArchive extends React.Component {
-
+ 
   render() {
     return (
-      <div>
       
+      <div>
+        
           <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
             <div className="row">
                  <ol className="breadcrumb hidden-print">
@@ -51,7 +52,7 @@ export default class NewsArchive extends React.Component {
 
              <p className="hidden-print">
                <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-               <Link to="/industry-advisory-committee#News"> Back to Industry Advisory Committee</Link>
+               <Link to="/industry-advisory-committee?focus=true#News"> Back to Industry Advisory Committee</Link>
              </p>
 
                 <section className="section-nobreak">
@@ -68,10 +69,11 @@ export default class NewsArchive extends React.Component {
 
               <p className="hidden-print">
                <span className="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
-               <Link to="/industry-advisory-committee#News"> Back to Industry Advisory Committee</Link>
+               <Link to="/industry-advisory-committee?focus=true#News"> Back to Industry Advisory Committee</Link>
              </p>
 
-             <p className="break"><TopLink/></p>
+             <p className="break"></p>
+             <TopLink/>
               </div>
             </div>
           </div>

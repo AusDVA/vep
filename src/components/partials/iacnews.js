@@ -1,11 +1,29 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import { NewsArchive } from "../newsArchive";
+import { QueryString } from "query-string"; 
 
 export default class IACNews extends React.Component {
+  constructor(props) {
+   super(props);
+   this.focus = this.focus.bind(this);
+ }
+
+ focus() { 
+   this.refs.iacNews.focus();
+ }
+
+ componentDidMount() {
+    const LOCATION = (location.search);
+
+    if (LOCATION == "?focus=true") {
+      this.focus();
+    }
+  }
 
   render() {
     return (
-        <div id="News">
+        <div id="News" className="no-border" autoFocus tabIndex="-1" ref="iacNews">
   <h2>Latest News</h2>
     <p>The Industry Advisory Committee on Veterans’ Employment met on <span className="no-wrap">4 August 2017.</span> Five working 
         groups, established by the Committee to focus on priority areas, presented updates and recommendations for the Committee’s program
