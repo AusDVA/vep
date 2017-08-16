@@ -34,16 +34,11 @@ export default class Bio extends React.Component {
 
   constructor(props) {
    super(props);
-   this.state = {member: ""};
    this.focus = this.focus.bind(this);
 }
 
  focus() {
-   this.refs.focus();
- }
-
- componentDidMount() {
-   const LOCATION = (location.search);
+    const LOCATION = (location.search);
 
      switch(LOCATION) {
      case "?member=Frazis":
@@ -93,8 +88,9 @@ export default class Bio extends React.Component {
  }
  }
 
-
-
+ componentDidMount() {
+  this.focus(); 
+ }
 
   render(){
     return (
@@ -107,7 +103,7 @@ export default class Bio extends React.Component {
           <h1 className="hidden-print">Member Biographies</h1>
           <h2 className="print-only" aria-hidden="true">Industry Advisory Committee on Veterans' Employment Member biographies</h2>
 
-        <section ref="Frazis" className="no-border" autoFocus id="BioFrazis" tabIndex="-1">
+        <section>
           <div className="row">
            <div className="col-xs-6 col-md-3 col-sm-3">
 
@@ -117,7 +113,7 @@ export default class Bio extends React.Component {
               </div>
 
            <div className="col-md-8">
-                  <p className="bio-description">George Frazis</p>
+                  <p className="bio-description no-border" ref="Frazis" autoFocus id="BioFrazis" tabIndex="-1">George Frazis</p>
                   <p className="bio-description">Chief Executive, Consumer Bank</p>
                   <p className="bio-description">Westpac Group</p>
                   <p className="bio-education">B.Eng. (Hons), MBA (AGSM/Wharton) <span className="sr-only">Bachelor of Engineering (Honours), MBA (AGSM/Wharton)</span></p>
