@@ -55,8 +55,8 @@ export default class News extends React.Component {
                     </p>
                   <span className="no-border" tabIndex="-1" ref="newsFoucs1" autoFocus />
                   <ToggleDisplay className="show-print" show={this.state.showNews1}>
-                      <p>The Committee was also updated on the work being done by McKinsey & Company for a group of employers assembled by JP Morgan
-                       last year.  This work will provide vital evidence and recommendations that will inform the Committee’s work.</p>
+                      <p>The Committee was also updated on the work being done by McKinsey & Company for a group of employers assembled by <span className="no-wrap">JP Morgan</span> last
+                        year.  This work will provide vital evidence and recommendations that will inform the Committee’s work.</p>
                      <p>A representative of Townsville Enterprise also provided the Committee with information on Townsville’s employment situation and outlook.  Townsville 
                         has close ties with the Australian Defence Force and an interest in the work of the Committee.</p>        
                      <p>The Committee will next meet to finalise its report to the Minister.</p>
