@@ -103,7 +103,7 @@ export default class Bio extends React.Component {
           <h1 className="hidden-print">Member Biographies</h1>
           <h2 className="print-only" aria-hidden="true">Industry Advisory Committee on Veterans' Employment Member biographies</h2>
 
-        <section>
+        <section ref="Frazis" className="bio-section no-border" autoFocus id="BioFrazis" tabIndex="-1">
           <div className="row">
            <div className="col-xs-6 col-md-3 col-sm-3">
 
@@ -113,11 +113,10 @@ export default class Bio extends React.Component {
               </div>
 
            <div className="col-md-8">
-                  <p className="bio-description no-border" ref="Frazis" autoFocus id="BioFrazis" tabIndex="-1">George Frazis</p>
+                  <p className="bio-description" >George Frazis</p>
                   <p className="bio-description">Chief Executive, Consumer Bank</p>
                   <p className="bio-description">Westpac Group</p>
-                  <p className="bio-education">B.Eng. (Hons), MBA (AGSM/Wharton) <span className="sr-only">Bachelor of Engineering (Honours), MBA (AGSM/Wharton)</span></p>
-
+                  <p className="bio-education"><span aria-hidden="true">B.Eng. (Hons), MBA (AGSM/Wharton)</span><span className="sr-only">Bachelor of Engineering (Honours), MBA (AGSM/Wharton)</span></p>
 
                   <p className="break"> George Frazis was appointed Chief Executive, Consumer Bank for the Westpac Group in <span className="no-wrap">June 2015</span>, responsible for managing the end to end relationship with consumer customers.
                     This includes managing over 10,300 people and all consumer banking products and services under the Westpac, St.George, BankSA, Bank of Melbourne and RAMS brands.
