@@ -89,7 +89,7 @@ export default class Bio extends React.Component {
  }
 
  componentDidMount() {
-  this.focus(); 
+  this.focus();
  }
 
   render(){
@@ -535,8 +535,8 @@ export default class Bio extends React.Component {
                     of Raytheon operations in Australia and New Zealand.</p>
                  <p>As a leading provider of Defence and training capability, Raytheon Australia provides integrated mission solutions, weapon systems and mission support services for the Australian Defence Force across
                     a broad range of key naval, land and aerospace capabilities and training solutions to both Defence and civil customers.</p>
-                 <p>Raytheon Company (NYSE: RTN), with 2014 sales of $23 billion and 61,000 employees worldwide, is a technology and innovation
-                    leader specialising in defence, security and civil markets throughout the world.</p>
+                 <p>Raytheon Company (NYSE: RTN), with 2016 sales of $24 billion and 63,000 employees, is a technology and innovation
+                    leader specialising in defence, civil government and cybersecurity solutions.</p>
                  <p>Prior to assuming his current position, Michael served as Raytheon Australia’s General Manager, Strategy and Business Development,
                     where he was responsible for business growth and operational efficiency.  He has also previously served as the Company’s Chief Operating
                     Officer and General Manager, Support Services. </p>
