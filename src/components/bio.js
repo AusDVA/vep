@@ -94,7 +94,7 @@ export default class Bio extends React.Component {
 
   render(){
     return (
-      <div id="content" className="body-content container no-float-print no-border" ref="main" tabIndex="-1" autoFocus>
+      <div id="content" className="body-content container no-float-print no-border" ref="main" tabIndex="-1" >
         <ol className="breadcrumb hidden-print">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/industry-advisory-committee">Industry Advisory Committee</Link></li>
@@ -103,53 +103,61 @@ export default class Bio extends React.Component {
           <h1 className="hidden-print">Member Biographies</h1>
           <h2 className="print-only" aria-hidden="true">Industry Advisory Committee on Veterans' Employment Member biographies</h2>
 
-        <section ref="Frazis" className="bio-section no-border" autoFocus id="BioFrazis" tabIndex="-1">
+        <section className="bio-section" id="BioFrazis">
           <div className="row">
            <div className="col-xs-6 col-md-3 col-sm-3">
-
+             {/* Empty div, so screen reader will focus correct place, user will then enter insert + down-arrow to start reading the bio.
+             comma in aria-label so screen reader does not read "blank", screen reader’s also do not read comma's */}
+              <div aria-label="," ref="Frazis" className="no-border" tabIndex="-1"/>
                   <div className="thumbnail">
                     <img src={BioFrazis} alt="Mr George Frazis"/>
                   </div>
               </div>
 
            <div className="col-md-8">
-                  <p className="bio-description" >George Frazis</p>
-                  <p className="bio-description">Chief Executive, Consumer Bank</p>
-                  <p className="bio-description">Westpac Group</p>
-                  <p className="bio-education"><span aria-hidden="true">B.Eng. (Hons), MBA (AGSM/Wharton)</span><span className="sr-only">Bachelor of Engineering (Honours), MBA (AGSM/Wharton)</span></p>
+               <p className="bio-description" >George Frazis</p>
+               <p className="bio-description">Chief Executive, Consumer Bank</p>
+               <p className="bio-description">Westpac Group</p>
+               <p className="bio-education">B.Eng. (Hons), MBA (AGSM/Wharton)</p>
 
-                  <p className="break"> George Frazis was appointed Chief Executive, Consumer Bank for the Westpac Group in <span className="no-wrap">June 2015</span>, responsible for managing the end to end relationship with consumer customers.
-                    This includes managing over 10,300 people and all consumer banking products and services under the Westpac, St.George, BankSA, Bank of Melbourne and RAMS brands.
-                    In his first 12 months in the role George has achieved above market balance sheet growth while increasing cash earnings by 16%.
-                  </p>
 
-                  <p>Prior to this appointment, he was the Chief Executive Officer, St.George Banking Group from <span className="no-wrap">April 2012</span>.
-                    A division of Westpac Banking Corporation, St.George Banking Group comprised 4,600 people working across St.George Bank, Bank of Melbourne, BankSA and RAMS. St.George
-                    experienced tremendous momentum under George’s leadership with six positives halves, and cash earnings (profit after tax) which increased by 14% in the 2014
-                    financial year and 17% in the 2013 financial year.
-                  </p>
 
-                  <p>George joined the Westpac Group in <span className="no-wrap">March 2009</span> as Chief Executive, Westpac <span className="no-wrap">New Zealand</span> Limited where he was instrumental in improving the performance
-                     of the New Zealand business by tripling cash earnings over three years, growing home loans at twice the banking system average and achieving
-                     above average growth in Business Banking and Deposits during a period when the <span className="no-wrap">New Zealand</span> economy was in a recession.
-                  </p>
+               <p className="break"> George Frazis was appointed Chief Executive, Consumer Bank for the Westpac Group in June&nbsp;2015, responsible for managing the end to end relationship with consumer customers.
+                 This includes managing over 10,300 people and all consumer banking products and services under the Westpac, St.George, BankSA, Bank of Melbourne and RAMS brands.
+                 In his first 12 months in the role George has achieved above market balance sheet growth while increasing cash earnings by 16%.
+               </p>
 
-                  <p>Prior to his roles with the Westpac Group, George was Group Executive General Manager at National Australia Bank where he was responsible for restoring
-                     NAB as the number one Business Bank.  A highly experienced financial services executive, George has also spent time as a senior executive with
-                     Commonwealth Bank of Australia as the Chief Financial Officer of the Institutional Banking Division.  George has also been a partner with
-                     the Boston Consulting Group, both in Sydney and London.
-                  </p>
+               <p>Prior to this appointment, he was the Chief Executive Officer, St.George Banking Group from April&nbsp;2012.
+                 A division of Westpac Banking Corporation, St.George Banking Group comprised 4,600 people working across St.George Bank, Bank of Melbourne, BankSA and RAMS. St.George
+                 experienced tremendous momentum under George’s leadership with six positives halves, and cash earnings (profit after tax) which increased by 14% in the 2014
+                 financial year and 17% in the 2013 financial year.
+               </p>
 
-                  <p>George started his career as an Engineering Officer in the Royal Australian Air Force with 77 Squadron, responsible for the maintenance of F/A-18 Hornet Fighter Jets.</p>
+               <p>George joined the Westpac Group in March&nbsp;2009 as Chief Executive, Westpac New&nbsp;Zealand Limited where he was instrumental in improving the performance
+                  of the New Zealand business by tripling cash earnings over three years, growing home loans at twice the banking system average and achieving
+                  above average growth in Business Banking and Deposits during a period when the New&nbsp;Zealand economy was in a recession.
+               </p>
 
-                  <p>George is an Executive Member of the Business Advisory Council – UNSW Australian School of Business, a member of the 2020 Amnesty International Council
-                     and a Governor of the St.George Foundation.</p>
+               <p>Prior to his roles with the Westpac Group, George was Group Executive General Manager at National Australia Bank where he was responsible for restoring
+                  NAB as the number one Business Bank.  A highly experienced financial services executive, George has also spent time as a senior executive with
+                  Commonwealth Bank of Australia as the Chief Financial Officer of the Institutional Banking Division.  George has also been a partner with
+                  the Boston Consulting Group, both in Sydney and London.
+               </p>
+
+               <p>George started his career as an Engineering Officer in the Royal Australian Air Force with 77 Squadron, responsible for the maintenance of F/A-18 Hornet Fighter Jets.</p>
+
+               <p>George is an Executive Member of the Business Advisory Council – UNSW Australian School of Business, a member of the 2020 Amnesty International Council
+                  and a Governor of the St.George Foundation.</p>
+
+
+
+
                </div>
              </div>
             <BackLink />
         </section>
 
-        <section ref="RobertsSmith" tabIndex="-1" autoFocus className="bio-section no-border" id="BioRobertsSmith">
+        <section ref="RobertsSmith" tabIndex="-1"  className="bio-section no-border" id="BioRobertsSmith">
           <div className="row">
              <div className="col-xs-6 col-md-3 col-sm-3">
                  <div className="thumbnail">
@@ -187,7 +195,7 @@ export default class Bio extends React.Component {
             <BackLink />
         </section>
 
-        <section ref="Blake" tabIndex="-1" autoFocus className="bio-section no-border" id="BioBlake">
+        <section ref="Blake" tabIndex="-1"  className="bio-section no-border" id="BioBlake">
             <div className="row">
                 <div className="col-xs-6 col-md-3 col-sm-3">
                     <div className="thumbnail">
@@ -223,7 +231,7 @@ export default class Bio extends React.Component {
             <BackLink />
           </section>
 
-        <section ref="Colbert" tabIndex="-1" autoFocus className="bio-section no-border" id="BioColbert">
+        <section ref="Colbert" tabIndex="-1"  className="bio-section no-border" id="BioColbert">
           <div className="row">
             <div className="col-xs-6 col-md-3 col-sm-3">
                 <div className="thumbnail">
@@ -251,7 +259,7 @@ export default class Bio extends React.Component {
         <BackLink />
         </section>
 
-        <section ref="Galgsdies" tabIndex="-1" autoFocus className="bio-section no-border" id="BioGalgsdies">
+        <section ref="Galgsdies" tabIndex="-1"  className="bio-section no-border" id="BioGalgsdies">
           <div className="row">
            <div className="col-xs-6 col-md-3 col-sm-3">
                <div className="thumbnail">
@@ -290,7 +298,7 @@ export default class Bio extends React.Component {
         <BackLink />
         </section>
 
-        <section ref="Jansen" tabIndex="-1" autoFocus className="bio-section no-border" id="BioJansen">
+        <section ref="Jansen" tabIndex="-1"  className="bio-section no-border" id="BioJansen">
           <div className="row">
 
             <div className="col-xs-6 col-md-3 col-sm-3">
@@ -321,7 +329,7 @@ export default class Bio extends React.Component {
         <BackLink />
         </section>
 
-        <section ref="Lambert" tabIndex="-1" autoFocus className="bio-section no-border" id="BioLambert">
+        <section ref="Lambert" tabIndex="-1"  className="bio-section no-border" id="BioLambert">
           <div className="row">
                <div className="col-xs-6 col-md-3 col-sm-3">
                    <div className="thumbnail">
@@ -348,7 +356,7 @@ export default class Bio extends React.Component {
             <BackLink />
         </section>
 
-        <section ref="Lefever" tabIndex="-1" autoFocus className="bio-section no-border" id="BioLefever">
+        <section ref="Lefever" tabIndex="-1"  className="bio-section no-border" id="BioLefever">
           <div className="row">
            <div className="col-xs-6 col-md-3 col-sm-3">
                <div className="thumbnail">
@@ -374,7 +382,7 @@ export default class Bio extends React.Component {
         <BackLink />
         </section>
 
-        <section ref="McDowell" tabIndex="-1" autoFocus className="bio-section no-border" id="BioMcDowell">
+        <section ref="McDowell" tabIndex="-1"  className="bio-section no-border" id="BioMcDowell">
           <div className="row">
 
               <div className="col-xs-6 col-md-3 col-sm-3">
@@ -401,7 +409,7 @@ export default class Bio extends React.Component {
            <BackLink />
         </section>
 
-        <section ref="Palmerlee" tabIndex="-1" autoFocus className="bio-section no-border" id="BioPalmerlee">
+        <section ref="Palmerlee" tabIndex="-1"  className="bio-section no-border" id="BioPalmerlee">
           <div className="row">
              <div className="col-xs-6 col-md-3 col-sm-3">
                  <div className="thumbnail">
@@ -428,7 +436,7 @@ export default class Bio extends React.Component {
             <BackLink />
         </section>
 
-        <section ref="Parker" tabIndex="-1" autoFocus className="bio-section no-border" id="BioParker">
+        <section ref="Parker" tabIndex="-1"  className="bio-section no-border" id="BioParker">
           <div className="row">
               <div className="col-xs-6 col-md-3 col-sm-3">
                   <div className="thumbnail">
@@ -467,7 +475,7 @@ export default class Bio extends React.Component {
             <BackLink />
         </section>
 
-        <section ref="Plaskett" tabIndex="-1" autoFocus className="bio-section no-border" id="BioPlaskett">
+        <section ref="Plaskett" tabIndex="-1"  className="bio-section no-border" id="BioPlaskett">
           <div className="row">
 
               <div className="col-xs-6 col-md-3 col-sm-3">
@@ -491,7 +499,7 @@ export default class Bio extends React.Component {
            <BackLink />
         </section>
 
-        <section ref="Rosenfield" tabIndex="-1" autoFocus className="bio-section no-border" id="BioRosenfield">
+        <section ref="Rosenfield" tabIndex="-1"  className="bio-section no-border" id="BioRosenfield">
           <div className="row">
               <div className="col-xs-6 col-md-3 col-sm-3">
                   <div className="thumbnail">
@@ -518,7 +526,7 @@ export default class Bio extends React.Component {
             <BackLink />
         </section>
 
-        <section ref="Ward" tabIndex="-1" autoFocus className="bio-section no-border" id="BioWard">
+        <section ref="Ward" tabIndex="-1"  className="bio-section no-border" id="BioWard">
           <div className="row">
              <div className="col-xs-6 col-md-3 col-sm-3">
                  <div className="thumbnail">
