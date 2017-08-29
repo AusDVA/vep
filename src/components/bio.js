@@ -106,9 +106,12 @@ export default class Bio extends React.Component {
         <section className="bio-section" id="BioFrazis">
           <div className="row">
            <div className="col-xs-6 col-md-3 col-sm-3">
-             {/* Empty div, so screen reader will focus correct place, user will then enter insert + down-arrow to start reading the bio.
-             comma in aria-label so screen reader does not read "blank", screen reader’s also do not read comma's */}
-              <div aria-label="," ref="Frazis" className="no-border" tabIndex="-1"/>
+             {/* Empty span, so screen reader will focus correct place, user will then enter insert + down-arrow to start reading the bio.
+             comma in span so screen reader does not read "blank", screen reader’s also do not read comma's */}
+              <span className="sr-only" ref="Frazis" aria-label="," className="no-border" tabIndex="-1" >
+                ,
+              </span>
+
                   <div className="thumbnail">
                     <img src={BioFrazis} alt="Mr George Frazis"/>
                   </div>
@@ -148,10 +151,6 @@ export default class Bio extends React.Component {
 
                <p>George is an Executive Member of the Business Advisory Council – UNSW Australian School of Business, a member of the 2020 Amnesty International Council
                   and a Governor of the St.George Foundation.</p>
-
-
-
-
                </div>
              </div>
             <BackLink />
