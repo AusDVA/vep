@@ -108,10 +108,7 @@ export default class Bio extends React.Component {
            <div className="col-xs-6 col-md-3 col-sm-3">
              {/* Empty span, so screen reader will focus correct place, user will then enter insert + down-arrow to start reading the bio.
              comma in span so screen reader does not read "blank", screen reader’s also do not read comma's */}
-              <span className="sr-only" ref="Frazis" aria-label="," className="no-border" tabIndex="-1" >
-                ,
-              </span>
-
+              <span className="sr-only no-border" ref="Frazis" tabIndex="-1">,</span>
                   <div className="thumbnail">
                     <img src={BioFrazis} alt="Mr George Frazis"/>
                   </div>
