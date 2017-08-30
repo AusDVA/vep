@@ -41,7 +41,7 @@ export default class IAC extends React.Component {
   render() {
     return (
       <div>
-          <div className="body-content container no-border" id="content" tabIndex="-1" autoFocus>
+          <div className="body-content container no-border" id="content" tabIndex="-1">
             <div className="row">
               <div className="col-md-10" id="mainCol">
                 <h1>Industry Advisory Committee on Veterans’ Employment</h1>
@@ -85,8 +85,8 @@ export default class IAC extends React.Component {
                       2017 outlining the Committee's progress against these Terms of Reference.</li>
                 </ol>
               </section>
-                <section ref="iacMembership" tabIndex="-1" autoFocus className="section-nobreak no-border">
-                <h2 id="Membership">Membership</h2>
+                <section  className="section-nobreak">
+                <h2 className="no-border" ref="iacMembership" tabIndex="-1" id="Membership">Membership</h2>
                 <p>The Committee comprises a Chair, Deputy Chair, a representative of small businesses, a representative of the Australian Chamber of Commerce and Industry, and representatives of ten other organisations.</p>
                   <img className="print-only bio-img text-center" src={Bio_Print} alt="Printing version of Industry Advisory Committee Membership" aria-hidden="true"/>
                 <div className="hidden-print">

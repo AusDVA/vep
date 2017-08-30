@@ -83,8 +83,6 @@ export default class Bio extends React.Component {
      case "?member=Ward":
           this.refs.Ward.focus();
           break;
-     default:
-       this.refs.main.focus();
  }
  }
 
@@ -94,7 +92,7 @@ export default class Bio extends React.Component {
 
   render(){
     return (
-      <div id="content" className="body-content container no-float-print no-border" ref="main" tabIndex="-1" >
+      <div id="content" className="body-content container no-float-print no-border">
         <ol className="breadcrumb hidden-print">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/industry-advisory-committee">Industry Advisory Committee</Link></li>
@@ -106,9 +104,8 @@ export default class Bio extends React.Component {
         <section className="bio-section" id="BioFrazis">
           <div className="row">
            <div className="col-xs-6 col-md-3 col-sm-3">
-             {/* Empty span, so screen reader will focus correct place, user will then enter insert + down-arrow to start reading the bio.
-             comma in span so screen reader does not read "blank", screen reader’s also do not read comma's */}
-              <span className="sr-only no-border" ref="Frazis" tabIndex="-1">,</span>
+             {/*span, so screen reader will focus correct place, user will then enter insert + down-arrow to start reading the bio.*/}
+              <span className="sr-only no-border" ref="Frazis" tabIndex="-1">George</span>
                   <div className="thumbnail">
                     <img src={BioFrazis} alt="Mr George Frazis"/>
                   </div>
