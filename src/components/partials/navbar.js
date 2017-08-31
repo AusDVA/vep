@@ -22,23 +22,26 @@ export default class NavBar extends React.Component {
   focus() {
     this.refs.skipNav.focus();
   }
-  
+
   render() {
     return (
       <div>
        <div className="header-message hidden-print" role="alert" id="top">
          <div className="container">
-           This is a beta version of this website. We welcome your <a href="mailto:veteransemployment@dva.gov.au?subject=Veterans'%20Employment%20Program%20-%20Beta%20Feedback">feedback 
-            <span className="sr-only">(this link will create a new email addressed to veteransemployment@dva.gov.au)</span></a>. 
+           This is a beta version of this website. We welcome your <a href="mailto:veteransemployment@dva.gov.au?subject=Veterans'%20Employment%20Program%20-%20Beta%20Feedback">feedback
+            <span className="sr-only">(this link will create a new email addressed to veteransemployment@dva.gov.au)</span></a>.
           </div>
         </div>
       <div className="container hidden-print">
         <nav className="no-border" tabIndex="-1" ref="skipNav" autoFocus>
           <a href="#content" className="sr-only sr-only-focusable">Skip to main content</a>
         </nav>
-       
         <div className="row">
-          <div className="logo col-md-6 col-sm-6 col-xs-6"><img alt="Australian Government Logo" src={GOVLogo}/></div>
+
+          <div className="col-md-6 col-sm-6 col-xs-6">
+                <NavLink exact to="/" className="logo"><img alt="Australian Government Logo" src={GOVLogo} /></NavLink>
+          </div>
+
           <div className="col-md-2 col-xs-6 col-md-offset-2"><span className="beta">BETA</span></div>
 
           <div className="navbar-header col-md-1 col-xs-12 text-center">

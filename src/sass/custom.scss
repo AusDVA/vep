@@ -89,6 +89,14 @@ span.glyphicon.glyphicon-chevron-down {
     max-height: 72px;
     margin: 1em 0 1.5em 0;
     -ms-interpolation-mode: bicubic;
+    
+}
+
+.logo:hover,
+.logo {
+  background-color: $white!important;
+  border-bottom: transparent;
+
 }
 
 .active {
@@ -392,12 +400,9 @@ h5 {
 }
 
 .copyright {
- margin-bottom: 0.1em; 
+ margin-bottom: 0.1em;
 }
 
 #container {
   margin-top: -1em;
 }
-
-
-
