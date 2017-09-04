@@ -52,9 +52,7 @@ export default class Home extends React.Component {
 
                   <section className="section-nobreak">
                     <h2>The Prime Minister’s Veterans’ Employment Annual Awards</h2>
-                    <p>The Annual Awards will recognise the achievements of businesses
-                      in creating employment opportunities for veterans.  The criteria for the awards will be developed in
-                      consultation with the Industry Advisory Committee on Veterans’ Employment, and announced later in 2017.</p>
+                    <p>The Annual Awards will recognise achievements in the creation of employment opportunities for veterans.</p>
 
                     <h2>Ex-service Organisation Industry Partnership Register</h2>
                     <p>Ex-service organisations will be able to register their interest in partnering with industry on
@@ -73,10 +71,10 @@ export default class Home extends React.Component {
                        future initiatives, and work will continue on aligning military qualifications with civilian qualifications.</p>
 
                     <h2>Australian Public Service (APS) initiatives</h2>
-                    <p>A new APSjobs website will be launched in 2017 and will include specific information
+                    <p>The APSjobs website includes specific information
                       for veterans seeking employment in the APS.  An application that aligns ADF ranks to APS
                       classifications and a toolkit that provides information to veterans about working in the APS
-                      are also being developed.</p>
+                      are also available.</p>
                   </section>
 
                   <section className="section-nobreak">
