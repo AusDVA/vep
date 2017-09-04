@@ -1,5 +1,7 @@
 import React from "react";
-import {Field, reduxForm} from "redux-form";
+import {Field, reduxForm, reset} from "redux-form";
+import Captcha from "./partials/captcha";
+
 import axios from "axios";
 
 class Contact extends React.Component {
@@ -8,9 +10,8 @@ class Contact extends React.Component {
    super(props);
    this.state = {success: false,
                  error: false,
-                 loading: false,
-                 disabled: false};
-  }
+                 loading: false};
+}
 
   renderField(field) {
     const {meta: {touched,error}} = field;
@@ -47,43 +48,36 @@ class Contact extends React.Component {
     );
   }
 
+  onChange(response) {
+    this.setState({captcha: response})
+    console.log(response);
+  };
+
   onSubmit(values) {
+
     console.log(values);
-    this.setState({
-       success: false,
-       error: false,
-       loading: true,
-       disabled: true
-     });
+    this.setState({success: false, error: false, loading: true});
 
-axios.post("http://localhost:8181/contactus",{
-    name: values.Name,
-    email: values.Email,
-    phone: values.Phone,
-    message: values.Message
-}).then((response)=> {
-   this.setState({
-      loading: false,
-      success : true
-    })
+    axios
+      .post("http://localhost:8181/contactus", values)
+      .then((response) => {
+        this.setState({loading: false, success: true, error: false});
+        this
+          .props
+          .reset(values);
+        grecaptcha.reset();
 
-}).catch((error)=> {
-   console.log("error while posting data", error);
-   this.setState({
-      loading: false,
-      error: true
-    })
-});
-
-    //clear input after form submit.
-    values.Name = "";
-    values.Email = "";
-    values.Phone = "";
-    values.Message = "";
+      })
+      .catch((error) => {
+        console.log("error while posting data", error);
+        this.setState({loading: false, success: false, error: true});
+        console.log(error);
+      });
   }
-
   render() {
     const {handleSubmit} = this.props;
+   
+    
     return (
       <div>
         <section>
@@ -92,17 +86,19 @@ axios.post("http://localhost:8181/contactus",{
               <div className="col-md-12">
                 <h1>Contact Us</h1>
                 <div className="col-md-7 col-sm-6">
-                  <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
-                    <Field aria-required="true" name="Name" id="name" label="Name:" placeholder="ex. John Smith" component={this.renderField}/>
-                    <Field aria-required="true" name="Email" id="email" label="Email:" placeholder="ex. john.smith@example.com" component={this.renderField}/>
-                    <Field aria-required="true" name="Phone" id="phone" placeholder="ex. 0412 345 678" label="Phone:" component={this.renderField}/>
-                    <Field aria-required="true" name="Message" id="message" label="Message:" component={this.renderFeedback}/>
+                  <form>
+                    <Field aria-required="true" name="name" id="name" label="Name:" placeholder="ex. John Smith" component={this.renderField}/>
+                    <Field aria-required="true" name="email" id="email" label="Email:" placeholder="ex. john.smith@example.com" component={this.renderField}/>
+                    <Field aria-required="true" name="phone" id="phone" placeholder="ex. 0412 345 678" label="Phone:" component={this.renderField}/>
+                    <Field aria-required="true" name="message" id="message" label="Message:" component={this.renderFeedback}/>              
+                    <Field name="captcha"component={Captcha} onChange={this.onChange.bind(this)}/>
+                   
 
-                    <div className="col-md-2 break-bottom">
-                      <button disabled={ this.state.disabled ? "disabled" : ""}  className= { this.state.disabled ? "btn btn-default disabled" : "btn btn-default"} type="submit">Submit</button>
+                    <div className="col-md-2 break">
+                      <button className="btn btn-default" onClick={handleSubmit(this.onSubmit.bind(this))} type="button">Submit</button>
                     </div>
-
-                    <div className="col-md-10">
+                   
+                    <div className="col-md-10 break">
                       <div className= { this.state.loading ? "alert alert-info" : "alert alert-info hidden"}>
                         <i className="fa fa-circle-o-notch fa-spin"></i> Sending feedback email.</div>
 
@@ -112,16 +108,14 @@ axios.post("http://localhost:8181/contactus",{
                     </div>
 
                    <div className= { this.state.error ? "alert alert-danger" : "alert alert-danger hidden"}>
-                      <strong>Error!</strong> Unfortunatly there has been an error, try refreshing the page and submitting again.
+                      <strong>Error!</strong> Unfortunatly there has been an error, try submitting again.
                                               If the problem still persists you can directly send your feedback
                                               to <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>
                     </div>
                   </div>
+              
 
                   </form>
-
-
-
                 </div>
                 <div className="col-md-5 col-sm-6">
 
@@ -154,22 +148,26 @@ axios.post("http://localhost:8181/contactus",{
 function validate(values) {
   const errors = {};
 
-  if (!values.Name) {
-    errors.Name = "Please enter your name.";
+  if (!values.name) {
+    errors.name = "Please enter your name.";
   }
 
-  if (!values.Email && !values.Phone) {
-    errors.Email = 'Please provide an email address or phone number.'
-  } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.Email) && !values.Phone) {
-    errors.Email = 'Invalid email address.'
+  if (!values.email && !values.phone) {
+    errors.email = 'Please provide an email address or phone number.'
+  } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(values.email) && !values.phone) {
+    errors.email = 'Invalid email address.'
   }
 
-  if (!values.Phone && !values.Email) {
-    errors.Phone = "Please provide a phone number or an email address.";
+  if (!values.phone && !values.email) {
+    errors.phone = "Please provide a phone number or an email address.";
   }
 
-  if (!values.Message) {
-    errors.Message = "Please enter a message.";
+  if (!values.message) {
+    errors.message = "Please enter a message.";
+  }
+
+  if (!values.captcha) {
+    errors.captcha = "Invalid Captcha";
   }
 
   return errors;
