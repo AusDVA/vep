@@ -78,7 +78,7 @@ export default class Awards extends React.Component {
                     <ul>
                       <li>Demonstrated excellence in attraction, recruitment, hiring and retention of military spouses.</li>
                       <li>Demonstrated commitment in supporting military spouses’ careers through serving members’ postings, deployments etc. through policies, support services and mobility programs.</li>
-                      <li>Evidence of collaboration with ADF support organisations (Defence Families Australia, Defence Community Organisaton, Department of Veterans Affairs etc.) to develop a robust and sustainable support model for military spouses.</li>
+                      <li>Evidence of collaboration with ADF support organisations (Defence Families Australia, Defence Community Organisaton, Department of Veterans’ Affairs etc.) to develop a robust and sustainable support model for military spouses.</li>
                     </ul>
 
                     <p>Outstanding Contribution by an Organisation to Veterans’ Employment</p>

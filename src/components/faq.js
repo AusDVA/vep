@@ -23,8 +23,13 @@ export default class FAQs extends React.Component {
             <section>
                 <div ref="mainContent" id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
                     <div className="row">
+                    <ol className="breadcrumb hidden-print">
+                           <li><Link to="/">Home</Link></li>
+                           <li><Link to="/awards#top">Awards</Link></li>
+                           <li className="active">Frequently asked questions</li>
+                     </ol>
                       <div className="col-md-10" id="mainCol">
-                        <h1>Frequently asked questions</h1>
+                        <h1>Prime Minister’s Veterans’ Employment Awards Frequently asked questions</h1>
 
                         <h2>Are there any costs associated with submitting a nomination?</h2>
                         <p>There are no costs associated with submitting a nomination.</p>
@@ -33,15 +38,16 @@ export default class FAQs extends React.Component {
                         <p>Each award category has specific eligibility criteria and these differ across the categories.</p>
 
                         <h2>When do nominations open and close?</h2>
-                        <p>Nominations open on 6 September 2017 and close at midnight on Friday 22 December 2017. Late nominations will not be accepted.</p>
+                        <p>Nominations open on 6 September 2017 and close at midnight on Friday 22 December 2017.</p>
+                        <p>Late nominations will not be accepted.</p>
 
                         <h2>How do I submit a nomination?</h2>
-                        <p>All nominations and relevant supporting evidence must be submitted online at <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a></p>
+                        <p>All nominations and relevant supporting evidence must be submitted online at <a target="_blank" href="https://veteransemployment.awardsplatform.com/">veteransemployment.awardsplatform.com.<span className="sr-only">(this link will open in a new tab)</span></a></p>
                         <p>You can complete your nomination progressively at any time from when the nomination period opens until it closes and any information previously input will be saved.</p>
                         <p>Nominations must address the relevant award category criteria. </p>
 
                         <h2>Do I have to nominate online, or can I submit a hard copy nomination?</h2>
-                        <p>Nominations will only be accepted when they are submitted online through the awards platform.</p>
+                        <p>Nominations will only be accepted when they are submitted online through the <a target="_blank" href="https://veteransemployment.awardsplatform.com/">awards platform.<span className="sr-only">(this link will open in a new tab)</span></a></p>
 
                         <h2>How many times can I nominate?</h2>
                         <p>You can nominate more than one individual or organisation in each applicable award category however you can only nominate the same individual and/or organisation once in each applicable award category.</p>
@@ -102,7 +108,7 @@ export default class FAQs extends React.Component {
                         <p>The details of the awards event are yet to be confirmed.</p>
 
                         <h2>Are there any prizes?</h2>
-                        <p>Winners of the Prime Minister’s Veterans’ Employment Program will be presented with a trophy at the Awards event. </p>
+                        <p>Winners of the Prime Minister’s Veterans’ Employment Awards will be presented with a trophy at the Awards event. </p>
                         <p>No cash prizes or gift certificates will be provided to Award finalists or winners.</p>
 
                         <h2>Who can I contact if I have any other questions?</h2>
