@@ -23,13 +23,13 @@ export default class Awards extends React.Component {
                    </ul>
                  </div>
                  <p>
-                   The Prime Minister’s Veterans’ Employment Awards recognise the achievements of companies, 
-                   organisations and individuals in creating employment opportunities for veterans and supporting their transition into the civilian workforce. 
+                   The Prime Minister’s Veterans’ Employment Awards recognise the achievements of companies,
+                   organisations and individuals in creating employment opportunities for veterans and supporting their transition into the civilian workforce.
                  </p>
 
                  <section id="Apply" className="section-nobreak">
                    <h2>Apply Now</h2>
-                   <p>link into <a target="_blank" href="https://veteransemployment.awardsplatform.com/">AwardsForce<span className="sr-only">(this link will open in a new tab)</span></a></p>
+                   <p>To submit a nomination, visit the <a target="_blank" href="https://veteransemployment.awardsplatform.com/">Prime Minister’s Veterans’ Employment Awards website.<span className="sr-only">(this link will open in a new tab)</span></a></p>
                  </section>
 
                  <section id="KeyDates" className="section-nobreak">
@@ -44,26 +44,26 @@ export default class Awards extends React.Component {
 
                  <div id="Categories">
                    <section className="section-nobreak">
-                   <h2>Categories</h2>                   
-                   <h3>Companies</h3>
+                   <h2>Categories</h2>
+                   <h3>Organisations</h3>
 
-             
-                   <p>Leadership in Recruitment of Veterans</p>                  
+
+                   <p>Leadership in Recruitment of Veterans</p>
                    <ul>
-                    <li>Demonstrated excellence in recruitment, hiring and on-boarding veterans into their work places.</li>
+                    <li>Demonstrated excellence in recruitment, hiring and onboarding veterans into their work places.</li>
                     <li>Innovative approaches to marketing and “reach out” to attract veterans to the organisation.</li>
                     <li>Influencing and advocating the recruitment of veterans by other organisations.</li>
                    </ul>
 
                    <p>Veterans’ Employer of the Year – Large Business</p>
                     <ul>
-                      <li>Demonstrated commitment to employing veterans as evidenced by the success of HR policies that support the recruitment of veterans. </li>
+                      <li>Demonstrated commitment to employing veterans, as evidenced by policies that support the recruitment of veterans.  </li>
                       <li>Demonstrated excellence in the management and retention of veterans through innovative training programs, ongoing mentoring and engagement programs.</li>
                     </ul>
 
                     <p>Veterans’ Employer of the Year – Small to Medium Sized Business</p>
                     <ul>
-                      <li>Demonstrated commitment to employing veterans as evidenced by HR policies that support the recruitment of veterans.</li>
+                      <li>Demonstrated commitment to employing veterans, as evidenced by policies that support the recruitment of veterans.</li>
                       <li>Demonstrated excellence in the management and retention of veterans through innovative training programs, ongoing mentoring and engagement programs.</li>
                     </ul>
 
@@ -71,38 +71,38 @@ export default class Awards extends React.Component {
                     <ul>
                       <li>Demonstrated commitment to employing veterans as evidenced by the relative number of veterans in the workforce.</li>
                       <li>Demonstrated excellence in the management and retention of veterans through innovative training programs, ongoing mentoring and engagement programs.</li>
-                      <li>HR policies that support veterans’ employment.</li>
+                      <li>Policies that support veterans’ employment.</li>
                     </ul>
 
                     <p>Excellence in Supporting Spouse Employment</p>
                     <ul>
                       <li>Demonstrated excellence in attraction, recruitment, hiring and retention of military spouses.</li>
-                      <li>Demonstrated commitment in supporting military spouses’ careers through serving members’ postings, deployments etc. through HR policies, support services and mobility programs.</li>
-                      <li>Evidence of collaboration with ADF support organisations (DFA, DCO, DVA etc.) to develop a robust and sustainable support model for military spouses.</li>
+                      <li>Demonstrated commitment in supporting military spouses’ careers through serving members’ postings, deployments etc. through policies, support services and mobility programs.</li>
+                      <li>Evidence of collaboration with ADF support organisations (Defence Families Australia, Defence Community Organisaton, Department of Veterans Affairs etc.) to develop a robust and sustainable support model for military spouses.</li>
                     </ul>
 
                     <p>Outstanding Contribution by an Organisation to Veterans’ Employment</p>
                     <ul>
-                      <li>Standout winner from the above categories</li>                
+                      <li>Standout winner from the above categories</li>
                     </ul>
-                 
+
                     </section>
 
                     <section className="section-nobreak">
                     <h3>Recruitment, Specialist and Not-for profit Organisations</h3>
-               
+
                     <p>Excellence in Supporting Veterans’ Employment </p>
                     <ul>
                       <li>Demonstrated excellence in support provided and outcomes achieved.</li>
-                      <li>Evidence of client (veteran) satisfaction with service</li>
+                      <li>Evidence of client (veteran) satisfaction with service.</li>
                     </ul>
-           
+
                     </section>
 
                     <section className="section-nobreak">
                      <h3>Individuals</h3>
-                   
-                     <p>Veteran Employee of the Year – Workplace contribution</p>
+
+                     <p>Veteran Employee of the Year</p>
                       <ul>
                         <li>Achievements within the organisation, including specific outcomes achieved.</li>
                         <li>Demonstrating evidence that the nominee’s military skills are valued and have been utilised in their current employment.</li>
@@ -113,7 +113,7 @@ export default class Awards extends React.Component {
                         <ul>
                           <li>An individual who has demonstrated a strong commitment to promoting the employment of veterans and ensuring that veterans are well supported by employers.</li>
                         </ul>
-              
+
 
                         <h2 id="TermsConditions">Terms and Conditions</h2>
                         <p><a target="_blank" href="">Terms and Conditions link<span className="sr-only">(this link will open in a new tab)</span></a></p>
@@ -124,14 +124,14 @@ export default class Awards extends React.Component {
                         <h2 id="Contact">Contact</h2>
                         <p>Contact us by emailing <a href="mailto:IAC.Secretariat@dva.gov.au">veteransemployment@dva.gov.au</a></p>
                       </section>
-                      
-               
+
+
 
                  </div>
 
 
 
-               
+
 
               </div>
             </div>
