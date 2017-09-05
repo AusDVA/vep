@@ -116,10 +116,10 @@ export default class Awards extends React.Component {
 
 
                         <h2 id="TermsConditions">Terms and Conditions</h2>
-                        <p><a target="_blank" href="">Terms and Conditions link<span className="sr-only">(this link will open in a new tab)</span></a></p>
+                        <p><Link to="/termsandconditions#top">Terms and Conditions link<span className="sr-only">Terms and Conditions page inside this website</span></Link></p>
 
                         <h2 id="FAQ">FAQs</h2>
-                        <p><a target="_blank" href="">FAQs link<span className="sr-only">(this link will open in a new tab)</span></a></p>
+                        <p><Link to="/faq#top">FAQs link<span className="sr-only">Frequently asked questions page inside this website</span></Link></p>
 
                         <h2 id="Contact">Contact</h2>
                         <p>Contact us by emailing <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a></p>
