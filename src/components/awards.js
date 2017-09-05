@@ -122,16 +122,9 @@ export default class Awards extends React.Component {
                         <p><a target="_blank" href="">FAQs link<span className="sr-only">(this link will open in a new tab)</span></a></p>
 
                         <h2 id="Contact">Contact</h2>
-                        <p>Contact us by emailing <a href="mailto:IAC.Secretariat@dva.gov.au">veteransemployment@dva.gov.au</a></p>
+                        <p>Contact us by emailing <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a></p>
                       </section>
-
-
-
                  </div>
-
-
-
-
 
               </div>
             </div>
