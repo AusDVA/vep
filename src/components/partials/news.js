@@ -1,6 +1,6 @@
 import React from 'react';
 import IAC_Img from "../../image/iac.png";
-import JobActive from "../../image/jobactive.png";
+import Awards from "../../image/awards.png";
 import ToggleDisplay from "react-toggle-display";
 export default class News extends React.Component {
 
@@ -69,27 +69,24 @@ export default class News extends React.Component {
     			</div>  
          </section>
 
-
-
-
     			<div className="col-sm-12 col-md-6 col-md-offset-1">
     				<section className="section-nobreak">
     					<div className="row">
-    						<div className="col-sm-4 col-xs-12"><img className="text-center" alt="Jobactive an Australian Government Initiative" src={JobActive}/></div>
+    						<div className="col-sm-4 col-xs-12">
+                  <a target="_blank" href="https://veteransemployment.awardsplatform.com/"><span className="sr-only">(this link will open in a new tab)</span>
+                  <img className="text-center" alt="Prime Minister’s Veterans’ Employment Program Awards 2018 Nominations are open" src={Awards}/></a></div>
     						<div className="col-sm-9 col-md-12">
 
-    							<h3 className="news-headline">Helping veterans to find jobs</h3>
-    							<p>jobactive is the Australian Government’s way to get more Australians into work, by connecting job seekers with employers.  Under the Prime Minister’s Veterans’ Employment Program, jobactive has been enhanced.</p>
+    							<h3 className="news-headline">Launch of the Prime Minister’s Veterans’ Employment Awards 2018</h3>
+    							<p>The Prime Minister Malcolm Turnbull has launched the inaugural <a target="_blank" href="https://veteransemployment.awardsplatform.com/">Prime Minister’s Veterans’ Employment Awards.<span className="sr-only">(this link will open in a new tab)</span></a></p>
+                  <p>This new national awards program has been established as part of the ongoing Prime Minister’s Veterans’ Employment Program.</p>
                     <span className="no-border" tabIndex="-1" ref="newsFoucs2" autoFocus />
                     <ToggleDisplay className="show-print" show={this.state.showNews2}>
-                  <p>The <a target="_blank" href="https://www.jobactive.gov.au/">jobactive website<span className="sr-only">(this link will open in a new tab)</span></a> now
-                     enables employers to select an optional ‘defence force experience desirable’ flag, and veterans
-                     can <a target="_blank" href="https://jobsearch.gov.au/job/search/ex-adf">search for jobs<span className="sr-only">(this link will open in a new tab)</span></a> that
-                     employers have flagged.</p>
-                  <p>The jobactive website also provides <a target="_blank" href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">information tailored for veteran jobseekers.<span className="sr-only">(this link will open in a new tab)</span>
-                  </a></p>
+                  <p>The Awards will recognise organisations that create employment opportunities for veterans and spouses
+                     of serving Defence members, as well as veterans who have made a significant contribution to their workplace.</p>
+                  <p><a target="_blank" href="https://veteransemployment.awardsplatform.com/">Nominations<span className="sr-only">(this link will open in a new tab)</span></a> are now open and will close on 22 December 2017.</p>
                 </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClickNews2(e) }>{this.state.showNews2 ? 'Read less' : 'Read more'}
-                 <span className="sr-only">{this.state.showNews2 ? ' about jobactive' : ' about jobactive'}</span>
+                 <span className="sr-only">{this.state.showNews2 ? ' about awards' : ' about awards'}</span>
                </a>
     						</div>
     					</div>
