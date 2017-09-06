@@ -41,7 +41,7 @@ constructor(props) {
                         <p>Each award category has specific eligibility criteria and these differ across the categories.</p>
 
                         <h2>When do nominations open and close?</h2>
-                        <p>Nominations open on 6 September 2017 and close at midnight on Friday 22 December 2017.</p>
+                        <p>Nominations open on <span className="no-wrap">6 September 2017</span> and close at midnight on Friday <span className="no-wrap">22 December 2017</span>.</p>
                         <p>Late nominations will not be accepted.</p>
 
                         <h2>How do I submit a nomination?</h2>
@@ -69,7 +69,7 @@ constructor(props) {
                         <p>Where multiple organisations have been involved in developing a policy, strategy or initiative that supports and/or creates veteran or spouse employment, a lead individual or organisation will need to be appointed to submit the nomination.</p>
 
                         <h2>What are the judging panel/s looking for in a nomination?</h2>
-                        <p>Judging panel/s are looking for nominations that directly address the applicable award category criteria. Remember that judges may have a lot of nominations to consider so ensure that all information provided in your nomination including supporting evidence is clear, concise and relevant.</p>
+                        <p>Judging panel/s are looking for nominations that directly address the applicable award category criteria. Remember that judges may have a lot of nominations to consider so please ensure that all information provided in your nomination including supporting evidence is clear, concise and relevant.</p>
 
                         <h2>What evidence can I provide in support of my nomination?</h2>
                         <p>Any evidence can be submitted with a nomination providing it supports and/or is relevant to the nomination.  This may include (but is not limited to):</p>
@@ -105,10 +105,10 @@ constructor(props) {
                         <p>Whilst the judging panel/s’ decisions will be final, you may be able to obtain some feedback on the reasons why your nomination was unsuccessful. </p>
 
                         <h2>How can I find out who the Award finalists and winners are?</h2>
-                        <p>You can visit the Awards section of the <Link to="/#top">Prime Minister’s Veterans’ Employment website<span className="sr-only">( Home page inside this website)</span></Link> to view Award finalists and winners.</p>
+                        <p>You can visit the Awards section of the <Link to="/#top">Prime Minister’s Veterans’ Employment Program website<span className="sr-only">( Home page inside this website)</span></Link> to view Award finalists and winners.</p>
 
                         <h2>When is the Awards event held?</h2>
-                        <p>The details of the awards event are yet to be confirmed.</p>
+                        <p>The details of the Awards event are yet to be confirmed.</p>
 
                         <h2>Are there any prizes?</h2>
                         <p>Winners of the Prime Minister’s Veterans’ Employment Awards will be presented with a trophy at the Awards event. </p>

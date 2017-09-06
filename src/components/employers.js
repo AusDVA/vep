@@ -77,7 +77,7 @@ export default class Employers extends React.Component {
                   </p>
 
                   <h2 id="PrimeMinister">Prime Minister’s Veterans’ Employment Annual Awards</h2>
-                  <p><Link to="/awards#top">Prime Minister’s Veterans’ Employment Awards<span className="sr-only">Awards page inside this website</span></Link> recognise the achievements of companies, organisations and individuals in creating employment opportunities for veterans and supporting their transition into the civilian workforce.</p>
+                  <p>The <Link to="/awards#top">Prime Minister’s Veterans’ Employment Awards<span className="sr-only">Awards page inside this website</span></Link> recognise the achievements of companies, organisations and individuals in creating employment opportunities for veterans and supporting their transition into the civilian workforce.</p>
 
 
                  <h2 id="EmployerResources">Resources for employers</h2>

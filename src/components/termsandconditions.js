@@ -30,7 +30,7 @@ export default class TermsAndConditions extends React.Component {
                     </ol>
                       <div className="col-md-10" id="mainCol">
                       
-                          <h1>Prime Minister’s Veterans’ Employment Awards Terms and Conditions</h1>
+                          <h1 className="heading">Prime Minister’s Veterans’ Employment Awards Terms and Conditions</h1>
                      
                         
 
@@ -50,11 +50,11 @@ export default class TermsAndConditions extends React.Component {
                         <li>Excellence in Supporting Spouse Employment</li>
                         </ol>
                        
-                        <p>Further details on Award categories, eligibility requirements and criteria are at <Link to="/awards#top">awards page.<span className="sr-only">(Awards page inside this website)</span></Link></p>
+                        <p>Further details on Awards categories, eligibility requirements and criteria are at <Link to="/awards#top">Awards page.<span className="sr-only">(Awards page inside this website)</span></Link></p>
 
                         <h2>Applications must be submitted</h2>
                         <ul>
-                         <li>from 6 September 2017 until midnight 22 December 2017</li>
+                         <li>from <span className="no-wrap">6 September 2017</span> until midnight <span className="no-wrap">22 December 2017</span></li>
                          <li>by the nominee’s employer for the Veterans Employee of the Year category</li>
                         </ul>
 
@@ -70,7 +70,7 @@ export default class TermsAndConditions extends React.Component {
                          <li>advise the nominee that they have been nominated</li>
                          <li>seek the nominee’s agreement that, if they are selected as a finalist:</li>
                            <ul>
-                            <li>they or their nominated representatives will take all reasonable steps to make themselves available for the event </li>
+                            <li>they or their nominated representative will take all reasonable steps to make themselves available for the event </li>
                             <li>they may be required to actively participate in presentations and media interviews </li>
                            </ul>
                          <li>note that DVA and/or the judging panel/s may request additional information or clarification in support of a nomination and, if so requested, such information or clarification must be provided within the specified timeframe</li>
@@ -102,7 +102,7 @@ export default class TermsAndConditions extends React.Component {
                          <li>in the event that a nominee that is judged to have won an award category has not complied with the terms and conditions of the Prime Minister’s Veterans’ Employment Awards, the
                              judging panel/s may decide that: </li>
                              <ul>
-                              <li>the nominee shall not be entitled to the relevant Award; </li>
+                              <li>the nominee shall not be entitled to the relevant award; </li>
                               <li>the relevant award may be provided to another nominee; and/or </li>
                               <li>the relevant award may not be allocated at all </li>
                              </ul>
@@ -114,22 +114,22 @@ export default class TermsAndConditions extends React.Component {
                             a licence to the judging panel/s and the Commonwealth for the purposes of the Prime Minister’s Veterans’ Employment Awards and the Prime Minister’s Veterans’ Employment Program </li>
                         <li>in submitting the application, the applicant gives DVA permission to publish details of the nomination for the purposes of promoting the Prime Minister’s Veterans’ Employment
                             Awards and the Prime Minister’s Veterans’ Employment Program (such as but not limited to biographies and photographs), and including publication on
-                            the <Link to="/#top">Prime Minister’s Veterans’ Employment website<span className="sr-only">( Home page inside this website)</span></Link>,
+                            the <Link to="/#top">Prime Minister’s Veterans’ Employment Program website<span className="sr-only">( Home page inside this website)</span></Link>,
                             the <a target="_blank" href="https://www.dva.gov.au">DVA website<span className="sr-only">(this link will open in a new tab)</span></a>, DVA social media channels and in other
                             promotional materials and media </li>
                         <li>if an applicant nominates an individual or another organisation for an award, the nominee (or their nominated representative if applicable) will be requested to give
                             DVA permission to publish details of the nomination for the purpose of promoting the Awards, and the Prime Minister’s Veterans’ Employment Program
-                            (such as but not limited to biographies and photographs), and including publication on the <Link to="/#top">Prime Minister’s Veterans’ Employment website<span className="sr-only">( Home page inside this website)</span></Link>,
+                            (such as but not limited to biographies and photographs), and including publication on the <Link to="/#top">Prime Minister’s Veterans’ Employment Program website<span className="sr-only">( Home page inside this website)</span></Link>,
                             the <a target="_blank" href="https://www.dva.gov.au">DVA website<span className="sr-only">(this link will open in a new tab)</span></a>, DVA social media channels and in other promotional materials and media </li>
                         </ul>
 
                         <h2>Privacy</h2>
                         <ul>
                          <li>The information provided on the nomination form is collected by DVA and may be made available to the judging panel/s (and other contracted service providers) solely for the purposes of the Awards</li>
-                         <li>All information provided with an application will be managed in accordance with DVA’s Privacy Policy. The DVA <a target="_blank" href="https://www.dva.gov.au/site-information/privacy">Privacy Policy<span className="sr-only">(this link will open in a new tab)</span></a>
-                             contains information about the way DVA collects and uses personal information and the purposes for which it is held.
+                         <li>All information provided with an application will be managed in accordance with DVA’s Privacy Policy. The DVA <a target="_blank" href="https://www.dva.gov.au/site-information/privacy">Privacy Policy<span className="sr-only">(this link will open in a new tab)</span></a> contains 
+                             information about the way DVA collects and uses personal information and the purposes for which it is held.
                              It also contains information about how you can correct any personal information which you believe is incorrect,
-                             and how to make a complaint if you believe that your privacy has been breached.</li>
+                             and how to make a complaint if you believe that your privacy has been breached</li>
                         </ul>
 
                         <TopLink/>

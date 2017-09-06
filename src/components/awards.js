@@ -1,5 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import TopLink from "./partials/topLink";
 export default class Awards extends React.Component {
 
   render(){
@@ -103,7 +104,7 @@ export default class Awards extends React.Component {
                      <p>Veteran Employee of the Year</p>
                       <ul>
                         <li>Achievements within the organisation, including specific outcomes achieved.</li>
-                        <li>Demonstrating evidence that the nominee’s military skills are valued and have been utilised in their current employment.</li>
+                        <li>Demonstrated evidence that the nominee’s military skills are valued and have been utilised in their current employment.</li>
                         <li>Supporting evidence from the nominee’s supervisor, management or Board of their contribution.</li>
                       </ul>
 
@@ -123,11 +124,13 @@ export default class Awards extends React.Component {
                         <p>Contact us by emailing <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a></p>
                       </section>
                  </div>
-
+                  <TopLink />
               </div>
             </div>
           </div>
+
         </section>
+       
       </div>
     );
   }
