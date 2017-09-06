@@ -74,7 +74,7 @@ export default class News extends React.Component {
     				<section className="section-nobreak">
     					<div className="row">
     						<div className="col-sm-4 col-xs-12">
-                <Link to="/awards#top"><span className="sr-only">Awards page inside this website</span>
+                <Link to="/awards#top">
                    <img className="text-center" alt="Prime Minister’s Veterans’ Employment Program Awards 2018 Nominations are open" src={Awards}/>
                 </Link></div>
     						<div className="col-sm-9 col-md-12">
