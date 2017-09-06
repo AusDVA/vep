@@ -4,24 +4,12 @@ import TopLink from "./partials/topLink";
 
 export default class FAQs extends React.Component {
 
-  constructor(props) {
-   super(props);
-   this.focus = this.focus.bind(this);
- }
-
- focus() {
-   this.refs.mainContent.focus();
- }
-
- componentDidMount() {
-  this.focus();
- }
 
     render() {
         return (
             <div>
-            <section>
-                <div ref="mainContent" id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
+           
+                <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
                     <div className="row">
                     <ol className="breadcrumb hidden-print">
                            <li><Link to="/">Home</Link></li>
@@ -118,7 +106,7 @@ export default class FAQs extends React.Component {
                       </div>
                      </div>
                  </div>
-             </section>
+     
             </div>
         );
     }

@@ -4,24 +4,11 @@ import TopLink from "./partials/topLink";
 
 export default class TermsAndConditions extends React.Component {
 
-  constructor(props) {
-   super(props);
-   this.focus = this.focus.bind(this);
- }
-
- focus() {
-   this.refs.mainContent.focus();
- }
-
- componentDidMount() {
-  this.focus();
- }
-
     render() {
         return (
             <div>
-            <section>
-                <div ref="mainContent" id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
+          
+                <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
                     <div className="row">
                     <ol className="breadcrumb hidden-print">
                       <li><Link to="/">Home</Link></li>
@@ -37,14 +24,16 @@ export default class TermsAndConditions extends React.Component {
 
                         <h2>Awards Categories</h2>
                         <p>Categories for the Prime Minister’s Veterans’ Employment Awards are:</p>
-                        <p>1.	Leadership in Recruitment of Veterans</p>
-                        <p>2.	Veteran Employee of the Year</p>
-                        <p>3.	Veterans’ Employer of the Year – Large Business</p>
-                        <p>4.	Veterans’ Employer of the Year – Small to Medium Sized Business</p>
-                        <p>5.	Veterans’ Employer of the Year – Public Sector Organisation</p>
-                        <p>6.	Excellence in Supporting Veterans’ Employment</p>
-                        <p>7.	Excellence in Supporting Spouse Employment</p>
-
+                        <ol>                     
+                        <li>Leadership in Recruitment of Veterans</li>
+                        <li>Veteran Employee of the Year</li>
+                        <li>Veterans’ Employer of the Year – Large Business</li>
+                        <li>Veterans’ Employer of the Year – Small to Medium Sized Business</li>
+                        <li>Veterans’ Employer of the Year – Public Sector Organisation</li>
+                        <li>Excellence in Supporting Veterans’ Employment</li>
+                        <li>Excellence in Supporting Spouse Employment</li>
+                        </ol>
+                       
                         <p>Further details on Award categories, eligibility requirements and criteria are at <Link to="/awards#top">awards page.<span className="sr-only">(Awards page inside this website)</span></Link></p>
 
                         <h2>Applications must be submitted</h2>
@@ -99,7 +88,7 @@ export default class TermsAndConditions extends React.Component {
                       </div>
                      </div>
                  </div>
-             </section>
+           
             </div>
         );
     }
