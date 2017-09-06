@@ -17,7 +17,7 @@ export default class Awards extends React.Component {
                      <li><Link to="#Apply">Apply Now</Link></li>
                      <li><Link to="#KeyDates">Key Dates</Link></li>
                      <li><Link to="#Categories">Categories</Link></li>
-                     <li><Link to="#TermsConditions">Terms & conditions</Link></li>
+                     <li><Link to="#TermsConditions">Terms and Conditions</Link></li>
                      <li><Link to="#FAQ">FAQs</Link></li>
                      <li><Link to="#Contact">Contact</Link></li>
                    </ul>
@@ -29,7 +29,7 @@ export default class Awards extends React.Component {
 
                  <section id="Apply" className="section-nobreak">
                    <h2>Apply Now</h2>
-                   <p>To submit a nomination, visit the <a target="_blank" href="https://veteransemployment.awardsplatform.com/">Prime Minister’s Veterans’ Employment Awards website.<span className="sr-only">(this link will open in a new tab)</span></a></p>
+                   <p>To submit a nomination, visit the <a target="_blank" href="https://veteransemployment.awardsplatform.com/">Prime Minister’s Veterans’ Employment Awards platform.<span className="sr-only">(this link will open in a new tab)</span></a></p>
                  </section>
 
                  <section id="KeyDates" className="section-nobreak">
@@ -37,8 +37,6 @@ export default class Awards extends React.Component {
                      <ul className="list-unstyled">
                         <li>6 September 2017 – nominations open</li>
                         <li>22 December 2017 – nominations close</li>
-                        <li>xxx 2018 – Finalists announced</li>
-                        <li>xxx 2018 – Winners announced at a dinner event in xx</li>
                       </ul>
                  </section>
 
@@ -116,10 +114,10 @@ export default class Awards extends React.Component {
 
 
                         <h2 id="TermsConditions">Terms and Conditions</h2>
-                        <p><Link to="/termsandconditions#top">Terms and Conditions link<span className="sr-only">Terms and Conditions page inside this website</span></Link></p>
+                        <p>Nominations must be made in accordance with the Prime Minister's Veterans' Employment Awards <Link to="/termsandconditions#top">Terms and Conditions.<span className="sr-only">Terms and Conditions page inside this website</span></Link></p>
 
                         <h2 id="FAQ">FAQs</h2>
-                        <p><Link to="/faq#top">FAQs link<span className="sr-only">Frequently asked questions page inside this website</span></Link></p>
+                        <p>These are answers to <Link to="/faq#top">Frequently Asked Questions<span className="sr-only">Frequently asked questions page inside this website</span></Link> on the Prime Minister's Veterans' Employment Awards.</p>
 
                         <h2 id="Contact">Contact</h2>
                         <p>Contact us by emailing <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a></p>
