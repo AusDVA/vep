@@ -4,19 +4,35 @@ import TopLink from "./partials/topLink";
 
 export default class TermsAndConditions extends React.Component {
 
+  constructor(props) {
+   super(props);
+   this.focus = this.focus.bind(this);
+ }
+
+ focus() {
+   this.refs.mainContent.focus();
+ }
+
+ componentDidMount() {
+  this.focus();
+ }
+
     render() {
         return (
             <div>
           
                 <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
                     <div className="row">
-                    <ol className="breadcrumb hidden-print">
+                    <ol ref="mainContent" tabIndex="-1" className="breadcrumb hidden-print no-border">
                       <li><Link to="/">Home</Link></li>
                       <li><Link to="/awards#top">Awards</Link></li>
                       <li className="active">Terms and Conditions</li>
                     </ol>
                       <div className="col-md-10" id="mainCol">
-                        <h1>Prime Minister’s Veterans’ Employment Awards <br/>Terms and Conditions</h1>
+                      
+                          <h1>Prime Minister’s Veterans’ Employment Awards Terms and Conditions</h1>
+                     
+                        
 
                         <p>To be eligible to submit a nomination for an Award in one of the Prime Minister’s Veterans’ Employment Awards categories, applicants must agree to the
                         following terms and conditions. Where applicable, they must also meet the specified eligibility requirements.</p>

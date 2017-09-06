@@ -4,6 +4,21 @@ import TopLink from "./partials/topLink";
 
 export default class FAQs extends React.Component {
 
+constructor(props) {
+   super(props);
+   this.focus = this.focus.bind(this);
+ }
+
+ focus() {
+   this.refs.mainContent.focus();
+ }
+
+ componentDidMount() {
+  this.focus();
+ }
+
+   
+
 
     render() {
         return (
@@ -11,7 +26,7 @@ export default class FAQs extends React.Component {
            
                 <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
                     <div className="row">
-                    <ol className="breadcrumb hidden-print">
+                    <ol ref="mainContent" tabIndex="-1" className="breadcrumb hidden-print no-border">
                            <li><Link to="/">Home</Link></li>
                            <li><Link to="/awards#top">Awards</Link></li>
                            <li className="active">Frequently asked questions</li>
