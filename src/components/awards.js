@@ -118,7 +118,7 @@ export default class Awards extends React.Component {
                         <p>Nominations must be made in accordance with the Prime Minister's Veterans' Employment Awards <Link to="/termsandconditions#top">Terms and Conditions.<span className="sr-only">Terms and Conditions page inside this website</span></Link></p>
 
                         <h2 id="FAQ">FAQs</h2>
-                        <p>These are answers to <Link to="/faq#top">Frequently Asked Questions<span className="sr-only">Frequently asked questions page inside this website</span></Link> on the Prime Minister's Veterans' Employment Awards.</p>
+                        <p>Here are <Link to="/faq#top">Frequently Asked Questions<span className="sr-only">Frequently asked questions page inside this website</span></Link> on the Prime Minister's Veterans' Employment Awards.</p>
 
                         <h2 id="Contact">Contact</h2>
                         <p>Contact us by emailing <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a></p>

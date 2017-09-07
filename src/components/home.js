@@ -31,16 +31,15 @@ export default class Home extends React.Component {
               <div className="row">
                 <div className="col-md-10">
                   <h1 className="page-title">The Prime Minister's Veterans' Employment Program</h1>
-                  <p>The Prime Minister's Veterans' Employment Program demonstrates the importance the Government places on raising awareness with employers,
-                     both private and public sector, of the value and unique experience of our veterans.</p>
+                  <p>The Prime Minister's Veterans' Employment Program demonstrates the importance the Government places on raising the awareness of
+                     private and public sector, employers of the value and unique experience of our veterans.</p>
                     <span className="no-border" tabIndex="-1" ref="mainFocus" autoFocus />
                      <ToggleDisplay className="show-print" show={this.state.show}>
                   <section className="section-nobreak">
                      <p id="about">The Australian Defence Force (ADF) invests heavily in its servicemen and women, and they have a broad range of skills and experience.
                         Their skill-sets, including proven leadership and problem solving skills, are in strong demand and transfer readily to civilian employment. </p>
                      <p>Australian businesses of all sizes, and across all industries, have an opportunity to employ these skilled and capable individuals when they
-                        separate from the ADF.  The Program aims to make businesses more aware of the value that veterans can bring to their organisations, and as a
-                        result improve employment opportunities for veterans.</p>
+                        separate from the ADF.  By making businesses more aware of the value that veterans can bring to their organisations, employment opportunities for veterans will increase.</p>
                      <p>On 17 November 2016 the Prime Minister announced six initiatives under the Program.</p>
 
                     <h2>Industry Advisory Committee on Veterans’ Employment</h2>
@@ -65,7 +64,7 @@ export default class Home extends React.Component {
 
                 <section className="section-nobreak">
                     <h2>Department of Defence and Department of Veterans’ Affairs initiatives</h2>
-                    <p>The Departments of Defence and Veterans’ Affairs will continue to improve the transition process for separating members of the Australian Defence Force (ADF). </p>
+                    <p>The Departments of Defence and Veterans’ Affairs continue to improve the transition process for separating members of the Australian Defence Force (ADF). </p>
                     <p>Separating members of the ADF will receive separation documentation, including training records.  They will also receive an individual transition plan and tailored
                        transition coaching services.  Surveys of former ADF personnel post-separation will be reinstated to assess the effectiveness of ADF transition programs and inform
                        future initiatives, and work will continue on aligning military qualifications with civilian qualifications.</p>

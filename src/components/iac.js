@@ -50,7 +50,7 @@ export default class IAC extends React.Component {
                 <ul className="list-contents">
                   <li><Link to="#Terms">Terms of reference</Link></li>
                   <li><Link to="#Membership">Membership</Link></li>
-                  <li><Link to="#Groups">Working groups</Link></li>
+                  <li><Link to="#Key Areas">Key Areas</Link></li>
                   <li><Link to="#News">Latest News</Link></li>
                   <li><Link to="#Contact">Contact</Link></li>
                 </ul>
@@ -81,8 +81,8 @@ export default class IAC extends React.Component {
                   </li>
                   <li>Examine whether there is scope to encourage business to employ the spouses of serving
                       Australian Defence Force members.</li>
-                  <li>Provide a report to the Minister for Veterans' Affairs/Defence Personnel by end of September
-                      2017 outlining the Committee's progress against these Terms of Reference.</li>
+                  <li>Provide a report to the Minister for Veterans' Affairs/Defence Personnel by the end of <span className="no-wrap">September 2017 </span>
+                      outlining the Committee's progress against these Terms of Reference.</li>
                 </ol>
               </section>
                 <section  className="section-nobreak">
@@ -200,7 +200,7 @@ export default class IAC extends React.Component {
               </div>
             </section>
             <section className="section-nobreak">
-                <h2 id="Groups">Working groups</h2>
+                <h2 id="Key Areas">Key Areas</h2>
                 <p>The Committee is focusing on five key areas:
                 </p>
                 <ul>

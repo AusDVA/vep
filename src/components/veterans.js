@@ -92,9 +92,9 @@ export default class Veterans extends React.Component {
                                 </li>
                                 </ul>
                                 <p>To assist former ADF members who are looking to transition to the Commonwealth public
-                                    sector, the Australian Public Service Commission is developing a toolkit and an application
+                                    sector, the Australian Public Service Commission has developed a toolkit and an application
                                     to align ADF ranks with Australian Public Service (APS) classifications. The Commission’s revamped <a target="_blank" href="https://www.apsjobs.gov.au/">
-                                    APSjobs website<span className="sr-only">(this link will open in a new tab)</span></a>, to be launched later in 2017, will also include specific
+                                    APSjobs website<span className="sr-only">(this link will open in a new tab)</span></a> also includes specific
                                     information for veterans on what to expect from employment in the APS.</p>
 
                                 <h2 id="support">State and territory government initiatives to increase veterans’ employment</h2>

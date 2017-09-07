@@ -80,7 +80,7 @@ export default class News extends React.Component {
     						<div className="col-sm-9 col-md-12">
 
     							<h3 className="news-headline">Launch of the Prime Minister’s Veterans’ Employment Awards 2018</h3>
-    							<p>The Prime Minister Malcolm Turnbull has launched the inaugural <Link to="/awards#top">Prime Minister’s Veterans’ Employment Awards.<span className="sr-only">Awards page inside this website</span></Link></p>
+    							<p>The Prime Minister Malcolm Turnbull and Minister for Veterans' Affairs <span className="no-wrap">Dan Tehan</span> have launched the inaugural <Link to="/awards#top">Prime Minister’s Veterans’ Employment Awards.<span className="sr-only">Awards page inside this website</span></Link></p>
                   <p>This new national awards program has been established as part of the ongoing Prime Minister’s Veterans’ Employment Program.</p>
                     <span className="no-border" tabIndex="-1" ref="newsFoucs2" autoFocus />
                     <ToggleDisplay className="show-print" show={this.state.showNews2}>
