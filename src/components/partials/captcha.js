@@ -1,7 +1,8 @@
 import React from 'react';
 import ReCAPTCHA from 'react-google-recaptcha';
+import PropTypes from 'prop-types';
 
-const SITE_KEY = "your site key"; // to do, create environment variable
+const SITE_KEY = ""; // to do, create environment variable
 
 const Captcha = (props) => (
     
@@ -19,8 +20,7 @@ const Captcha = (props) => (
 
 
 Captcha.propTypes = {
-  input: React.PropTypes.object.isRequired 
-     
+  input: PropTypes.any.isRequired     
 };
 
 

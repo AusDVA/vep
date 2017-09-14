@@ -2,6 +2,7 @@ import React from "react";
 import {Field, reduxForm, reset} from "redux-form";
 import Captcha from "./partials/captcha";
 
+
 import axios from "axios";
 
 class Contact extends React.Component {
@@ -58,13 +59,10 @@ class Contact extends React.Component {
     console.log(values);
     this.setState({success: false, error: false, loading: true});
 
-    axios
-      .post("http://localhost:8181/contactus", values)
+    axios.post("http://localhost:8181/contactus", values)
       .then((response) => {
         this.setState({loading: false, success: true, error: false});
-        this
-          .props
-          .reset(values);
+        this.props.reset(values);
         grecaptcha.reset();
 
       })
