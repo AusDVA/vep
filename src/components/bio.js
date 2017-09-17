@@ -2,6 +2,7 @@ import React from "react";
 import {HashLink as Link} from "react-router-hash-link";
 import axios from "axios";
 
+
 class BackLink extends React.Component {
 
   render() {
@@ -49,14 +50,17 @@ export default class Bio extends React.Component {
         });
       }
 
-      this.setState({data: bio,
-                     error : false,
-                     loading : false});
+      this.setState({
+        data: bio,
+        error : false,
+        loading : false
+      });
 
     }).catch((error) => {
-      console.log("error while getting data", error);
-      this.setState({loading : false,
-                     error : true});
+      this.setState({
+        loading : false,
+        error : true
+      });
     });
   }
 

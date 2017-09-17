@@ -59,20 +59,21 @@ export default class IAC extends React.Component {
         data : bio,
         firstData : firstBio,
         loading : false,
-        error : false});
+        error : false
+      });
 
 
     }).catch((error) => {
       this.setState({
         loading: false,
-        error : true});
+        error : true
+      });
     });
 
     axios.get("http://localhost:8080/drupal8/Print_Image").then((response) => {
       this.setState({iacImageUrl: response.data[0].field_print_image[0].url, iacImageAlt: response.data[0].field_print_image[0].alt});
 
-    }).catch((error) => {
-    });
+    })
   }
 
   componentDidMount() {
