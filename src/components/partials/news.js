@@ -1,10 +1,9 @@
 import React from 'react';
 import {HashLink as Link} from "react-router-hash-link";
-import IAC_Img from "../../image/iac.png";
-import Awards from "../../image/awards.png";
 import ToggleDisplay from "react-toggle-display";
 import axios from "axios";
 export default class News extends React.Component {
+
   constructor() {
     super();
     this.state = {
