@@ -1,11 +1,36 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import axios from "axios";
 
 
 export default class IACNews extends React.Component {
   constructor(props) {
    super(props);
    this.focus = this.focus.bind(this);
+   this.state = {
+     loading : true,
+     error : false
+   };
+ }
+
+ componentWillMount() {
+   axios.get("http://localhost:8080/drupal8/iac_latest_news").then((response) => {
+
+
+     this.setState({
+       loading : false,
+       error : false,
+       body : response.data[0].body[0].value
+     });
+
+
+   }).catch((error) => {
+     this.setState({
+       loading: false,
+       error : true
+     });
+   });
+
  }
 
  focus() {
@@ -22,16 +47,17 @@ export default class IACNews extends React.Component {
 
   render() {
     return (
-        <div id="News" className="no-border" autoFocus tabIndex="-1" ref="iacNews">
+        <div id="News" className="no-border" tabIndex="-1" ref="iacNews">
   <h2>Latest News</h2>
-    <p>The Industry Advisory Committee on Veterans’ Employment met on <span className="no-wrap">4 August 2017.</span> Five working
-        groups, established by the Committee to focus on priority areas, presented updates and recommendations for the Committee’s program
-        of work going forward.  This will inform the Committee’s report to the Minister for Veterans’ Affairs by the end of September. </p>
-    <p>The Committee was also updated on the work being done by McKinsey & Company for a group of employers assembled by <span className="no-wrap">JP Morgan</span> last year.  This work
-       will provide vital evidence and recommendations that will inform the Committee’s work.</p>
-    <p>A representative of Townsville Enterprise also provided the Committee with information on Townsville’s employment situation and outlook.  Townsville
-       has close ties with the Australian Defence Force and an interest in the work of the Committee.</p>
-    <p>The Committee will next meet to finalise its report to the Minister.</p>
+  <div dangerouslySetInnerHTML={{__html: this.state.body}}/>
+  <div className= { this.state.error ? "alert alert-danger" : "alert alert-danger hidden"}>
+     <strong>Error!</strong> Unfortunatly there has been a communications error, try refreshing the page.
+                             If the problem still persists please contact <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>
+   </div>
+
+   <div className="col-md-12 text-center spinner">
+       <i className={ this.state.loading ? "fa fa-circle-o-notch fa-spin" : "fa fa-circle-o-notch fa-spin hidden"}/>
+   </div>
 
       <p><Link to="/news-archive#top">Industry Advisory Committee News Archive</Link></p>
    </div>

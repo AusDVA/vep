@@ -27,7 +27,6 @@ export default class IAC extends React.Component {
   componentWillMount() {
 
     axios.get("http://localhost:8080/drupal8/rest_vep").then((response) => {
-
       const l = response.data.length;
       const bio = [];
       const firstBio = [];
@@ -71,8 +70,10 @@ export default class IAC extends React.Component {
     });
 
     axios.get("http://localhost:8080/drupal8/Print_Image").then((response) => {
-      this.setState({iacImageUrl: response.data[0].field_print_image[0].url, iacImageAlt: response.data[0].field_print_image[0].alt});
-
+      this.setState({
+        iacImageUrl: response.data[0].field_print_image[0].url,
+        iacImageAlt: response.data[0].field_print_image[0].alt
+      });
     })
   }
 
