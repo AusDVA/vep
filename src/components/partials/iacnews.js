@@ -56,7 +56,7 @@ export default class IACNews extends React.Component {
    </div>
 
    <div className="col-md-12 text-center spinner">
-       <i className={ this.state.loading ? "fa fa-circle-o-notch fa-spin" : "fa fa-circle-o-notch fa-spin hidden"}/>
+       <i className={ this.state.loading ? "fa fa-spinner fa-spin" : "fa fa-spinner fa-spin hidden"}/>
    </div>
 
       <p><Link to="/news-archive#top">Industry Advisory Committee News Archive</Link></p>

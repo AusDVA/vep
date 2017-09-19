@@ -130,7 +130,7 @@ export default class IAC extends React.Component {
                                            If the problem still persists please contact <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>
                  </div>
                  <div className="col-md-12 text-center spinner">
-                     <i className={ this.state.loading ? "fa fa-circle-o-notch fa-spin" : "fa fa-circle-o-notch fa-spin hidden"}/>
+                     <i className={ this.state.loading ? "fa fa-spinner fa-spin" : "fa fa-spinner fa-spin hidden"}/>
                  </div>
 
 

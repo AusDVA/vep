@@ -43,7 +43,6 @@ export default class News extends React.Component {
   componentWillMount() {
 
     axios.get("http://localhost:8080/drupal8/news").then((response) => {
-      console.log(response);
 
       const news = [];
       const news1 = [];
@@ -89,7 +88,7 @@ export default class News extends React.Component {
            </div>
 
            <div className="col-md-12 text-center spinner">
-               <i className={ this.state.loading ? "fa fa-circle-o-notch fa-spin" : "fa fa-circle-o-notch fa-spin hidden"}/>
+               <i className={ this.state.loading ? "fa fa-spinner fa-spin" : "fa fa-spinner fa-spin hidden"}/>
            </div>
           </div>
 

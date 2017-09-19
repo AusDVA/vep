@@ -83,7 +83,7 @@ export default class Bio extends React.Component {
            </div>
 
            <div className="col-md-12 text-center spinner">
-               <i className={ this.state.loading ? "fa fa-circle-o-notch fa-spin" : "fa fa-circle-o-notch fa-spin hidden"}/>
+               <i className={ this.state.loading ? "fa fa-spinner fa-spin" : "fa fa-spinner fa-spin hidden"}/>
            </div>
 
           {this.state.data.map((data, index) => (
