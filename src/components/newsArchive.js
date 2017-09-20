@@ -28,15 +28,16 @@ export default class NewsArchive extends React.Component {
 
   componentWillMount() {
 
-    axios.get("http://localhost:8080/drupal8/iac_news").then((response) => {
+    axios.get("http://localhost:8080/drupal/iac-news-archive").then((response) => {
       const l = response.data.length;
       const news = [];
 
       for (let i = 0; i < l; i++) {
         news.push({
-          title: response.data[i].title[0].value,
-          body: response.data[i].body[0].value,
-          date: response.data[i].field_date[0].value
+          title : response.data[i].title,
+          body : response.data[i].body,
+          date : response.data[i].date,
+          id : response.data[i].id
         });
       }
 
@@ -65,7 +66,7 @@ export default class NewsArchive extends React.Component {
                 <ul className="list-contents">
                   {this.state.data.map((data, index) => (
                     <li key={index}>
-                      <Link to={"#" + data.date}>{data.date}</Link>
+                      <Link to={"#" + data.id}>{data.date}</Link>
                     </li>
                   ))}
 
@@ -84,7 +85,7 @@ export default class NewsArchive extends React.Component {
                 <div key={index}>
                   <section className="section-nobreak">
 
-                    <h2 id={data.date}>{data.title}</h2>
+                    <h2 dangerouslySetInnerHTML={{__html: data.title}} id={data.id}></h2>
                     <div dangerouslySetInnerHTML={{__html: data.body}}/>
                   </section>
                   <BackLink/>

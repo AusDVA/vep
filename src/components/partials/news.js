@@ -42,33 +42,33 @@ export default class News extends React.Component {
 
   componentWillMount() {
 
-    axios.get("http://localhost:8080/drupal8/news").then((response) => {
+    axios.get("http://localhost:8080/drupal/news").then((response) => {
 
       const news = [];
       const news1 = [];
 
       news.push({
-        imageurl: response.data[0].field_news_image[0].url,
-        imagealt: response.data[0].field_news_image[0].alt,
-        title: response.data[0].title[0].value,
-        body1: response.data[0].field_body1[0].value,
-        body2: response.data[0].field_body2[0].value,
-        imagelinkint: response.data[0].field_image_internal_link[0],
-        imagelinkext: response.data[0].field_image_external_link[0]
+        imageurl: response.data[0].image.src,
+        imagealt: response.data[0].image.alt,
+        title: response.data[0].heading,
+        body1: response.data[0].body1,
+        body2: response.data[0].body2,
+        imagelinkint: response.data[0].image_int,
+        imagelinkext: response.data[0].image_ext
       });
 
       news1.push({
-        imageurl: response.data[1].field_news_image[0].url,
-        imagealt: response.data[1].field_news_image[0].alt,
-        title: response.data[1].title[0].value,
-        body1: response.data[1].field_body1[0].value,
-        body2: response.data[1].field_body2[0].value,
-        imagelinkint: response.data[1].field_image_internal_link[0],
-        imagelinkext: response.data[1].field_image_external_link[0]
+        imageurl: response.data[1].image.src,
+        imagealt: response.data[1].image.alt,
+        title: response.data[1].heading,
+        body1: response.data[1].body1,
+        body2: response.data[1].body2,
+        imagelinkint: response.data[1].image_int,
+        imagelinkext: response.data[1].image_ext
       });
 
       this.setState({data: news, data1: news1, loading: false, error: false});
-
+      
     }).catch((error) => {
       this.setState({loading: false, error: true});
     });
@@ -97,12 +97,12 @@ export default class News extends React.Component {
               <div className="col-sm-12 col-md-5">
                 <div className="row">
                   <div className="col-sm-4 col-xs-12">
-                    {typeof data.imagelinkint != "undefined" && <Link to={data.imagelinkint.value}>
+                    {typeof data.imagelinkint != "undefined" && <Link to={data.imagelinkint}>
                       <img alt={data.imagealt} src={data.imageurl}/>
                     </Link>
                     }
 
-                    {typeof data.imagelinkext != "undefined" && <a href={data.imagelinkext.value} target="_blank">
+                    {typeof data.imagelinkext != "undefined" && <a href={data.imagelinkext} target="_blank">
                       <img alt={data.imagealt} src={data.imageurl}/>
                     </a>
                     }
@@ -139,12 +139,12 @@ export default class News extends React.Component {
                 <div className="row">
                   <div className="col-sm-4 col-xs-12">
 
-                    {typeof data1.imagelinkint != "undefined" && <Link to={data1.imagelinkint.value}>
+                    {typeof data1.imagelinkint != "undefined" && <Link to={data1.imagelinkint}>
                       <img alt={data1.imagealt} src={data1.imageurl}/>
                     </Link>
                     }
 
-                    {typeof data1.imagelinkext != "undefined" && <a href={data1.imagelinkext.value} target="_blank">
+                    {typeof data1.imagelinkext != "undefined" && <a href={data1.imagelinkext} target="_blank">
                       <img alt={data1.imagealt} src={data1.imageurl}/>
                     </a>
                     }

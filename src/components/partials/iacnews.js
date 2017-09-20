@@ -9,18 +9,19 @@ export default class IACNews extends React.Component {
    this.focus = this.focus.bind(this);
    this.state = {
      loading : true,
-     error : false
+     error : false,
+     body : ""
    };
  }
 
  componentWillMount() {
-   axios.get("http://localhost:8080/drupal8/iac_latest_news").then((response) => {
+   axios.get("http://localhost:8080/drupal/iac-latest-news").then((response) => {
 
 
      this.setState({
        loading : false,
        error : false,
-       body : response.data[0].body[0].value
+       body : response.data[0].body
      });
 
 

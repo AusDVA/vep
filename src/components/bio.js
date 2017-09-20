@@ -28,24 +28,25 @@ export default class Bio extends React.Component {
 
   componentWillMount() {
 
-    axios.get("http://localhost:8080/drupal8/rest_vep").then((response) => {
+    axios.get("http://localhost:8080/drupal/vep-biographies").then((response) => {
       const l = response.data.length;
       const bio = [];
 
       for (let i = 0; i < l; i++) {
 
         bio.push({
-          name: response.data[i].title[0].value,
-          id: response.data[i].field_id[0].value,
-          role: response.data[i].field_role[0].value,
-          company: response.data[i].field_company[0].value,
-          education1: response.data[i].field_education1[0],
-          education2: response.data[i].field_education2[0],
-          education3: response.data[i].field_education3[0],
-          education4: response.data[i].field_education4[0],
-          body: response.data[i].body[0].value,
-          imageurl: response.data[i].field_bio_image[0].url,
-          imagealt: response.data[i].field_bio_image[0].alt
+          name: response.data[i].name,
+          id: response.data[i].id,
+          role: response.data[i].role,
+          company: response.data[i].company,
+          education1: response.data[i].education1,
+          education2: response.data[i].education2,
+          education3: response.data[i].education3,
+          education4: response.data[i].education4,
+          education5: response.data[i].education5,
+          body: response.data[i].body,
+          imageurl: response.data[i].image.src,
+          imagealt: response.data[i].image.alt
 
         });
       }
@@ -55,6 +56,7 @@ export default class Bio extends React.Component {
         error : false,
         loading : false
       });
+
 
     }).catch((error) => {
       this.setState({
@@ -100,10 +102,11 @@ export default class Bio extends React.Component {
                   <p className="bio-description">{data.role}</p>
                   <p className="bio-description">{data.company}</p>
 
-                  {typeof data.education1 != "undefined" && <p className="bio-education">{data.education1.value}</p>}
-                  {typeof data.education2 != "undefined" && <p className="bio-education">{data.education2.value}</p>}
-                  {typeof data.education3 != "undefined" && <p className="bio-education">{data.education3.value}</p>}
-                  {typeof data.education4 != "undefined" && <p className="bio-education">{data.education4.value}</p>}
+                  {typeof data.education1 != "undefined" && <p className="bio-education">{data.education1}</p>}
+                  {typeof data.education2 != "undefined" && <p className="bio-education">{data.education2}</p>}
+                  {typeof data.education3 != "undefined" && <p className="bio-education">{data.education3}</p>}
+                  {typeof data.education4 != "undefined" && <p className="bio-education">{data.education4}</p>}
+                  {typeof data.education5 != "undefined" && <p className="bio-education">{data.education4}</p>}
 
                   <div className="break" dangerouslySetInnerHTML={{__html: data.body}}/>
                 </div>

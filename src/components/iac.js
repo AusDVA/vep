@@ -15,8 +15,7 @@ export default class IAC extends React.Component {
       data: [],
       firstData: [],
       iacImageUrl: "",
-      iacImageAlt: "",
-      member: location.search
+      iacImageAlt: ""
     };
   }
 
@@ -26,31 +25,31 @@ export default class IAC extends React.Component {
 
   componentWillMount() {
 
-    axios.get("http://localhost:8080/drupal8/rest_vep").then((response) => {
+    axios.get("http://localhost:8080/drupal/vep-biographies").then((response) => {
       const l = response.data.length;
       const bio = [];
       const firstBio = [];
 
       for (let j = 0; j < 2; j++) {
         firstBio.push({
-          imageurl: response.data[j].field_bio_secondary_image[0].url,
-          imagealt: response.data[j].field_bio_secondary_image[0].alt,
-          name: response.data[j].title[0].value,
-          company: response.data[j].field_iac_company[0].value,
-          role: response.data[j].field_iac_role[0].value,
-          id: response.data[j].field_id[0].value
+          imageurl: response.data[j].iac_image.src,
+          imagealt: response.data[j].iac_image.alt,
+          name: response.data[j].name,
+          company: response.data[j].iac_company,
+          role: response.data[j].iac_role,
+          id: response.data[j].id
         });
       }
 
       for (let i = 2; i < l; i++) {
 
         bio.push({
-          imageurl: response.data[i].field_bio_secondary_image[0].url,
-          imagealt: response.data[i].field_bio_secondary_image[0].alt,
-          name: response.data[i].title[0].value,
-          company: response.data[i].field_iac_company[0].value,
-          role: response.data[i].field_iac_role[0].value,
-          id: response.data[i].field_id[0].value
+          imageurl: response.data[i].iac_image.src,
+          imagealt: response.data[i].iac_image.alt,
+          name: response.data[i].name,
+          company: response.data[i].iac_company,
+          role: response.data[i].iac_role,
+          id: response.data[i].id
         });
       }
 
@@ -69,10 +68,10 @@ export default class IAC extends React.Component {
       });
     });
 
-    axios.get("http://localhost:8080/drupal8/Print_Image").then((response) => {
+    axios.get("http://localhost:8080/drupal/iac-print-image").then((response) => {
       this.setState({
-        iacImageUrl: response.data[0].field_print_image[0].url,
-        iacImageAlt: response.data[0].field_print_image[0].alt
+        iacImageUrl: response.data[0].image.src,
+        iacImageAlt: response.data[0].image.alt
       });
     })
   }

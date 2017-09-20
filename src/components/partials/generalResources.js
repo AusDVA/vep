@@ -14,16 +14,16 @@ export default class GeneralResourses extends React.Component {
 
   componentWillMount() {
 
-    axios.get("http://localhost:8080/drupal8/media").then((response) => {
+    axios.get("http://localhost:8080/drupal/media-release").then((response) => {
       const l = response.data.length;
       const bio = [];
 
       for (let i = 0; i < l; i++) {
 
         bio.push({
-          date : response.data[i].field_media_date[0].value ,
-          text : response.data[i].field_media_link[0].title ,
-          link : response.data[i].field_media_link[0].uri
+          date : response.data[i].media_date ,
+          text : response.data[i].link_text ,
+          link : response.data[i].link_url
         });
       }
 
