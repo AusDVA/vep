@@ -17,13 +17,13 @@ constructor(props) {
   this.focus();
  }
 
-   
+
 
 
     render() {
         return (
             <div>
-           
+
                 <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
                     <div className="row">
                     <ol ref="mainContent" tabIndex="-1" className="breadcrumb hidden-print no-border">
@@ -45,7 +45,7 @@ constructor(props) {
                         <p>Late nominations will not be accepted.</p>
 
                         <h2>How do I submit a nomination?</h2>
-                        <p>All nominations and relevant supporting evidence must be submitted online at <a target="_blank" href="https://veteransemployment.awardsplatform.com/">veteransemployment.awardsplatform.com<span className="sr-only">(this link will open in a new tab)</span></a></p>
+                        <p>All nominations and relevant supporting evidence must be submitted online at <a target="_blank" href="https://veteransemployment.awardsplatform.com/">veteransemployment.awardsplatform.com<span className="sr-only">(this link will open in a new tab)</span></a>.</p>
                         <p>You can amend and submit your nomination at any time until the closure of the nomination period.  However, the nomination must be submitted before midnight <span classname="no-wrap">22 December 2017</span> to be considered.  You will be reminded before nominations close if it has not been submitted.</p>
                         <p>Nominations must address the relevant award category criteria. </p>
 
@@ -87,8 +87,8 @@ constructor(props) {
                            For example, page numbers and paragraphs of Word or PDF documents that relate to an achievement or initiative should be referenced if more than one page of supporting evidence is submitted.</p>
 
                         <h2>What happens if I forget to include something in my nomination after I submit it online?</h2>
-                        <p>You can come back and add or change anything in your nomination prior to the closing date of <span className="no-wrap">22 December 2017.</span> This 
-                           can be done by accessing your nomination at <a target="_blank" href="https://veteransemployment.awardsplatform.com/">veteransemployment.awardsplatform.com<span className="sr-only">(this link will open in a new tab)</span></a> </p>
+                        <p>You can come back and add or change anything in your nomination prior to the closing date of <span className="no-wrap">22 December 2017.</span> This
+                           can be done by accessing your nomination at <a target="_blank" href="https://veteransemployment.awardsplatform.com/">veteransemployment.awardsplatform.com<span className="sr-only">(this link will open in a new tab)</span></a>.</p>
 
                         <h2>What does the judging process involve?</h2>
                         <p>Nominations will be reviewed by the Department of Veterans’ Affairs to ensure that they meet the eligibility criteria for the category and for completeness.</p>
@@ -98,7 +98,7 @@ constructor(props) {
                         <p>Judging panel/s will be comprised of judges who are independent and impartial.</p>
 
                         <h2>Will I find out about the outcome of my nomination?</h2>
-                        <p>You will be notified of the outcome of your nomination via the email address that you provided on the <a target="_blank" href="https://veteransemployment.awardsplatform.com/">Prime Minister's Veterans' Employment Awards platform.<span className="sr-only">(this link will open in a new tab)</span></a> </p>
+                        <p>You will be notified of the outcome of your nomination via the email address that you provided on the <a target="_blank" href="https://veteransemployment.awardsplatform.com/">Prime Minister's Veterans' Employment Awards platform<span className="sr-only">(this link will open in a new tab)</span></a>.</p>
                         <p>Finalists will be contacted and advised that they have been selected as a finalist and to organise travel to the event.</p>
 
                         <h2>Can I get feedback on my nomination if I am unsuccessful?</h2>
@@ -121,7 +121,7 @@ constructor(props) {
                       </div>
                      </div>
                  </div>
-     
+
             </div>
         );
     }

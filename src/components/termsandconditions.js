@@ -20,7 +20,7 @@ export default class TermsAndConditions extends React.Component {
     render() {
         return (
             <div>
-          
+
                 <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
                     <div className="row">
                     <ol ref="mainContent" tabIndex="-1" className="breadcrumb hidden-print no-border">
@@ -29,10 +29,10 @@ export default class TermsAndConditions extends React.Component {
                       <li className="active">Terms and Conditions</li>
                     </ol>
                       <div className="col-md-10" id="mainCol">
-                      
+
                           <h1 className="heading">Prime Minister’s Veterans’ Employment Awards Terms and Conditions</h1>
-                     
-                        
+
+
 
                         <p>To be eligible to submit a nomination for an Award in one of the Prime Minister’s Veterans’ Employment Awards categories, applicants must agree to the
                         following terms and conditions. Where applicable, they must also meet the specified eligibility requirements.</p>
@@ -40,7 +40,7 @@ export default class TermsAndConditions extends React.Component {
 
                         <h2>Awards Categories</h2>
                         <p>Nominations will be accepted for the following Prime Minister’s Veterans’ Employment Awards categories:</p>
-                        <ol>                     
+                        <ol>
                         <li>Leadership in Recruitment of Veterans</li>
                         <li>Veteran Employee of the Year</li>
                         <li>Veterans’ Employer of the Year – Large Business</li>
@@ -49,7 +49,7 @@ export default class TermsAndConditions extends React.Component {
                         <li>Excellence in Supporting Veterans’ Employment</li>
                         <li>Excellence in Supporting Spouse Employment</li>
                         </ol>
-                       
+
                         <p>Further details on categories, eligibility requirements and criteria are on the <Link to="/awards#top">Awards page.<span className="sr-only">(Awards page inside this website)</span></Link></p>
 
                         <h2>Applications must be submitted</h2>
@@ -71,7 +71,7 @@ export default class TermsAndConditions extends React.Component {
                          <li>seek the nominee’s agreement that, if they are selected as a finalist:</li>
                            <ul>
                             <li>they or their nominated representative will take all reasonable steps to make themselves available for the event held to present the Awards</li>
-                            <li>they will actively participate in presentations and media interviews if required</li>
+                            <li>they may be required to actively participate in presentations and media interviews</li>
                            </ul>
                          <li>note that DVA and/or the judging panel/s may request additional information or clarification in support of a nomination and, if so requested, such information or clarification must be provided within the specified timeframe</li>
                         </ul>
@@ -111,7 +111,7 @@ export default class TermsAndConditions extends React.Component {
                             the Australian Government, the judging panel/s, or Award sponsors, a nomination may not be considered or an award received by a nominee may be withdrawn </li>
                         <li>there will be no cash prizes or gift vouchers provided to Award winners </li>
                         <li>in submitting the application, the applicant warrants that they own the material included in their application (including any supporting evidence) and agrees to provide
-                            a licence to the judging panel/s and the Commonwealth to use that information for the purposes of the Prime Minister’s Veterans’ Employment Awards and the Prime Minister’s Veterans’ Employment Program </li>
+                            a licence to the judging panel/s and the Australian Government to use that information for the purposes of the Prime Minister’s Veterans’ Employment Awards and the Prime Minister’s Veterans’ Employment Program </li>
                         <li>in submitting the application, the applicant gives DVA permission to publish details of the nomination (such as but not limited to biographies and photographs), for the purposes of promoting the Prime Minister’s Veterans’ Employment
                             Awards and the Prime Minister’s Veterans’ Employment Program including publication on
                             the <Link to="/#top">Prime Minister’s Veterans’ Employment Program website<span className="sr-only">( Home page inside this website)</span></Link>,
@@ -126,17 +126,17 @@ export default class TermsAndConditions extends React.Component {
                         <h2>Privacy</h2>
                         <ul>
                          <li>The information provided on the nomination form is collected by DVA and may be made available to the judging panel/s (and other contracted service providers), the Australian Government, and the Industry Advisory Committee on Veterans' Employment solely for the purposes of the Awards and the Prime Minister's Veterans' Employment Program</li>
-                         <li>All information provided with an application will be managed in accordance with DVA’s Privacy Policy. The DVA <a target="_blank" href="https://www.dva.gov.au/site-information/privacy">Privacy Policy<span className="sr-only">(this link will open in a new tab)</span></a> contains 
+                         <li>All information provided with an application will be managed in accordance with DVA’s Privacy Policy. The DVA <a target="_blank" href="https://www.dva.gov.au/site-information/privacy">Privacy Policy<span className="sr-only">(this link will open in a new tab)</span></a> contains
                              information about the way DVA collects and uses personal information and the purposes for which it is held.
                              It also contains information about how you can correct any personal information which you believe is incorrect,
                              and how to make a complaint if you believe that your privacy has been breached</li>
-                        </ul> 
+                        </ul>
 
                         <TopLink/>
                       </div>
                      </div>
                  </div>
-           
+
             </div>
         );
     }

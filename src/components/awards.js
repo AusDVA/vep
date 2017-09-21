@@ -30,7 +30,7 @@ export default class Awards extends React.Component {
 
                  <section id="Apply" className="section-nobreak">
                    <h2>Apply Now</h2>
-                   <p>To submit a nomination, visit the <a target="_blank" href="https://veteransemployment.awardsplatform.com/">Prime Minister’s Veterans’ Employment Awards platform.<span className="sr-only">(this link will open in a new tab)</span></a></p>
+                   <p>To submit a nomination, visit the <a target="_blank" href="https://veteransemployment.awardsplatform.com/">Prime Minister’s Veterans’ Employment Awards platform<span className="sr-only">(this link will open in a new tab)</span></a>.</p>
                  </section>
 
                  <section id="KeyDates" className="section-nobreak">
@@ -77,7 +77,7 @@ export default class Awards extends React.Component {
                     <ul>
                       <li>Demonstrated excellence in attraction, recruitment, hiring and retention of military spouses.</li>
                       <li>Demonstrated commitment in supporting military spouses’ careers through serving members’ postings, deployments etc. through policies, support services and mobility programs.</li>
-                      <li>Evidence of collaboration with ADF support organisations (Defence Families Australia, Defence Community Organisaton, Department of Veterans’ Affairs etc.) to develop a robust and sustainable support model for military spouses.</li>
+                      <li>Evidence of collaboration with ADF support organisations (Defence Families Australia, Defence Community Organisation, Department of Veterans’ Affairs etc.) to develop a robust and sustainable support model for military spouses.</li>
                     </ul>
 
                     <p>Outstanding Contribution by an Organisation to Veterans’ Employment</p>
@@ -115,13 +115,13 @@ export default class Awards extends React.Component {
 
 
                         <h2 id="TermsConditions">Terms and Conditions</h2>
-                        <p>Nominations must be made in accordance with the Prime Minister's Veterans' Employment Awards <Link to="/termsandconditions#top">Terms and Conditions.<span className="sr-only">Terms and Conditions page inside this website</span></Link></p>
+                        <p>Nominations must be made in accordance with the Prime Minister's Veterans' Employment Awards <Link to="/termsandconditions#top">Terms and Conditions<span className="sr-only">Terms and Conditions page inside this website</span></Link>.</p>
 
                         <h2 id="FAQ">FAQs</h2>
                         <p>Here are <Link to="/faq#top">Frequently Asked Questions<span className="sr-only">Frequently asked questions page inside this website</span></Link> on the Prime Minister's Veterans' Employment Awards.</p>
 
                         <h2 id="Contact">Contact</h2>
-                        <p>Contact us by emailing <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a></p>
+                        <p>Contact us by emailing <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>.</p>
                       </section>
                  </div>
                   <TopLink />
@@ -130,7 +130,7 @@ export default class Awards extends React.Component {
           </div>
 
         </section>
-       
+
       </div>
     );
   }
