@@ -19,6 +19,7 @@ export default class Bio extends React.Component {
 
   constructor(props) {
     super(props);
+      this.focus = this.focus.bind(this);
     this.state = {
       loading : true,
       error : false,
@@ -26,12 +27,18 @@ export default class Bio extends React.Component {
     };
   }
 
-  componentWillMount() {
+  focus() {
+    this.focus();
+  }
 
+  componentWillMount() {
+    // get the bios from drupal
     axios.get("http://localhost:8080/drupal/vep-biographies").then((response) => {
+      //length of the data response.
       const l = response.data.length;
       const bio = [];
 
+      // loop through the data and push into variables to use in the content
       for (let i = 0; i < l; i++) {
 
         bio.push({
@@ -50,20 +57,31 @@ export default class Bio extends React.Component {
 
         });
       }
-
+      // success push data into state, and remove loading icon
       this.setState({
         data: bio,
         error : false,
         loading : false
       });
 
-
+      // display error message
     }).catch((error) => {
       this.setState({
         loading : false,
         error : true
       });
+
     });
+  }
+
+  componentDidUpdate() {
+    var loc = (location.search);
+    var ref = loc.substr(8);
+
+    //focus the correct bio once payload received from drupal
+    if (!this.state.loading && !this.state.error){
+      this.refs[ref].focus();
+    }
   }
 
   render() {

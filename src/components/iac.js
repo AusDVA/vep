@@ -25,34 +25,39 @@ export default class IAC extends React.Component {
 
   componentWillMount() {
 
-    axios.get("http://localhost:8080/drupal/vep-biographies").then((response) => {
+    // get content for bios from drupal
+    axios.get("http://localhost:8080/drupal/iac-biographies").then((response) => {
+      //length of druapl response.
       const l = response.data.length;
       const bio = [];
       const firstBio = [];
 
+      // loop through the first two bios to get the first row of data
       for (let j = 0; j < 2; j++) {
         firstBio.push({
-          imageurl: response.data[j].iac_image.src,
-          imagealt: response.data[j].iac_image.alt,
+          imageurl: response.data[j].image.src,
+          imagealt: response.data[j].image.alt,
           name: response.data[j].name,
-          company: response.data[j].iac_company,
-          role: response.data[j].iac_role,
+          company: response.data[j].company,
+          role: response.data[j].role,
           id: response.data[j].id
         });
       }
 
+      // loop through the rest of the bios
       for (let i = 2; i < l; i++) {
 
         bio.push({
-          imageurl: response.data[i].iac_image.src,
-          imagealt: response.data[i].iac_image.alt,
+          imageurl: response.data[i].image.src,
+          imagealt: response.data[i].image.alt,
           name: response.data[i].name,
-          company: response.data[i].iac_company,
-          role: response.data[i].iac_role,
+          company: response.data[i].company,
+          role: response.data[i].role,
           id: response.data[i].id
         });
       }
 
+      // data loaded, push the data to the arrays use in the content.
       this.setState({
         data : bio,
         firstData : firstBio,
@@ -60,7 +65,7 @@ export default class IAC extends React.Component {
         error : false
       });
 
-
+      // set error message
     }).catch((error) => {
       this.setState({
         loading: false,
@@ -68,6 +73,7 @@ export default class IAC extends React.Component {
       });
     });
 
+    // get the print image of the bios.
     axios.get("http://localhost:8080/drupal/iac-print-image").then((response) => {
       this.setState({
         iacImageUrl: response.data[0].image.src,

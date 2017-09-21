@@ -15,16 +15,17 @@ export default class IACNews extends React.Component {
  }
 
  componentWillMount() {
+   // get the latest news item from drupal
    axios.get("http://localhost:8080/drupal/iac-latest-news").then((response) => {
 
-
+     // success push the news item into state
      this.setState({
        loading : false,
        error : false,
        body : response.data[0].body
      });
 
-
+     //error, diplay error message
    }).catch((error) => {
      this.setState({
        loading: false,
@@ -51,6 +52,7 @@ export default class IACNews extends React.Component {
         <div id="News" className="no-border" tabIndex="-1" ref="iacNews">
   <h2>Latest News</h2>
   <div dangerouslySetInnerHTML={{__html: this.state.body}}/>
+  
   <div className= { this.state.error ? "alert alert-danger" : "alert alert-danger hidden"}>
      <strong>Error!</strong> Unfortunatly there has been a communications error, try refreshing the page.
                              If the problem still persists please contact <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>

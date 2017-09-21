@@ -46,7 +46,7 @@ export default class News extends React.Component {
 
       const news = [];
       const news1 = [];
-
+      // first news item
       news.push({
         imageurl: response.data[0].image.src,
         imagealt: response.data[0].image.alt,
@@ -56,7 +56,7 @@ export default class News extends React.Component {
         imagelinkint: response.data[0].image_int,
         imagelinkext: response.data[0].image_ext
       });
-
+      //second news item
       news1.push({
         imageurl: response.data[1].image.src,
         imagealt: response.data[1].image.alt,
@@ -68,7 +68,7 @@ export default class News extends React.Component {
       });
 
       this.setState({data: news, data1: news1, loading: false, error: false});
-      
+
     }).catch((error) => {
       this.setState({loading: false, error: true});
     });

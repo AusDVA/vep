@@ -85,7 +85,7 @@ export default class NewsArchive extends React.Component {
                 <div key={index}>
                   <section className="section-nobreak">
 
-                    <h2 dangerouslySetInnerHTML={{__html: data.title}} id={data.id}></h2>
+                    <h2 id={data.id}>{data.title}</h2>
                     <div dangerouslySetInnerHTML={{__html: data.body}}/>
                   </section>
                   <BackLink/>
