@@ -50,7 +50,7 @@ export default class TermsAndConditions extends React.Component {
                         <li>Excellence in Supporting Spouse Employment</li>
                         </ol>
 
-                        <p>Further details on categories, eligibility requirements and criteria are on the <Link to="/awards#top">Awards page.<span className="sr-only">(Awards page inside this website)</span></Link></p>
+                        <p>Further details on categories, eligibility requirements and criteria are on the <Link to="/awards#top">Awards page<span className="sr-only">(Awards page inside this website)</span></Link>.</p>
 
                         <h2>Applications must be submitted</h2>
                         <ul>
