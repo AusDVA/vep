@@ -1,5 +1,7 @@
 import React from "react";
 import axios from "axios";
+import Error from "./error";
+import Loading from "./loading";
 
 export default class GeneralResourses extends React.Component {
 
@@ -48,15 +50,17 @@ export default class GeneralResourses extends React.Component {
                 <h3>Australian Defence Force Separation Data</h3>
                 <p><a href={process.env.PUBLIC_URL + '/doc/ADF Separations 2012 to 2016.xlsx'} title="ADF Separations 2012 to 2016.xlsx">ADF Separations 2012-2016 by State and Category (XLSX 808 KB)</a></p>
 
-                <h3>Media Releases</h3>
-                <div className= { this.state.error ? "alert alert-danger" : "alert alert-danger hidden"}>
-                   <strong>Error!</strong> Unfortunatly there has been a communications error, try refreshing the page.
-                                           If the problem still persists please contact <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>
-                 </div>
+                <div>
+                  <h3>Media Releases</h3>
 
-                 <div className="col-md-12 text-center spinner">
-                     <i className={ this.state.loading ? "fa fa-spinner fa-spin" : "fa fa-spinner fa-spin hidden"}/>
-                 </div>
+                  {this.state.loading &&
+                    <Loading />
+                  }
+
+                  {this.state.error &&
+                    <Error />
+                  }
+                </div>
 
                <ul className="list-unstyled">
                  {this.state.data.map((data, index) => (

@@ -1,4 +1,6 @@
 import React from "react";
+import Error from "./partials/error";
+import Loading from "./partials/loading";
 import {HashLink as Link} from "react-router-hash-link";
 import axios from "axios";
 
@@ -85,6 +87,26 @@ export default class Bio extends React.Component {
   }
 
   render() {
+
+    if (this.state.loading) {
+      return (
+        <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
+            <h1 className="hidden-print">Member Biographies</h1>
+        <Loading />
+      </div>
+
+      );
+    }
+
+    if (this.state.error) {
+      return (
+        <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
+            <h1 className="hidden-print">Member Biographies</h1>
+        <Error />
+      </div>
+      );
+    }
+
     return (
       <div id="content" className="body-content container no-float-print no-border" tabIndex="-1" autoFocus>
         <ol className="breadcrumb hidden-print">
@@ -96,15 +118,6 @@ export default class Bio extends React.Component {
         <h2 className="print-only" aria-hidden="true">Industry Advisory Committee on Veterans' Employment Member biographies</h2>
 
         <div>
-
-          <div className= { this.state.error ? "alert alert-danger" : "alert alert-danger hidden"}>
-             <strong>Error!</strong> Unfortunatly there has been a communications error, try refreshing the page.
-                                     If the problem still persists please contact <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>
-           </div>
-
-           <div className="col-md-12 text-center spinner">
-               <i className={ this.state.loading ? "fa fa-spinner fa-spin" : "fa fa-spinner fa-spin hidden"}/>
-           </div>
 
           {this.state.data.map((data, index) => (
             <section key={index} ref={data.id  +"Bio"} tabIndex="-1" className="bio-section no-border" id={data.id}>

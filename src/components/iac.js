@@ -1,6 +1,8 @@
 import React from "react";
 import IacNews from "./partials/iacnews";
 import TopLink from "./partials/topLink";
+import Loading from "./partials/loading";
+import Error from "./partials/error";
 import axios from "axios";
 import {HashLink as Link} from "react-router-hash-link";
 
@@ -130,14 +132,14 @@ export default class IAC extends React.Component {
                 <h2 className="no-border" ref="iacMembership" tabIndex="-1" id="Membership">Membership</h2>
                 <p>The Committee comprises a Chair, Deputy Chair, a representative of small businesses, a representative of the Australian Chamber of Commerce and Industry, and representatives of ten other organisations.</p>
                 <img className="print-only bio-img text-center" src={this.state.iacImageUrl} alt={this.state.iacImageAlt} aria-hidden="true"/>
-                <div className= { this.state.error ? "alert alert-danger" : "alert alert-danger hidden"}>
-                   <strong>Error!</strong> Unfortunatly there has been a communications error, try refreshing the page.
-                                           If the problem still persists please contact <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>
-                 </div>
-                 <div className="col-md-12 text-center spinner">
-                     <i className={ this.state.loading ? "fa fa-spinner fa-spin" : "fa fa-spinner fa-spin hidden"}/>
-                 </div>
 
+                {this.state.loading &&
+                  <Loading />
+                }
+
+                {this.state.error &&
+                  <Error />
+                }
 
                 <div className="hidden-print">
                   <div className="col-md-12 row">

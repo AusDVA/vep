@@ -1,6 +1,8 @@
 import React from "react";
 import {HashLink as Link} from "react-router-hash-link";
 import TopLink from "./partials/topLink";
+import Loading from "./partials/loading";
+import Error from "./partials/error";
 import axios from "axios";
 
 class BackLink extends React.Component {
@@ -49,6 +51,26 @@ export default class NewsArchive extends React.Component {
   }
 
   render() {
+
+    if (this.state.loading) {
+      return (
+        <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
+          <h1>Industry Advisory Committee News Archive</h1>
+        <Loading />
+      </div>
+
+      );
+    }
+
+    if (this.state.error) {
+      return (
+        <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
+          <h1>Industry Advisory Committee News Archive</h1>
+        <Error />
+      </div>
+      );
+    }
+
     return (
       <div>
         <div id="content" className="body-content container no-border" tabIndex="-1" autoFocus>
@@ -71,14 +93,6 @@ export default class NewsArchive extends React.Component {
                   ))}
 
                 </ul>
-              </div>
-              <div className={this.state.error ? "alert alert-danger" : "alert alert-danger hidden"}>
-                <strong>Error!</strong>
-                Unfortunatly there has been a communications error, try refreshing the page. If the problem still persists please
-                contact <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>
-              </div>
-              <div className="col-md-12 text-center spinner">
-                  <i className={ this.state.loading ? "fa fa-spinner fa-spin" : "fa fa-spinner fa-spin hidden"}/>
               </div>
 
               {this.state.data.map((data, index) => (

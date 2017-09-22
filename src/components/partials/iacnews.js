@@ -1,5 +1,7 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import Error from "./error";
+import Loading from "./loading";
 import axios from "axios";
 
 
@@ -52,15 +54,14 @@ export default class IACNews extends React.Component {
         <div id="News" className="no-border" tabIndex="-1" ref="iacNews">
   <h2>Latest News</h2>
   <div dangerouslySetInnerHTML={{__html: this.state.body}}/>
-  
-  <div className= { this.state.error ? "alert alert-danger" : "alert alert-danger hidden"}>
-     <strong>Error!</strong> Unfortunatly there has been a communications error, try refreshing the page.
-                             If the problem still persists please contact <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>
-   </div>
 
-   <div className="col-md-12 text-center spinner">
-       <i className={ this.state.loading ? "fa fa-spinner fa-spin" : "fa fa-spinner fa-spin hidden"}/>
-   </div>
+  {this.state.loading &&
+    <Loading />
+  }
+
+  {this.state.error &&
+    <Error/>
+  }
 
       <p><Link to="/news-archive#top">Industry Advisory Committee News Archive</Link></p>
    </div>

@@ -1,6 +1,8 @@
 import React from 'react';
 import {HashLink as Link} from "react-router-hash-link";
 import ToggleDisplay from "react-toggle-display";
+import Loading from "./loading";
+import Error from "./error";
 import axios from "axios";
 export default class News extends React.Component {
 
@@ -75,22 +77,22 @@ export default class News extends React.Component {
   }
 
   render() {
-
     return (
       <div className="container section-nobreak no-float-print">
         <div className="news row">
 
           <div className="col-sm-12">
             <h2>Recent news</h2>
-          <div className= { this.state.error ? "alert alert-danger" : "alert alert-danger hidden"}>
-             <strong>Error!</strong> Unfortunatly there has been a communications error, try refreshing the page.
-                                     If the problem still persists please contact <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>
-           </div>
+            {this.state.loading &&
+              <Loading />
+            }
 
-           <div className="col-md-12 text-center spinner">
-               <i className={ this.state.loading ? "fa fa-spinner fa-spin" : "fa fa-spinner fa-spin hidden"}/>
-           </div>
+            {this.state.error &&
+              <Error />
+            }
           </div>
+
+
 
           {this.state.data.map((data, index) => (
             <section key={index} className="section-nobreak">
