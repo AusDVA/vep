@@ -27,8 +27,9 @@ export default class IAC extends React.Component {
 
   componentWillMount() {
 
-    // get content for bios from drupal
-    axios.get("http://localhost:8080/drupal/iac-biographies").then((response) => {
+    //get the current url for the zuul request
+    const URL = location.protocol + "//" + location.hostname + ":8999/" ;
+    axios.get(URL + "iac-biographies").then((response) => {
       //length of druapl response.
       const l = response.data.length;
       const bio = [];
@@ -76,7 +77,7 @@ export default class IAC extends React.Component {
     });
 
     // get the print image of the bios.
-    axios.get("http://localhost:8080/drupal/iac-print-image").then((response) => {
+    axios.get(URL + "iac-print-image").then((response) => {
       this.setState({
         iacImageUrl: response.data[0].image.src,
         iacImageAlt: response.data[0].image.alt

@@ -43,8 +43,9 @@ export default class News extends React.Component {
   }
 
   componentWillMount() {
-
-    axios.get("http://localhost:8080/drupal/news").then((response) => {
+    //get the current url for the zuul request
+    const URL = location.protocol + "//" + location.hostname + ":8999/" ;
+    axios.get(URL + "news").then((response) => {
 
       const news = [];
       const news1 = [];

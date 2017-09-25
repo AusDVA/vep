@@ -15,8 +15,9 @@ export default class GeneralResourses extends React.Component {
   }
 
   componentWillMount() {
-
-    axios.get("http://localhost:8080/drupal/media-release").then((response) => {
+    //get the current url for the zuul request
+    const URL = location.protocol + "//" + location.hostname + ":8999/" ;
+    axios.get(URL + "media-release").then((response) => {
       const l = response.data.length;
       const bio = [];
 

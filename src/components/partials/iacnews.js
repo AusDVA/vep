@@ -2,6 +2,8 @@ import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import Error from "./error";
 import Loading from "./loading";
+
+
 import axios from "axios";
 
 
@@ -17,8 +19,10 @@ export default class IACNews extends React.Component {
  }
 
  componentWillMount() {
-   // get the latest news item from drupal
-   axios.get("http://localhost:8080/drupal/iac-latest-news").then((response) => {
+   //get the current url for the zuul request
+   const URL = location.protocol + "//" + location.hostname + ":8999/" ;
+   axios.get(URL + "iac-latest-news").then((response) => {
+
 
      // success push the news item into state
      this.setState({

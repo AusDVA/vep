@@ -29,8 +29,9 @@ export default class NewsArchive extends React.Component {
   }
 
   componentWillMount() {
-
-    axios.get("http://localhost:8080/drupal/iac-news-archive").then((response) => {
+    //get the current url for the zuul request
+    const URL = location.protocol + "//" + location.hostname + ":8999/" ;
+    axios.get(URL + "iac-news-archive").then((response) => {
       const l = response.data.length;
       const news = [];
 
