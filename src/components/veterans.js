@@ -51,7 +51,7 @@ export default class Veterans extends React.Component {
                                     can search for jobs that employers have flagged.</p>
                                 <p>The jobactive website also provides <a target="_blank"
                                     href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">
-                                    information tailored for veteran jobseekers. <span className="sr-only">(this link will open in a new tab)</span> </a>
+                                    information tailored for veteran jobseekers<span className="sr-only">(this link will open in a new tab)</span> </a>.
                                 </p>
 
                                 <h2 id="Industry-Advisory-Committee">Industry Advisory Committee on Veterans’
@@ -113,7 +113,7 @@ export default class Veterans extends React.Component {
                                 <h3>Government of Victoria</h3>
                                 <p>In November 2016, the Premier announced that he would establish a <a target="_blank"
                                         href="http://www.dpc.vic.gov.au/index.php/veterans/public-sector-veterans-employment-strategy">Veterans
-                                        Public Sector Employment initiative.<span className="sr-only">(this link will open in a new tab)</span></a> The
+                                        Public Sector Employment initiative<span className="sr-only">(this link will open in a new tab)</span></a>. The
                                     initiative will assist up to 250 veterans find jobs in the Victorian
                                     public sector. </p>
                                 <p>The Government of Victoria is also working with the RSL Victorian Branch to establish
