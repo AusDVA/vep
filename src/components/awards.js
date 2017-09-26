@@ -107,7 +107,7 @@ export default class Awards extends React.Component {
                       <h3>Other Categories</h3>
                        <p>Two Awards will be presented that are not open for nominations.</p>
                        <p>The Outstanding Contribution by an Organisation to Veterans’ Employment will recognise the standout winner from the categories listed under organisations.</p>
-                       <p>The Outstanding Contribution by an Individual to Veterans’ Employment will be selected from a list compiled from suggestions invited directly from Government, business and veteran communities.</p>
+                       <p>The Outstanding Contribution by an Individual to Veterans’ Employment will be selected from a list compiled from suggestions invited directly from the Government, business and veteran communities.</p>
 
 
                         <h2 id="TermsConditions">Terms and Conditions</h2>
