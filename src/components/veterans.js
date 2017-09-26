@@ -151,11 +151,11 @@ export default class Veterans extends React.Component {
                                 <p>The <a target="_blank" href="http://www.dva.gov.au/">Department of Veterans' Affairs<span className="sr-only">(this link will open in a new tab)</span></a> develops and delivers programs and services that assist the veteran and defence force communities.</p>
 
                                 <h3>Defence Community Organisation</h3>
-                                <p><a target="_blank" href="http://www.defence.gov.au/DCO/Transitions/">Defence Community Organisation<span className="sr-only">(this link will open in a new tab)</span></a> assists veterans to obtain practical guidance and
+                                <p><a target="_blank" href="http://www.defence.gov.au/dco/transition/">Defence Community Organisation<span className="sr-only">(this link will open in a new tab)</span></a> assists veterans to obtain practical guidance and
                                     information to help them to transition into civilian life.</p>
 
                                 <h3>ADF Member and Family Transition Guide – A Practical Manual to Transitioning</h3>
-                                <p>The <a target="_blank" href="http://www.defence.gov.au/DCO/_Master/documents/Transition/ADF-Transition-Handbook.pdf">ADF Member and Family Transition Guide – A Practical Manual to Transitioning (PDF 1.59 MB)<span className="sr-only">Opens a pdf file in a new tab</span></a> contains information on the transition process for permanent ADF members.  
+                                <p>The <a target="_blank" href="http://www.defence.gov.au/DCO/_Master/documents/Transition/ADF-Transition-Handbook.pdf">ADF Member and Family Transition Guide – A Practical Manual to Transitioning (PDF 1.59 MB)<span className="sr-only">Opens a pdf file in a new tab</span></a> contains information on the transition process for permanent ADF members.
                                     The Guide includes information on support services available to transitioning ADF members and their administrative requirements.</p>
 
                                 <h3>Career Transition Assistance Scheme</h3>

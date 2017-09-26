@@ -80,11 +80,6 @@ export default class Awards extends React.Component {
                       <li>Evidence of collaboration with ADF support organisations (Defence Families Australia, Defence Community Organisation, Department of Veterans’ Affairs etc.) to develop a robust and sustainable support model for military spouses.</li>
                     </ul>
 
-                    <p>Outstanding Contribution by an Organisation to Veterans’ Employment</p>
-                    <ul>
-                      <li>Standout winner from the above categories</li>
-                    </ul>
-
                     </section>
 
                     <section className="section-nobreak">
@@ -108,10 +103,11 @@ export default class Awards extends React.Component {
                         <li>Supporting evidence from the nominee’s supervisor, management or Board of their contribution.</li>
                       </ul>
 
-                      <p>Outstanding Contribution by an Individual to Veterans’ Employment (nominations by invitation only)</p>
-                        <ul>
-                          <li>An individual who has demonstrated a strong commitment to promoting the employment of veterans and ensuring that veterans are well supported by employers.</li>
-                        </ul>
+
+                      <h3>Other Categories</h3>
+                       <p>Two Awards will be presented that are not open for nominations.</p>
+                       <p>The Outstanding Contribution by an Organisation to Veterans’ Employment will recognise the standout winner from the categories listed under organisations.</p>
+                       <p>The Outstanding Contribution by an Individual to Veterans’ Employment will be selected from a list compiled from suggestions invited directly from Government, business and veteran communities.</p>
 
 
                         <h2 id="TermsConditions">Terms and Conditions</h2>
