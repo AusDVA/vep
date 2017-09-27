@@ -51,7 +51,7 @@ export default class Veterans extends React.Component {
                                     can search for jobs that employers have flagged.</p>
                                 <p>The jobactive website also provides <a target="_blank"
                                     href="https://jobsearch.gov.au/jobseeker-info/employment-assistance-for-veterans">
-                                    information tailored for veteran jobseekers<span className="sr-only">(this link will open in a new tab)</span> </a>.
+                                    information tailored for veteran jobseekers<span className="sr-only">(this link will open in a new tab)</span></a>.
                                 </p>
 
                                 <h2 id="Industry-Advisory-Committee">Industry Advisory Committee on Veterans’
