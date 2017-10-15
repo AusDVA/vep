@@ -3,13 +3,18 @@ import ReCAPTCHA from 'react-google-recaptcha';
 import PropTypes from 'prop-types';
 
 const URL = location.protocol + "//" + location.hostname;
+var SITE_KEY = "";
 
 if (URL == "http://localhost") {
-  var SITE_KEY = "6Le_bS0UAAAAADQ60ar1SLU-w-Q_pftEV91VVq1z";
+  SITE_KEY = "6Le_bS0UAAAAADQ60ar1SLU-w-Q_pftEV91VVq1z";
+}
+
+else if (URL == "https://veteransemployment.gov.au") {
+  SITE_KEY = "6Lc9tC0UAAAAAFnez6vux4tQ36WC8hlJOesHKrEt";
 }
 
 else {
-  var SITE_KEY = "6Lc9tC0UAAAAAFnez6vux4tQ36WC8hlJOesHKrEt";
+  SITE_KEY = "6LdjjzQUAAAAAOIOCdBQFNo2WUaxtBO1Nb9cZAxG";
 }
 
 const Captcha = (props) => (
@@ -24,7 +29,6 @@ const Captcha = (props) => (
       </span>
     </div>
 );
-
 
 Captcha.propTypes = {
   input: PropTypes.any.isRequired
