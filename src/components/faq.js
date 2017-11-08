@@ -69,7 +69,11 @@ constructor(props) {
                         <p>Where multiple organisations have been involved in developing a policy, strategy or initiative that supports and/or creates veteran or spouse employment, a lead individual or organisation should submit the nomination on behalf of all parties.</p>
 
                         <h2>What are the judging panel/s looking for in a nomination?</h2>
-                        <p>Judging panel/s are looking for nominations that directly address the category criteria. Remember that judges may have a lot of nominations to consider so you should ensure that all information provided in your nomination, including supporting evidence, is clear, concise and relevant.</p>
+                        <p>Judging panel/s are looking for nominations that directly address the category criteria.</p>
+                        <p>Hints for addressing nomination criteria for the category recognising individuals can be accessed <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Individuals.pdf'} target="_blank">here (PDF 510 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</p>
+                        <p>Hints for addressing nomination criteria relating to categories recognising organisations can be accessed <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Organisations.pdf'} target="_blank">here (PDF 2 MB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</p>
+                        <p>Hints for addressing criteria relating to the category recognising recruitment, specialist and not-for-profit organisations can be accessed <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Recruitment_Specialist_Not-for-profit.pdf'} target="_blank">here (PDF 377 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</p>
+                        <p>Remember that judges may have a lot of nominations to consider so you should ensure that all information provided in your nomination, including supporting evidence, is clear, concise and relevant.</p>
 
                         <h2>What evidence can I provide in support of my nomination?</h2>
                         <p>Any evidence can be submitted with a nomination, providing it supports and/or is relevant.  This may include (but is not limited to):</p>
@@ -108,7 +112,7 @@ constructor(props) {
                         <p>You can visit the Awards section of the <Link to="/#top">Prime Minister’s Veterans’ Employment Program website<span className="sr-only">( Home page inside this website)</span></Link> to view Award finalists and winners.</p>
 
                         <h2>When will the Awards event be held?</h2>
-                        <p>The Awards event is expected to be held in early 2018, but the final date is yet to be confirmed.</p>
+                        <p>The Awards event will be held in March 2018.</p>
 
                         <h2>Are there prizes?</h2>
                         <p>Winners of the Prime Minister’s Veterans’ Employment Awards will be presented with a trophy. </p>
