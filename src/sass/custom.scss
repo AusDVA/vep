@@ -1,6 +1,8 @@
 // navbar
 // Beta version banner
-.beta {
+.beta,
+.subcribe,
+.subcribe-mobile {
   border-radius: 8px;
   font-size: 1.2rem;
   padding: 0.4em 1em 0.4em 1em;
@@ -9,6 +11,47 @@
   letter-spacing: 1px;
   background: #1057a7;
   color: #fff;
+  line-height: 2.5;
+}
+
+
+#latest-news-subscribe {
+  margin-bottom : -1.3em ;
+  padding-bottom : 15px;
+
+}
+
+#subcribe > a {
+  text-decoration: none;
+  border-bottom: transparent !important;
+  vertical-align: middle;
+}
+
+#subcribe-mobile > a {
+  text-decoration: none;
+  border-bottom: transparent !important;
+}
+
+.news-wrapper {
+  margin-top : 4em;
+}
+
+#subcribe > a:hover,
+#subcribe > a:focus,
+#subcribe-mobile > a:hover,
+#subcribe-mobile > a:focus {
+  background : #fff;
+}
+
+.subcribe {
+  background : #b3146f;
+  padding: 0.2em 1.2em 0.2em 1.2em;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.subcribe-mobile {
+  background : #b3146f;
 }
 
 .header-message {
@@ -51,19 +94,24 @@ p.mobile-menu.text-center {
   color: $light-blue;
   font-weight: bold;
   font-size: $p-font-size;
+
 }
 
 span.glyphicon.glyphicon-chevron-down {
-  margin-left: 3em;
+  margin-left: 2em;
 }
 
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .nav > li > a {
       padding: 0;
       margin-right: 1.5em;
   }
   .mobile-nav {
+    display: none;
+  }
+
+  #subcribe-mobile {
     display: none;
   }
 }
@@ -89,7 +137,7 @@ span.glyphicon.glyphicon-chevron-down {
     max-height: 72px;
     margin: 1em 0 1.5em 0;
     -ms-interpolation-mode: bicubic;
-    
+
 }
 
 .logo:hover,
@@ -110,7 +158,7 @@ span.glyphicon.glyphicon-chevron-down {
   padding-right: 0;
 }
 
-@media (max-width: 991.99px) {
+@media (max-width: 1199.99px) {
 
    .nav > li > a {
     border-top: 2px solid #bbbbbb;
@@ -341,7 +389,6 @@ h5 {
 .panel-footer small {
   vertical-align: middle;
   line-height: 4;
-
 }
 
 .panel-footer .list-inline a {
@@ -350,9 +397,12 @@ h5 {
 
 .list-inline li a {
    margin: .4em 1em .8em .4em;
-   color: $light-blue;
+   color: #313131;
+   border-bottom: solid 1px #1B7991;
+   //color: $light-blue;
    font-weight: bold;
    font-size: $p-font-size;
+   line-height: 1.6
  }
 
  .list-inline li a:focus {
@@ -361,6 +411,37 @@ h5 {
    outline: 1px solid #313131;
    outline-offset: 1px;
  }
+
+ @media (max-width: 767.99px ) {
+   .desktop-footer {
+     display : none;
+   }
+   .list-inline li a {
+
+    }
+    #mobile-footer > div.col-sm-6.col-xs-12.col-md-10 > ul {
+      margin-top : -1.25em;
+    }
+
+    .panel-footer small {
+      font-size: 1.6rem;
+    }
+
+   .panel-footer .list-inline a {
+     font-size: 125%;
+   }
+ }
+
+ @media (min-width: 768px ) {
+   #mobile-footer {
+     display : none;
+   }
+
+
+
+ }
+
+
 
 // misc
 
@@ -409,4 +490,9 @@ h5 {
 
 h1.heading {
   width : 90%;
+}
+
+#latest-news-h3 {
+  margin-bottom : 1.5em;
+  margin-top : 0.5em;
 }

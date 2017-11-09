@@ -42,9 +42,13 @@ export default class NavBar extends React.Component {
                 <NavLink exact to="/" className="logo"><img alt="Australian Government Logo" src={GOVLogo} /></NavLink>
           </div>
 
-          <div className="col-md-2 col-xs-6 col-md-offset-2"><span className="beta">BETA</span></div>
+          <ul className="list-contents col-lg-offset-10 col-sm-offset-8">
+            <li><span className="beta">BETA</span></li>
+            <li id="subcribe-mobile"><a href="http://eepurl.com/c-ABGj" target="_blank" rel="noopener"><span className="subcribe-mobile">SUBSCRIBE</span>
+            <span className="sr-only">(this link will open in a new tab)</span></a></li>
+          </ul>
 
-          <div className="navbar-header col-md-1 col-xs-12 text-center">
+          <div className="navbar-header col-md-6 col-sm-4 col-xs-12 text-center">
      <button onClick={this.handleClick}  type="button" className="navbar-toggle collapsed" data-toggle="collapse"
              data-target="#mobile-nav" aria-expanded="false" aria-label="Toggle navigation">
         <a href="#"><p  className="mobile-menu text-center">Menu
@@ -64,6 +68,8 @@ export default class NavBar extends React.Component {
        <li><NavLink to="/industry-advisory-committee">Industry Advisory Committee</NavLink></li>
        <li><NavLink to="/awards">Awards</NavLink></li>
        <li><NavLink to="/contact">Contact </NavLink></li>
+       <li id="subcribe"><a href="http://eepurl.com/c-ABGj" target="_blank" rel="noopener"><span className="subcribe">SUBSCRIBE</span>
+           <span className="sr-only">(this link will open in a new tab)</span></a></li>
      </ul>
     </div>
 </nav>
