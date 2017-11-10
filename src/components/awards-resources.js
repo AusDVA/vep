@@ -110,8 +110,8 @@ export default class Awards extends React.Component {
 
                         <h2 id="newsletter">Sample newsletter content</h2>
                         <br/>
-                        <p><b><center>Know an outstanding business that employs veterans?<br/>
-                             Nominate them for a Prime Minister’s Veterans’ Employment Award</center> </b></p>
+                        <p className="text-center"><b>Know an outstanding business that employs veterans?<br/>
+                             Nominate them for a Prime Minister’s Veterans’ Employment Award</b></p>
 
                         <p>Men and women of the Australian Defence Force (ADF) are highly trained, diligent, professional and adaptable.  These skills, abilities and behaviours
                          make them valuable employees in business. Are you an organisation who has given yourself a competitive edge by hiring veterans? Or, are you a veteran or
@@ -150,7 +150,7 @@ export default class Awards extends React.Component {
                            Manager at EY since late 2015, where his work focuses on advising clients how best to solve project problems and issues. </p>
 
                            <div className="row"><div className="col-md-6">
-                             <Video tabIndex="0" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
+                             <Video tabIndex="-1" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
                                <source src={VideoKrishaans} type="video/mp4"/>
                                <source src={VideoKrishaans} type="video/ogg"/>
                                Your browser does not support the video tag. See more of <a tabIndex="-1" href={process.env.PUBLIC_URL + '/doc/ADF Transitions - Krishaans story.mp4'} target="_blank">Krishaan's transition story<span className="sr-only">Opens a mp4 video file in a new tab</span></a>.
@@ -167,7 +167,7 @@ export default class Awards extends React.Component {
                           developing her own organic skincare company, "Indira Organics" in Queensland. </p>
 
                           <div className="row"><div className="col-md-6">
-                            <Video tabIndex="0" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
+                            <Video tabIndex="-1" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
                               <source src={VideoCherieAnn} type="video/mp4"/>
                               <source src={VideoCherieAnn} type="video/ogg"/>
                               Your browser does not support the video tag. See more of <a tabIndex="-1" href={process.env.PUBLIC_URL + '/doc/ADF Transitions - Cherie-Anns story.mp4'} target="_blank">Cherie-Ann's transition story<span className="sr-only">Opens a mp4 video file in a new tab</span></a>.
@@ -184,7 +184,7 @@ export default class Awards extends React.Component {
                            to find civilian employment.  </p>
 
                            <div className="row"><div className="col-md-6">
-                             <Video tabIndex="0" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
+                             <Video tabIndex="-1" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
                                <source src={VideoJoels} type="video/mp4"/>
                                <source src={VideoJoels} type="video/ogg"/>
                                Your browser does not support the video tag. See more of <a tabIndex="-1" href={process.env.PUBLIC_URL + '/doc/ADF Transitions - Joels story.mp4'} target="_blank">Joel's transition story<span className="sr-only">Opens a mp4 video file in a new tab</span></a>.
@@ -202,7 +202,7 @@ export default class Awards extends React.Component {
                            for procurement, inventory, repairs and supply chain planning. </p>
 
                            <div className="row"><div className="col-md-6">
-                             <Video tabIndex="0" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
+                             <Video tabIndex="-1" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
                                <source src={VideoRenaes} type="video/mp4"/>
                                <source src={VideoRenaes} type="video/ogg"/>
                                Your browser does not support the video tag. See more of <a tabIndex="-1" href={process.env.PUBLIC_URL + '/doc/ADF Transitions - Renaes story.mp4'} target="_blank">Renae's transition story<span className="sr-only">Opens a mp4 video file in a new tab</span></a>.
@@ -218,7 +218,7 @@ export default class Awards extends React.Component {
                            including multi-million dollar development projects. </p>
 
                           <div className="row"><div className="col-md-6">
-                          <Video tabIndex="0" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
+                          <Video tabIndex="-1" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
                             <source src={VideoRichards} type="video/mp4"/>
                             <source src={VideoRichards} type="video/ogg"/>
                             Your browser does not support the video tag. See more of <a tabIndex="-1" href={process.env.PUBLIC_URL + '/doc/ADF Transitions - Richards story.mp4'} target="_blank">Richards's transition story<span className="sr-only">Opens a mp4 video file in a new tab</span></a>.
