@@ -23,6 +23,7 @@ import Privacy from "./components/privacy";
 import NewsArchive from "./components/newsArchive";
 import FAQs from "./components/faq";
 import TermsAndConditions from "./components/termsandconditions";
+import Resources from "./components/awards-resources";
 
 //CSS
 import "./sass/styles.scss";
@@ -52,6 +53,7 @@ ReactDOM.render(
                 <Route path="/privacy" component={withTracker(Privacy)}/>
                 <Route path="/accessibility" component={withTracker(Accessibility)}/>
                 <Route path="/news-archive" component={withTracker(NewsArchive)}/>
+                <Route path="/awards-resources" component={withTracker(Resources)}/>
                 <Route path="/faq" component={withTracker(FAQs)}/>
                 <Route path="/termsandconditions" component={withTracker(TermsAndConditions)}/>
                 <Provider store={ store }>
