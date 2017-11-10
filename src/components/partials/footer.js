@@ -18,7 +18,7 @@ export default class Footer extends React.Component {
 						<li className="col-sm-4 col-xs-12"><Link to="/copyright#top">Copyright</Link></li>
 						<li className="col-sm-4 col-xs-12"><Link to="/disclaimer#top">Disclaimer</Link></li>
 						<li className="col-sm-4 col-xs-12"><Link to="/privacy#top">Privacy</Link></li>
-            <li className="col-sm-4 col-xs-12"><a href="http://eepurl.com/c-ABGj" target="_blank" rel="noopener">Subscribe
+            <li className="col-sm-4 col-xs-12"><a href="https://eepurl.com/c-ABGj" target="_blank" rel="noopener">Subscribe
               <span className="sr-only">(this link will open in a new tab)</span></a></li>
 					</ul>
 				</div>
@@ -34,11 +34,11 @@ export default class Footer extends React.Component {
 				<div className="col-sm-8 col-md-6 pull-right">
 					<ul className="list-inline  hidden-print">
 
-						<li className="col-sm-4 col-md-2"><Link to="/accessibility#top">Accessibility</Link></li>
+						<li id="accessibility-footer" className="col-sm-4 col-md-2"><Link to="/accessibility#top">Accessibility</Link></li>
 						<li className="col-sm-4 col-md-2"><Link to="/copyright#top">Copyright</Link></li>
 						<li className="col-sm-4 col-md-2"><Link to="/disclaimer#top">Disclaimer</Link></li>
 						<li className="col-sm-4 col-md-2"><Link to="/privacy#top">Privacy</Link></li>
-            <li className="col-sm-4 col-md-2"><a href="http://eepurl.com/c-ABGj" target="_blank" rel="noopener">Subscribe
+            <li id="subscribe-footer" className="col-sm-4 col-md-2"><a href="https://eepurl.com/c-ABGj" target="_blank" rel="noopener">Subscribe
                 <span className="sr-only">(this link will open in a new tab)</span></a></li>
 					</ul>
 				</div>

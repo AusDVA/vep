@@ -6,7 +6,7 @@
   border-radius: 8px;
   font-size: 1.2rem;
   padding: 0.4em 1em 0.4em 1em;
-  margin-left: 3px;
+  margin-left: 1.5em;
   font-weight: 700;
   letter-spacing: 1px;
   background: #1057a7;
@@ -14,17 +14,20 @@
   line-height: 2.5;
 }
 
-
 #latest-news-subscribe {
   margin-bottom : -1.3em ;
   padding-bottom : 15px;
-
 }
 
 #subcribe > a {
   text-decoration: none;
   border-bottom: transparent !important;
-  vertical-align: middle;
+  margin-top: 0.2em;
+}
+
+.subcribe-news {
+  padding: 0.7em 1.4em 0.7em 1.4em;
+  font-size: 1.6rem;
 }
 
 #subcribe-mobile > a {
@@ -45,8 +48,7 @@
 
 .subcribe {
   background : #b3146f;
-  padding: 0.2em 1.2em 0.2em 1.2em;
-  font-size: 1.2rem;
+  margin-left : auto;
   text-decoration: none;
 }
 
@@ -192,6 +194,11 @@ span.glyphicon.glyphicon-chevron-down {
   height: auto;
   -ms-interpolation-mode: bicubic;
 }
+// overide row class for beta header message.
+#top > div > div {
+  padding-bottom: 0!important;
+}
+
 
 // fonts and tag styles.
 
@@ -380,6 +387,19 @@ h5 {
 
 // footer
 
+@media (min-width: 992px ) {
+
+  #subscribe-footer > a {
+    margin-left: -1em;
+  }
+
+  #accessibility-footer > a {
+    margin-left: -0.7em;
+  }
+}
+
+
+
 .panel-footer {
   border-top: $panel-footer-border-color;
   margin-top: 1.4em;
@@ -397,9 +417,8 @@ h5 {
 
 .list-inline li a {
    margin: .4em 1em .8em .4em;
-   color: #313131;
    border-bottom: solid 1px #1B7991;
-   //color: $light-blue;
+   color: $light-blue;
    font-weight: bold;
    font-size: $p-font-size;
    line-height: 1.6
@@ -440,8 +459,6 @@ h5 {
 
 
  }
-
-
 
 // misc
 

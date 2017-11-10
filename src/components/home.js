@@ -100,20 +100,17 @@ export default class Home extends React.Component {
         <section>
         <News/>
       </section>
-      <div id="latest-news-subscribe" className="jumbotron jumbotron-fluid">
+      <div id="latest-news-subscribe" className="jumbotron jumbotron-fluid hidden-print">
         <div className="container no-border">
-
             <div className="row">
               <div className="col-md-6">
-                <h3 id="latest-news-h3">Subscribe For Latest News</h3>
-                <p>Subscribe for latest updates on the Prime Minister’s Veterans’ Employment Program, including the register, Industry Advisory Committee, initiatives and other news.</p>
-
-
+                <h3 id="latest-news-h3">Subscribe to receive updates</h3>
+                <p>  Subscribe to receive the latest information and updates on the <span className="no-wrap">Prime Minister’s</span> <span className="no-wrap">Veterans’ Employment Program.</span></p>
             </div>
 
             <div className="col-md-5">
-            <div className="news-wrapper">
-                  <div id="subcribe"><a href="http://eepurl.com/c-ABGj" target="_blank" rel="noopener"><span className="subcribe">SUBSCRIBE FOR THE LATEST UPDATES</span>
+            <div className="news-wrapper text-center">
+                  <div id="subcribe"><a href="https://eepurl.com/c-ABGj" target="_blank" rel="noopener"><span className="subcribe subcribe-news">SUBSCRIBE FOR UPDATES</span>
                   <span className="sr-only">(this link will open in a new tab)</span></a></div>
             </div>
           </div>
