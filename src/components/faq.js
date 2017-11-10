@@ -70,8 +70,8 @@ constructor(props) {
 
                         <h2>What are the judging panel/s looking for in a nomination?</h2>
                         <p>Judging panel/s are looking for nominations that directly address the category criteria.</p>
-                        <p>Hints for addressing nomination criteria for the category recognising individuals can be accessed <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Individuals.pdf'} target="_blank">here (PDF 510 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</p>
-                        <p>Hints for addressing nomination criteria relating to categories recognising organisations can be accessed <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Organisations.pdf'} target="_blank">here (PDF 2 MB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</p>
+                        <p>Hints for addressing nomination criteria for the category recognising individuals can be accessed <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Individuals.pdf'} target="_blank">here (PDF 349 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</p>
+                        <p>Hints for addressing nomination criteria relating to categories recognising organisations can be accessed <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Organisations.pdf'} target="_blank">here (PDF 470 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</p>
                         <p>Hints for addressing criteria relating to the category recognising recruitment, specialist and not-for-profit organisations can be accessed <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Recruitment_Specialist_Not-for-profit.pdf'} target="_blank">here (PDF 377 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</p>
                         <p>Remember that judges may have a lot of nominations to consider so you should ensure that all information provided in your nomination, including supporting evidence, is clear, concise and relevant.</p>
 
