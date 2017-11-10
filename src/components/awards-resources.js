@@ -42,7 +42,7 @@ export default class Awards extends React.Component {
                      <li><Link to="#tiles">Social media tiles</Link></li>
                      <li><Link to="#newsletter">Sample newsletter content</Link></li>
                      <li><Link to="#stories">Veterans' share their stories</Link></li>
-                     <li><Link to="#poster">Awards poster</Link></li>
+                     <li><Link to="#poster">Poster</Link></li>
                    </ul>
                  </div>
 
@@ -226,11 +226,11 @@ export default class Awards extends React.Component {
                           </div></div>
 
 
-                        <h2 id="poster">Awards poster</h2>
+                        <h2 id="poster">Poster</h2>
                         <div className="row">
                           <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                               <img src={ImgPoster} alt="Awards poster" height="450px" width="300px"></img>
-                               <figcaption className="bio-position">Awards Poster | <a href={process.env.PUBLIC_URL + '/doc/AWARDS - Poster.pdf'} target="_blank">Download (786 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a></figcaption>
+                               <figcaption className="bio-position">Poster | <a href={process.env.PUBLIC_URL + '/doc/AWARDS - Poster.pdf'} target="_blank">Download (786 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a></figcaption>
                           </figure>
                         </div>
 
