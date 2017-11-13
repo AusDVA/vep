@@ -1,4 +1,5 @@
 import React from "react";
+
 import ImgRecruitmentOfVeterans from "../image/social_media/leadership in recruitment of veterans.jpg";
 import ImgEmployeeOfTheYear from "../image/social_media/veteran employee of the year.jpg";
 import ImgLargeBusiness from "../image/social_media/veterans employer of the year large business.jpg";
@@ -11,6 +12,7 @@ import ImgPoster from "../image/social_media/AWARDS_Poster.jpg";
 import ImgFacebook from "../image/social_media/Facebook.jpg";
 import ImgLinkedIn from "../image/social_media/LinkedIn.jpg";
 import ImgTwitter from "../image/social_media/Twitter.jpg";
+
 import { HashLink as Link } from "react-router-hash-link";
 import TopLink from "./partials/topLink";
 export default class Awards extends React.Component {
@@ -34,6 +36,7 @@ export default class Awards extends React.Component {
                     <ul className="list-contents">
                      <li><Link to="#tiles">Social media tiles</Link></li>
                      <li><Link to="#newsletter">Sample newsletter content</Link></li>
+                     <li><Link to="#stories">Veterans' share their stories</Link></li>
                      <li><Link to="#poster">Poster</Link></li>
                    </ul>
                  </div>
@@ -131,6 +134,90 @@ export default class Awards extends React.Component {
 
                           <p>To nominate an employer, your own organisation or a veteran employee for an award, visit <a target="_blank" href="https://veteransemployment.gov.au/awards">www.veteransemployment.gov.au/awards<span className="sr-only">(this link will open in a new tab)</span></a>.
                            Nominations close at midnight on Friday <span className="no-wrap">22 December 2017.</span></p>
+
+                        <h2 id="stories">Veterans' share their stories</h2>
+
+                        <p><b>Krishaan Wright - Program and Portfolio Manager, EY </b></p>
+                         <p>"You know that (ADF) person is going to have a good set of leadership experiences and has been trusted with responsibility from a very early time in their career." </p>
+                         <p>Krishaan graduated from the Australian Defence Force Academy in 1996 with a degree in Aerospace Engineering. Following graduation, Krishaan qualified to become a C-130 Hercules pilot.
+                           He was a lead advisor on the implementation of software driven operations management systems and later became a Strategic Advisor to senior leadership groups in Defence.
+                           His transition from the Air Force was planned and, with Defence support, he was successful in obtaining a job with EY. Krishaan has worked as a Program and Portfolio
+                           Manager at EY since late 2015, where his work focuses on advising clients how best to solve project problems and issues. </p>
+
+                           <div className="row"><div className="col-md-8">
+                             <video playsinline tabIndex="0" width="100%" height="100%" controls>
+                               <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Krishaans story.mp4'} type="video/mp4" />
+                               Your browser does not support the video tag.
+                             </video>
+                             </div></div>
+                             <br/>
+
+                       <p><b>Cherie-Ann Bourghouts - Business Owner, Indira Organics </b></p>
+                        <p>"Employers receive an asset with so much training and experience. They get someone who is motivated and eager to do a great job." </p>
+                        <p>Cherie-Ann joined the Air Force in 1997 and studied at the Australian Defence Force Academy, receiving her Bachelor of Engineering (Civil) degree from UNSW (ADFA) in 2000.
+                          During her 20 years of service she was deployed to Iraq and was responsible for Airfield Engineering and Engineering capability across 12 major RAAF bases in Australia.
+                          On transferring to the Air Force Reserves, Cherie-Ann attended ADF Transition Seminars, received career coaching and successfully applied to undertake
+                          The Prince's Charities "Lead your Own Business" career transition course. Cherie-Ann is now using her skills and experience to complement her business training in
+                          developing her own organic skincare company, "Indira Organics" in Queensland. </p>
+
+
+
+                          <div className="row"><div className="col-md-8">
+                            <video playsinline tabIndex="0" width="100%" height="100%" controls>
+                              <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Cherie-Anns story.mp4'} type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+                            </div></div>
+                            <br/>
+
+                        <p><b>Joel Sardi - Candidate Liaison Officer, Ironside Recruitment </b></p>
+                        <p>"Ex-Servicemen and women are great potential employees for a civilian employer. We come with a great set of values and skills. We are diligent, disciplined, respectful and professional."</p>
+                        <p>Joel joined the Army in 2011 as a rifleman and served for five years in <span className="no-wrap">7 RAR</span>, which included a deployment to Kandahar, Afghanistan in 2013.
+                           A keen sportsman, Joel represented the Army at national and inter-service AFL tournaments. Following a non-service related accident in <span className="no-wrap">August 2014</span>,
+                           Joel sustained a serious spinal injury and is now a quadriplegic. Joel was supported by Defence during the transition process and began a placement
+                           at Ironside Recruitment in <span className="no-wrap">September 2015</span>. He is now a Candidate Liaison Officer at Ironside, assisting and supporting other former ADF members
+                           to find civilian employment.  </p>
+
+                           <div className="row"><div className="col-md-8">
+                             <video playsinline tabIndex="0" width="100%" height="100%" controls>
+                               <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Joels story.mp4'} type="video/mp4" />
+                               Your browser does not support the video tag.
+                             </video>
+                             </div>
+                           </div>
+                             <br/>
+
+                        <p><b>Renae Docherty - Integrated Logistics & Systems Support Manager, Northrop Grumman</b></p>
+                        <p>"Employers receive an asset with so much training and experience. They get someone who is motivated and eager to do a great job."</p>
+                        <p>Renae joined the Army in <span className="no-wrap">October 2003</span>. After her initial training at Kapooka she went on to develop hands-on skills in the finance and personnel
+                           fields in Army Pay Corps. During her Army career Renae deployed to Afghanistan and on return to Australia was promoted to the rank of
+                           Warrant Officer Class 2. Renae received transition support from Defence when she left the Army to begin her civilian career.
+                           Renae is now an Integrated Logistics and Systems Support Manager with Northrop Grumman, a leading global security company, and is responsible
+                           for procurement, inventory, repairs and supply chain planning. </p>
+
+                           <div className="row"><div className="col-md-8">
+                             <video playsinline tabIndex="0" width="100%" height="100%" controls>
+                               <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Renaes story.mp4'} type="video/mp4" />
+                               Your browser does not support the video tag.
+                             </video>
+
+                             </div></div>
+                             <br/>
+
+                        <p><b>Richard Gorey - Manager Operations & Business, Queensland Fire and Emergency Services </b></p>
+                        <p>"Skills that I have learned in the Australian Defence Force, as I have progressed through the ranks, have helped me greatly in my civilian employment."</p>
+                        <p>Richard Gorey continues his Defence service today as a Petty Officer Diver in the Navy Reserve. His experience over more than two decades as a Navy diver has
+                           taught him leadership, time and organisational management skills that are highly valued and employed every day in his job with the Queensland Fire and
+                           Emergency Services in Brisbane. As an Inspector and Manager of Operations and Business, Richard has a hands-on role managing events and resources,
+                           including multi-million dollar development projects. </p>
+
+                          <div className="row"><div className="col-md-8">
+                            <video playsinline tabIndex="0" width="100%" height="100%" controls>
+                              <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Richards story.mp4'} type="video/mp4" />
+                              Your browser does not support the video tag.
+                            </video>
+
+                          </div></div>
 
                         <h2 id="poster">Poster</h2>
                         <div className="row">
