@@ -13,11 +13,6 @@ import ImgPoster from "../image/social_media/AWARDS_Poster.jpg";
 import ImgFacebook from "../image/social_media/Facebook.jpg";
 import ImgLinkedIn from "../image/social_media/LinkedIn.jpg";
 import ImgTwitter from "../image/social_media/Twitter.jpg";
-import VideoCherieAnn from "../image/social_media/ADF Transitions - Cherie-Anns story.mp4";
-import VideoJoels from "../image/social_media/ADF Transitions - Joels story.mp4";
-import VideoKrishaans from "../image/social_media/ADF Transitions - Krishaans story.mp4";
-import VideoRenaes from "../image/social_media/ADF Transitions - Renaes story.mp4";
-import VideoRichards from "../image/social_media/ADF Transitions - Richards story.mp4";
 import { HashLink as Link } from "react-router-hash-link";
 import TopLink from "./partials/topLink";
 export default class Awards extends React.Component {
@@ -149,10 +144,9 @@ export default class Awards extends React.Component {
                            His transition from the Air Force was planned and, with Defence support, he was successful in obtaining a job with EY. Krishaan has worked as a Program and Portfolio
                            Manager at EY since late 2015, where his work focuses on advising clients how best to solve project problems and issues. </p>
 
-                           <div className="row"><div className="col-md-6">
-                             <Video tabIndex="-1" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
-                               <source src={VideoKrishaans} type="video/mp4"/>
-                               <source src={VideoKrishaans} type="video/ogg"/>
+                           <div className="row"><div className="col-md-8">
+                             <Video tabIndex="-1" loop muted playsinline controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
+                               <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Krishaans story.mp4'} type="video/mp4"/>
                                Your browser does not support the video tag. See more of <a tabIndex="-1" href={process.env.PUBLIC_URL + '/doc/ADF Transitions - Krishaans story.mp4'} target="_blank">Krishaan's transition story<span className="sr-only">Opens a mp4 video file in a new tab</span></a>.
                              </Video>
                              </div></div>
@@ -166,10 +160,9 @@ export default class Awards extends React.Component {
                           The Prince's Charities "Lead your Own Business" career transition course. Cherie-Ann is now using her skills and experience to complement her business training in
                           developing her own organic skincare company, "Indira Organics" in Queensland. </p>
 
-                          <div className="row"><div className="col-md-6">
-                            <Video tabIndex="-1" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
-                              <source src={VideoCherieAnn} type="video/mp4"/>
-                              <source src={VideoCherieAnn} type="video/ogg"/>
+                          <div className="row"><div className="col-md-8">
+                            <Video tabIndex="-1" loop muted playsinline controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
+                              <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Cherie-Anns story.mp4'} type="video/mp4"/>
                               Your browser does not support the video tag. See more of <a tabIndex="-1" href={process.env.PUBLIC_URL + '/doc/ADF Transitions - Cherie-Anns story.mp4'} target="_blank">Cherie-Ann's transition story<span className="sr-only">Opens a mp4 video file in a new tab</span></a>.
                             </Video>
                             </div></div>
@@ -183,15 +176,14 @@ export default class Awards extends React.Component {
                            at Ironside Recruitment in <span className="no-wrap">September 2015</span>. He is now a Candidate Liaison Officer at Ironside, assisting and supporting other former ADF members
                            to find civilian employment.  </p>
 
-                           <div className="row"><div className="col-md-6">
-                             <Video tabIndex="-1" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
-                               <source src={VideoJoels} type="video/mp4"/>
-                               <source src={VideoJoels} type="video/ogg"/>
+                           <div className="row"><div className="col-md-8">
+                             <Video tabIndex="-1" loop muted playsinline controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
+                               <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Joels story.mp4'} type="video/mp4"/>
                                Your browser does not support the video tag. See more of <a tabIndex="-1" href={process.env.PUBLIC_URL + '/doc/ADF Transitions - Joels story.mp4'} target="_blank">Joel's transition story<span className="sr-only">Opens a mp4 video file in a new tab</span></a>.
                              </Video>
                              </div>
                            </div>
-                             <br/>
+                           <br/>
 
                         <p><b>Renae Docherty - Integrated Logistics & Systems Support Manager, Northrop Grumman</b></p>
                         <p>"Employers receive an asset with so much training and experience. They get someone who is motivated and eager to do a great job."</p>
@@ -201,10 +193,9 @@ export default class Awards extends React.Component {
                            Renae is now an Integrated Logistics and Systems Support Manager with Northrop Grumman, a leading global security company, and is responsible
                            for procurement, inventory, repairs and supply chain planning. </p>
 
-                           <div className="row"><div className="col-md-6">
-                             <Video tabIndex="-1" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
-                               <source src={VideoRenaes} type="video/mp4"/>
-                               <source src={VideoRenaes} type="video/ogg"/>
+                           <div className="row"><div className="col-md-8">
+                             <Video tabIndex="-1" loop muted playsinline controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
+                               <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Renaes story.mp4'} type="video/mp4"/>
                                Your browser does not support the video tag. See more of <a tabIndex="-1" href={process.env.PUBLIC_URL + '/doc/ADF Transitions - Renaes story.mp4'} target="_blank">Renae's transition story<span className="sr-only">Opens a mp4 video file in a new tab</span></a>.
                              </Video>
                              </div></div>
@@ -217,10 +208,9 @@ export default class Awards extends React.Component {
                            Emergency Services in Brisbane. As an Inspector and Manager of Operations and Business, Richard has a hands-on role managing events and resources,
                            including multi-million dollar development projects. </p>
 
-                          <div className="row"><div className="col-md-6">
-                          <Video tabIndex="-1" loop controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
-                            <source src={VideoRichards} type="video/mp4"/>
-                            <source src={VideoRichards} type="video/ogg"/>
+                          <div className="row"><div className="col-md-8">
+                          <Video tabIndex="-1" loop muted playsinline controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}>
+                            <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Richards story.mp4'} type="video/mp4"/>
                             Your browser does not support the video tag. See more of <a tabIndex="-1" href={process.env.PUBLIC_URL + '/doc/ADF Transitions - Richards story.mp4'} target="_blank">Richards's transition story<span className="sr-only">Opens a mp4 video file in a new tab</span></a>.
                           </Video>
                           </div></div>
