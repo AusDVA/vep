@@ -117,7 +117,7 @@ export default class Awards extends React.Component {
 
                         <h2 id="Resources">Resources</h2>
                          <p>We encourage all organisations interested in supporting veterans’ employment to help us promote the 2018 Awards through their communication
-                         channels. <Link to="/awards-resources#top">Resources<span className="sr-only">Resources page inside this website</span></Link> to promote the Awards, including social media tiles, newsletter content, videos and a poster are available.</p>
+                         channels. <Link to="/awards-resources#top">Resources<span className="sr-only">Resources page inside this website</span></Link> to promote the Awards, including social media tiles, newsletter content and a poster are available.</p>
 
                         <h2 id="FAQ">FAQs</h2>
                         <p>Here are <Link to="/faq#top">Frequently Asked Questions<span className="sr-only">Frequently asked questions page inside this website</span></Link> on the Prime Minister's Veterans' Employment Awards.</p>
