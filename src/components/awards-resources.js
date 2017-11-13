@@ -12,6 +12,11 @@ import ImgPoster from "../image/social_media/AWARDS_Poster.jpg";
 import ImgFacebook from "../image/social_media/Facebook.jpg";
 import ImgLinkedIn from "../image/social_media/LinkedIn.jpg";
 import ImgTwitter from "../image/social_media/Twitter.jpg";
+import VideoCherieAnn from "../video/ADF Transitions - Cherie-Anns story.mp4";
+import VideoJoels from "../video/ADF Transitions - Joels story.mp4";
+import VideoKrishaans from "../video/ADF Transitions - Krishaans story.mp4";
+import VideoRenaes from "../video/ADF Transitions - Renaes story.mp4";
+import VideoRichards from "../video/ADF Transitions - Richards story.mp4";
 
 import { HashLink as Link } from "react-router-hash-link";
 import TopLink from "./partials/topLink";
@@ -146,7 +151,7 @@ export default class Awards extends React.Component {
 
                            <div className="row"><div className="col-md-8">
                              <video playsinline tabIndex="0" width="100%" height="100%" controls>
-                               <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Krishaans story.mp4'} type="video/mp4" />
+                               <source src={VideoKrishaans} type="video/mp4" />
                                Your browser does not support the video tag.
                              </video>
                              </div></div>
@@ -164,7 +169,7 @@ export default class Awards extends React.Component {
 
                           <div className="row"><div className="col-md-8">
                             <video playsinline tabIndex="0" width="100%" height="100%" controls>
-                              <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Cherie-Anns story.mp4'} type="video/mp4" />
+                              <source src={VideoCherieAnn} type="video/mp4" />
                               Your browser does not support the video tag.
                             </video>
                             </div></div>
@@ -180,7 +185,7 @@ export default class Awards extends React.Component {
 
                            <div className="row"><div className="col-md-8">
                              <video playsinline tabIndex="0" width="100%" height="100%" controls>
-                               <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Joels story.mp4'} type="video/mp4" />
+                               <source src={VideoJoels} type="video/mp4" />
                                Your browser does not support the video tag.
                              </video>
                              </div>
@@ -197,7 +202,7 @@ export default class Awards extends React.Component {
 
                            <div className="row"><div className="col-md-8">
                              <video playsinline tabIndex="0" width="100%" height="100%" controls>
-                               <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Renaes story.mp4'} type="video/mp4" />
+                               <source src={VideoRenaes} type="video/mp4" />
                                Your browser does not support the video tag.
                              </video>
 
@@ -213,7 +218,7 @@ export default class Awards extends React.Component {
 
                           <div className="row"><div className="col-md-8">
                             <video playsinline tabIndex="0" width="100%" height="100%" controls>
-                              <source src={process.env.PUBLIC_URL + '/doc/ADF Transitions - Richards story.mp4'} type="video/mp4" />
+                              <source src={VideoRichards} type="video/mp4" />
                               Your browser does not support the video tag.
                             </video>
 
