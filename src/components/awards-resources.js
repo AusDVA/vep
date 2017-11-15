@@ -12,12 +12,6 @@ import ImgPoster from "../image/social_media/AWARDS_Poster.jpg";
 import ImgFacebook from "../image/social_media/Facebook.jpg";
 import ImgLinkedIn from "../image/social_media/LinkedIn.jpg";
 import ImgTwitter from "../image/social_media/Twitter.jpg";
-import VideoCherieAnn from "../video/ADF Transitions - Cherie-Anns story.mp4";
-import VideoJoels from "../video/ADF Transitions - Joels story.mp4";
-import VideoKrishaans from "../video/ADF Transitions - Krishaans story.mp4";
-import VideoRenaes from "../video/ADF Transitions - Renaes story.mp4";
-import VideoRichards from "../video/ADF Transitions - Richards story.mp4";
-
 import { HashLink as Link } from "react-router-hash-link";
 import TopLink from "./partials/topLink";
 export default class Awards extends React.Component {
@@ -150,10 +144,11 @@ export default class Awards extends React.Component {
                            Manager at EY since late 2015, where his work focuses on advising clients how best to solve project problems and issues. </p>
 
                            <div className="row"><div className="col-md-8">
-                             <video playsinline tabIndex="0" width="100%" height="100%" controls>
-                               <source src={VideoKrishaans} type="video/mp4" />
-                               Your browser does not support the video tag.
-                             </video>
+                             <iframe
+                               src="https://www.youtube.com/embed/BW5q5G5Rvx0?rel=0&showinfo=0"
+                               frameBorder="0" gesture="media" allowFullScreen width="100%" height="480">
+                             </iframe>
+
                              </div></div>
                              <br/>
 
@@ -168,10 +163,10 @@ export default class Awards extends React.Component {
 
 
                           <div className="row"><div className="col-md-8">
-                            <video playsinline tabIndex="0" width="100%" height="100%" controls>
-                              <source src={VideoCherieAnn} type="video/mp4" />
-                              Your browser does not support the video tag.
-                            </video>
+                            <iframe
+                              src="https://www.youtube.com/embed/vb7ol05SHVk?rel=0&showinfo=0"
+                              frameBorder="0" gesture="media" allowFullScreen width="100%" height="480">
+                            </iframe>
                             </div></div>
                             <br/>
 
@@ -184,10 +179,10 @@ export default class Awards extends React.Component {
                            to find civilian employment.  </p>
 
                            <div className="row"><div className="col-md-8">
-                             <video playsinline tabIndex="0" width="100%" height="100%" controls>
-                               <source src={VideoJoels} type="video/mp4" />
-                               Your browser does not support the video tag.
-                             </video>
+                             <iframe
+                               src="https://www.youtube.com/embed/gVYv2i7KD-A?rel=0&showinfo=0"
+                               frameBorder="0" gesture="media" allowFullScreen width="100%" height="480">
+                             </iframe>
                              </div>
                            </div>
                              <br/>
@@ -201,10 +196,10 @@ export default class Awards extends React.Component {
                            for procurement, inventory, repairs and supply chain planning. </p>
 
                            <div className="row"><div className="col-md-8">
-                             <video playsinline tabIndex="0" width="100%" height="100%" controls>
-                               <source src={VideoRenaes} type="video/mp4" />
-                               Your browser does not support the video tag.
-                             </video>
+                             <iframe
+                               src="https://www.youtube.com/embed/xDGya58lPcQ?rel=0&showinfo=0"
+                               frameBorder="0" gesture="media" allowFullScreen width="100%" height="480">
+                             </iframe>
 
                              </div></div>
                              <br/>
@@ -217,10 +212,10 @@ export default class Awards extends React.Component {
                            including multi-million dollar development projects. </p>
 
                           <div className="row"><div className="col-md-8">
-                            <video playsinline tabIndex="0" width="100%" height="100%" controls>
-                              <source src={VideoRichards} type="video/mp4" />
-                              Your browser does not support the video tag.
-                            </video>
+                            <iframe
+                              src="https://www.youtube.com/embed/p2M0YATjhfc?rel=0&showinfo=0"
+                              frameBorder="0" gesture="media" allowFullScreen width="100%" height="480">
+                            </iframe>
 
                           </div></div>
 

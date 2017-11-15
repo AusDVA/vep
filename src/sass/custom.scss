@@ -223,6 +223,9 @@ body {
    h1 {
      font-size: $font-size-h3;
    }
+   iframe {
+     height : 300px;
+   }
 }
 
  a {
@@ -449,6 +452,8 @@ h5 {
    .panel-footer .list-inline a {
      font-size: 125%;
    }
+
+
  }
 
  @media (min-width: 768px ) {
@@ -477,6 +482,11 @@ h5 {
   .news img {
     width: 100%;
   }
+
+  iframe {
+    height : 200px;
+  }
+
 }
 
 .break {
