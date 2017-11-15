@@ -145,7 +145,7 @@ export default class Awards extends React.Component {
 
                            <div className="row"><div className="col-md-8">
                              <iframe
-                               src="https://www.youtube.com/embed/BW5q5G5Rvx0?rel=0&showinfo=0"
+                               src="https://www.youtube.com/embed/BW5q5G5Rvx0?rel=0&showinfo=0&html5=1"
                                frameBorder="0" gesture="media" allowFullScreen width="100%" height="480">
                              </iframe>
 
@@ -164,7 +164,7 @@ export default class Awards extends React.Component {
 
                           <div className="row"><div className="col-md-8">
                             <iframe
-                              src="https://www.youtube.com/embed/vb7ol05SHVk?rel=0&showinfo=0"
+                              src="https://www.youtube.com/embed/vb7ol05SHVk?rel=0&showinfo=0&html5=1"
                               frameBorder="0" gesture="media" allowFullScreen width="100%" height="480">
                             </iframe>
                             </div></div>
@@ -180,7 +180,7 @@ export default class Awards extends React.Component {
 
                            <div className="row"><div className="col-md-8">
                              <iframe
-                               src="https://www.youtube.com/embed/gVYv2i7KD-A?rel=0&showinfo=0"
+                               src="https://www.youtube.com/embed/gVYv2i7KD-A?rel=0&showinfo=0&html5=1"
                                frameBorder="0" gesture="media" allowFullScreen width="100%" height="480">
                              </iframe>
                              </div>
@@ -197,7 +197,7 @@ export default class Awards extends React.Component {
 
                            <div className="row"><div className="col-md-8">
                              <iframe
-                               src="https://www.youtube.com/embed/xDGya58lPcQ?rel=0&showinfo=0"
+                               src="https://www.youtube.com/embed/xDGya58lPcQ?rel=0&showinfo=0&html5=1"
                                frameBorder="0" gesture="media" allowFullScreen width="100%" height="480">
                              </iframe>
 
@@ -213,7 +213,7 @@ export default class Awards extends React.Component {
 
                           <div className="row"><div className="col-md-8">
                             <iframe
-                              src="https://www.youtube.com/embed/p2M0YATjhfc?rel=0&showinfo=0"
+                              src="https://www.youtube.com/embed/p2M0YATjhfc?rel=0&showinfo=0&html5=1"
                               frameBorder="0" gesture="media" allowFullScreen width="100%" height="480">
                             </iframe>
 
