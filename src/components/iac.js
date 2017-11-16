@@ -12,7 +12,7 @@ import BioPalmerlee from "../image/bios/biopalmerlee.jpg";
 import BioParker from "../image/bios/bioparker.jpg";
 import BioPlaskett from "../image/bios/bioplaskett.jpg";
 import BioRobertsSmith from "../image/bios/bioroberts-smith.jpg";
-import BioRosenfield from "../image/bios/biorosenfield.jpg";
+import BioBryant from "../image/bios/biobryant.jpg";
 import BioWard from "../image/bios/bioward.jpg";
 import Bio_Print from "../image/bios/iac_bio.png";
 import TopLink from "./partials/topLink";
@@ -185,10 +185,10 @@ export default class IAC extends React.Component {
                     <figcaption className="bio-position">Member | <Link to ="/member-biographies?member=Plaskett#BioPlaskett" >Bio</Link></figcaption>
                   </figure>
                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
-                    <img src={BioRosenfield} alt="Dean Rosenfield" className="img-circle" height="150px" width="150px"></img>
-                    <figcaption className="bio-title">Dean Rosenfield</figcaption>
+                    <img src={BioBryant} alt="Marc Bryant" className="img-circle" height="150px" width="150px"></img>
+                    <figcaption className="bio-title">Marc Bryant</figcaption>
                     <figcaption className="bio-description">Saab Australia Pty Ltd</figcaption>
-                    <figcaption className="bio-position">Member | <Link to="/member-biographies?member=Rosenfield#BioRosenfield" >Bio</Link></figcaption>
+                    <figcaption className="bio-position">Member | <Link to="/member-biographies?member=Bryant#BioBryant" >Bio</Link></figcaption>
                   </figure>
                   <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                     <img src={BioWard} alt="Michael Ward" className="img-circle" height="150px" width="150px"></img>

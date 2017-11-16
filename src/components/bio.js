@@ -13,7 +13,7 @@ import BioPalmerlee from "../image/bios/PalmerLee_280x350.jpg";
 import BioParker from "../image/bios/Parker_280x350.jpg";
 import BioPlaskett from "../image/bios/Plaskett_280x350.jpg";
 import BioRobertsSmith from "../image/bios/Roberts-Smith_280x350.jpg";
-import BioRosenfield from "../image/bios/Rosenfield_280x350.jpg";
+import BioBioBryant from "../image/bios/Bryant_280x350.jpg";
 import BioWard from "../image/bios/Ward_280x350.jpg";
 
 
@@ -32,62 +32,20 @@ class BackLink extends React.Component {
 
 export default class Bio extends React.Component {
 
-  constructor(props) {
+constructor(props) {
    super(props);
    this.focus = this.focus.bind(this);
 }
 
- focus() {
-    const LOCATION = (location.search);
-
-     switch(LOCATION) {
-     case "?member=Frazis":
-         this.refs.Frazis.focus();
-         break;
-     case "?member=RobertsSmith":
-         this.refs.RobertsSmith.focus();
-         break;
-     case "?member=Blake":
-         this.refs.Blake.focus();
-         break;
-     case "?member=Colbert":
-         this.refs.Colbert.focus();
-         break;
-     case "?member=Galgsdies":
-         this.refs.Galgsdies.focus();
-         break;
-     case "?member=Jansen":
-         this.refs.Jansen.focus();
-         break;
-     case "?member=Lambert":
-         this.refs.Lambert.focus();
-         break;
-     case "?member=Lefever":
-         this.refs.Lefever.focus();
-         break;
-     case "?member=McDowell":
-         this.refs.McDowell.focus();
-         break;
-     case "?member=Palmerlee":
-         this.refs.Palmerlee.focus();
-         break;
-     case "?member=Parker":
-         this.refs.Parker.focus();
-         break;
-     case "?member=Plaskett":
-         this.refs.Plaskett.focus();
-         break;
-     case "?member=Rosenfield":
-         this.refs.Rosenfield.focus();
-          break;
-     case "?member=Ward":
-          this.refs.Ward.focus();
-          break;
- }
- }
+focus() {
+  this.focus();
+}
 
  componentDidMount() {
-  this.focus();
+   var loc = (location.search);
+   var ref = loc.substr(8);
+
+   this.refs[ref].focus();
  }
 
   render(){
@@ -492,28 +450,37 @@ export default class Bio extends React.Component {
            <BackLink />
         </section>
 
-        <section ref="Rosenfield" tabIndex="-1"  className="bio-section no-border" id="BioRosenfield">
+        <section ref="Bryant" tabIndex="-1"  className="bio-section no-border" id="BioBryant">
           <div className="row">
               <div className="col-xs-6 col-md-3 col-sm-3">
                   <div className="thumbnail">
-                    <img src={BioRosenfield} alt="Dean Rosenfield"/>
+                    <img src={BioBioBryant} alt="Marc Bryant"/>
                   </div>
               </div>
 
               <div className="col-md-8">
-                  <p className="bio-description">Dean Rosenfield</p>
-                  <p className="bio-description">Managing Director</p>
+                  <p className="bio-description">Marc Bryant</p>
+                  <p className="bio-description">Program Manager – Land</p>
                   <p className="bio-description">Saab Australia Pty Ltd</p>
 
-                  <p className="break">Dean Rosenfield was appointed as the Managing Director of Saab Australia Pty Ltd in 2013 and is the senior representative
-                     for the Saab defence and security corporation in Australia and New Zealand. </p>
-                  <p>Dean is a graduate of the Royal Military College, Duntroon and served 15 years in the Australian Army
-                     before moving to industry in 1999 as a management consultant.</p>
-                  <p>He has been with Saab since 2001 and has held senior roles in engineering, project management and business development
-                     on the defence side of the business.  In 2007, Dean established Saab’s Civil Security business which now specialises
-                     in security, air traffic management and communications. </p>
-                  <p>He holds a Master of Management (Project Management) from the University of NSW and is a Member of the Australian
-                     Institute of Company Directors.</p>
+                  <p className="break">
+                    Marc is the Program Manager for Saab Australia’s Land domain, responsible for the delivery of Land projects with
+                    a focus on Air and Missile Defence.  He joined Saab Australia in 2014 and has recently been appointed as the company’s
+                    Advocate for Veteran Employment, responsible for coordinating veteran recruitment, retention and communication.</p>
+
+
+                    <p>
+                      Marc graduated from the Royal Military Academy Sandhurst in 1995 and served for 10 years in the British
+                      Army before joining the Australian Regular Army for a further 8 years.  He transitioned from the Army in 2012
+                      after serving in the Royal Artillery, Army Air Corps, Royal Australian Artillery and after three operational
+                      deployments in Northern Ireland and Afghanistan. Prior to working for Saab Australia, Marc worked as a Consultant
+                      in the resources sector for two years upon successful transition from the military.</p>
+
+                    <p>
+                      Marc has a Masters Degree in Management Studies from the University of New South Wales and holds an Advanced Diploma
+                      and Certificate IV in Government.</p>
+
+
                </div>
              </div>
             <BackLink />
@@ -555,5 +522,3 @@ export default class Bio extends React.Component {
     );
   }
 }
-
-
