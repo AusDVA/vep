@@ -13,7 +13,7 @@ import BioPalmerlee from "../image/bios/PalmerLee_280x350.jpg";
 import BioParker from "../image/bios/Parker_280x350.jpg";
 import BioPlaskett from "../image/bios/Plaskett_280x350.jpg";
 import BioRobertsSmith from "../image/bios/Roberts-Smith_280x350.jpg";
-import BioBioBryant from "../image/bios/Bryant_280x350.jpg";
+import BioBryant from "../image/bios/Bryant_280x350.jpg";
 import BioWard from "../image/bios/Ward_280x350.jpg";
 
 
@@ -454,7 +454,7 @@ focus() {
           <div className="row">
               <div className="col-xs-6 col-md-3 col-sm-3">
                   <div className="thumbnail">
-                    <img src={BioBioBryant} alt="Marc Bryant"/>
+                    <img src={BioBryant} alt="Marc Bryant"/>
                   </div>
               </div>
 
