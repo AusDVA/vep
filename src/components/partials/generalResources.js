@@ -14,7 +14,7 @@ export default class GeneralResourses extends React.Component {
                 <h3>Media Releases</h3>
                 <ul className="list-unstyled">
 
-                  <li>17 November 2017 <a target="_blank" href="http://minister.dva.gov.au/media_releases/2017/nov/va154.htm">Supporting veterans’ employment 
+                  <li>17 November 2017 <a target="_blank" href="http://minister.dva.gov.au/media_releases/2017/nov/va154.htm">Supporting veterans’ employment
                       <span className="sr-only">(this link will open in a new tab)</span> </a></li>
                 <li> 6 September 2017 <a target="_blank" href="https://www.pm.gov.au/media/2017-09-06/government-launches-veterans-employment-awards">Government launches Veterans' Employment Awards
                     <span className="sr-only">(this link will open in a new tab)</span> </a></li>
@@ -31,7 +31,7 @@ export default class GeneralResourses extends React.Component {
                 <li> 17 November 2016 <a target="_blank" href="http://minister.dva.gov.au/media_releases/2016/nov/va106.htm">Joint media
                     release - Supporting veteran employment opportunities <span className="sr-only">(this link will open in a new tab)</span> </a></li>
                 <li> 17 November 2016 <a target="_blank"
-                    href="https://www.pm.gov.au/media/2016-11-17/remarks-launch-veterans-employment-initiative">Remarks
+                    href="https://www.pm.gov.au/media/remarks-launch-veterans%E2%80%99-employment-initiative">Remarks
                     at the launch of the Veterans’ Employment Initiative <span className="sr-only">(this link will open in a new tab)</span> </a></li>
                 </ul>
 
