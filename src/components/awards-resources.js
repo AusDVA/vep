@@ -44,7 +44,6 @@ export default class Awards extends React.Component {
                  </div>
 
 
-
                           <section className="section-nobreak">
 
                         <h2 id="tiles">Social media tiles</h2>
