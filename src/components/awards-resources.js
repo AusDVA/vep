@@ -50,8 +50,8 @@ export default class Awards extends React.Component {
                         <h2 id="tiles">Social media tiles</h2>
                         <div className="row">
                           <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
-                             <img src={ImgEmploymentAwardAngusHouston} alt="Air Chief Marshal Sir Angus Houston AK AFC (Ret'd)" height="100px" width="225px"></img>
-                             <figcaption className="bio-position">Air Chief Marshal Sir Angus Houston AK AFC (Ret'd) | <a href={process.env.PUBLIC_URL + '/doc/Employment Awards-Angus Houston.jpg'} download="Employment Awards-Angus Houston.jpg" target="_blank">Download (144 KB)<span className="sr-only">Opens a jpg file in a new tab</span></a></figcaption>
+                             <img src={ImgEmploymentAwardAngusHouston} alt="Air Chief Marshal Sir Angus Houston AK AFC (Ret’d)" height="100px" width="225px"></img>
+                             <figcaption className="bio-position">Air Chief Marshal Sir Angus Houston AK AFC (Ret’d) | <a href={process.env.PUBLIC_URL + '/doc/Employment Awards-Angus Houston.jpg'} download="Employment Awards-Angus Houston.jpg" target="_blank">Download (144 KB)<span className="sr-only">Opens a jpg file in a new tab</span></a></figcaption>
                           </figure>
                           <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                             <img src={ImgEmploymentAwardBenRoberts} alt="Ben Roberts-Smith VC MG" height="100px" width="225px"></img>
