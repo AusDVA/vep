@@ -8,6 +8,9 @@ import ImgPublicSectorOrg from "../image/social_media/veterans employer of the y
 import ImgSupportingVeteransEmployment from "../image/social_media/excellence in supporting veterans employment.jpg";
 import ImgSupportingSpouseEmployment from "../image/social_media/excellence in supporting spouse employment.jpg";
 import ImgPMEmploymentAward from "../image/social_media/Prime Ministers Veterans Employment Awards 2018.jpg";
+import ImgEmploymentAwardAngusHouston from "../image/social_media/Employment Awards-Angus Houston.jpg";
+import ImgEmploymentAwardBenRoberts from "../image/social_media/Employment Awards-Ben Roberts-Smith.jpg";
+import ImgEmploymentPhillipThompson from "../image/social_media/Employment Awards-Phillip Thompson.jpg";
 import ImgPoster from "../image/social_media/AWARDS_Poster.jpg";
 import ImgFacebook from "../image/social_media/Facebook.jpg";
 import ImgLinkedIn from "../image/social_media/LinkedIn.jpg";
@@ -45,6 +48,21 @@ export default class Awards extends React.Component {
                           <section className="section-nobreak">
 
                         <h2 id="tiles">Social media tiles</h2>
+                        <div className="row">
+                          <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
+                             <img src={ImgEmploymentAwardAngusHouston} alt="Air Chief Marshal Sir Angus Houston AK AFC (Ret'd)" height="100px" width="225px"></img>
+                             <figcaption className="bio-position">Air Chief Marshal Sir Angus Houston AK AFC (Ret'd) | <a href={process.env.PUBLIC_URL + '/doc/Employment Awards-Angus Houston.jpg'} download="Employment Awards-Angus Houston.jpg" target="_blank">Download (144 KB)<span className="sr-only">Opens a jpg file in a new tab</span></a></figcaption>
+                          </figure>
+                          <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
+                            <img src={ImgEmploymentAwardBenRoberts} alt="Ben Roberts-Smith VC MG" height="100px" width="225px"></img>
+                            <figcaption className="bio-position">Ben Roberts-Smith VC MG | <a href={process.env.PUBLIC_URL + '/doc/Employment Awards-Ben Roberts-Smith.jpg'} download="Employment Awards-Ben Roberts-Smith.jpg" target="_blank">Download (152 KB)<span className="sr-only">Opens a jpg file in a new tab</span></a></figcaption>
+                          </figure>
+                          <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
+                            <img src={ImgEmploymentPhillipThompson} alt="Phillip Thompson" height="100px" width="225px"></img>
+                            <figcaption className="bio-position">Phillip Thompson | <a href={process.env.PUBLIC_URL + '/doc/Employment Awards-Phillip Thompson.jpg'} download="Employment Awards-Phillip Thompson.jpg" target="_blank">Download (138 KB)<span className="sr-only">Opens a jpg file in a new tab</span></a></figcaption>
+                          </figure>
+                        </div>
+
                         <div className="row">
                           <figure className="col-md-4 col-sm-4 col-xs-12 text-center">
                              <img src={ImgRecruitmentOfVeterans} alt="Leadership in the Recruitment of Veterans" height="100px" width="225px"></img>

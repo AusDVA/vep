@@ -62,6 +62,10 @@ constructor(props) {
                         <h2>Can I nominate my organisation as well as nominate another organisation in the same award category?</h2>
                         <p>You can nominate your organisation and nominate another organisation in the same award category, providing both organisations meet the relevant eligibility criteria.</p>
 
+                        <h2>What is the meaning of a veteran?</h2>
+                        <p>For the purposes of the Awards, a veteran is a former member or Reservist of the Australian Defence Force.  There is no requirement for the veteran to have seen active duty.</p>
+                        <p>Former members of Defence Forces from other countries are not eligible to be nominated.</p>
+
                         <h2>Can an individual self-nominate?</h2>
                         <p>Individuals are unable to nominate themselves in any of the award categories.  The only category where nominees can be individuals requires that the nomination be submitted by their employer.</p>
 
