@@ -1,16 +1,14 @@
 import React from 'react';
 import { HashLink as Link } from "react-router-hash-link";
 import IAC_Img from "../../image/iac.png";
-import Awards from "../../image/awards.png";
+import Awards from "../../image/awards_Phllip Thompson.jpg";
 import ToggleDisplay from "react-toggle-display";
 export default class News extends React.Component {
 
   constructor() {
    super();
    this.state = { showNews1: false,
-                  showNews2: false,
-                  showReadMore1: true,
-                  showReadMore2: true};
+                  showReadMore1: true};
   }
 
   handleClickNews1(e) {
@@ -24,16 +22,6 @@ export default class News extends React.Component {
    return false;
   }
 
-  handleClickNews2(e) {
-   this.setState({
-     showNews2: !this.state.showNews2,
-     showReadMore2: !this.state.showReadMore2
-   });
-     this.refs.newsFoucs2.focus();
-
-   e.preventDefault();
-   return false;
-  }
 
   render() {
 
@@ -79,17 +67,11 @@ export default class News extends React.Component {
                 </Link></div>
     						<div className="col-sm-9 col-md-12">
 
-    							<h3 className="news-headline">Launch of the Prime Minister’s Veterans’ Employment Awards 2018</h3>
-    							<p>The Prime Minister Malcolm Turnbull and Minister for Veterans' Affairs <span className="no-wrap">Dan Tehan</span> have launched the inaugural <Link to="/awards#top">Prime Minister’s Veterans’ Employment Awards<span className="sr-only">Awards page inside this website</span></Link>.</p>
-                  <p>This new national awards program has been established as part of the ongoing Prime Minister’s Veterans’ Employment Program.</p>
-                    <span className="no-border" tabIndex="-1" ref="newsFoucs2" autoFocus />
-                    <ToggleDisplay className="show-print" show={this.state.showNews2}>
-                  <p>The Awards will recognise organisations that create employment opportunities for veterans and spouses
-                     of serving Defence members, as well as veterans who have made a significant contribution to their workplace.</p>
-                  <p><a target="_blank" href="https://veteransemployment.awardsplatform.com/">Nominations<span className="sr-only">(this link will open in a new tab)</span></a> are now open and will close on 22 December 2017.</p>
-                </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClickNews2(e) }>{this.state.showNews2 ? 'Read less' : 'Read more'}
-                 <span className="sr-only">{this.state.showNews2 ? ' about awards' : ' about awards'}</span>
-               </a>
+    							<h3 className="news-headline">Prime Minister’s Veterans’ Employment Awards 2018</h3>
+    							<p>The Prime Minister’s Veterans’ Employment Awards recognise organisations that create employment opportunities for veterans and spouses of serving Defence members, as well as veterans who have made a significant contribution to their workplace.</p>
+                  <p>Nominations will close on <span className="no-wrap">22 December 2017</span> and winners will be announced at a ceremony in Canberra in <span className="no-wrap">March 2018.</span></p>
+                  <p>Further information is on the <Link to="/awards#top">Awards page</Link> of this site.</p>
+
     						</div>
     					</div>
     				</section>
