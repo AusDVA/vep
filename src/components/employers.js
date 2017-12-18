@@ -68,7 +68,6 @@ export default class Employers extends React.Component {
                  <p>This Register will enable ex-service organisations to register their interest in partnering with industry on projects to promote the employment of veterans.
                     Employers will be able to access this information when they are seeking a partner to assist in the creation of employment opportunities for veterans, including in regional and remote areas of the country.
                   </p>
-                  <p>The Register will be launched later in 2017.</p>
 
                   <h2 id="Department">Department of Employment Initiatives</h2>
                   <p>Employers who are interested in hiring veterans can now indicate that defence force experience is desirable when they advertise a job on the
