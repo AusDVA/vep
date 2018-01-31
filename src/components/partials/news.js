@@ -1,82 +1,50 @@
 import React from 'react';
 import { HashLink as Link } from "react-router-hash-link";
-import IAC_Img from "../../image/iac.png";
 import Awards from "../../image/awards_Steve Willis.jpg";
 import ToggleDisplay from "react-toggle-display";
 export default class News extends React.Component {
-
-  constructor() {
-   super();
-   this.state = { showNews1: false,
-                  showReadMore1: true};
-  }
-
-  handleClickNews1(e) {
-   this.setState({
-     showNews1: !this.state.showNews1,
-     showReadMore1: !this.state.showReadMore1
-   });
-     this.refs.newsFoucs1.focus();
-
-   e.preventDefault();
-   return false;
-  }
-
 
   render() {
 
     return (
 
     	<div className="container section-nobreak no-float-print">
-    		<div className="news row">
+    		<div className="row">
            <section className="section-nobreak">
     			<div className="col-sm-12">
     				<h2>Recent news</h2>
     			</div>
-    			<div className="col-sm-12 col-md-5">
+    			<div className="col-sm-12 col-md-10">
     					<div className="row">
-    						<div className="col-sm-4 col-xs-12"><img alt="Group photo of Industry Advisory Committee members." src={IAC_Img}/></div>
+    						<div className="col-sm-4 col-xs-12"><Link to="/awards#top">
+                   <img className="text-center" alt="Steve Willis" src={Awards}/>
+                </Link>
+                <span className="sr-only">"Defence force personnel take pride in their work, and everything they do, which makes them highly 
+                                           sought after by employers." - Steve "Commando" Willis</span>
+                </div>
+
                 <div className="col-sm-9 col-md-12">
-                 <h3 className="news-headline">Meeting of the Industry Advisory Committee</h3>
-                   <p>The Industry Advisory Committee on Veterans’ Employment met on <span className="no-wrap">4 August 2017.</span> Five working
-                      groups, established by the Committee to focus on priority areas, presented updates and recommendations for the Committee’s
-                      program of work going forward.  This will inform the Committee’s report to the Minister for Veterans’ Affairs by the end of September.
-                    </p>
-                  <span className="no-border" tabIndex="-1" ref="newsFoucs1" autoFocus />
-                  <ToggleDisplay className="show-print" show={this.state.showNews1}>
-                      <p>The Committee was also updated on the work being done by McKinsey & Company for a group of employers assembled by <span className="no-wrap">JP Morgan</span> last
-                        year.  This work will provide vital evidence and recommendations that will inform the Committee’s work.</p>
-                     <p>A representative of Townsville Enterprise also provided the Committee with information on Townsville’s employment situation and outlook.  Townsville
-                        has close ties with the Australian Defence Force and an interest in the work of the Committee.</p>
-                     <p>The Committee will next meet to finalise its report to the Minister.</p>
-                </ToggleDisplay><a className="hidden-print" href="#" onClick={ (e) => this.handleClickNews1(e) }>{this.state.showNews1 ? "Read less" : "Read more"}
-                <span className="sr-only">{this.state.showNews1 ? " about meeting of the Industry Advisory Committee" :
-                                                                  " about meeting of the Industry Advisory Committee"}</span></a>
+                
+                 <h3 className="news-headline">Prime Minister’s Veterans’ Employment Awards 2018</h3>
+                 <p>The Prime Minister’s Veterans’ Employment Awards recognise organisations that create employment opportunities for
+                    veterans and spouses of serving Defence members, as well as veterans who have made a significant contribution to their workplace.</p>
+                  <p>Nominations closed on <span className="no-wrap">22 December 2017</span> and winners will be announced 
+                     at a ceremony in Canberra on <span className="no-wrap">March 2018.</span></p>
+                  <p>Check out the <Link to="/awards#top">Awards page</Link> for more information.</p>
     						</div>
 
     					</div>
-    			</div>
+    			</div>     
          </section>
-
-    			<div className="col-sm-12 col-md-6 col-md-offset-1">
-    				<section className="section-nobreak">
-    					<div className="row">
-    						<div className="col-sm-4 col-xs-12">
-                <Link to="/awards#top">
-                   <img className="text-center" alt="Prime Minister’s Veterans’ Employment Program Awards 2018 Nominations are open" src={Awards}/>
-                </Link></div>
-    						<div className="col-sm-9 col-md-12">
-
-    							<h3 className="news-headline">Prime Minister’s Veterans’ Employment Awards 2018</h3>
-    							<p>The Prime Minister’s Veterans’ Employment Awards recognise organisations that create employment opportunities for veterans and spouses of serving Defence members, as well as veterans who have made a significant contribution to their workplace.</p>
-                  <p>Nominations will close on <span className="no-wrap">22 December 2017</span> and winners will be announced at a ceremony in Canberra in <span className="no-wrap">March 2018.</span></p>
-                  <p>Further information is on the <Link to="/awards#top">Awards page</Link> of this site.</p>
-
-    						</div>
-    					</div>
-    				</section>
-    			</div>
     		</div>
+        <div className="row">
+        <div className="col-sm-12 col-md-10">
+    				<h2>Resources</h2>
+            <p>Looking to promote your support for the Prime Minister’s Veterans’ Employment Program? 
+               The <Link to="/awards-resources#top">Resources</Link> page contains a number of social media graphics, veteran success stories and videos 
+              that can be used for communications and marketing.</p>
+    		</div>
+        </div>      
     	</div>
 
     );

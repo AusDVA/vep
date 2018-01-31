@@ -65,8 +65,8 @@ export default class Home extends React.Component {
                 <section className="section-nobreak">
                     <h2>Department of Defence and Department of Veterans’ Affairs initiatives</h2>
                     <p>The Departments of Defence and Veterans’ Affairs continue to improve the transition process for separating members of the Australian Defence Force (ADF). </p>
-                    <p>Separating members of the ADF will receive separation documentation, including training records.  They will also receive an individual transition plan and tailored
-                       transition coaching services.  Surveys of former ADF personnel post-separation will be reinstated to assess the effectiveness of ADF transition programs and inform
+                    <p>Separating members of the ADF receive separation documentation, including training records.  They also receive an individual transition plan and tailored
+                       transition coaching services.  Surveys of former ADF personnel post-separation have been reinstated to assess the effectiveness of ADF transition programs and inform
                        future initiatives, and work will continue on aligning military qualifications with civilian qualifications.</p>
 
                     <h2>Australian Public Service (APS) initiatives</h2>
@@ -77,13 +77,13 @@ export default class Home extends React.Component {
                   </section>
 
                   <section className="section-nobreak">
-                    <h2>Department of Employment initiatives</h2>
+                    <h2>Department of Jobs and Small Business initiatives</h2>
                     <p>The Australian Government’s jobactive website now
                       includes an information page for veterans and
                       an optional ‘defence force experience desirable’
-                      flag for vacancies listed on the website.  This enables veterans seeking a job
+                      flag that can be used by employers to advertise job vacancies listed on the website.  This enables veterans seeking a job
                       to search for the most suitable vacancies and allows them to apply directly to the employer.</p>
-                    <p>The Department of Employment will also develop a stronger partnership with the Department of Defence
+                    <p>The Department of Jobs and Small Business initiatives will also develop a stronger partnership with the Department of Defence
                       to enhance the Career Transition Assistance Scheme for separating ADF members, including the
                       provision of employment planning advice and labour market information.</p>
                   </section>

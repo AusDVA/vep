@@ -13,7 +13,8 @@ export default class GeneralResourses extends React.Component {
 
                 <h3>Media Releases</h3>
                 <ul className="list-unstyled">
-
+                <li>18 December 2017 <a target="_blank" href="http://minister.dva.gov.au/media_releases/2017/dec/va166.htm">Last week to nominate for inaugural awards
+                    <span className="sr-only">(this link will open in a new tab)</span> </a></li>
                 <li>11 December 2017 <a target="_blank" href="http://minister.dva.gov.au/media_releases/2017/dec/va158.htm">Time running out to nominate for awards
                     <span className="sr-only">(this link will open in a new tab)</span> </a></li>
                 <li>17 November 2017 <a target="_blank" href="http://minister.dva.gov.au/media_releases/2017/nov/va154.htm">Supporting veterans’ employment
