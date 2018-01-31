@@ -21,7 +21,7 @@ export default class Employers extends React.Component {
                   <li><Link to="#Benefits">Benefits of employing veterans</Link></li>
                   <li><Link to="#Industry">Industry Advisory Committee on Veterans’ Employment</Link></li>
                   <li><Link to="#ExService">Ex-service Organisation Industry Partnership Register</Link></li>
-                  <li><Link to="#Department">Department of Employment initiatives</Link></li>
+                  <li><Link to="#Department">Department of Jobs and Small Business Initiatives</Link></li>
                   <li><Link to="#PrimeMinister">Prime Minister’s Veterans’ Employment Annual Awards</Link></li>
                   <li><Link to="#EmployerResources">Resources for employers</Link></li>
                 </ul>
@@ -69,7 +69,7 @@ export default class Employers extends React.Component {
                     Employers will be able to access this information when they are seeking a partner to assist in the creation of employment opportunities for veterans, including in regional and remote areas of the country.
                   </p>
 
-                  <h2 id="Department">Department of Employment Initiatives</h2>
+                  <h2 id="Department">Department of Jobs and Small Business Initiatives</h2>
                   <p>Employers who are interested in hiring veterans can now indicate that defence force experience is desirable when they advertise a job on the
                      Australian Government’s <a target="_blank" href="http://www.jobactive.gov.au/">jobactive website<span className="sr-only">(this link will open in a new tab)</span></a>, by selecting the optional ‘defence force experience desirable’ flag.
                      <span className="no-wrap"> A <a href={process.env.PUBLIC_URL + '/doc/Guide - How to list a Defence Force Experience Desirable vacancy on jobactive.pdf'} target="_blank">guide (PDF 444 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a></span> has been developed to assist employers to list vacancies using the 'defence force experience desirable' flag.

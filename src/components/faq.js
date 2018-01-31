@@ -41,12 +41,12 @@ constructor(props) {
                         <p>Each award category has specific eligibility criteria that differ across the categories.</p>
 
                         <h2>When do nominations open and close?</h2>
-                        <p>Nominations opened on <span className="no-wrap">6 September 2017</span> and will close at midnight on Friday <span className="no-wrap">22 December 2017</span>.</p>
+                        <p>Nominations for the 2018 Awards opened on <span className="no-wrap">6 September 2017</span> and closed at midnight on Friday <span className="no-wrap">22 December 2017</span>.</p>
                         <p>Late nominations will not be accepted.</p>
 
                         <h2>How do I submit a nomination?</h2>
                         <p>All nominations and relevant supporting evidence must be submitted online at <a target="_blank" href="https://veteransemployment.awardsplatform.com/">veteransemployment.awardsplatform.com<span className="sr-only">(this link will open in a new tab)</span></a>.</p>
-                        <p>You can amend and submit your nomination at any time until the closure of the nomination period.  However, the nomination must be submitted before midnight <span classname="no-wrap">22 December 2017</span> to be considered.  You will be reminded before nominations close if it has not been submitted.</p>
+                        <p>You can amend and submit your nomination at any time until the closure of the nomination period.  However, the nomination must be submitted before midnight on the closing day to be considered.  You will be reminded before nominations close if it has not been submitted.</p>
                         <p>Nominations must address the relevant award category criteria. </p>
 
                         <h2>Do I have to nominate online, or can I submit a hard copy nomination?</h2>
@@ -73,10 +73,12 @@ constructor(props) {
                         <p>Where multiple organisations have been involved in developing a policy, strategy or initiative that supports and/or creates veteran or spouse employment, a lead individual or organisation should submit the nomination on behalf of all parties.</p>
 
                         <h2>What are the judging panel/s looking for in a nomination?</h2>
-                        <p>Judging panel/s are looking for nominations that directly address the category criteria.</p>
-                        <p>Hints for addressing nomination criteria for the category recognising individuals can be accessed <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Individuals.pdf'} target="_blank">here (PDF 349 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</p>
-                        <p>Hints for addressing nomination criteria relating to categories recognising organisations can be accessed <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Organisations.pdf'} target="_blank">here (PDF 470 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</p>
-                        <p>Hints for addressing criteria relating to the category recognising recruitment, specialist and not-for-profit organisations can be accessed <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Recruitment_Specialist_Not-for-profit.pdf'} target="_blank">here (PDF 377 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</p>
+                        <p>Judging panel/s are looking for nominations that directly address the category criteria. The below documents provide guidance for addressing the nomination criteria depending on the category grouping:</p>
+                           <ul>
+                              <li> <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Individuals.pdf'} target="_blank">Hints for addressing nomination criteria for categories recognising individuals (PDF 349 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</li>
+                              <li> <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Organisations.pdf'} target="_blank">Hints for addressing nomination criteria for categories recognising organisations (PDF 470 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</li>
+                              <li> <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Recruitment_Specialist_Not-for-profit.pdf'} target="_blank">Hints for addressing nomination criteria for the category recognising recruitment, specialist and not-for-profit organisations (PDF 377 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</li>
+                          </ul>
                         <p>Remember that judges may have a lot of nominations to consider so you should ensure that all information provided in your nomination, including supporting evidence, is clear, concise and relevant.</p>
 
                         <h2>What evidence can I provide in support of my nomination?</h2>
@@ -89,13 +91,13 @@ constructor(props) {
                          <li>website URLs (and a digital copy of the website content as sometimes links are no longer current at the time of assessment)</li>
                          <li>copies of newspaper articles</li>
                          <li>financial or business metrics</li>
-                         <li>annual reports</li>
+                         <li>annual reports.</li>
                         </ul>
                         <p>Any supporting evidence should be specifically referenced in the nomination.
                            For example, page numbers and paragraphs of Word or PDF documents that relate to an achievement or initiative should be referenced if more than one page of supporting evidence is submitted.</p>
 
                         <h2>What happens if I forget to include something in my nomination after I submit it online?</h2>
-                        <p>You can come back and add or change anything in your nomination prior to the closing date of <span className="no-wrap">22 December 2017.</span> This
+                        <p>You can come back and add or change anything in your nomination prior to midnight of the closing date. This
                            can be done by accessing your nomination at <a target="_blank" href="https://veteransemployment.awardsplatform.com/">veteransemployment.awardsplatform.com<span className="sr-only">(this link will open in a new tab)</span></a>.</p>
 
                         <h2>What does the judging process involve?</h2>
@@ -103,7 +105,7 @@ constructor(props) {
                         <p>Judging panel/s will then assess each nomination, any supporting evidence against the relevant criteria.</p>
 
                         <h2>Who are the judges?</h2>
-                        <p>Judging panel/s will be comprised of judges who are independent and impartial.</p>
+                        <p>Judging panel/s will be comprised of judges who are independent and impartial, and represent the range of sectors involved in the Program, including the public sector, private sector, small to large businesses, and the ADF and Defence.</p>
 
                         <h2>Will I find out about the outcome of my nomination?</h2>
                         <p>You will be notified of the outcome of your nomination via the email address that you provided on the <a target="_blank" href="https://veteransemployment.awardsplatform.com/">Prime Minister's Veterans' Employment Awards platform<span className="sr-only">(this link will open in a new tab)</span></a>.</p>

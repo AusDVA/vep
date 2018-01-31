@@ -15,7 +15,7 @@ export default class Awards extends React.Component {
                  <div className="list-contents-wrapper">
                    <h2 className="list-contents-header">Contents</h2>
                     <ul className="list-contents">
-                     <li><Link to="#Apply">Apply Now</Link></li>
+                     <li><Link to="#Apply">How to Apply</Link></li>
                      <li><Link to="#KeyDates">Key Dates</Link></li>
                      <li><Link to="#Categories">Categories</Link></li>
                      <li><Link to="#TermsConditions">Terms and Conditions</Link></li>
@@ -30,8 +30,8 @@ export default class Awards extends React.Component {
                  </p>
 
                  <section id="Apply" className="section-nobreak">
-                   <h2>Apply Now</h2>
-                   <p>To submit a nomination, visit the <a target="_blank" href="https://veteransemployment.awardsplatform.com/">Prime Minister’s Veterans’ Employment Awards platform<span className="sr-only">(this link will open in a new tab)</span></a>.</p>
+                   <h2>How to Apply</h2>
+                   <p>Nominations for the 2018 Prime Minister’s Veterans’ Employment Awards have now closed. If you would like to receive updates on the Program, including information about the annual Awards, please <a target="_blank" href="https://eepurl.com/c-ABGj">subscribe<span className="sr-only">(this link will open in a new tab)</span></a>.</p>
                  </section>
 
                  <section id="KeyDates" className="section-nobreak">
@@ -39,6 +39,9 @@ export default class Awards extends React.Component {
                      <ul className="list-unstyled">
                         <li>6 September 2017 – nominations open</li>
                         <li>22 December 2017 – nominations close</li>
+                        <li>February 2018 – judging of nominations</li>
+                        <li>Early March 2018 – all nominees will be advised of the outcome of their nomination. Finalists will be contacted to make arrangements for their attendance at the awards ceremony in Canberra</li>
+                        <li>28 March 2018 – winners announced and conferral of awards at official ceremony in Canberra</li>
                       </ul>
                  </section>
 
@@ -47,7 +50,7 @@ export default class Awards extends React.Component {
                    <h2>Categories</h2>
                    <h3>Organisations</h3>
 
-                   <p>Hints for addressing nomination criteria relating to categories recognising organisations can be accessed <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Organisations.pdf'} target="_blank">here (PDF 470 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</p>
+                   <p>Please review the <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Organisations.pdf'} target="_blank">hints for addressing nomination criteria for categories that recognise organisations (PDF 470 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a> for guidance preparing your nomination.</p>
                    <p>Leadership in Recruitment of Veterans</p>
                    <ul>
                     <li>Demonstrated excellence in recruitment, hiring and onboarding veterans into their work places.</li>
@@ -86,7 +89,7 @@ export default class Awards extends React.Component {
                     <section className="section-nobreak">
                     <h3>Recruitment, Specialist and Not-for-profit Organisations</h3>
 
-                    <p>Hints for addressing criteria relating to the category recognising recruitment, specialist and not-for-profit organisations can be accessed <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Recruitment_Specialist_Not-for-profit.pdf'} target="_blank">here (PDF 377 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</p>
+                    <p>Please review the <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Recruitment_Specialist_Not-for-profit.pdf'} target="_blank">hints for addressing criteria for the category that recognises recruitment, specialist and not-for-profit organisations (PDF 377 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a> for guidance in preparing your nomination.</p>
                     <p>Excellence in Supporting Veterans’ Employment </p>
                     <ul>
                       <li>Demonstrated excellence in support provided and outcomes achieved.</li>
@@ -98,7 +101,7 @@ export default class Awards extends React.Component {
                     <section className="section-nobreak">
                      <h3>Individuals</h3>
 
-                     <p>Hints for addressing nomination criteria for the category recognising individuals can be accessed <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Individuals.pdf'} target="_blank">here (PDF 349 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a>.</p>
+                     <p>Please review the <a href={process.env.PUBLIC_URL + '/doc/Hints for addressing criteria - Individuals.pdf'} target="_blank">hints for addressing nomination criteria for categories that recognise individuals (PDF 349 KB)<span className="sr-only">Opens a pdf file in a new tab</span></a> for guidance in preparing your nomination.</p>
                      <p>Veteran Employee of the Year</p>
                       <ul>
                         <li>Achievements within the organisation, including specific outcomes achieved.</li>
@@ -120,7 +123,7 @@ export default class Awards extends React.Component {
                          channels. <Link to="/awards-resources#top">Resources<span className="sr-only">Resources page inside this website</span></Link> to promote the Awards, including social media tiles, newsletter content, videos and a poster are available.</p>
 
                         <h2 id="FAQ">FAQs</h2>
-                        <p>Here are <Link to="/faq#top">Frequently Asked Questions<span className="sr-only">Frequently asked questions page inside this website</span></Link> on the Prime Minister's Veterans' Employment Awards.</p>
+                        <p>For more information, see the <Link to="/faq#top">Frequently Asked Questions<span className="sr-only">Frequently asked questions page inside this website</span></Link> on the Prime Minister's Veterans' Employment Awards.</p>
 
                         <h2 id="Contact">Contact</h2>
                         <p>Contact us by emailing <a href="mailto:veteransemployment@dva.gov.au">veteransemployment@dva.gov.au</a>.</p>
