@@ -29,7 +29,7 @@ export default class News extends React.Component {
                  <p>The Prime Minister’s Veterans’ Employment Awards recognise organisations that create employment opportunities for
                     veterans and spouses of serving Defence members, as well as veterans who have made a significant contribution to their workplace.</p>
                   <p>Nominations closed on <span className="no-wrap">22 December 2017</span> and winners will be announced 
-                     at a ceremony in Canberra on <span className="no-wrap">March 2018.</span></p>
+                     at a ceremony in Canberra on <span className="no-wrap">28 March 2018.</span></p>
                   <p>Check out the <Link to="/awards#top">Awards page</Link> for more information.</p>
     						</div>
 

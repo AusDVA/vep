@@ -81,9 +81,9 @@ export default class Home extends React.Component {
                     <p>The Australian Government’s jobactive website now
                       includes an information page for veterans and
                       an optional ‘defence force experience desirable’
-                      flag that can be used by employers to advertise job vacancies listed on the website.  This enables veterans seeking a job
+                      flag that can be used by employers to advertise job vacancies on the website.  This enables veterans seeking a job
                       to search for the most suitable vacancies and allows them to apply directly to the employer.</p>
-                    <p>The Department of Jobs and Small Business initiatives will also develop a stronger partnership with the Department of Defence
+                    <p>The Department of Jobs and Small Business will also develop a stronger partnership with the Department of Defence
                       to enhance the Career Transition Assistance Scheme for separating ADF members, including the
                       provision of employment planning advice and labour market information.</p>
                   </section>
