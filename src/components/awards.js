@@ -36,7 +36,7 @@ export default class Awards extends React.Component {
 
                  <section id="KeyDates" className="section-nobreak">
                    <h2>Key Dates</h2>
-                     <ul className="list-unstyled">
+                     <ul>
                         <li>6 September 2017 – nominations open</li>
                         <li>22 December 2017 – nominations close</li>
                         <li>February 2018 – judging of nominations</li>
