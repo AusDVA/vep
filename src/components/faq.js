@@ -118,7 +118,7 @@ constructor(props) {
                         <p>You can visit the Awards section of the <Link to="/#top">Prime Minister’s Veterans’ Employment Program website<span className="sr-only">( Home page inside this website)</span></Link> to view Award finalists and winners.</p>
 
                         <h2>When will the Awards event be held?</h2>
-                        <p>The Awards event will be held in <span className="no-wrap">March 2018.</span></p>
+                        <p>The Awards event will be held in Canberra on <span className="no-wrap">28 March 2018.</span></p>
 
                         <h2>Are there prizes?</h2>
                         <p>Winners of the Prime Minister’s Veterans’ Employment Awards will be presented with a trophy. </p>
